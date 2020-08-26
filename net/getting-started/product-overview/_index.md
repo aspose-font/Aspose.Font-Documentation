@@ -46,7 +46,7 @@ This table lists important Aspose.Font for .NET technical resources.
 |**Resource**|**Description**|
 | :- | :- |
 |[Aspose.Font home page](https://products.aspose.com/font/net)|Product home page.|
-|[Aspose.Font blog](https://blog.aspose.com/category/aspose-products/aspose-font-product-family/)|Check this often for information about new releases and useful tips about Aspose.Font.|
+|[Aspose.Font blog](https://blog.aspose.com/category/font/)|Check this often for information about new releases and useful tips about Aspose.Font.|
 |[Aspose.Font for .NET download](https://www.nuget.org/packages/Aspose.font/)|Download the latest version of Aspose.Font from here. We release often.|
 |[Aspose.Font for .NET support forum](https://forum.aspose.com/font)|Post your questions and issues here for a speedy resolution.|
 |[Aspose.Font for .NET product documentation](/font/net/home/)|Full online documentation that includes this documentation as well as Aspose.Font API Reference.|

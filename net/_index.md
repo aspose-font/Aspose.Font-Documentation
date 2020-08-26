@@ -18,11 +18,11 @@ Aspose.Font is a .NET font loading and drawing library. It supports multiple fro
 ## **Aspose.Font for .NET Resources**
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Diagram for .NET Online Documentation](/font/net/)
-- [Aspose.Diagram for .NET Features](/font/net/product-overview/#productoverview-richfeatures)
-- [Aspose.Diagram for .NET Release Notes](/font/net/release-notes/)
-- [Aspose.Diagram for .NET Product Page](https://products.aspose.com/font/net)
-- [Install Aspose.Diagram for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Diagram/)
-- [Aspose.Diagram for .NET API Reference Guide](https://apireference.aspose.com/net/font)
-- [Aspose.Diagram for .NET Free Support Forum](https://forum.aspose.com/c/font)
-- [Aspose.Diagram for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
+- [Aspose.Font for .NET Online Documentation](/font/net/)
+- [Aspose.Font for .NET Features](/font/net/product-overview/#productoverview-richfeatures)
+- [Aspose.Font for .NET Release Notes](/font/net/release-notes/)
+- [Aspose.Font for .NET Product Page](https://products.aspose.com/font/net)
+- [Install Aspose.Font for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Font/)
+- [Aspose.Font for .NET API Reference Guide](https://apireference.aspose.com/net/font)
+- [Aspose.Font for .NET Free Support Forum](https://forum.aspose.com/c/font)
+- [Aspose.Font for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
