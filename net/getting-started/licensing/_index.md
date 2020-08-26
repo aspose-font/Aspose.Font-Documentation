@@ -24,7 +24,6 @@ Evaluation version of Aspose.Font (without a license specified) provides full pr
 
 If you want to try Aspose.Font out without evaluation limitations, request a 30 day temporary license. Please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) for more information.
 
-{{% /alert %}}
 ## **Applying a License**
 Once you are happy with your [evaluation]() of Aspose.Font for .NET, buy a license at the Aspose website: [Purchase Portal](http://www.aspose.com/purchase/default.aspx). Make yourself familiar with the different license types available. If you have any questions, [contact the Aspose sales team](http://www.aspose.com/corporate/contact/default.aspx) and they'll be happy to help you.
 
