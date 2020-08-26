@@ -7,14 +7,14 @@ url: /net/glyphs-and-metrics-truetype-opentype-fonts/
 ## **Get Font Metrics**
 Font metrics contain information such as `Ascender`, `Descender`, `TypoAscender`, `TypoDescender` and `UnitsPerEm`. Aspose.Font for .NET API can read the Font Metrics information from the TrueType Font file using the following sample code.
 
-{{< gist "aspose-font" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-Aspose.Font.Examples-WorkingWithTrueTypeAndOpenTypeFonts-GetFontMetrics-1.cs" >}}
+{{< gist "aspose-com-gists" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-Aspose.Font.Examples-WorkingWithTrueTypeAndOpenTypeFonts-GetFontMetrics-1.cs" >}}
 
 ## **Detect Latin Symbols**
 Aspose.Font for .NET lets you detect Latin Symbols from TrueType font files. This can be achieved using the following sample code.
 
  * Load the Font file using FontFileDefinition
  * Decode the GlyphId using the DecodeToGid() method
- {{< gist "aspose-font" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-Aspose.Font.Examples-WorkingWithTrueTypeAndOpenTypeFonts-DetectLatinSymbolsSupport-1.cs" >}}
+ {{< gist "aspose-com-gists" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-Aspose.Font.Examples-WorkingWithTrueTypeAndOpenTypeFonts-DetectLatinSymbolsSupport-1.cs" >}}
 
 ## **Extract License Restrictions**
 Use Aspose.Font for .NET API to extract licensing restrictions from font files. Fonts can have licensing information embedded into these in one of the following modes.
@@ -24,4 +24,4 @@ Use Aspose.Font for .NET API to extract licensing restrictions from font files. 
  * `Restricted Embedding` - Font must not be modified, embedded or exchanged in any manner without first obtaining explicit permission of the legal owner.
 
 The following code sample shows how to use an object Aspose.Font.Ttf.LicenseFlags to get information about font license restrictions(flag fsType from table OS/2) in convenient form.
-{{< gist "aspose-font" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-Aspose.Font.Examples-WorkingWithTrueTypeAndOpenTypeFonts-ExtractLicenseRestrictions-1.cs" >}}
+{{< gist "aspose-com-gists" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-Aspose.Font.Examples-WorkingWithTrueTypeAndOpenTypeFonts-ExtractLicenseRestrictions-1.cs" >}}

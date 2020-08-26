@@ -8,9 +8,6 @@ url: /net/licensing/
 ## **Evaluate Aspose.Font**
 You can easily download Aspose.Font for .NET product for evaluation purposes. Please refer to the [Aspose.Font for .NET download page](https://www.nuget.org/packages/Aspose.Font/) to find out the latest version. The evaluation download is same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
 
-The evaluation version of Aspose.Font (without a license specified) provides full product functionality, but it inserts an evaluation watermark in the middle of the document on open and save, and limits to read only the first ten shapes of the first page of your Visio Font.
-
-![todo:image_alt_text](licensing_1.png)
 ### **Evaluation Version Limitations**
 Evaluation version of Aspose.Font (without a license specified) provides full product functionality except some evaluation limitations. An evaluation supports working with the following fonts only.
 
