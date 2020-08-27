@@ -11,4 +11,4 @@ Aspose.Font for .NET API lets you read Type1 Font types from files stored in you
  * Specify FontType as Type1 and FontFileDefinition as pfb
  * Create a Type1Font object and open the font file from FontDefinition object defined in the earlier step
 
-{{< gist "aspose-com-gists" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-Aspose.Font.Examples-WorkingWithType1Fonts-LoadType1Fonts-1.cs" >}}
+{{< gist "aspose-com-gists" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-CSharp-WorkingWithType1Fonts-LoadType1Fonts-1.cs" >}}
