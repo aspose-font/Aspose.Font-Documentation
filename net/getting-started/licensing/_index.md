@@ -1,5 +1,5 @@
 ---
-title: Licensing
+title: Licensing - Aspose.Font for .NET
 type: docs
 weight: 70
 url: /net/licensing/

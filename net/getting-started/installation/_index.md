@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Installation - Aspose.Font for .NET
 type: docs
 weight: 60
 url: /net/installation/
