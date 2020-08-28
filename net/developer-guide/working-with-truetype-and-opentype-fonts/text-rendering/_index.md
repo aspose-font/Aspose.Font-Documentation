@@ -1,5 +1,5 @@
 ---
-title: Text Rendering using TrueType Font in Java
+title: Text Rendering using TrueType Font
 type: docs
 weight: 20
 url: /net/text-rendering-truetype-font/

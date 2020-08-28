@@ -1,5 +1,5 @@
 ---
-title: Text Rendering using Type1 Font in Java
+title: Text Rendering using Type1 Font
 type: docs
 weight: 30
 url: /net/text-rendering-type1-font/

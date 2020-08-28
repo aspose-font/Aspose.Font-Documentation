@@ -1,5 +1,5 @@
 ---
-title: Work with Glyphs and Metrics of TrueType Fonts in Java
+title: Work with Glyphs and Metrics of TrueType Fonts
 type: docs
 weight: 15
 url: /net/glyphs-and-metrics-truetype-opentype-fonts/
