@@ -17,7 +17,7 @@ url: /net/system-requirements/
  * Microsoft Windows 10 ( x64, x86)
  * Windows Azure
 ## **Development Environments**
-You can use Aspose.Diagram for .NET to develop applications in any development environment that targets the .NET platform, but the following environments are explicitly supported:
+You can use Aspose.Font for .NET to develop applications in any development environment that targets the .NET platform, but the following environments are explicitly supported:
 
  * Microsoft Visual Studio 2010
  * Microsoft Visual Studio 2011

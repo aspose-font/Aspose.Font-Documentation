@@ -34,5 +34,5 @@ In order to render text, the Rendering subsystem requires the implementation of 
   {{< gist "aspose-com-gists" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-CSharp-WorkingWithTrueTypeAndOpenTypeFonts-RenderingText-4.cs" >}}
 
 ### Calling the Rendering Text functionality
-To use the above implmentations, the following sample code can be executed from the Main method of a console based application.
+To use the above implementations, the following sample code can be executed from the Main method of a console based application.
 {{< gist "aspose-com-gists" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-CSharp-WorkingWithTrueTypeAndOpenTypeFonts-RenderingText-1.cs" >}}

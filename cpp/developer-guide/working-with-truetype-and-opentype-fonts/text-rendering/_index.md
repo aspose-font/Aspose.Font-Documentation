@@ -28,11 +28,11 @@ In order to render text, the Rendering subsystem requires the implementation of 
  * Object of type GlyphOutlinePainter draws glyph with the help of GlyphOutlinePainter not into Bitmap directly, but into object GraphicsPath, which was passed into constructor for GlyphOutlinePainter, so we use object of type System.Drawing.Graphics to draw GraphicsPath into Bitmap.
  * Method FontWidthToImageWith() which calculates glyph width for bitmap coordinate system.
 
- Implementation of DrawText method is as shown below.
+ Implementation of `DrawText` method is as shown below.
  {{< gist "aspose-com-gists" "bf610decea4168f9c64482594164892b" "Examples-CSharp-WorkingWithTrueTypeAndOpenTypeFonts-RenderingText-3.cs" >}}
  3. create utility method to calculate font width to image width as shown in the code sample below
   {{< gist "aspose-com-gists" "bf610decea4168f9c64482594164892b" "Examples-example-source-WorkingWithTrueTypeAndOpenTypeFonts-RenderingText-4.cpp" >}}
 
 ### Calling the Rendering Text functionality
-To use the above implmentations, the following sample code can be executed from the Main method of a console based application.
+To use the above implementations, the following sample code can be executed from the Main method of a console based application.
 {{< gist "aspose-com-gists" "bf610decea4168f9c64482594164892b" "Examples-example-source-WorkingWithTrueTypeAndOpenTypeFonts-RenderingText-1.cpp" >}}
