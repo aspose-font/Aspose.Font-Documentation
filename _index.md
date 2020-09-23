@@ -40,7 +40,7 @@ Aspose.Font for C++ is a font manipulation API which lets you work with several 
 
 {{% /alert %}}
 
-## **Aspose.Font for .NET Resources**
+## **Aspose.Font for C++ Resources**
 
 The following are the links to some useful resources you may need to accomplish your tasks.
 
