@@ -29,3 +29,26 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Font for .NET API Reference Guide](https://apireference.aspose.com/font/net)
 - [Aspose.Font for .NET Free Support Forum](https://forum.aspose.com/c/font)
 - [Aspose.Font for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
+
+{{% alert color="primary" %}}
+
+![Aspose.Font for C++ Product Logo](product-overview_1.png)
+
+**Welcome to the Aspose.Font for C++**
+
+Aspose.Font for C++ is a font manipulation API which lets you work with several font formats. It provides the capability to load and save fonts from files as well as stream. The API lets you work with multiple font formats such as TrueType (with TrueType collections), CFF, OpenType, and Type1. It can read encoding information for all the font types for representation of mapping between character codes and glyph identifiers. C++ application developers can use the API to render any desired glyph or text. Special glyphs can be rendered by implementing interface using simple graphics functionality (move point, draw line, curve).
+
+{{% /alert %}}
+
+## **Aspose.Font for .NET Resources**
+
+The following are the links to some useful resources you may need to accomplish your tasks.
+
+- [Aspose.Font for C++ Online Documentation](cpp)
+- [Aspose.Font for C++ Features](cpp/feature-list)
+- [Aspose.Font for C++ Release Notes](cpp/release-notes)
+- [Aspose.Font for C++ Product Page](https://products.aspose.com/font/cpp)
+- [Install Aspose.Font for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Font/)
+- [Aspose.Font for C++ API Reference Guide](https://apireference.aspose.com/font/cpp)
+- [Aspose.Font for C++ Free Support Forum](https://forum.aspose.com/c/font)
+- [Aspose.Font for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)

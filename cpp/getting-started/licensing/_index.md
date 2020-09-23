@@ -1,12 +1,12 @@
 ---
-title: Licensing - Aspose.Font for .NET
+title: Licensing - Aspose.Font for C++
 type: docs
 weight: 70
-url: /net/licensing/
+url: /cpp/licensing/
 ---
 
 ## **Evaluate Aspose.Font**
-You can easily download Aspose.Font for .NET product for evaluation purposes. Please refer to the [Aspose.Font for .NET download page](https://www.nuget.org/packages/Aspose.Font/) to find out the latest version. The evaluation download is same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
+You can easily download Aspose.Font for C++ product for evaluation purposes. Please refer to the [Aspose.Font for C++ download page](https://www.nuget.org/packages/Aspose.Font.cpp/) to find out the latest version. The evaluation download is same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
 
 ### **Evaluation Version Limitations**
 Evaluation version of Aspose.Font (without a license specified) provides full product functionality except some evaluation limitations. An evaluation supports working with the following fonts only.
@@ -22,7 +22,7 @@ Evaluation version of Aspose.Font (without a license specified) provides full pr
 If you want to try Aspose.Font out without evaluation limitations, request a 30 day temporary license. Please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) for more information.
 
 ## **Applying a License**
-Once you are happy with your [evaluation]() of Aspose.Font for .NET, buy a license at the Aspose website: [Purchase Portal](http://www.aspose.com/purchase/default.aspx). Make yourself familiar with the different license types available. If you have any questions, [contact the Aspose sales team](http://www.aspose.com/corporate/contact/default.aspx) and they'll be happy to help you.
+Once you are happy with your [evaluation]() of Aspose.Font for C++, buy a license at the Aspose website: [Purchase Portal](http://www.aspose.com/purchase/default.aspx). Make yourself familiar with the different license types available. If you have any questions, [contact the Aspose sales team](http://www.aspose.com/corporate/contact/default.aspx) and they'll be happy to help you.
 
 Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. We provide free and unlimited technical support to both licensed and evaluation users.
 
@@ -38,7 +38,7 @@ Follow these simple rules:
 - Do not call SetLicense from within the Page_Load methods since it means the license will be loaded every time a web page is loaded.
 - If you are developing a class library, you call SetLicense from a static constructor of the class that uses Aspose.Font. The static constructor executes before an instance of your class is created making sure Aspose.Font license is properly set.
 ### **Apply License using File or Stream Object**
-Use the [License.SetLicense](https://apireference.aspose.com/net/Font/aspose.Font/license/) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Font.dll and specify the filename, without a path, as shown below.
+Use the [License.SetLicense](https://apireference.aspose.com/font/cpp/class/aspose.font.license) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Font.dll and specify the filename, without a path, as shown below.
 #### **Loading a License from File**
 This code snippet initializes a license stored in a file or in an embedded resource.
 
