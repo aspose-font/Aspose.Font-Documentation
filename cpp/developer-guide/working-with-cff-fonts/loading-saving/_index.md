@@ -1,5 +1,5 @@
 ---
-title: Loading, Extracting Data and Saving
+title: Loading and Extracting Data
 type: docs
 weight: 10
 url: /cpp/loading-saving-cff-fonts/

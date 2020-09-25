@@ -1,5 +1,5 @@
 ---
-title: Load, Extract Data and Save Type1 Fonts
+title: Load and Extract Data
 type: docs
 weight: 10
 url: /cpp/laoding-saving-type1-fonts/
