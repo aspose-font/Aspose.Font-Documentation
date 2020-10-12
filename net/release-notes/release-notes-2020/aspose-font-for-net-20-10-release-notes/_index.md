@@ -4,7 +4,7 @@ type: docs
 weight: 8
 url: /net/aspose-font-for-net-20-10-release-notes/
 ---
-This release of Aspose.Font for .NET API provides the capability to edit font names for TTF/OTF fonts. In addition, you can now save TTF fonts after editing. Several issues have beeen fixed, resulting in a more stable font processing functionality.
+This release of Aspose.Font for .NET API provides the capability to edit font names for TTF/OTF fonts. In addition, you can now save TTF fonts after editing. Several issues have been fixed, resulting in a more stable font processing functionality.
 
 |Key|Summary|Category|
 ---|---|---|
