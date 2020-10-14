@@ -11,4 +11,4 @@ Aspose.Font for Java API lets you read Type1 Font types from files stored in you
  * Specify FontType as Type1 and FontFileDefinition as pfb
  * Create a Type1Font object and open the font file from FontDefinition object defined in the earlier step
 
-{{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-CSharp-WorkingWithType1Fonts-LoadType1Fonts-1.cs" >}}
+{{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-src-main-java-com-aspose-font-WorkingWithType1Fonts-LoadType1Fonts-1.java" >}}

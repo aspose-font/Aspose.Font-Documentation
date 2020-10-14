@@ -20,4 +20,4 @@ Once you load a TTF file, you may work with the font file, update some parameter
  * Create a TtfFont object and open the font file from FontDefinition object defined in the earlier step
  * Make the required updates and save the updated Font file to disc using the TtfFont's Save method
 
- {{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-CSharp-WorkingWithTrueTypeAndOpenTypeFonts-SaveTTFToDisc-1.cs" >}}
+ {{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-src-main-java-com-aspose-font-WorkingWithTrueTypeFonts-SaveTTFToDisc-4.java" >}}

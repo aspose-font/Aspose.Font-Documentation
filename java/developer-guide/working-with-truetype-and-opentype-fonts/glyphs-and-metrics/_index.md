@@ -26,4 +26,4 @@ Use Aspose.Font for Java API to extract licensing restrictions from font files. 
  * `Restricted Embedding` - Font must not be modified, embedded or exchanged in any manner without first obtaining explicit permission of the legal owner.
 
 The following code sample shows how to use an object Aspose.Font.Ttf.LicenseFlags to get information about font license restrictions(flag fsType from table OS/2) in convenient form.
-{{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "xamples-src-main-java-com-aspose-font-WorkingWithTrueTypeFonts-ExtractLicenseRestrictions-1.java" >}}
+{{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-src-main-java-com-aspose-font-WorkingWithTrueTypeFonts-ExtractLicenseRestrictions-1.java" >}}

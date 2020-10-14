@@ -35,4 +35,4 @@ In order to render text, the Rendering subsystem requires the implementation of 
 
 ### Calling the Rendering Text functionality
 To use the above implementations, the following sample code can be executed from the Main method of a console based application.
-{{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "xamples-src-main-java-com-aspose-font-WorkingWithTrueTypeFonts-RenderingText-1.java" >}}
+{{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-src-main-java-com-aspose-font-WorkingWithTrueTypeFonts-RenderingText-1.java" >}}
