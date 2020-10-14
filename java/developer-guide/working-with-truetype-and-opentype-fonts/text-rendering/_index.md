@@ -9,9 +9,6 @@ url: /java/text-rendering-truetype-font/
 
 In order to render text, the Rendering subsystem requires the implementation of  Aspose.Font.Rendering.IGlyphOutlinePainter interface to draw glyph. This can be achieved using the following steps.
 
- 1. Implement the IGlyphOutlinePainter methods by creating a class GlyphOutlinePainter which requires object of type System.Drawing.Drawing2D.GraphicsPath for graphic drawing objectives. The implementation is as illustrated below.
- {{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-src-main-java-com-aspose-font-WorkingWithTrueTypeFonts-RenderingText-2.java" >}}
-
  1. Create method `DrawText()` which draws specified text into System.Drawing.Bitmap object and saves resultant bitmap on Disc. This will include the following steps:
  * Iterate all symbols in text string.
  * Get glyph identifier for every processed symbol - gid.
@@ -29,8 +26,9 @@ In order to render text, the Rendering subsystem requires the implementation of 
  * Method FontWidthToImageWith() which calculates glyph width for bitmap coordinate system.
 
  Implementation of DrawText method is as shown below.
- {{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-CSharp-WorkingWithTrueTypeAndOpenTypeFonts-RenderingText-3.cs" >}}
- 3. create utility method to calculate font width to image width as shown in the code sample below
+ {{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-src-main-java-com-aspose-font-WorkingWithTrueTypeFonts-RenderingText-2.java" >}}
+
+  1.  create utility method to calculate font width to image width as shown in the code sample below
   {{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-src-main-java-com-aspose-font-WorkingWithTrueTypeFonts-RenderingText-3.java" >}}
 
 ### Calling the Rendering Text functionality
