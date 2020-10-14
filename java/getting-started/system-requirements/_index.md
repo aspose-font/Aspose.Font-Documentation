@@ -20,7 +20,7 @@ url: /java/system-requirements/
 ### **Linux**
  Linux (Ubuntu, CentOS, and others)
 
-## **Mac**
+### **Mac**
  Mac OS X
 
 ## **Supported Java Versions**
