@@ -14,5 +14,4 @@ Aspose.Font for Java API lets you open CFF Font files in your java applications.
 
 ## **Load CFF Font from Byte Array**
 You can also load CFF fonts from stream using the following code sample.
-
 {{< gist "aspose-com-gists" "a018220e20bd5728294c39d632ebf22b" "Examples-src-main-java-com-aspose-font-WorkingWithCFFFonts-LoadCffFromBytesArray-1.java" >}}
