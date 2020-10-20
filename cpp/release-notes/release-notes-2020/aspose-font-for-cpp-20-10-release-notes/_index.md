@@ -11,7 +11,7 @@ The font names editing ability has been added (working with name TTF/OTF table).
 Encoding bugs appearance with the working in TrueType/OpenType font tables were fixed. An error occurred when saving any format fonts was checked and fixed.
 
 
-#Changes and Improvements
+## Changes and Improvements
 
 |Key|Summary|Category|
 ---|---|---|
