@@ -80,3 +80,7 @@ Some bugs have been fixed.
  * Method com.aspose.font.GlyphStringId.getNotDef -> com.aspose.font.GlyphStringId.getNotDefId
  * Method com.aspose.font.GlyphUInt32Id.getNotDef -> com.aspose.font.GlyphUInt32Id.getNotDefId
  * Class com.aspose.font.TtfCMapTable.TtfCmapSubtableDescription -> com.aspose.font.TtfCMapTable.TtfCMapSubtableDescription
+
+
+## Got Queries?
+If you have any query related to Aspose.Font for .NET API, please feel free to write to reach us on [Aspose.Font forum](https://forum.aspose.com/c/font/). We'll be glad to assist you with your inquiries.
