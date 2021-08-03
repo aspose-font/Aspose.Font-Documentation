@@ -1,7 +1,7 @@
 ---
 title: Aspose.Font for .NET 21.4 Release Notes
 type: docs
-weight: 8
+weight: 4
 url: /net/aspose-font-for-net-21-4-release-notes/
 description: This page contains new Aspose.Font for .NET features, enhancement, and bug fixes in 2021, version 21.4. 
 sitemap:

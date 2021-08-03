@@ -1,7 +1,7 @@
 ---
 title: Aspose.Font for .NET 21.2 Release Notes
 type: docs
-weight: 8
+weight: 2
 url: /net/aspose-font-for-net-21-2-release-notes/
 ---
 
