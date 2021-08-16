@@ -1,0 +1,16 @@
+# User-specific files
+
+net-examples/**/*.rsuser
+net-examples/**/*.suo
+net-examples/**/*.user
+net-examples/**/*.userosscache
+net-examples/**/*.sln.docstates
+
+net-examples/.vs/
+net-examples/packages/
+net-examples/**/bin/
+net-examples/**/obj/
+net-examples/UpgradeLog.htm
+
+net-examples/Out/
+net-examples/Data/**/*.lic
