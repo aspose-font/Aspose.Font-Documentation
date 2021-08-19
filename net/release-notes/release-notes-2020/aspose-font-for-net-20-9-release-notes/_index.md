@@ -1,7 +1,7 @@
 ---
 title: Aspose.Font for .NET 20.9 Release Notes
 type: docs
-weight: 10
+weight: 9
 url: /net/aspose-font-for-net-20-9-release-notes/
 ---
 
