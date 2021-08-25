@@ -22,13 +22,16 @@ namespace Aspose.Font.Examples.ConvertFont
             Console.WriteLine("TTF to WOFF ex: 1");
 
             //ExampleStart: 1
+            // Open ttf font
             string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
             FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition(new FileSystemStreamSource(fontPath)));
             Font font = Font.Open(fontDefinition);
 
+            // Woff output settings
             string outPath = Path.Combine(OutputDir, "TtfToWoff_out1.woff");
             FileStream outStream = File.Create(outPath);
 
+            // Convert ttf to woff
             font.SaveToFormat(outStream, FontSavingFormats.WOFF);
             //ExampleEnd: 1
         }
@@ -38,13 +41,16 @@ namespace Aspose.Font.Examples.ConvertFont
             Console.WriteLine("TTF to WOFF ex: 2");
 
             //ExampleStart: 2
+            // Open ttf font
             byte[] fontMemoryData = File.ReadAllBytes(DataPath("Montserrat-Bold.ttf"));
             FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition(new ByteContentStreamSource(fontMemoryData)));
             TtfFont ttfFont = Font.Open(fontDefinition) as TtfFont;
 
+            // Woff output settings
             string outPath = Path.Combine(OutputDir, "TtfToWoff_out2.woff");
             FileStream outStream = File.Create(outPath);
 
+            // Convert ttf to woff
             ttfFont.SaveToFormat(outStream, FontSavingFormats.WOFF);
             //ExampleEnd: 2
         }

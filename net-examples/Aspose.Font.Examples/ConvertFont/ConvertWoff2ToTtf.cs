@@ -15,6 +15,7 @@ namespace Aspose.Font.Examples.ConvertFont
 
             Woff2ToTtfExample1();
             Woff2ToTtfExample2();
+            Woff2ToTtfExample3();
         }
 
         private void Woff2ToTtfExample1()
@@ -27,9 +28,11 @@ namespace Aspose.Font.Examples.ConvertFont
             FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition("woff2", new FileSystemStreamSource(fontPath)));
             Font font = Font.Open(fontDefinition);
             
+            // Ttf output settings
             string outPath = Path.Combine(OutputDir, "Woff2ToTtf_out1.ttf");
             FileStream outStream = File.Create(outPath);
 
+            // Convert woff2 to ttf
             font.SaveToFormat(outStream, FontSavingFormats.TTF);
             */
             //ExampleEnd: 1
@@ -41,16 +44,37 @@ namespace Aspose.Font.Examples.ConvertFont
 
             //ExampleStart: 2
             /*
+            // Open woff2 font
             byte[] fontMemoryData = File.ReadAllBytes(DataPath("Montserrat-Bold.woff2"));
             FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition("woff2", new ByteContentStreamSource(fontMemoryData)));
             TtfFont ttfFont = Aspose.Font.Font.Open(fontDefinition) as TtfFont;
             
+            // Ttf output settings
             string outPath = Path.Combine(OutputDir, "Woff2ToTtf_out2.ttf");
             FileStream outStream = File.Create(outPath);
 
+            // Convert woff2 to ttf
             ttfFont.SaveToFormat(outStream, FontSavingFormats.TTF);
             */
             //ExampleEnd: 2
+        }
+
+        private void Woff2ToTtfExample3()
+        {
+            Console.WriteLine("WOFF2 to TTF ex: 3");
+
+            //ExampleStart: 3
+            /*
+            // Open woff2 font
+            string fontPath = Path.Combine(DataDir, "Montserrat-Regular.woff2");
+            FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition("woff2", new FileSystemStreamSource(fontPath)));
+            Font font = Font.Open(fontDefinition);
+
+            // Convert woff2 to ttf
+            font.Convert(FontType.TTF);
+            font.Save(Path.Combine(OutputDir, "Woff2ToTtf_out3.ttf"));
+            */
+            //ExampleEnd: 3
         }
     }
 }
