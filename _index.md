@@ -69,6 +69,6 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Font for Java Features](/font/java/product-overview/#productoverview-richfeatures)
 - [Aspose.Font for Java Release Notes](/font/java/release-notes/)
 - [Aspose.Font for Java Product Page](https://products.aspose.com/font/java)
-- [Aspose.Font for Java API Reference Guide](https://apireference.aspose.com/java/font)
+- [Aspose.Font for Java API Reference Guide](https://apireference.aspose.com/font/java)
 - [Aspose.Font for Java Free Support Forum](https://forum.aspose.com/c/font)
 - [Aspose.Font for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
