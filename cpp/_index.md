@@ -23,6 +23,6 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Font for C++ Release Notes](/font/cpp/release-notes/)
 - [Aspose.Font for C++ Product Page](https://products.aspose.com/font/cpp)
 - [Install Aspose.Font for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Font.cpp/)
-- [Aspose.Font for C++ API Reference Guide](https://apireference.aspose.com/cpp/font)
+- [Aspose.Font for C++ API Reference Guide](https://apireference.aspose.com/font/cpp)
 - [Aspose.Font for C++ Free Support Forum](https://forum.aspose.com/c/font)
 - [Aspose.Font for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)
