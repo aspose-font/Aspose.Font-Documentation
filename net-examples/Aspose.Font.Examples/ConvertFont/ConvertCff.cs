@@ -24,10 +24,9 @@ namespace Aspose.Font.Examples.ConvertFont
         {
             Console.WriteLine("CFF to TTF ex: 1");
 
-            //ExampleStart: 1
-            /*
+            //ExampleStart: 1            
             // Open cff font
-            string fontPath = Path.Combine(DataDir, "OpenSans-Regular.cff");
+            string fontPath = Path.Combine(DataDir, "CenturyGothic.cff");
             FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new FileSystemStreamSource(fontPath)));
             Font font = Font.Open(fontDefinition);
 
@@ -37,7 +36,7 @@ namespace Aspose.Font.Examples.ConvertFont
 
             // Convert cff to ttf
             font.SaveToFormat(outStream, FontSavingFormats.TTF);
-            */
+            
             //ExampleEnd: 1
         }
 
@@ -46,16 +45,16 @@ namespace Aspose.Font.Examples.ConvertFont
             Console.WriteLine("CFF to TTF ex: 2");
 
             //ExampleStart: 2
-            /*
+            
             // Open cff font
-            string fontPath = Path.Combine(DataDir, "OpenSans-Regular.cff");
+            string fontPath = Path.Combine(DataDir, "CenturyGothic.cff");
             FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new FileSystemStreamSource(fontPath)));
             Font font = Font.Open(fontDefinition);
 
             // Convert cff to ttf
             Font ttfFont = font.Convert(FontType.TTF) as Aspose.Font.Ttf.TtfFont;
             ttfFont.Save(Path.Combine(OutputDir, "CffToTtf_out2.ttf"));
-            */
+            
             //ExampleEnd: 2
         }
 
@@ -64,9 +63,9 @@ namespace Aspose.Font.Examples.ConvertFont
             Console.WriteLine("CFF to WOFF ex: 3");
 
             //ExampleStart: 3
-            /*
+            
             // Open cff font
-            byte[] fontMemoryData = File.ReadAllBytes(Path.Combine(DataDir, "OpenSans-Regular.cff"));
+            byte[] fontMemoryData = File.ReadAllBytes(Path.Combine(DataDir, "CenturyGothic.cff"));
             FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new ByteContentStreamSource(fontMemoryData)));
             Font font = Font.Open(fontDefinition);
 
@@ -76,7 +75,7 @@ namespace Aspose.Font.Examples.ConvertFont
 
             // Convert cff to woff
             font.SaveToFormat(outStream, FontSavingFormats.WOFF);
-            */
+            
             //ExampleEnd: 3
         }
 
@@ -85,9 +84,9 @@ namespace Aspose.Font.Examples.ConvertFont
             Console.WriteLine("CFF to WOFF2 ex: 4");
 
             //ExampleStart: 4
-            /*
+            
             // Open cff font
-            byte[] fontMemoryData = File.ReadAllBytes(Path.Combine(DataDir, "OpenSans-Regular.cff"));
+            byte[] fontMemoryData = File.ReadAllBytes(Path.Combine(DataDir, "CenturyGothic.cff"));
             FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new ByteContentStreamSource(fontMemoryData)));
             Font font = Font.Open(fontDefinition);
 
@@ -97,7 +96,7 @@ namespace Aspose.Font.Examples.ConvertFont
 
             // Convert cff to woff2
             font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
-            */
+            
             //ExampleEnd: 4
         }
     }
