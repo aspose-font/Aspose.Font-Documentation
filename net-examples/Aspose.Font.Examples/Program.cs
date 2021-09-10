@@ -30,7 +30,8 @@ namespace Aspose.Font.Examples
             IExamples convertWoffToWoff2 = new ConvertWoffToWoff2("Convert-Font");
             IExamples convertType1 = new ConvertType1("Convert-Font");
             IExamples convertCff = new ConvertCff("Convert-Font");
-            
+            IExamples convertEot = new ConvertEot("Convert-Font");
+
 
 
             ///////
@@ -51,7 +52,7 @@ namespace Aspose.Font.Examples
             convertWoffToWoff2.Run();
             convertType1.Run();
             convertCff.Run();
-
+            convertEot.Run();
 
 
             Console.WriteLine("");

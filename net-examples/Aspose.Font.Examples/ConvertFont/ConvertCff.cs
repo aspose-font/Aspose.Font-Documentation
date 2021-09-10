@@ -15,7 +15,7 @@ namespace Aspose.Font.Examples.ConvertFont
             CffToTtfExample1();
             CffToTtfExample2();
             CffToWoffExample();
-            CffToWoff2Example();
+            CffToWoffExample2();
         }
 
         
@@ -79,7 +79,7 @@ namespace Aspose.Font.Examples.ConvertFont
             //ExampleEnd: 3
         }
 
-        private void CffToWoff2Example()
+        private void CffToWoffExample2()
         {
             Console.WriteLine("CFF to WOFF2 ex: 4");
 
