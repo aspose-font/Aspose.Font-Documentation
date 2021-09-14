@@ -18,10 +18,10 @@ ______
 Use the following namespaces at the head of the file:
 
 {{< highlight csharp >}} 
-  using Aspose.Font.Sources;
-  using Aspose.Font.Ttf;
-  using System;
-  using System.IO;
+    using Aspose.Font.Sources;
+    using Aspose.Font.Ttf;
+    using System;
+    using System.IO;
 {{< /highlight >}}
 
 The fundamentals for the conversion are placed in  [How to convert the font into the desired format?](https://docs.aspose.com//font/net/convert/#how-to-convert-the-font-into-the-desired-format) section.

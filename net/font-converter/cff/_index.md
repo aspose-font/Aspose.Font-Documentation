@@ -13,9 +13,9 @@ ____
 
 First, add the next namespaces at the top of the head of the title:
 {{< highlight csharp >}} 
-using Aspose.Font.Sources;
-using System;
-using System.IO;
+    using Aspose.Font.Sources;
+    using System;
+    using System.IO;
 {{< /highlight >}}
 
 In [How to convert the font into the desired format?](https://docs.aspose.com//font/net/convert/#how-to-convert-the-font-into-the-desired-format) section you can find the font conversion fundamentals.

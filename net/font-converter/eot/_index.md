@@ -14,9 +14,9 @@ _____________
 For all the conversions you will need these namespaces:
 
 {{< highlight csharp >}}
-using Aspose.Font.Sources;
-using System;
-using System.IO;
+    using Aspose.Font.Sources;
+    using System;
+    using System.IO;
 {{< /highlight >}}
 
 The information about the font conversion fundamentals is notified in [How to convert the font into the desired format?](https://docs.aspose.com//font/net/convert/#how-to-convert-the-font-into-the-desired-format) chapter.
@@ -58,9 +58,10 @@ To get Web Open Font Format from Embedded Open Type the next actions have to be 
         // Woff output settings
         string outPath = Path.Combine(OutputDir, "EotToWoff_out3.woff");
         using (FileStream outStream = File.Create(outPath))
-
-        // Convert eot to woff
-        font.SaveToFormat(outStream, FontSavingFormats.WOFF);
+        {
+            // Convert eot to woff
+            font.SaveToFormat(outStream, FontSavingFormats.WOFF);
+        }
 {{< /highlight >}}
 
 ## Convert EOT to WOFF2
@@ -79,9 +80,10 @@ If you need to get the second version of the Web Open Font Format from Embedded 
         // Woff2 output settings
         string outPath = Path.Combine(OutputDir, "EotToWoff2_out4.woff2");
         using (FileStream outStream = File.Create(outPath))
-
-        // Convert eot to woff2
-        font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
+        {
+            // Convert eot to woff2
+            font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
+        }
 {{< /highlight >}}
 
 {{% alert color="primary" %}}

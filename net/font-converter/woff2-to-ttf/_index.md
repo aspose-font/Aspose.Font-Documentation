@@ -13,10 +13,10 @@ _______
 
 Set the following namespaces at the head of the file:
 {{< highlight csharp >}} 
-  using Aspose.Font.Sources;
-  using Aspose.Font.Ttf;
-  using System;
-  using System.IO;
+    using Aspose.Font.Sources;
+    using Aspose.Font.Ttf;
+    using System;
+    using System.IO;
 {{< /highlight >}}
 
  [How to convert the font into the desired format?](https://docs.aspose.com//font/net/convert/#how-to-convert-the-font-into-the-desired-format) chapter will let you know about the Aspose conversion fundamentals.
