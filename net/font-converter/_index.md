@@ -87,22 +87,22 @@ using System.IO;
 Below is the sample which converts font from TTF to WOFF format.
 
 Take the next steps:
-1. Open TTF font
-2. Add the output settings
-3. Fulfil the conversion TTF to WOFF and save the resultant
+1. Open TTF font.
+2. Add the output settings.
+3. Fulfil the conversion TTF to WOFF and save the resultant.
 
 {{< highlight csharp >}}
-// Open ttf font
-    string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
-    FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition(new FileSystemStreamSource(fontPath)));
-    Font font = Font.Open(fontDefinition);
+     // Open ttf font
+     string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
+     FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition(new FileSystemStreamSource(fontPath)));
+     Font font = Font.Open(fontDefinition);
 
-// Woff output settings
-    string outPath = Path.Combine(OutputDir, "TtfToWoff_out1.woff");
-    FileStream outStream = File.Create(outPath);
+     // Woff output settings
+     string outPath = Path.Combine(OutputDir, "TtfToWoff_out1.woff");
+     FileStream outStream = File.Create(outPath);
     
-// Convert ttf to woff
-    font.SaveToFormat(outStream, FontSavingFormats.WOFF);
+     // Convert ttf to woff
+     font.SaveToFormat(outStream, FontSavingFormats.WOFF);
 {{< /highlight >}}
 
 Conversions into other formats, like woff to ttf, ttf to woff2, woff2 to ttf, and others can be accomplished in a similar way.

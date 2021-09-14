@@ -33,33 +33,33 @@ Next code snippet loads CFF font 'CenturyGothic' from disk, converts it into Tru
 
 Fulfill the next actions:
 
-1. Open the font
-2. Convert the font into TrueType format
-3. Change the name of the converted font
-4. Notify the output settings
-5. Save the resultant with the just changed name
+1. Open the font.
+2. Convert the font into TrueType format.
+3. Change the name of the converted font.
+4. Notify the output settings.
+5. Save the resultant with the just changed name.
 
 {{< highlight csharp >}} 
-// Open cff font
-    string fontPath = Path.Combine(DataDir, "CenturyGothic.cff");
-    FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new FileSystemStreamSource(fontPath)));
-    Font font = Font.Open(fontDefinition);
+     // Open cff font
+     string fontPath = Path.Combine(DataDir, "CenturyGothic.cff");
+     FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new FileSystemStreamSource(fontPath)));
+     Font font = Font.Open(fontDefinition);
 
-//Convert font into TrueType format and cast font returned to Aspose.Font.Ttf.TtfFont
-    Aspose.Font.Ttf.TtfFont destFont = font.Convert(FontType.TTF) as Aspose.Font.Ttf.TtfFont;
+     //Convert font into TrueType format and cast font returned to Aspose.Font.Ttf.TtfFont
+     Aspose.Font.Ttf.TtfFont destFont = font.Convert(FontType.TTF) as Aspose.Font.Ttf.TtfFont;
 
-//Change name of converted font
-    destFont.FontName = "CenturyGothic_Converted";
+     //Change name of converted font
+     destFont.FontName = "CenturyGothic_Converted";
 
-// Ttf output settings
-    string outPath = Path.Combine(OutputDir, "CffToTtf_out.ttf");
+     // Ttf output settings
+     string outPath = Path.Combine(OutputDir, "CffToTtf_out.ttf");
 
-//Save resultant font with font name changed
-    destFont.Save(outPath);
+     //Save resultant font with font name changed
+     destFont.Save(outPath);
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
-The full range of examples for using the library is placed in Aspose.Font.Examples.sln solution, in the net-examples folder of the Aspose.Font Documentation github repository. 
+The full range of examples for using Aspose.Font for.NET  is placed in Aspose.Font.Examples.sln solution, in the net-examples folder of the Aspose.Font Documentation github repository. 
 {{% /alert %}}
 
 

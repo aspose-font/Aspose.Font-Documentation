@@ -24,25 +24,25 @@ If you want to learn the Aspose conversion fundamentals go to
 
  Taking the next three steps you will convert WOFF to WOFF2:
 
-1. Open Woff font file:
+1. Open Woff font file.
 {{< highlight csharp >}} 
- // Open woff font
-    string fontPath = Path.Combine(DataDir, "Montserrat-Regular.woff");
-    FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition("woff", new FileSystemStreamSource(fontPath)));
-    Font font = Font.Open(fontDefinition);
+     // Open woff font
+     string fontPath = Path.Combine(DataDir, "Montserrat-Regular.woff");
+     FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition("woff", new FileSystemStreamSource(fontPath)));
+     Font font = Font.Open(fontDefinition);
 {{< /highlight >}}
 
-2. Notify the output setting:
+2. Notify the output setting.
 {{< highlight csharp >}} 
-// Woff2 output settings
-    string outPath = Path.Combine(OutputDir, "WoffToWoff2_out1.woff2");
-    FileStream outStream = File.Create(outPath);
+     // Woff2 output settings
+     string outPath = Path.Combine(OutputDir, "WoffToWoff2_out1.woff2");
+     FileStream outStream = File.Create(outPath);
 {{< /highlight >}}
 
-3. Transform the font into WOFF2 format and save the result:
+3. Transform the font into WOFF2 format and save the result.
 {{< highlight csharp >}} 
-// Convert ttf to woff2
-    font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
+     // Convert woff to woff2
+     font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
