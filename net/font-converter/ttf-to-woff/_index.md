@@ -18,39 +18,39 @@ ______
 Use the following namespaces at the head of the file:
 
 {{< highlight csharp >}} 
-    using Aspose.Font.Sources;
-    using Aspose.Font.Ttf;
-    using System;
-    using System.IO;
+using Aspose.Font.Sources;
+using Aspose.Font.Ttf;
+using System;
+using System.IO;
 {{< /highlight >}}
 
-The fundamentals for the conversion are placed in  [How to convert the font into the desired format?](https://docs.aspose.com//font/net/convert/#how-to-convert-the-font-into-the-desired-format) section.
+The fundamentals for the conversion are placed in [How to convert the font into the desired format?](https://docs.aspose.com//font/net/convert/#how-to-convert-the-font-into-the-desired-format) section.
 
 To convert TTF to WOFF you will need to take the following steps:
 
 
 1. Open TTF font.
 {{< highlight csharp >}}
-     // Open ttf font
-     string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
-     FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition(new FileSystemStreamSource(fontPath)));
-     Font font = Font.Open(fontDefinition);
+    // Open ttf font
+    string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
+    FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition(new FileSystemStreamSource(fontPath)));
+    Font font = Font.Open(fontDefinition);
 {{< /highlight >}}
 
 2. Write the settings for the output stream.
 {{< highlight csharp >}}
-     // Woff output settings
-     string outPath = Path.Combine(OutputDir, "TtfToWoff_out1.woff");
-     FileStream outStream = File.Create(outPath);
+    // Woff output settings
+    string outPath = Path.Combine(OutputDir, "TtfToWoff_out1.woff");
+    FileStream outStream = File.Create(outPath);
 {{< /highlight >}}
 
 3. Convert font to WOFF.
 {{< highlight csharp >}}
-     // Convert ttf to woff
-     font.SaveToFormat(outStream, FontSavingFormats.WOFF);
+    // Convert ttf to woff
+    font.SaveToFormat(outStream, FontSavingFormats.WOFF);
 {{< /highlight >}}
 
-Here the [*SaveToFormat*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance was used. 
+Here the [*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance was used. 
 It takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/net/aspose.font/fontsavingformats) enumeration to choose output font format.
 
 {{% alert color="primary" %}}

@@ -13,10 +13,10 @@ _______
 
 Apply the next namespaces at the head of the file:
 {{< highlight csharp >}} 
-    using Aspose.Font.Sources;
-    using Aspose.Font.Ttf;
-    using System;
-    using System.IO;
+using Aspose.Font.Sources;
+using Aspose.Font.Ttf;
+using System;
+using System.IO;
 {{< /highlight >}}
 
 Conversion fundamentals are available in [How to convert the font into the desired format?](https://docs.aspose.com//font/net/convert/#how-to-convert-the-font-into-the-desired-format) chapter.
@@ -25,23 +25,23 @@ To fulfil the conversion from WOFF to TTF font you need to follow the next steps
 
 1. Open Woff font file.
 {{< highlight csharp >}} 
-      // Open woff font
-      string fontPath = Path.Combine(DataDir, "Montserrat-Regular.woff");
-      FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new  FontFileDefinition("woff", new FileSystemStreamSource(fontPath)));
-      Font font = Font.Open(fontDefinition);
+    // Open woff font
+    string fontPath = Path.Combine(DataDir, "Montserrat-Regular.woff");
+    FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition("woff", new FileSystemStreamSource(fontPath)));
+    Font font = Font.Open(fontDefinition);
 {{< /highlight >}}
 
 2. Specify the output setting.
 {{< highlight csharp >}} 
-      // Ttf output settings
-      string outPath = Path.Combine(OutputDir, "WoffToTtf_out1.ttf");
-      FileStream outStream = File.Create(outPath);
+    // Ttf output settings
+    string outPath = Path.Combine(OutputDir, "WoffToTtf_out1.ttf");
+    FileStream outStream = File.Create(outPath);
 {{< /highlight >}}
 
-3. Use [*SaveToFormat*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance to transform font and save results.
+3. Use [*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance to transform font and save results.
 {{< highlight csharp >}} 
-      // Convert woff to ttf
-      font.SaveToFormat(outStream, FontSavingFormats.TTF);
+    // Convert woff to ttf
+    font.SaveToFormat(outStream, FontSavingFormats.TTF);
 {{< /highlight >}}
 
 {{% alert color="primary" %}}

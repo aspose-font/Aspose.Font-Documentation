@@ -13,9 +13,9 @@ ____
 
 First, add the next namespaces at the top of the head of the title:
 {{< highlight csharp >}} 
-    using Aspose.Font.Sources;
-    using System;
-    using System.IO;
+using Aspose.Font.Sources;
+using System;
+using System.IO;
 {{< /highlight >}}
 
 In [How to convert the font into the desired format?](https://docs.aspose.com//font/net/convert/#how-to-convert-the-font-into-the-desired-format) section you can find the font conversion fundamentals.
@@ -24,22 +24,22 @@ In [How to convert the font into the desired format?](https://docs.aspose.com//f
 
 To fulfill the operation follow the next steps:
 
-1. Open  CFF font.
+1. Open CFF font.
 2. Notify the output settings.
 3. Run the conversion.
 
 {{< highlight csharp >}} 
-      // Open cff font
-      string fontPath = Path.Combine(DataDir, "OpenSans-Regular.cff");
-      FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new   FileSystemStreamSource(fontPath)));
-      Font font = Font.Open(fontDefinition);
+    // Open cff font
+    string fontPath = Path.Combine(DataDir, "OpenSans-Regular.cff");
+    FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new FileSystemStreamSource(fontPath)));
+    Font font = Font.Open(fontDefinition);
 
-      // Ttf output settings
-      string outPath = Path.Combine(OutputDir, "CffToTtf_out1.ttf");
-      FileStream outStream = File.Create(outPath);
+    // Ttf output settings
+    string outPath = Path.Combine(OutputDir, "CffToTtf_out1.ttf");
+    FileStream outStream = File.Create(outPath);
 
-      // Convert cff to ttf
-      font.SaveToFormat(outStream, FontSavingFormats.TTF);
+    // Convert cff to ttf
+    font.SaveToFormat(outStream, FontSavingFormats.TTF);
 {{< /highlight >}}
 
 
@@ -52,17 +52,17 @@ To transform Compact Font Format to Web Open Font Format you will need to follow
 3. Process the conversion.
 
 {{< highlight csharp >}} 
-      // Open cff font
-      byte[] fontMemoryData = File.ReadAllBytes(Path.Combine(DataDir, "OpenSans-Regular.cff"));
-      FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new ByteContentStreamSource(fontMemoryData)));
-      Font font = Font.Open(fontDefinition);
+    // Open cff font
+    byte[] fontMemoryData = File.ReadAllBytes(Path.Combine(DataDir, "OpenSans-Regular.cff"));
+    FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new ByteContentStreamSource(fontMemoryData)));
+    Font font = Font.Open(fontDefinition);
 
-      // Woff output settings
-      string outPath = Path.Combine(OutputDir, "CffToWoff_out3.woff");
-      FileStream outStream = File.Create(outPath);
+    // Woff output settings
+    string outPath = Path.Combine(OutputDir, "CffToWoff_out3.woff");
+    FileStream outStream = File.Create(outPath);
 
-      // Convert cff to woff
-      font.SaveToFormat(outStream, FontSavingFormats.WOFF);      
+    // Convert cff to woff
+    font.SaveToFormat(outStream, FontSavingFormats.WOFF);
 {{< /highlight >}}
 
 
@@ -74,17 +74,17 @@ To fulfill Compact Font Format to Web Open Font Format version2 conversion, take
 2. Notify the output settings.
 3. Convert CFF to WOFF2 and save the result.
 {{< highlight csharp >}} 
-      // Open cff font
-      byte[] fontMemoryData = File.ReadAllBytes(Path.Combine(DataDir, "OpenSans-Regular.cff"));
-      FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new  ByteContentStreamSource(fontMemoryData)));
-      Font font = Font.Open(fontDefinition);
+    // Open cff font
+    byte[] fontMemoryData = File.ReadAllBytes(Path.Combine(DataDir, "OpenSans-Regular.cff"));
+    FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new ByteContentStreamSource(fontMemoryData)));
+    Font font = Font.Open(fontDefinition);
 
-      // Woff2 output settings
-      string outPath = Path.Combine(OutputDir, "CffToWoff2_out4.woff2");
-      FileStream outStream = File.Create(outPath);
+    // Woff2 output settings
+    string outPath = Path.Combine(OutputDir, "CffToWoff2_out4.woff2");
+    FileStream outStream = File.Create(outPath);
 
-      // Convert cff to woff2
-      font.SaveToFormat(outStream, FontSavingFormats.WOFF2);    
+    // Convert cff to woff2
+    font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
 {{< /highlight >}}
 
 

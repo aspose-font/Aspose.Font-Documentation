@@ -13,10 +13,10 @@ _______
 
 Use the following namespaces at the head of the file:
 {{< highlight csharp >}} 
-    using Aspose.Font.Sources;
-    using Aspose.Font.Ttf;
-    using System;
-    using System.IO;
+using Aspose.Font.Sources;
+using Aspose.Font.Ttf;
+using System;
+using System.IO;
 {{< /highlight >}}
 
 If you need to know the Aspose conversion fundamentals get to 
@@ -39,14 +39,14 @@ Then take the next steps:
     FileStream outStream = File.Create(outPath);
 {{< /highlight >}}
 
-3. Make conversion from TTF to WOFF2 and save the result using [*SaveToFormat*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance.
+3. Make conversion from TTF to WOFF2 and save the result using [*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance.
 {{< highlight csharp >}}
-     // Convert ttf to woff2
-     font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
+    // Convert ttf to woff2
+    font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
-For more examples  check  [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
+For more examples check [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
 
 Also go to our free online [*Font Conversion application*](https://products.aspose.app/font/conversion) from Aspose to see the functionality.
 {{% /alert %}}

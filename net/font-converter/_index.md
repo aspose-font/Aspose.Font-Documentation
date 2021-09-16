@@ -27,7 +27,7 @@ The next formats are supported by the font converter from Aspose:
 
 | **Format**| **Description**|
 | :- | :- |
-|TrueType(**TTF**)|It is one of the most popular formats between  Mac Os and Microsoft Windows operating systems. True type fonts have .ttf extension. Fonts of the True type family are easy to scale any size on computers and other devices like printers, smartphones, etc. The most famous representatives of TTF fonts are Times Roman, Helvetica, and Courier families.|
+|TrueType(**TTF**)|It is one of the most popular formats between Mac Os and Microsoft Windows operating systems. True type fonts have .ttf extension. Fonts of the True type family are easy to scale any size on computers and other devices like printers, smartphones, etc. The most famous representatives of TTF fonts are Times Roman, Helvetica, and Courier families.|
 |Web Open Font Format(**WOFF**)|This font format is developed for web pages. Basically, it is TrueType or OpenType font altered by adding HTML metadata and by applied compression. The format is supported by all major browsers.|
 |Web Open Font Format version 2.0(**WOFF2**)|The next generation of WOFF. It gives you a 30% average compression gain in comparison to WOFF. It is not that widespread though yet.|
 |Embedded open type format(**EOT**)|These are made by Microsoft and supported by Internet explorer fonts used on the web. Because of compression, the font files are smaller. EOT also provides some copyright protection because of subsetting.|
@@ -73,8 +73,8 @@ Here you can learn the pairs of fonts which are currently provided for conversio
 
 1. Load font from any of the supported formats and get reference on base Aspose.Font.Font object which represents this font.
 2. Save just loaded font into another format with the help of 
-[*SaveToFormat*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance.  [*SaveToFormat*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/net/aspose.font/fontsavingformats) enumeration for choosing the output font format.
-Method  [*SaveToFormat*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) allows you to save fonts into any of the output formats supported. 
+[*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance. [*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/net/aspose.font/fontsavingformats) enumeration for choosing the output font format.
+Method [*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) allows you to save fonts into any of the output formats supported. 
 
 You need to use the following namespaces:
 {{< highlight csharp >}} 
@@ -92,17 +92,17 @@ Take the next steps:
 3. Fulfil the conversion TTF to WOFF and save the resultant.
 
 {{< highlight csharp >}}
-     // Open ttf font
-     string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
-     FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition(new FileSystemStreamSource(fontPath)));
-     Font font = Font.Open(fontDefinition);
+    // Open ttf font
+    string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
+    FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition(new FileSystemStreamSource(fontPath)));
+    Font font = Font.Open(fontDefinition);
 
-     // Woff output settings
-     string outPath = Path.Combine(OutputDir, "TtfToWoff_out1.woff");
-     FileStream outStream = File.Create(outPath);
+    // Woff output settings
+    string outPath = Path.Combine(OutputDir, "TtfToWoff_out1.woff");
+    FileStream outStream = File.Create(outPath);
     
-     // Convert ttf to woff
-     font.SaveToFormat(outStream, FontSavingFormats.WOFF);
+    // Convert ttf to woff
+    font.SaveToFormat(outStream, FontSavingFormats.WOFF);
 {{< /highlight >}}
 
 Conversions into other formats, like woff to ttf, ttf to woff2, woff2 to ttf, and others can be accomplished in a similar way.
