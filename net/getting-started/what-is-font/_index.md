@@ -1,5 +1,5 @@
 ---
-title: What is font? | .NET
+title: What is font? 
 linktitle: What is font?
 type: docs
 weight: 90
@@ -21,7 +21,7 @@ In the image below, you see the glyph ”@” rendered in different fonts.
 ![Glyph @ in different fonts](Glyphs.png)
 
 **Typeface** - is a specific design of a font. It has size, weight, width, slope, and other variations. It is often confused with the term “font”. The point is that fonts have particular(fixed) parameters. So the difference is in having variations. Therefore every variation in a typeface is an individual font. 
-The term Typeface is also often mixed up with the type/font family. 
+The term "typeface" is also often mixed up with the type/font family. 
 
 **Font family** is a group of related, similar in design typefaces. The members of a family have a common name. 
 
@@ -45,7 +45,7 @@ We will consider the main font properties such as:
 - Normal(regular look).
 - Italic, having a slope. You may add this slope to any font.
 - Oblique. These fonts are designed with a slope.
-![Notmal-italic-oblique-fontstyle](Font-styles.png)
+![Normal-italic-oblique-fontstyle](Font-styles.png)
 ### Font size ###
 
 It is the height of a font in a set or it is an area that is taken by a character of the font.  It is determined with points. The fonts are usually divided into the groups described in the table:
@@ -64,7 +64,7 @@ The following image will show you the difference in the sizes of the “Arial”
 ### Font weight ###
 
 Font weight is the thickness of a font. 
-One typeface can have a few weights when the others, more than ten. Also, the main width of a font differs from one typeface to another. [*Display fonts*](https://docs.aspose.com/font/net/what-is-font/font-types) are usually much bolder to grab more attention.
+One typeface can have a few weights when the others, more than ten. Also, the main width of a font differs from one typeface to another. [*Display fonts*](https://docs.aspose.com/font/net/what-is-font/font-types/#display-fonts) are usually much bolder to grab more attention.
 The four most common weights are illustrated in the picture below, using the font “Lora”.
 ![Font-weight](Font-weight.png)
 ### Font type ## 
@@ -84,7 +84,6 @@ The image below shows the difference in the look of the normal and the small-cap
 As it was mentioned above it is a collection of typefaces in the same design.
 For example Roboto font family includes: Roboto slant, Roboto condensed, Roboto mono, etc. The Montserrat family has Montserrat alternates, Montserrat subrayada, etc.
 ![Font-families](Font-families.png)
-
 ## Conclusion ##
 
 There are a lot of parameters depending on which you can classify fonts.
@@ -93,7 +92,7 @@ All of them affect the font appearance so they are needed to take into account w
 
 {{% alert color="primary" %}}
 If you need to see the font parameters you may find a free application from Aspose useful. It is easy to use [*Font viewer*](https://products.aspose.app/font/viewer). 
-it will give you information about font source, description, designer, license, file name, font name, font family, style, postscript name, version, etc.
+It will give you information about font source, description, designer, license, file name, font name, font family, style, postscript name, version, etc.
 {{% /alert %}}
 
 
