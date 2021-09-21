@@ -30,7 +30,7 @@ Let’s describe them in the table depending on their defining feature, main use
 | **Font style**| **Defining feature**| **Main use**| **Representatives**|
 | :- | :- |:- | :- |
 |Serif fonts|Letters have serifs|Typoghaphy|Times New Roman, Bodoni, Caslon, Trajan, Eames Century Modern|
-|San sefif fonts|Letters don’t have serifs|Screen type|Arial, Helvetica, Gotham, Akzidenz Grotesk, Futura|
+|San serif fonts|Letters don’t have serifs|Screen type|Arial, Helvetica, Gotham, Akzidenz Grotesk, Futura|
 |Script fonts|Resemble handwriting|Different|Shelley, Bickham, Lobster|
 |Display fonts|Cannot be used for the main text|Titles, advertisement|Bella, Karloff, Neu Alphabet, Impact|
 |Monospace fonts|Each symbol takes equal horizontal space|Coding|Courier, FF Trixie, Inconsolata|
@@ -48,12 +48,12 @@ Serif fonts are classified next way:
 - **Slab serifs**. These fonts are the heaviest and boldest fonts of the type.
 
 Examples of serif fonts are shown in the picture below.
-![Serif-style-fonts](Serif-fonts.png)
+![Serif style fonts](Serif_fonts.png)
 ### Sans serif fonts ###
 
-The fonts of this type do not have serifs. They are simpler to read or distinguish on screens, therefore, they are becoming more and more popular and well spread. Many famous brands tend to use them for their logos for their simplicity and laconic design.
+The fonts of this type do not have serifs. They are simpler to read or distinguish on screens, therefore, they are becoming more and more popular and well spread. Many famous brands tend to use them for their logos because of their simplicity and laconic design.
 Arial, as one of the representatives, is the default font in Google Docs.
-![Sans-serif](Sans-serif.png)
+![Sans serif](Sans_serif.png)
 
 Sans serif fonts can be divided into text groups:
 - **Grotesque**. They have contrast between thick and thin strokes, and vertical or no visible stress.
@@ -61,7 +61,7 @@ Sans serif fonts can be divided into text groups:
 - **Geometric**. Fonts of this group have low contrast between thick and thin strokes, circular round forms, and vertical stress.
 
 The most used sans serif fonts are depicted below.
-![Sans-serif-fonts](Sans-serif-fonts.png)
+![Sans serif fonts](Sans_serif_fonts.png)
 
 ### Script Fonts ###
 
@@ -69,20 +69,20 @@ These fonts imitate handwriting. As a result, there are a lot of different scrip
 Most script fonts are commonly used for book covers and projects where a unique and authentic look is required. 
 Because of their elegance, they are often used for wedding printed production like wedding invitations, etc.
 
-![Script-fonts](Script-fonts.png)
+![Script fonts](Script_fonts.png)
 
 ### Display fonts ###
 
 These fonts are developed for titles, signboards, advertisements, etc. They are usually very bold and large-sized with an unusual design, that is because their main purpose is to attract attention to the written text. 
 
 A few of the representatives of display fonts are shown in the next picture.
-![Display-fonts](Display-fonts.png)
+![Display fonts](Display_fonts.png)
 
 ### Monospace fonts ###
 
-Most fonts are proportional and give different horizontal spaces for different letters. Letter “W”, for example, is the widest and “l” the thinnest. Monospace fonts on the contrary give each letter an equal space. That is because the first these fonts were developed for typewriters. Then with the first computer, they got a new life. Even though computers progressed dramatically and there is not that memory scarce nowadays, monospace fonts are widely used in code programming. Some designers use these fonts to give the text nostalgic, retro vibes.
+Most fonts are proportional and give different horizontal spaces for different letters. Letter "W", for example, is the widest and "l" the thinnest. Monospace fonts on the contrary give each letter an equal space. That is because the first these fonts were developed for typewriters. Then with the first computer, they got a new life. Even though computers progressed dramatically and there is not that memory scarce nowadays, monospace fonts are widely used in code programming. Some designers use these fonts to give the text nostalgic, retro vibes.
 
-![Monospace-fonts](Monospace-fonts.png)
+![Monospace fonts](Monospace_fonts.png)
 
 ## Conclusion ##
 
