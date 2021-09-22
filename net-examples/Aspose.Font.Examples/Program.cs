@@ -1,6 +1,7 @@
 ﻿using System;
 using Aspose.Font.Examples.Licensing;
 using Aspose.Font.Examples.ConvertFont;
+using Aspose.Font.Examples.LoadFont;
 
 namespace Aspose.Font.Examples
 {
@@ -32,7 +33,9 @@ namespace Aspose.Font.Examples
             IExamples convertCff = new ConvertCff("Convert-Font");
             IExamples convertEot = new ConvertEot("Convert-Font");
 
-
+            //Load font
+            IExamples loadTtf = new LoadTtf();
+            IExamples loadCff = new LoadCff();
 
             ///////
             ///
@@ -54,6 +57,9 @@ namespace Aspose.Font.Examples
             convertCff.Run();
             convertEot.Run();
 
+            //Load Font examples
+            loadTtf.Run();
+            loadCff.Run();
 
             Console.WriteLine("");
             Console.WriteLine("========================================");
