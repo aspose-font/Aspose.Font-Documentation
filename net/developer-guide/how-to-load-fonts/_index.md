@@ -3,7 +3,7 @@ title: How to load fonts? | .NET
 linktitle: How to load fonts?
 type: docs
 weight: 10
-url: /net/developer-guide/how-to-load-font
+url: /net/developer-guide/how-to-load-fonts
 keywords: download a font, extract a font.
 description: Here is described documentation on how to load fonts from different sources. You will learn the objects, parameters, methods required for this, and get examples of loading.
 ---

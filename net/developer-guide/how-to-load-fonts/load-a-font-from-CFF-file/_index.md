@@ -3,7 +3,7 @@ title: Load a font from CFF file | .NET
 linktitle: Load a font from CFF file
 type: docs
 weight: 20
-url: /net/developer-guide/how-to-load-font/load-a-font-from-CFF-file
+url: /net/developer-guide/how-to-load-fonts/load-a-font-from-CFF-file
 keywords: load font, download font, extract font from cff file.
 description: With Aspose.Font solution you can load a font from a file on your hard drive disk even if this file is not a font inself. Let’s look at how to make it from a CFF file.
 ---
@@ -11,7 +11,7 @@ description: With Aspose.Font solution you can load a font from a file on your h
 On this page we will have a look at examples of loading font CenturyGothic placed in the file **CenturyGothic.cff**.
 ____
 If you did not read the Aspose.Font loading fundamentals, - go to 
- [*How to load fonts?*](https://docs.aspose.com//font/net/developer-guide/how-to-load-font) page.
+ [*How to load fonts?*](https://docs.aspose.com//font/net/developer-guide/how-to-load-fonts) page.
 
 First you need to notify the next namespaces at the head of the file:
 

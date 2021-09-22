@@ -3,14 +3,14 @@ title: Load a font from TTF file | .NET
 linktitle: Load a font from TTF file
 type: docs
 weight: 10
-url: /net/developer-guide/how-to-load-font/load-a-font-from-TTF-file
+url: /net/developer-guide/how-to-load-fonts/load-a-font-from-TTF-file
 keywords: load font, download font, extract font from cff file.
 description: With Aspose.Font solution you can load a font from a file on your hard drive disk even if this file is not a font inself. Let’s look at how to make it from a TTF file.
 ---
 Here are described four differently fulfilled examples on how to load a font from the file **Montserrat-Regular.ttf**. 
 ___
 
-First learn the loading fundamentals at the [How to load fonts?](https://docs.aspose.com/font/net/developer-guide/how-to-load-font/)
+First learn the loading fundamentals at the [How to load fonts?](https://docs.aspose.com/font/net/developer-guide/how-to-load-fonts/)
 
 Add the next namespaces at the head of the file:
 
