@@ -12,9 +12,9 @@ keywords: what is font, glyph, typeface, font family.
 
 First, we need to notify the terms used in this article.
 
-**Font** is the set of symbols that is used to display the text. The way a font looks depends on the font's parameters such as type family, typeface, font proportions, etc.
+**Font** is the set of graphical representations of symbols. The way a font looks depends on the font's parameters such as type family, typeface, font proportions, etc.
 
-**Glyph** - is an element of writing or an elemental symbol of a set of symbols aimed to represent a distinguished character.
+**Glyph** - is a graphical representation of a symbol. It is aimed to depict a distinguished character.
 The glyph is a unique shape, design, or way it looks. It is how the character is rendered in a particular font.
 
 In the image below, you see the glyph "@" rendered in different fonts.
@@ -25,7 +25,7 @@ The term **typeface** is also often mixed up with the type/font family.
 
 **Font family** is a group of related, similar in design typefaces. The members of a family have a common name. 
 
-The image below will help you understand the difference between these three terms.
+The image below will clarify to you the difference between font, typeface and font family.
 ![Difference between font, typeface and font family](Font_typeface_font_family.png)
 ## Font properties ##
 
