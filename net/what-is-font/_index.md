@@ -26,6 +26,7 @@ The term **typeface** is also often mixed up with the type/font family.
 **Font family** is a group of related, similar in design typefaces. The members of a family have a common name. 
 
 The image below will clarify to you the difference between font, typeface and font family.
+
 ![Difference between font, typeface and font family](Font_typeface_font_family.png)
 ## Font properties ##
 
@@ -44,6 +45,7 @@ We will consider the main font properties such as:
 - Normal (regular look).
 - Italic, having a slope. You may add this slope to any font.
 - Oblique. These fonts are designed with a slope.
+
 ![Normal, italic, oblique fontstyle](Font_styles.png)
 ### Font size ###
 
@@ -59,16 +61,19 @@ It is the height of a font in a set or it is an area that is taken by a characte
 | Poster|72+ |
 
 The following image will show you the difference in the sizes of the Arial font.
+
 ![Different font sizes](Font_size.png)
 ### Font weight ###
 
 Font weight is the thickness of a font. 
 One typeface can have a few weights when the others, more than ten. Also, the main width of a font differs from one typeface to another. [*Display fonts*](https://docs.aspose.com/font/net/what-is-font/font-types/#display-fonts) are usually much bolder to grab more attention.
 The four most common weights are illustrated in the picture below, using the font Lora.
+
 ![Font weight](Font_weight.png)
 ### Font type ## 
 
 [Font type](https://docs.aspose.com/font/net/what-is-font/font-types) is a group of fonts with some common features. The most known are five types: serif fonts, sans serif fonts, script fonts, monospace fonts, and display fonts.
+
 ![Font types](Font_types.png)
 ### Font variant ### 
 
@@ -77,11 +82,13 @@ It regulates how the lowercase letters appear. There are two options:
 - Small caps. It modifies lowercase characters as smaller size uppercase characters.
 
 The image below shows the difference in the look of the normal and the small-caps font.
+
 ![Font variants](Font_variants.png)
 ### Font family ###
 
 As it was mentioned above it is a collection of typefaces in the same design.
 For example Roboto font family includes: Roboto slant, Roboto condensed, Roboto mono, etc. The Montserrat family has Montserrat alternates, Montserrat subrayada, etc.
+
 ![Font families](Font_families.png)
 ## Conclusion ##
 

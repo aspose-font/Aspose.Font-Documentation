@@ -37,6 +37,7 @@ Let’s describe them in the table depending on their defining feature, main use
 
 ### Serif fonts ###
 Serif is a small dash at the beginning or the end of a stroke on a letter. 
+
 ![Serifs](Serifs.png)
 
 It is known that they originate from letters of the ancient Roman period. They are well spread for typewriting in books, magazines, newspapers because they are easy to read on paper. Times New Roman, as one of the most famous of the representatives, is the font used for writing term papers, graduate works, essays in many educational institutions. 
@@ -48,11 +49,13 @@ Serif fonts are classified next way:
 - **Slab serifs**. These fonts are the heaviest and boldest fonts of the type.
 
 Examples of serif fonts are shown in the picture below.
+
 ![Serif style fonts](Serif_fonts.png)
 ### Sans serif fonts ###
 
 The fonts of this type do not have serifs. They are simpler to read or distinguish on screens, therefore, they are becoming more and more popular and well spread. Many famous brands tend to use them for their logos because of their simplicity and laconic design.
 Arial, as one of the representatives, is the default font in Google Docs.
+
 ![Sans serif](Sans_serif.png)
 
 Sans serif fonts can be divided into text groups:
@@ -61,6 +64,7 @@ Sans serif fonts can be divided into text groups:
 - **Geometric**. Fonts of this group have low contrast between thick and thin strokes, circular round forms, and vertical stress.
 
 The most used sans serif fonts are depicted below.
+
 ![Sans serif fonts](Sans_serif_fonts.png)
 
 ### Script Fonts ###
@@ -76,6 +80,7 @@ Because of their elegance, they are often used for wedding printed production li
 These fonts are developed for titles, signboards, advertisements, etc. They are usually very bold and large-sized with an unusual design, that is because their main purpose is to attract attention to the written text. 
 
 A few of the representatives of display fonts are shown in the next picture.
+
 ![Display fonts](Display_fonts.png)
 
 ### Monospace fonts ###
@@ -90,6 +95,6 @@ Most fonts are proportional and give different horizontal spaces for different l
 There are five key font types known. They have different appearances and different aims. But it is only up to you which font you see as a proper one for your design. If a font is usually used for coding it does not mean that you cannot use it in other projects, on the contrary, it may give your design a fresh, unique style.
 
 {{% alert color="primary" %}}
-Before choosing a font for your work, you need to learn all its parameters and to do it you can use a free online application from Aspose, - [*Font viewer*](https://products.aspose.app/font/viewer). The app will give you such information as font source, designer, license, font family, style, postscript name, number of glyphs, and many more.
+Before choosing a font for your work, you need to learn all its parameters and to do it you can use a free online application from Aspose, [*Font viewer*](https://products.aspose.app/font/viewer). The app will give you such information as font source, designer, license, font family, style, postscript name, number of glyphs, and many more.
 {{% /alert %}}
 
