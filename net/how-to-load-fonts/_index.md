@@ -26,7 +26,7 @@ Let’s describe it with the pseudocode:
 using Aspose.Font;
     ...
 
-    //Initialize object FontDefinition with appropriate properties
+    // Initialize object FontDefinition with appropriate properties
     FontDefinition fontDef = new FontDefinition(); 
     Font desiredFont = Font.Open(fontDef);
 {{< /highlight >}}
@@ -58,7 +58,7 @@ Property [*Offset*](https://apireference.aspose.com/font/net/aspose.font.sources
 
 Here are examples of the initiation of these classes.
 
-1. Let’s assume that the font is in the file named **Arial.ttf**. In this case, to get access to the byte stream of this font we need to create the object of type [*FileSystemStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource) using this single constructor:
+1. Let’s assume that the font is in the file named Arial.ttf. In this case, to get access to the byte stream of this font we need to create the object of type [*FileSystemStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource) using this single constructor:
 
 {{< highlight csharp >}} 
     FileSystemStreamSource fontSource = new FileSystemStreamSource("Arial.ttf");
@@ -85,7 +85,7 @@ This object has such properties:
 
 The simplest and one of the most used constructors of this object is the constructor with the following signature: [*FontFileDefinition*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/constructors/1) (FileInfo fontFile), use this constructor for cases when the desired font is in a file on the hard drive. 
 
-Here is an example of initiating such an object for font `Times New Roman` which is located in the file **C:\Windows\Fonts\times.ttf**:
+Here is an example of initiating such an object for font `Times New Roman` which is located in the file C:\Windows\Fonts\times.ttf:
 
 {{< highlight csharp >}} 
     FontFileDefinition fileDef = new FontFileDefinition(new FileInfo(@"C:\Windows\Fonts\times.ttf"));
@@ -104,7 +104,7 @@ If the font format is *Embedded Open Type*, then the value of [*fileExtension*](
 
 The table below shows the most often used in Aspose.Font for .NET font file formats. There they are with the matching values that the [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) parameter should take.
 
-|**Font file Format**|**‘fileExtension’**|
+|**Font file Format**|**fileExtension**|
 | :- | :- |
 |TrueType, single font|ttf|
 |TrueType font collection|ttc|
@@ -147,7 +147,7 @@ Loading the font into this object you will be able to render text with this font
 
 ## Examples of font loading ##
 
-Let's have as an example, loading font `Times New Roman` from the file **C:\Windows\Fonts\times.ttf**
+Let's have as an example, loading font `Times New Roman` from the file C:\Windows\Fonts\times.ttf
 
 Add the next namespaces at the head of the file:
 
@@ -165,7 +165,7 @@ You can load this font using [*FontDefiniton*](https://apireference.aspose.com/f
 
   To fulfil loading do the next:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing *TTF* as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value.
+2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing TTF as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value.
 3. Get automatically calculated value [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension).
 4. Load the font.
 {{< highlight csharp >}}
@@ -207,7 +207,7 @@ Take the next steps to fulfil the operation:
 
 The next actions have to be taken for loading the font this way:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing *TTF* as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value, `ttf` as [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value and [*FileSystemStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource) object. Parameter [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) here is not a duplicate value for parameter [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype).
+2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing TTF as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value, `ttf` as [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value and [*FileSystemStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource) object. Parameter [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) here is not a duplicate value for parameter [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype).
 3. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
@@ -227,7 +227,7 @@ The next actions have to be taken for loading the font this way:
 To load a font from the byte array you need to:
 1. Construct path to the file.
 2. Load font binary data into the byte array
-3. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object  passing *TTF* as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value, `ttf` as [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value, and [*ByteContentStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/bytecontentstreamsource) object based on fontBytes array.
+3. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object  passing TTF as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value, `ttf` as [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value, and [*ByteContentStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/bytecontentstreamsource) object based on fontBytes array.
 4. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
