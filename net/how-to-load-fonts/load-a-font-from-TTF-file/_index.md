@@ -54,7 +54,6 @@ To fulfil loading do the next:
 {{< highlight csharp >}}
      // Construct path to the file
      string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
-     string fontSource = "file Montserrat-Regular.ttf";
 
      // Initialize FontDefinition object passing TTF as FontType value and using FontFileDefinition
      FontFileDefinition fileDef = new FontFileDefinition(new FileInfo(fontPath));

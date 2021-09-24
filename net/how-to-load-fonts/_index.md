@@ -170,7 +170,7 @@ You can load this font using [*FontDefiniton*](https://apireference.aspose.com/f
 4. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
-    string fontPath = "C:\Windows\Fonts\times.ttf";
+    string fontPath = @"C:\Windows\Fonts\times.ttf";
 
     // Initialize FontDefinition object passing TTF as FontType value and using FontFileDefinition
     FontFileDefinition fileDef = new FontFileDefinition(new FileInfo(fontPath));
@@ -191,7 +191,7 @@ Take the next steps to fulfil the operation:
 4. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
-    string fontPath = "C:\Windows\Fonts\times.ttf";
+    string fontPath = @"C:\Windows\Fonts\times.ttf";
 
     // Initialize FontDefinition object passing TTF as FontType value and using FontFileDefinition
     FontFileDefinition fileDef = new FontFileDefinition("ttf", new FileSystemStreamSource(fontPath));
@@ -211,7 +211,7 @@ The next actions have to be taken for loading the font this way:
 3. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
-    string fontPath = "C:\Windows\Fonts\times.ttf";
+    string fontPath = @"C:\Windows\Fonts\times.ttf";
 
     // Initialize FontDefinition object passing TTF as FontType value, "ttf" as fileExtension value, 
     // and FileSystemStreamSource object. Parameter 'fileExtension' here is not duplicate value 
@@ -231,7 +231,7 @@ To load a font from the byte array you need to:
 4. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
-    string fontPath = "C:\Windows\Fonts\times.ttf";
+    string fontPath = @"C:\Windows\Fonts\times.ttf";
 
     // Load font binary data into byte array
     byte[] fontBytes;
