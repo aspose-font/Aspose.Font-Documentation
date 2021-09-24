@@ -17,7 +17,8 @@ First, we need to notify the terms used in this article.
 **Glyph** - is a graphical representation of a symbol. It is aimed to depict a distinguished character.
 The glyph is a unique shape, design, or way it looks. It is how the character is rendered in a particular font.
 
-In the image below, you see the glyph "@" rendered in different fonts.
+In the image below, you see the glyph `@` rendered in different fonts.
+
 ![Glyph @ in different fonts](Glyphs.png)
 
 **Typeface** - is a specific design of a font. It has size, weight, width, slope, and other variations. It is often confused with the term **font**. The point is that fonts have particular (fixed) parameters. So the difference is in having variations. Therefore every variation in a typeface is an individual font. 
@@ -72,7 +73,7 @@ The four most common weights are illustrated in the picture below, using the fon
 ![Font weight](Font_weight.png)
 ### Font type ## 
 
-[Font type](https://docs.aspose.com/font/net/what-is-font/font-types) is a group of fonts with some common features. The most known are five types: serif fonts, sans serif fonts, script fonts, monospace fonts, and display fonts.
+[*Font type*](https://docs.aspose.com/font/net/what-is-font/font-types) is a group of fonts with some common features. The most known are five types: serif fonts, sans serif fonts, script fonts, monospace fonts, and display fonts.
 
 ![Font types](Font_types.png)
 ### Font variant ### 
