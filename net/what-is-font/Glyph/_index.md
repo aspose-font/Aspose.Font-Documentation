@@ -14,10 +14,11 @@ As any font contains glyphs and cannot exist without glyphs. Learning fonts cann
 There are many definitions of the term **Glyph**. We are going to give you a few of them.
 
 **Glyph** is one individually designed character of a typeface, or as it was described in the article [What is font?](https://docs.aspose.com/font/net/what-is-font/) it is a graphical representation of a symbol/character. 
-Not only each character has a glyph but may also it be represented by a few alternative glyphs. 
-You can see an example of such a case in the picture below.
+Not only each character has a glyph but may also the character be represented by a few alternative glyphs. 
+You can see an example of such a case in the picture below. Here symbol `9` is given in the `Times New Roman` font represented in two glyphs. As you can see they also have different unicode and name.
 
-![Exclamation marks depicted in two glyphs](2-glyphs-of-1-character.png)
+
+![Symbol "nine" rendered in two glyphs](2-glyphs-of-1-character.png)
 
 But sometimes one character can represent characters of different scripts. Like capital “T” is the same for English, Russian, German, and many more languages. And it is counted and represented as a separate glyph. The same character of a different font is a separate glyph too, as it has its own design.
 
@@ -27,7 +28,7 @@ In the picture below are depicted four glyphs of a capital letter  “A” in di
 
 And looking at the image comes to mind another definition of **Glyph** as the graphical unit of a font.
 
-In developing it is important to have in mind the definition of **Glyph** as an encoded character. To simplify,  any glyph ought to have a standardized code used to reference this glyph across the font. The most known standard of glyph codes is Unicode. Unicode though gives the same code to a glyph in every font of every font family where this glyph exists. 
+In developing it is important to have in mind the definition of **Glyph** as an encoded character. To simplify,  any glyph ought to have a standardized code used to reference this glyph across the font. The most known standard of glyph codes is Unicode. Unicode gives the same code to a glyph in every font of every font family where this glyph exists. 
 
 ![Glyphs A and F with unicodes](Glyph-with-unicode.png)
 
