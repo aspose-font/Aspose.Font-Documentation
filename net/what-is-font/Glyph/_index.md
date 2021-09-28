@@ -63,7 +63,7 @@ Each font file also contains one or more tables. These tables are known as **cha
 
 The next picture shows the difference in glyphsets of Franklin Gothic and Ebrima fonts. There they are indexed by Unicode.
 
-![Comparison of two glyphsets](Glyphsets-of-different-fonts.png)
+![Comparison of Ebrima and Franclin Gothic glyphsets](Glyphsets-of-different-fonts.png)
 
 ## Glyph metrics ##
 
