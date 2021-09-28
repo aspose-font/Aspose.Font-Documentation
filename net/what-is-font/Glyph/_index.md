@@ -13,22 +13,22 @@ As any font contains glyphs and cannot exist without glyphs. Learning fonts cann
 
 There are many definitions of the term **Glyph**. We are going to give you a few of them.
 
-**Glyph** is one individually designed character of a typeface, or as it was described in the article [What is font?](https://docs.aspose.com/font/net/what-is-font/) it is a graphical representation of a symbol/character. 
+**Glyph** is one individually designed character of a typeface, or as it was described in the article [*What is font?*](https://docs.aspose.com/font/net/what-is-font/) it is a graphical representation of a symbol/character. 
 Not only each character has a glyph but may also the character be represented by a few alternative glyphs. 
 You can see an example of such a case in the picture below. Here symbol `9` is given in the `Times New Roman` font represented in two glyphs. As you can see they also have different unicode and name.
 
 
 ![Symbol "nine" rendered in two glyphs](2-glyphs-of-1-character.png)
 
-But sometimes one character can represent characters of different scripts. Like capital “T” is the same for English, Russian, German, and many more languages. And it is counted and represented as a separate glyph. The same character of a different font is a separate glyph too, as it has its own design.
+But sometimes one character can represent characters of different scripts. Like capital `T` is the same for English, Russian, German, and many more languages. And it is counted and represented as a separate glyph. The same character of a different font is a separate glyph too, as it has its own design.
 
-In the picture below are depicted four glyphs of a capital letter  “A” in different fonts. 
+In the picture below are depicted four glyphs of a capital letter  `A` in different fonts. 
 
 ![Glyphs A of four different fonts](Glyph-of-different-fonts.png)
 
 And looking at the image comes to mind another definition of **Glyph** as the graphical unit of a font.
 
-In developing it is important to have in mind the definition of **Glyph** as an encoded character. To simplify,  any glyph ought to have a standardized code used to reference this glyph across the font. The most known standard of glyph codes is Unicode. Unicode gives the same code to a glyph in every font of every font family where this glyph exists. 
+In developing it is important to have in mind the definition of **Glyph** as an encoded character. To simplify,  any glyph ought to have a standardized code used to reference this glyph across the font. The most known standard of glyph codes is Unicode. Unicode пgives the same code to a glyph in every font of every font family where this glyph exists. 
 
 ![Glyphs A and F with unicodes](Glyph-with-unicode.png)
 
@@ -70,7 +70,7 @@ The next picture shows the difference in glyphsets of Franklin Gothic and Ebrima
 **Glyph metrics** are the parameters that influence how the glyph is positioned when the text layout is created.
 
 Glyph metrics are usually divided into:
-- Horizontal metrics (Latin, Cyrillic, Arabic, etc.;) 
+- Horizontal metrics (Latin, Cyrillic, Arabic, etc.);
 - Vertical metrics (Chinese, Japanese, Mongolian, etc.)
 
 The most know glyph’s metrics are:
@@ -88,7 +88,7 @@ The most know glyph’s metrics are:
 - **Descender** - is the horizontal line that goes through the lowest point of the lowest glyph of the font. It is also called **descent line**.
 - **Bounding box** - is a square that frames the visible parts of the glyph.
 - **Height** - is the vertical size of the glyph bounding box. 
-- **Width**- is the horizontal size of the glyph's bounding box. Typically, **width** is less than **advance width** but for some glyphs, the situation is the opposite. The difference between these two values is shown in the image. 
+- **Width** - is the horizontal size of the glyph's bounding box. Typically, **width** is less than **advance width** but for some glyphs, the situation is the opposite. The difference between these two values is shown in the image. 
 
 ![Difference between glyp's width and advance width](Width-vs-advanced-width.png)
 
@@ -98,7 +98,7 @@ You can learn all the previously described metrics in the picture below.
 
 ## Kerning ##
 
-Speaking about glyph metrics, it is necessary to mention another term related to it, - **kerning**. Usually, the space between glyphs is equal by default, but some combinations would look loose if it was so. The example of such combinations are “LT”, “WA”, “YA”, etc. **Kerning** adjusts space between glyphs so the words in text would look smooth. The picture below shows the difference that kerning gives.
+Speaking about glyph metrics, it is necessary to mention another term related to it, - **kerning**. Usually, the space between glyphs is equal by default, but some combinations would look loose if it was so. The example of such combinations are `LT`, `WA`, `YA`, etc. **Kerning** adjusts space between glyphs so the words in text would look smooth. The picture below shows the difference that kerning gives.
 
 ![Comparison texts with and without kerning](Kerning.png)
 
