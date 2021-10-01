@@ -4,11 +4,11 @@ linktitle: CSS fonts
 type: docs
 weight: 30
 url: /net/what-is-font/CSS-fonts
-description: To make manipulations with fonts in HTML SCC you need to use the following properties as font-family, font-weight, font-size, font-style, etc. With font-weight, you manipulate how bold the font is. CSS font-style property is responsible for font slope. Use it when you need the font to be italic. Putting the right values to the font-size property will affect the text readability hard.
+description: To make manipulations with fonts in HTML CSS you need to use the following properties as font-family, font-weight, font-size, font-style, etc. With font-weight, you manipulate how bold the font is. CSS font-style property is responsible for font slope. Use it when you need the font to be italic. Putting the right values to the font-size property will affect the text readability hard.
 keywords: css font, css font style, css italic, font face css, font family css list, text bold css, text style css, font type css, html font.
 ---
 
-The article is aimed to teach you HTML SCC fonts and their properties, depicting with code examples how to work with them. You will learn to make your text bold or semibold, to change font size or font family in CSS and many more.
+The article is aimed to teach you HTML CSS fonts and their properties, depicting with code examples how to work with them. You will learn to make your text bold or semibold, to change font size or font family in CSS and many more.
 
 You will also see the difference between CSS font properties and the common classification of font properties. These fundamentals are described in [*What is font?*](https://docs.aspose.com/font/net/what-is-font) article.
 
@@ -48,7 +48,7 @@ There the next parameters are set in the example.
 | :--- | :--- |:--- |:--- |
 |font-family:|Lobster, Paisfico, cursive;|Audiowide, fantasy;|Courier, monospace;|
 
-Syntax
+Syntax:
 {{< highlight csharp >}}
     // text 1
         {
@@ -90,7 +90,7 @@ Let’s render texts with the next parameters of font-weight.
 | :--- | :--- |:--- |:--- |
 |font-weight:|900;|500;|200;|
 
-Syntax
+Syntax:
 {{< highlight csharp >}}
     // text 1
         {
@@ -112,7 +112,7 @@ The result of applying will look like this (note that the font-size and color we
 
 ### CSS Font-stretch ###
 
-Property `font-stretch` allows choosing normal, condensed, or expanded typeface from the font family. This HTML SCC property also does not work for every font. Only some specially designed fonts that have in their family typefaces with variant stretches can render this property. 
+Property `font-stretch` allows choosing normal, condensed, or expanded typeface from the font family. This HTML CSS property also does not work for every font. Only some specially designed fonts that have in their family typefaces with variant stretches can render this property. 
 
 The property is inherited.
 
@@ -162,7 +162,7 @@ This property regulates the font slope.
 
 The property is inherited.
 
-Font-style property of HTML SCC may have the next values:
+Font-style property of HTML CSS may have the next values:
 - `normal` - default value that sets up the normal slope for the font.
 - `italic` - marks the text with the cursive.
 - `oblique` - sets the sloped typeface of the font (the font has in its typeface variations a sloped one).
@@ -243,7 +243,7 @@ The result of applying will look like this (note that the font-family and color 
 
 ### CSS Font property ###
 
-The CSS font property is used to make the code shorter. With it, it is possible to set all the other font properties in one property. There can be specified the next properties: 
+The CSS `font` property is used to make the code shorter. With it, it is possible to set all the other font properties in one property. There can be specified the next properties: 
 `font-style`, `font-variant`, `font-weight`, `font-stretch`, `font-size/line-height`, and`font-family`. There also can be included values of `font-variant property` supported by CSS 2.1 - `normal` or `small-caps`. See [*Font variant*](https://docs.aspose.com/font/net/what-is-font/#font-variant) paragraph of [*What is font?*](https://docs.aspose.com/font/net/what-is-font/) article to get more information about this property.
 
 **Example of using.**

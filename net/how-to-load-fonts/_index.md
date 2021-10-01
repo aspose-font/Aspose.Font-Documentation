@@ -58,10 +58,10 @@ Property [*Offset*](https://apireference.aspose.com/font/net/aspose.font.sources
 
 Here are examples of the initiation of these classes.
 
-1. Let’s assume that the font is in the file named Arial.ttf. In this case, to get access to the byte stream of this font we need to create the object of type [*FileSystemStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource) using this single constructor:
+1. Let’s assume that the font is in the file named Lora.ttf. In this case, to get access to the byte stream of this font we need to create the object of type [*FileSystemStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource) using this single constructor:
 
 {{< highlight csharp >}} 
-    FileSystemStreamSource fontSource = new FileSystemStreamSource("Arial.ttf");
+    FileSystemStreamSource fontSource = new FileSystemStreamSource("Lora.ttf");
 {{< /highlight >}}
 
 2. If the font binary data is located in a binary array defined by the byte [] fontArray variable, then an object of type [*ByteContentStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/bytecontentstreamsource) will provide an access to the font data stream, based on the fontArray variable.
