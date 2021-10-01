@@ -50,23 +50,23 @@ There the next parameters are set in the example.
 
 Syntax:
 {{< highlight csharp >}}
-    // text 1
-        {
-            font-family: Lobster, cursive;
-        }
-    // text 2
-        {
-            font-family: Audiowide, fantasy;
-        }
-    // text 3
-        {
-            font-family: Courier, monospace;
-        }
+// text 1
+.text1 {
+    font-family: Lobster, cursive;
+}
+// text 2
+.text2 {
+    font-family: Audiowide, fantasy;
+}
+// text 3
+.text3 {
+    font-family: Courier, monospace;
+}
 {{< /highlight >}}
 
 The result of applying is going to be the next (note that the font-size and color were set the same for all three texts in the `<body>`)
 
-![Text rendered in different font families CSS](CSS-font-family.png)
+![Text rendered in different font families CSS](css-font-family.png)
 
 ### CSS Font-weight ###
 
@@ -92,23 +92,23 @@ Let’s render texts with the next parameters of font-weight.
 
 Syntax:
 {{< highlight csharp >}}
-    // text 1
-        {
-            font-weight: 900;
-        }
-    // text 2
-        {
-            font-weight: 500;
-        }
-    // text 3
-        {
-            font-weight: 200;
-        }
+// text 1
+.text1 {
+    font-weight: 900;
+}
+// text 2
+.text2 {
+    font-weight: 500;
+}
+// text 3
+.text3 {
+    font-weight: 200;
+}
 {{< /highlight >}}
 
 The result of applying will look like this (note that the font-size and color were set the same for all three texts in the `<body>`). Also, it is important to remember that the used font has to have itself the weight variations needed. Most fonts are only available in `semi-bold` and `normal` weights. Font `Segoe UI` used in the example has enough font-weight variations so the text would render in all the values set in the example.
 
-![Text rendered in different font weight CSS](CSS-font-weight.png)
+![Text rendered in different font weight CSS](css-font-weight.png)
 
 ### CSS Font-stretch ###
 
@@ -138,23 +138,23 @@ The values of font-stretch in CSS can be next:
 
 Syntax:
 {{< highlight csharp >}}
-    // text 1
-        {
-            font-stretch: condensed;
-        }
-    // text 2
-        {
-            font-stretch: normal;
-        }
-    // text 3
-        {
-            font-stretch: expanded;
-        }
+// text 1
+.text1 {
+    font-stretch: condensed;
+}
+// text 2
+.text2 {
+    font-stretch: normal;
+}
+// text 3
+.text3 {
+    font-stretch: expanded;
+}
 {{< /highlight >}}
 
 The result of applying would look like this (note that the font-size and color were set the same for all three texts in the `<body>`).
 
-![Text rendered in different font stretches CSS](CSS-font-stretch.png)
+![Text rendered in different font stretches CSS](css-font-stretch.png)
 
 ### CSS Font-style ###
 
@@ -178,23 +178,23 @@ Let’s render texts with the next parameters of font-style.
 
 Syntax:
 {{< highlight csharp >}}
-    // text 1
-        {
-            font-style: normal;
-        }
-    // text 2
-        {
-            font-style: italic;
-        }
-    // text 3
-        {
-            font-style: oblique;
-        }
+// text 1
+.text1 {
+    font-style: normal;
+}
+// text 2
+.text2 {
+    font-style: italic;
+}
+// text 3
+.text3 {
+    font-style: oblique;
+}
 {{< /highlight >}}
 
 The result of applying will look like this (note that the font-size and color were set the same for all three texts in the `<body>`). 
 
-![Text rendered in different font styles CSS](CSS-font-style.png)
+![Text rendered in different font styles CSS](css-font-style.png)
 
 You may have noticed that the results for `italic` and `oblique` look the same. The answer to this is that the value `oblique` works only when the font has itself an oblique typeface and the used font does not have one.
 
@@ -223,25 +223,25 @@ There the next parameters are set.
 
 Syntax:
 {{< highlight csharp >}}
-    // text 1
-        {
-            font-size: 7vw;
-        }
-    // text 2
-        {
-            font-size: 70px;
-        }
-    // text 3
-        {
-            font-size: 2em;
-        }
+// text 1
+.text1 {
+    font-size: 7vw;
+}
+// text 2
+.text2 {
+    font-size: 70px;
+}
+// text 3
+.text3 {
+    font-size: 2em;
+}
 {{< /highlight >}}
 
 The result of applying will look like this (note that the font-family and color were set the same for all three texts in the `<body>`). 
 
-![Text rendered in different font sizes CSS](CSS-font-sizes.png)
+![Text rendered in different font sizes CSS](css-font-size.png)
 
-### CSS Font property ###
+### CSS Font ###
 
 The CSS `font` property is used to make the code shorter. With it, it is possible to set all the other font properties in one property. There can be specified the next properties: 
 `font-style`, `font-variant`, `font-weight`, `font-stretch`, `font-size/line-height`, and`font-family`. There also can be included values of `font-variant property` supported by CSS 2.1 - `normal` or `small-caps`. See [*Font variant*](https://docs.aspose.com/font/net/what-is-font/#font-variant) paragraph of [*What is font?*](https://docs.aspose.com/font/net/what-is-font/) article to get more information about this property.
@@ -255,22 +255,22 @@ The CSS `font` property is used to make the code shorter. With it, it is possibl
 
 Syntax:
 {{< highlight csharp >}}
-    // text 1
-        {
-            font: 6vw Arial;
-        }
-    // text 2
-        {
-            font: 60pt `Courier`, monospace;
-        }
-    // text 3
-        {
-        }
+// text 1
+.text1 {
+    font: 6vw Arial;
+}
+// text 2
+.text2 {
+    font: 60pt Courier, monospace;
+}
+// text 3
+.text3{
+}
 {{< /highlight >}}
 
 The result of applying these parameters is in the picture below (note that the color is set the same for all three texts in the `<body>`). As we did not set any values for the third text, it was rendered in default parameters.
 
-![Text rendered in different font propeties CSS](CSS-font-property.png)
+![Text rendered in different font propeties CSS](css-font.png)
 
 ### CSS Font-synthesis ###
 
@@ -295,31 +295,31 @@ For CSS font-synthesis parameter next values may be set:
 
 Syntax:
 {{< highlight csharp >}}
-    // text 1
-        {
-           font-synthesis: weight;
-           font-weight: 900;
-        }
-    // text 2
-        {
-            font-synthesis: style;
-            font-style: oblique;
-        }
-    // text 3
-        {
-            font-synthesis: none;
-            font-weight: 900;
-            font-style: oblique;
-        }
+// text 1
+.text1 {
+    font-synthesis: weight;
+    font-weight: 900;
+}
+// text 2
+.text2 {
+    font-synthesis: style;
+    font-style: oblique;
+}
+// text 3
+.text3 {
+    font-synthesis: none;
+    font-weight: 900;
+    font-style: oblique;
+}
 {{< /highlight >}}
 
-The result of applying would render as it is shown in the next image(note that the color is set the same for all three texts in the `<body>`). As we set the `none` value for the third text, it was rendered in default parameters.
+The result of applying would render as it is shown in the next image (note that the color is set the same for all three texts in the `<body>`). As we set the `none` value for the third text, it was rendered in default parameters.
 
-![Text rendered in different font-synthesise values CSS](CSS-font-synthesise.png)
+![Text rendered in different font-synthesise values CSS](css-font-synthetise.png)
 
 ## Conclusion ##
 
-The CSS font property is one of the key blocks in developing interfaces with CSS. Most of the content of the majority of web pages is text content, so without learning this property this content will never have a high-quality look. It will have less readability, scalability, etc. 
+The CSS font is one of the key blocks in developing interfaces with CSS. Most of the content of the majority of web pages is text content, so without learning this property this content will never have a high-quality look. It will have less readability, scalability, etc. 
 
 Some properties are easy to apply to any font, but some properties need a special font that supports the variation of the property. Like font `Inconsolata` has 8 variations of font-weight when most fonts can only be `normal` or `bold`. 
 If you have in mind a font you want to use but you do not have it on your device, you may try to find and download it from a free web application from Aspose. Apart from that, [*Font viewer*](https://products.aspose.app/font/viewer) will provide you with the necessary information about the font you may need when developing.
