@@ -18,7 +18,7 @@ The font in CSS is a resource that contains a visual representation of glyphs. T
 
 Font resources may be set up locally on a device in which a browser works. For such fonts describing information can be obtained right from the font resource (for example from a file `montserrat.ttf`). For web fonts, such information is attached with the link on the font's resource.
 
-Fonts in HTML CSS have next main (most often used)  properties:
+Fonts in HTML CSS have next important (most often used)  properties:
 - Font-family;
 - Font-weight;
 - Font-stretch;
