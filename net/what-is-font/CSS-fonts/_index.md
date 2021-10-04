@@ -66,7 +66,7 @@ Syntax:
 
 The result of applying is going to be the next (note that the font-size and color were set the same for all three texts in the `<body>`)
 
-![Text rendered in different font families CSS](1css-font-family.png)
+![Text rendered in different font families CSS](css-font-family.png)
 
 ### CSS Font-weight ###
 
@@ -108,7 +108,7 @@ Syntax:
 
 The result of applying will look like this (note that the font-size and color were set the same for all three texts in the `<body>`). Also, it is important to remember that the used font has to have itself the weight variations needed. Most fonts are only available in `semi-bold` and `normal` weights. Font `Segoe UI` used in the example has enough font-weight variations so the text would render in all the values set in the example.
 
-![Text rendered in different font weight CSS](1css-font-weight.png)
+![Text rendered in different font weight CSS](css-font-weight.png)
 
 ### CSS Font-stretch ###
 
@@ -154,7 +154,7 @@ Syntax:
 
 The result of applying would look like this (note that the font-size and color were set the same for all three texts in the `<body>`).
 
-![Text rendered in different font stretches CSS](1css-font-stretch.png)
+![Text rendered in different font stretches CSS](css-font-stretch.png)
 
 ### CSS Font-style ###
 
@@ -194,7 +194,7 @@ Syntax:
 
 The result of applying will look like this (note that the font-size and color were set the same for all three texts in the `<body>`). 
 
-![Text rendered in different font styles CSS](1css-font-style.png)
+![Text rendered in different font styles CSS](css-font-style.png)
 
 You may have noticed that the results for `italic` and `oblique` look the same. The answer to this is that the value `oblique` works only when the font has itself an oblique typeface and the used font does not have one.
 
@@ -239,7 +239,7 @@ Syntax:
 
 The result of applying will look like this (note that the font-family and color were set the same for all three texts in the `<body>`). 
 
-![Text rendered in different font sizes CSS](1css-font-size.png)
+![Text rendered in different font sizes CSS](css-font-size.png)
 
 ### CSS Font ###
 
@@ -270,7 +270,7 @@ Syntax:
 
 The result of applying these parameters is in the picture below (note that the color is set the same for all three texts in the `<body>`). As we did not set any values for the third text, it was rendered in default parameters.
 
-![Text rendered in different font propeties CSS](1css-font.png)
+![Text rendered in different font propeties CSS](css-font.png)
 
 ### CSS Font-synthesis ###
 
@@ -315,7 +315,7 @@ Syntax:
 
 The result of applying would render as it is shown in the next image (note that the color is set the same for all three texts in the `<body>`). As we set the `none` value for the third text, it was rendered in default parameters.
 
-![Text rendered in different font-synthesise values CSS](1css-font-synthetise.png)
+![Text rendered in different font-synthesise values CSS](css-font-synthetise.png)
 
 ## Conclusion ##
 
