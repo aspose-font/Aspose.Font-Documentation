@@ -208,7 +208,7 @@ CSS font-size has next values:
 
 - Absolute size - it can be `xx-small`, `x-small`, `small`, `medium`, `large`, `x-large`, or`xx-large`. The default value is `medium`.
 - Relative size - the size in comparison to the font's ancestor. Can be  `smaller` or `larger`. Can make fonts even bigger or smaller than the absolute size allows.
-- Width - it is set in pixels (px) or Ems (em).
+- Width - it is set in pixels (px) or Ems (em). EM it is a scalable unit used for web documents. One em equals the current font size. If the font size of the document is 14pt, then 1em equals 14pt. Em is scaled so 2em equals 28pt.
 - `%` - this relative value is calculated in comparison to the ancestor font. It allows making more exact adjustments to the CSS font-size.
 - Viewpoint width - `vw`, allows the font following the size of the window of the used browser. Note that 1vw = 1% of viewport width. If the viewport is 40cm wide, 1vw is equal to 0.4cm.
 - `initial` - sets up default values.
