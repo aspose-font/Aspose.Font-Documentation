@@ -58,10 +58,10 @@ Property [*Offset*](https://apireference.aspose.com/font/net/aspose.font.sources
 
 Here are examples of the initiation of these classes.
 
-1. Let’s assume that the font is in the file named Arial.ttf. In this case, to get access to the byte stream of this font we need to create the object of type [*FileSystemStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource) using this single constructor:
+1. Let’s assume that the font is in the file named Lora.ttf. In this case, to get access to the byte stream of this font we need to create the object of type [*FileSystemStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource) using this single constructor:
 
 {{< highlight csharp >}} 
-    FileSystemStreamSource fontSource = new FileSystemStreamSource("Arial.ttf");
+    FileSystemStreamSource fontSource = new FileSystemStreamSource("Lora.ttf");
 {{< /highlight >}}
 
 2. If the font binary data is located in a binary array defined by the byte [] fontArray variable, then an object of type [*ByteContentStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/bytecontentstreamsource) will provide an access to the font data stream, based on the fontArray variable.
@@ -85,18 +85,18 @@ This object has such properties:
 
 The simplest and one of the most used constructors of this object is the constructor with the following signature: [*FontFileDefinition*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/constructors/1) (FileInfo fontFile), use this constructor for cases when the desired font is in a file on the hard drive. 
 
-Here is an example of initiating such an object for font `Times New Roman` which is located in the file C:\Windows\Fonts\times.ttf:
+Here is an example of initiating such an object for font `Montserrat` which is located in the file C:\Windows\Fonts\Montserrat.ttf:
 
 {{< highlight csharp >}} 
-    FontFileDefinition fileDef = new FontFileDefinition(new FileInfo(@"C:\Windows\Fonts\times.ttf"));
+    FontFileDefinition fileDef = new FontFileDefinition(new FileInfo(@"C:\Windows\Fonts\Montserrat.ttf"));
 {{< /highlight >}}
 
-Also, [*FontFileDefinition*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition) can reference `Times New Roman` font using the following constructors:
+Also, [*FontFileDefinition*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition) can reference `Montserrat` font using the following constructors:
 
 {{< highlight csharp >}} 
-    FontFileDefinition fileDef = new FontFileDefinition(new FileSystemStreamSource(@"C:\Windows\Fonts\times.ttf"));
+    FontFileDefinition fileDef = new FontFileDefinition(new FileSystemStreamSource(@"C:\Windows\Fonts\Montserrat.ttf"));
 
-    FontFileDefinition fileDef = new FontFileDefinition("ttf", new FileSystemStreamSource(@"C:\Windows\Fonts\times.ttf"));
+    FontFileDefinition fileDef = new FontFileDefinition("ttf", new FileSystemStreamSource(@"C:\Windows\Fonts\Montserrat.ttf"));
 {{< /highlight >}}
 
 Parameter [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) should match the standard, for the font format, extension. For example, if the font format is *TrueType*, then the value of the [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) parameter may be `ttf` or `ttc` (if the font file is a collection of *TrueType* fonts). 
@@ -147,7 +147,7 @@ Loading the font into this object you will be able to render text with this font
 
 ## Examples of font loading ##
 
-Let's have as an example, loading font `Times New Roman` from the file C:\Windows\Fonts\times.ttf
+Let's have as an example, loading font `Montserrat` from the file C:\Windows\Fonts\Montserrat.ttf
 
 Add the next namespaces at the head of the file:
 
@@ -170,7 +170,7 @@ You can load this font using [*FontDefiniton*](https://apireference.aspose.com/f
 4. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
-    string fontPath = @"C:\Windows\Fonts\times.ttf";
+    string fontPath = @"C:\Windows\Fonts\Montserrat.ttf";
 
     // Initialize FontDefinition object passing TTF as FontType value and using FontFileDefinition
     FontFileDefinition fileDef = new FontFileDefinition(new FileInfo(fontPath));
@@ -191,7 +191,7 @@ Take the next steps to fulfil the operation:
 4. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
-    string fontPath = @"C:\Windows\Fonts\times.ttf";
+    string fontPath = @"C:\Windows\Fonts\Montserrat.ttf";
 
     // Initialize FontDefinition object passing TTF as FontType value and using FontFileDefinition
     FontFileDefinition fileDef = new FontFileDefinition("ttf", new FileSystemStreamSource(fontPath));
@@ -211,7 +211,7 @@ The next actions have to be taken for loading the font this way:
 3. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
-    string fontPath = @"C:\Windows\Fonts\times.ttf";
+    string fontPath = @"C:\Windows\Fonts\Montserrat.ttf";
 
     // Initialize FontDefinition object passing TTF as FontType value, "ttf" as fileExtension value, 
     // and FileSystemStreamSource object. Parameter 'fileExtension' here is not duplicate value 
@@ -231,7 +231,7 @@ To load a font from the byte array you need to:
 4. Load the font.
 {{< highlight csharp >}}
     // Construct path to the file
-    string fontPath = @"C:\Windows\Fonts\times.ttf";
+    string fontPath = @"C:\Windows\Fonts\Montserrat.ttf";
 
     // Load font binary data into byte array
     byte[] fontBytes;
