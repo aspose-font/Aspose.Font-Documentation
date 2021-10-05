@@ -264,7 +264,7 @@ Syntax:
     font: 60pt Courier, monospace;
 }
 // text 3
-.text3{
+.text3 {
 }
 {{< /highlight >}}
 
