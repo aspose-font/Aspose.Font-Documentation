@@ -9,7 +9,7 @@ keywords: font formats, woff, truetype font, woff 2, opentype, font file, otf fo
 ---
 ## Which font format to choose? ##
 
-There are pretty many font formats already. You may have heard such as ttf, woff, woff2, open type, eot, type 1, and others. The first questions that appear in mind when you see that many font formats are:
+There are pretty many font formats already. You may have heard such as `TTF`, `WOFF`, `WOFF2`, `OpenType`, `EOT`, `Type 1`, and others. The first questions that appear in mind when you see that many font formats are:
 - Why have they all been developed?
 - Which one should I use in my project?
 
@@ -25,7 +25,7 @@ The other reason for the popularity of the `TTF` format is that this type uses s
 
 **Hints** are a pair of guidelines that define glyph position and thickness.  
 
-There are two components of TTF technology:
+There are two components of `TTF` format technology:
 - The first component is fonts themselves of many different designs and variations. All of them are licensed and have to be purchased. Some manufacturers provide you with sets of such fonts, so you can buy a collection of fonts, or just buy one which you intend to use. 
 - The second component is the rasterizer, which is embedded into the Apple Macintosh computers, and Microsoft’s Windows family of operating systems.
 
@@ -84,7 +84,7 @@ Because of the better-compressing methods, OpenType fonts are faster to send ove
 
 Adobe InDesign and Adobe Photoshop were the first applications that supported OpenType typography rules. By 2023 Adobe will not have supported `Type1` format anymore, supporting `OpenType` format instead. 
 
-### Embedded OpenType Font Fotmat ###
+### Embedded OpenType Font Format ###
 
 `Embedded OpenType` or `EOT` format. It is a compact format of OpenType fonts embedded into web pages. The format is developed by Microsoft. The format has the next peculiarities:
 - Because of using LZ compression and including only necessary characters into a font, OpenType files are compact.
@@ -125,7 +125,7 @@ It is said that `CFF`  is not exactly the font format. It is the way to compress
 
 It offers a notable space saving.
 
-The pcinzip of CFF work is that it works as a container to hold several fonts together as one unit. This unit is called FontSet.
+The prinzip of `CFF` work is that it works as a container to hold several fonts together as one unit. This unit is called FontSet.
 
 Like `Type 1` and `TrueType` formats, `CFF` also uses hinting. It uses the same methods to represent hints as `Type 1`, but they are easier and cleaner to write in code.
 
