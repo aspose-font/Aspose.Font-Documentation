@@ -17,9 +17,9 @@ The answer to the first one is simple. All the formats were created for specific
 
 ### TrueType Font Format ###
 
-`TrueType Font` format or `TTF` was first developed by Apple. Now it is one of the most popular formats as it is used in Microsoft and Apple operating systems. With the help of FreeType library fonts, `TrueType` format  can also be used in many Linux distributions.
+`TrueType Font` format or `TTF` was first developed by Apple. Now it is one of the most popular formats as it is used in Microsoft and Apple operating systems. With the help of `FreeType` library fonts, `TrueType` format  can also be used in many Linux distributions.
 
-The other reason for the popularity of the `TTF` format is that this type uses special technique to supply the high-quality rendering of the font on devices with low screen resolution. It uses the developed tool of instructions that allow fonts to have similar to bitmap fonts quality. On the other hand the process of font hinting is pretty challenging and time-consuming so many companies partly neglect it. As a result, an average TTF font may look worse than the equal font of the `PostScript` format.
+The other reason for the popularity of the `TTF` format is that this type uses special technique to supply the high-quality rendering of the font on devices with low screen resolution. It uses the developed tool of instructions that allow fonts to have similar to bitmap fonts quality. On the other hand the process of font hinting is pretty challenging and time-consuming so many companies partly neglect it. As a result, an average `TTF` font may look worse than the equal font of the `PostScript` format.
 
 **Font-hinting** - is a part of font rasterization used to improve text rendering.
 
@@ -31,25 +31,27 @@ There are two components of `TTF` format technology:
 
 `TrueType` format fonts can include up to 65000 glyphs coded in Unicode standard. But in fact most fonts have much more humble glyphsets. To learn more about glyphsets and glyphs encoding, see this article about [*glyphs*](https://docs.aspose.com/font/net/what-is-font/glyph/).
 
-Font in `TrueType` format is a single file with `.ttf` extension. In Mac OS it is a suitcase-file with SFNT resource. Beginning from Mac OS X, operational systems have an embedded font processor which supports TTF font files too. So a file with `.ttf` extension can be used on both platforms.
+Font in `TrueType` format is a single file with `.ttf` extension. In Mac OS it is a suitcase-file with SFNT resource. Beginning from Mac OS X, operational systems have an embedded font processor which supports `TTF` font files too. So a file with `.ttf` extension can be used on both platforms.
+
+Fonts of `TrueType` format can be located in one single file as a collection of fonts. Such a file would have `.ttc` extension.
 
 ### Web Open Font Format ###
 
 `Web Open Font Format` or `WOFF` was developed in 2009 to cover the needs of the web application market.
 
-It was created by adding format-specific compression to TrueType and OpenType fonts. It uses zlib compression that gives fonts about 40%compression. Another peculiarity of `WOFF` format is that the font of the format can include attached additional metadata. This metadata does not affect the way the font renders, but may be shown to a user when it is needed. Like when you use Aspose [*Font Viewer*](https://products.aspose.app/font/viewer). By choosing the font you want, you get much information about it: information about its license, number of glyphs, manufacturer, version, copyright information, etc.
+It was created by adding format-specific compression to `TrueType` and `OpenType` fonts. It uses zlib compression that gives fonts about 40% compression. Another peculiarity of `WOFF` format is that the font of the format can include attached additional metadata. This metadata does not affect the way the font renders, but may be shown to a user when it is needed. Like when you use Aspose [*Font Viewer*](https://products.aspose.app/font/viewer). By choosing the font you want, you get much information about it: information about its license, number of glyphs, manufacturer, version, copyright information, etc.
 
-Development of WOFF followed two main goals:
+Development of `WOFF` followed two main goals:
 - The first goal was to differentiate fonts for web applications from fonts that are used in the desktop environment and have to be locally installed. 
 - The second goal was to shorten the amount of time taken to transfer fonts from a server to a client over a network connection.
 
-WOFF files let developers use custom fonts instead of standard web fonts. The latest versions of most browsers support  `WOFF` format on desktop as well as on mobile devices.
+`WOFF` files let developers use custom fonts instead of standard web fonts. The latest versions of most browsers support  `WOFF` format on desktop as well as on mobile devices.
 
-WOFF file is a web-font file in `WOFF` format. It downloads a compressed container. The file has `.woff` extension.
+`WOFF` file is a web-font file in `WOFF` format. It downloads a compressed container. The file has `.woff` extension.
 
 The table below shows the browsers that support `WOFF` format.
 
-| **Operating system**| **Browsers with `WOFF` format support**|
+| **Operating system**| **Browsers with WOFF format support**|
 | :--- | :--- |
 |Windows|Mozilla Firefox, Opera, Google Chrome, Safari, Microsoft Internet Explorer, Microsoft Edge.|
 |Linux|Mozilla Firefox, Opera, Google Chrome.|
@@ -68,48 +70,48 @@ As `WOFF` format, `WOFF2` is also supported by most browsers.
 
 ### OpenType Font Format ###
 
-`OpenType` Font format or OTF was developed by a collaboration of Adobe and Microsoft.
+`OpenType` Font format or `OTF` was developed by a collaboration of Adobe and Microsoft.
 This format is an extension of `TrueType` format. 
 
-OpenType fonts are containers built on rules of `TrueType` format. This container can hold TrueType as well as PostScript data. In addition, OpenType fonts may contain new data types that are absent in `TrueType` format.
-Fonts that contain PostScript data have extension `.otf` and those that contain TrueType fonts have extension `.ttf`.
+`OpenType` fonts are containers built on rules of `TrueType` format. This container can hold `TrueType` as well as `PostScript` data. In addition, `OpenType` fonts may contain new data types that are absent in `TrueType` format.
+Fonts that contain `PostScript` data have extension `.otf` and those that contain `TrueType` fonts have extension `.ttf`.
 
-Alike `TrueType` format, each OpenType font uses one file to store information about outlines, metrics, and service data. One the same file can be set in Windows and Macintosh operating systems.
+Alike `TrueType` format, each `OpenType` font uses one file to store information about outlines, metrics, and service data. One the same file can be set in Windows and Macintosh operating systems.
 
-OpenType fonts use the multi-bite coding system Unicode which spans almost all world languages. OpenType fonts can also have a manufacturer’s digital signature which lets the operating system define the font origin and to find out if it was modified.
+`OpenType` fonts use the multi-byte coding system Unicode which spans almost all world languages. `OpenType` fonts can also have a manufacturer’s digital signature which lets the operating system define the font origin and to find out if it was modified.
 
-Because of the better-compressing methods, OpenType fonts are faster to send over the network and take less space on a drive. 
+Because of the better-compressing methods, `OpenType` fonts are faster to send over the network and take less space on a drive. 
 
 `OpenType` format has its typographic rules. The main feature of them is that the terms character and [*glyph*](https://docs.aspose.com/font/net/what-is-font/glyph/) are separate. Every character is defined by default with a basic glyph and the order of placement in the text. Applying additional rules to one or several characters may change their mutual arrangement or replace basic glyphs with alternative ones.
 
-Adobe InDesign and Adobe Photoshop were the first applications that supported OpenType typography rules. By 2023 Adobe will not have supported `Type1` format anymore, supporting `OpenType` format instead. 
+Adobe InDesign and Adobe Photoshop were the first applications that supported `OpenType` typography rules. By 2023 Adobe will not have supported [*Type1*](https://docs.aspose.com/font/net/what-is-font/font-formats/#type-1-font-format) format anymore, supporting `OpenType` format instead. 
 
 ### Embedded OpenType Font Format ###
 
-`Embedded OpenType` or `EOT` format. It is a compact format of OpenType fonts embedded into web pages. The format is developed by Microsoft. The format has the next peculiarities:
-- Because of using LZ compression and including only necessary characters into a font, OpenType files are compact.
+`Embedded OpenType` or `EOT` format. It is a compact format of `OpenType` fonts embedded into web pages. The format is developed by Microsoft. The format has the next peculiarities:
+- Because of using LZ compression and including only necessary characters into a font, `OpenType` files are compact.
 - The simplicity of embedding fonts into web pages may lead to uncontrolled spread of copyrighted fonts. `EOT` format has functions that prevent such violations. 
-- As EOT fonts have only a part of the number of characters the of original font the price of font copy is smaller.
-- Another feature of the font is that if the EOT font fails another available font will be used. So the page will always be readable.
+- As `EOT` fonts have only a part of the number of characters the of original font the price of font copy is smaller.
+- Another feature of the font is that if the `EOT` font fails another available font will be used. So the page will always be readable.
 
 The drawback of the font is that it is proprietary and supported only by Internet Explorer.
 
 ### Type 1 Font Format ###
 
-`Type 1` format came to market along with the PostScript programming language in 1984. Because of this, the format is also called Postscript Type 1.
+`Type 1` format came to market along with the PostScript programming language in 1984. Because of this, the format is also called `Postscript Type 1`.
 
 Font of `Type 1` format is a special form of the program Postscript and the file format, which is oriented on describing the font. 
 
 `Type 1` format is recognized by printers and computers either by built-in interpreters or by additional utilities like  Adobe Type Manager. This technology is present in Microsoft Windows and Macintosh OS X.
-The peculiarity of Type 1  fonts is that they do not support Unicode coding standards.
+The peculiarity of `Type 1`  fonts is that they do not support Unicode coding standards.
 
-Type 1 font for Microsoft may consist of the next files:
+`Type 1` font for Microsoft may consist of the next files:
 - Print Font Binary file (`.pfb` extension). The file includes information about outlines.
 - Adobe Font Metrics (`.afm` extension).  The file has information about glyph width and kerning.
 - Setup information File (`.inf` extension). Has the additional information for installation.
-- Print Font Metrics (`.pfm` extension). The file is generated during the installation process based on the information from INF and AFM files. After this only PFM and PFB files are used.
+- Print Font Metrics (`.pfm` extension). The file is generated during the installation process based on the information from `INF` and `AFM` files. After this only `PFM` and `PFB` files are used.
 
-Font Type 1 for Macintosh consists of a suitcase file and a printer file.
+Font `Type 1` for Macintosh consists of a suitcase file and a printer file.
 If you have one typeface you may have one suitcase file and four printer files (for `normal`, `bold`, `italic` and `bold italic` styles). Or you may get eight files, one suitcase for each font style plus four printer files.
 
 `Type 1` format has next drawbacks:
@@ -121,11 +123,11 @@ If you have one typeface you may have one suitcase file and four printer files (
 ### Compact Font Format ###
 
 `Compact Font Format` or `CFF` is also known as `Type 2` font format, or `CFF/Type 2` font format. 
-It is said that `CFF`  is not exactly the font format. It is the way to compress other font formats, like Type 1. 
+It is said that `CFF`  is not exactly the font format. It is the way to compress other font formats, like `Type 1`. 
 
 It offers a notable space saving.
 
-The prinzip of `CFF` work is that it works as a container to hold several fonts together as one unit. This unit is called FontSet.
+The principle of `CFF` work is that it works as a container to hold several fonts together as one unit. This unit is called FontSet.
 
 Like `Type 1` and `TrueType` formats, `CFF` also uses hinting. It uses the same methods to represent hints as `Type 1`, but they are easier and cleaner to write in code.
 
@@ -142,9 +144,11 @@ Some of them are known as web formats because they are built to suit purposes be
 - `WOFF`;
 - `WOFF2`;
 - `EOT`.
+
 But not a single one of them can be counted as a cross-platform one, so you may need to use a few of them simultaneously. 
 
 Regardless of which format you have chosen, you can manipulate it with [*Aspose.Font solution*](https://docs.aspose.com/font/). It comes in handy when you need to convert one font format to another like `TTF` to `WOFF` and vice versa or load a font. 
 Learn it yourself to see what advantages the solution gives to you.
+And if you have a need to convert one font to a font of a different format, you may also use an online web application. Aspose.Font has such a [*Font Converter*](https://products.aspose.app/font/conversion) in its ecosystem.
 
 
