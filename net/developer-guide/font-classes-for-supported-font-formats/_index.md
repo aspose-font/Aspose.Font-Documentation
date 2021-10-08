@@ -3,7 +3,7 @@ title: Aspose.Font classes for supported font formats | .NET
 linktitle: Aspose.Font classes for supported font formats
 type: docs
 weight: 5
-url: /net/developer-guide/font-classes
+url: /net/developer-guide/font-classes-for-supported-font-formats
 keywords: download font, save font, font type, convert font.
 description: Getting learned Aspose.Font library is better by starting from learning the hierarchy of its classes. Reading this information will give you a clearer understanding on how to manipulate fonts and where to start from in this process.
 ---
@@ -71,7 +71,7 @@ Below are the descriptions for each property.
 - [*FontType*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fonttype) FontType -  type of font format, represented by [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) enumeration.
 - [*FontStyle*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fontstyle) FontStyle - gets Font value from [*FontStyle*](https://apireference.aspose.com/font/net/aspose.font/fontstyle) enumeration. Learn more information about [*font styles*](https://docs.aspose.com/font/net/what-is-font/#font-style).
 - string Style - the name of the font style, similar to property FontStyle, represented in its raw string form, provided by font data. 
-- [*FontDefinition*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fontdefinition) FontDefinition - an object that describes the format and the font source. Go to [*How to load fonts*](https://docs.aspose.com/font/net/how-to-load-fonts/) where you can learn in detail how to work with this object.
+- [*FontDefinition*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fontdefinition) FontDefinition - an object that describes the format and the source to load font from. Go to [*How to load fonts*](https://docs.aspose.com/font/net/how-to-load-fonts/) where you can learn in detail how to work with this object.
 - int [*NumGlyphs*](https://apireference.aspose.com/font/net/aspose.font/font/properties/numglyphs) - gets number of glyphs of the Font.
 - [*FontMetrics*](https://apireference.aspose.com/font/net/aspose.font/font/properties/metrics) Metrics - gets a reference on [*IFontMetrics*](https://apireference.aspose.com/font/net/aspose.font/ifontmetrics) interface which provides functionality related to common font metrics.
 - [*FontEncoding*](https://apireference.aspose.com/font/net/aspose.font/font/properties/encoding) Encoding - gets a reference on [*IFontEncoding*](https://apireference.aspose.com/font/net/aspose.font/ifontencoding) interface, which provides encoding functionality.
@@ -79,7 +79,9 @@ Below are the descriptions for each property.
 - [*FontSaver*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fontsaver) FontSaver - provides a font saving functionality with [*IFontSaver*](https://apireference.aspose.com/font/net/aspose.font/ifontsaver) interface.
 
 Also, [*IFont*](https://apireference.aspose.com/font/net/aspose.font/ifont) interface defines method [*Convert()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/convert), which is used to convert font to another format. 
-At the moment there are available conversions from any [*format*](https://docs.aspose.com/font/net/convert/#supported-font-formats) supported by Aspose.Font for reading to `TTF` format. See [*Font converter*](https://docs.aspose.com/font/net/convert/) 
+At the moment there are available conversions from any format supported by Aspose.Font for reading to `TTF` format. [Supported font formats](https://docs.aspose.com/font/net/convert/#formats-supported-for-reading-andor-writing) are represented in the table.
+
+See [*Font converter*](https://docs.aspose.com/font/net/convert/) 
 for additional information on how to convert fonts with Aspose.Font.
 
 ### Font loading ###
@@ -106,15 +108,15 @@ These classes override certain  properties and methods of [*Aspose.Font*](https:
 ### TtfFont class ###
 
 This class is designed to support fonts of `TrueType` format.
-A reference to an object of this type can be obtained by calling the static method [*Font.Open()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/open/index), with transferring `TTF`, as value for [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) enumeration. Method [*Font.Open()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/open/index) returns reference on base [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) type, so the obtained reference has to be cast to `TtfFont` object type.
+A reference to an object of this type can be obtained by calling the static method [*Font.Open()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/open/index), with passing `TTF`, as value for [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) enumeration. Method [*Font.Open()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/open/index) returns reference on base [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) type, so the obtained reference has to be cast to `TtfFont` object type.
 
 As known from the `TrueType` format specification, the font data is represented in different [*tables*](https://apireference.aspose.com/font/net/aspose.font.ttftables).
 At the moment Aspose.Font library supports following tables: 
 `head`, `cmap`, `glyf`, `loca`, `hhea`, `hmtx`, `maxp`, `OS/2`, `name`, `post`, `kern`, `cvt`, `fpgm`, `prep`. 
 
-*The support for other tables specified by `TrueType` standard is planned to be realized in the near future.
+*The support for other tables specified by `TrueType` standard is planned to be implemented in the near future.
 
-Support for TrueType tables in Aspose.Font implemented by classes from namespace [*Aspose.Font.TtfTables*](https://apireference.aspose.com/font/net/aspose.font.ttftables). 
+Support for `TrueType` tables in Aspose.Font implemented by classes from namespace [*Aspose.Font.TtfTables*](https://apireference.aspose.com/font/net/aspose.font.ttftables). 
 Every class, which supports some table, has a name related to the  corresponding table name. 
 The naming of the class is fulfilled according to the next rule:
 the name of every class has the prefix `Ttf`, this prefix is followed by the name of the table and then the word "Table" ends the name of the class.
@@ -129,7 +131,7 @@ where the font is the reference on `TtfFont` type.
 Support for `OpenType` font features is represented by property [*CffFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont/properties/cfffont). This property returns the reference on [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) object,
 loaded from `CFF` table, which contains a `Compact Font Format font` representation. 
 
-Property [*IsSymbolic*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont/properties/issymbolic) used to detect whether the font is symbolic - specialized, that is composed of non-alphabetic characters, graphics, or both.
+Property [*IsSymbolic*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont/properties/issymbolic) used to detect whether the font is symbolic - specialized font, that is composed of non-alphabetic characters, graphics, or both.
 
 ## Access to font glyphs ##
 
@@ -139,7 +141,7 @@ Class [*TtfFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffo
 Using these methods works faster than using method  [*GetGlyphById()*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont/methods/getglyphbyid/index) from [*IGlyphAccessor*](https://apireference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor) interface.
 Also, [*TtfFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont) class provides a set of overloaded methods [*GetGlyphComponentsById()*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont/methods/getglyphcomponentsbyid/index). These methods are designed to work with composite glyphs.
 
-**Composite glyph** is a glyph that references one or more other glyphs in the font. For example, the glyph for Ä (A diaeresis), Unicode U+00C4, can be composed of the glyph for letter A (as the base glyph) and the diaeresis mark glyph.
+**Composite glyph** is a glyph that references one or more other glyphs in the font. For example, the glyph for character Ä (Unicode U+00C4), can be composed of the glyph for character A (as the base glyph) and the diaeresis mark glyph.
 
 Methods [*GetGlyphComponentsById()*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont/methods/getglyphcomponentsbyid/index) take the identifier of the composite glyph and return the list of glyphs the transferred composite glyph refers to.
 

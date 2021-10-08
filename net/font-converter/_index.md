@@ -36,7 +36,7 @@ The next formats are supported by the font converter from Aspose:
 
 All of the formats are supported for reading, and a few of them for writing. 
 
-### Formats supported for reading and/or writimg 
+### Formats supported for reading and/or writing 
 
 |**Format**|**Read**|**Write**|
 | :- | :- | :- |
