@@ -20,9 +20,9 @@ The reference on the just created object is returned by the static methods of th
 As for the specific for one or another font format information, for providing such information are responsible objects inherited from base Aspose.Font.
 The only data, specific for font format, which base [*Font*](https://apireference.aspose.com/font/net/aspose.font/font)  class includes, is the value from [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) enumeration.
 
-The next classes are inherited from [*Aspose.Font*](https://apireference.aspose.com/font/net/aspose.font/font) and used to work with specific font format: [*TtfFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont), [*Type1Font*](https://apireference.aspose.com/font/net/aspose.font.type1/type1font), or [*CffFont*](https://apireference.aspose.com/font/net/aspose.font.cff/cfffont).
+The next classes are inherited from [*Aspose.Font*](https://apireference.aspose.com/font/net/aspose.font/font) and used to work with specific font format: [*TtfFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont), [*Type1Font*](https://apireference.aspose.com/font/net/aspose.font.type1/type1font), [*CffFont*](https://apireference.aspose.com/font/net/aspose.font.cff/cfffont).
 
-### Interrelations between Font Format, FontType value and Aspose.Font object type ###
+### Interrelations between font format, FontType value and Aspose.Font object type ###
 
 The table below shows the accordance between the formats, supported by Aspose.Font, the corresponding to these formats values from [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) enumeration, and classes used for manipulating each of these formats.
 
@@ -33,11 +33,11 @@ The table below shows the accordance between the formats, supported by Aspose.Fo
 |`Type 1`|`Type 1`|[*Type1Font*](https://apireference.aspose.com/font/net/aspose.font.type1/type1font)|
 |`Compact Font Format` (`CFF`)|`CFF`|[*CffFont*](https://apireference.aspose.com/font/net/aspose.font.cff/cfffont)|
 
-### Interrelations between Font file Format, FontType value and Aspose.Font object type ###
+### Interrelations between font file format, FontType value and Aspose.Font object type ###
 
 The formats of the aforementioned fonts from [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) enumeration are wider terms than file formats for those fonts.
 
-For example, `TrueType` format covers the following file formats available for loading with Aspose.font: `ttf`, `ttc`, `eot`, `woff`, `woff2`. So the common feature for fonts with extensions `.ttf`, `.ttc`, `.eot`, `.woff`, `.woff2` is that they are all related to `TrueType` font family.
+For example, `TrueType` format covers the following file formats available for loading with Aspose.Font: `ttf`, `ttc`, `eot`, `woff`, `woff2`. So the common feature for fonts with extensions `.ttf`, `.ttc`, `.eot`, `.woff`, `.woff2` is that they are all related to `TrueType` font family.
 
 That is why, if replacing in the table the column “Font Format” to the column "Font file format", we will get the next table of relations between font file formats, fitting to them [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) values, and objects aimed to work with the corresponding font format in Aspose.Font.
 
@@ -69,7 +69,7 @@ Below are the descriptions for each property.
 - [*MultiLanguageString*](https://apireference.aspose.com/font/net/aspose.font/multilanguagestring) [*PostscriptNames*](https://apireference.aspose.com/font/net/aspose.font/font/properties/postscriptnames) - postscript name of the font, in different languages.
 - string [*FontFamily*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fontfamily) - the name of the font family. To get more details about  font families see [*Font family*](https://docs.aspose.com/font/net/what-is-font/#font-family) charpter.
 - [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) [*FontType*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fonttype) -  type of font format, represented by [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) enumeration.
-- [*FontStyle*](https://apireference.aspose.com/font/net/aspose.font/fontstyle) [*FontStyle*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fontstyle) - gets Font value from [*FontStyle*](https://apireference.aspose.com/font/net/aspose.font/fontstyle) enumeration. Learn more information about [*font styles*](https://docs.aspose.com/font/net/what-is-font/#font-style).
+- [*FontStyle*](https://apireference.aspose.com/font/net/aspose.font/fontstyle) [*FontStyle*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fontstyle) - font style value from [*FontStyle*](https://apireference.aspose.com/font/net/aspose.font/fontstyle) enumeration. Learn more information about [*font styles*](https://docs.aspose.com/font/net/what-is-font/#font-style).
 - string [*Style*](https://apireference.aspose.com/font/net/aspose.font/font/properties/style) - the name of the font style, similar to property [*FontStyle*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fontstyle), represented in its raw string form, provided by font data. 
 - [*FontDefinition*](https://apireference.aspose.com/font/net/aspose.font.sources/fontdefinition) [*FontDefinition*](https://apireference.aspose.com/font/net/aspose.font/font/properties/fontdefinition) - an object that describes the format and the source to load font from. Go to [*How to load fonts*](https://docs.aspose.com/font/net/how-to-load-fonts/) where you can learn in detail how to work with this object.
 - int [*NumGlyphs*](https://apireference.aspose.com/font/net/aspose.font/font/properties/numglyphs) - gets number of glyphs of the font.
@@ -97,12 +97,12 @@ To save a font use one of the overloaded methods [*Save()*](https://apireference
 In some cases there is a need to save a font into another format. For example, many web pages prefer working  with fonts in `WOFF` format and if you want to place your font on such a page you will have to save the font into `WOFF` format.
 Method [*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) was designed for such cases. 
 
-## Classes inherited from base Aspose.Font ##
+## Classes inherited from base Aspose.Font.Font class ##
 										
 ### CffFont and Type1Font classes ###
 										
 These classes are used to work with fonts of `Compact Font Format` and Adobe `Type 1` font format respectively.
-These classes override certain  properties and methods of [*Aspose.Font*](https://apireference.aspose.com/font/net/aspose.font/font) class, adapting them for the actual font format.
+These classes override certain  properties and methods of [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class, adapting them for the actual font format.
 
  
 ### TtfFont class ###
@@ -126,7 +126,7 @@ For example table `head` is supported by class [*TtfHeadTable*](https://apirefer
 References on all classes which support `TrueType` tables are collected by the object of type [*TtfTableRepository*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttftablerepository).
 
 [*TtfFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont) class gives the reference on the [*TtfTableRepository*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttftablerepository) object as property [*TtfTables*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont/properties/ttftables), so to get access to any `TrueType` table is possible by using syntax `font.TtfTables`,
-where the font is the reference on `TtfFont` type.
+where `font` is the reference on `TtfFont` type.
 
 Support for `OpenType` font features is represented by property [*CffFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont/properties/cfffont). This property returns the reference on [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) object,
 loaded from `CFF` table, which contains a `Compact Font Format font` representation. 
