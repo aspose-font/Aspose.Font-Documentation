@@ -4,11 +4,11 @@ linktitle: Convert Type1
 type: docs
 weight: 80
 url: /net/convert/type1
-keywords: "type 1 font converter, convert type 1 font to ttf, type 1 to ttf, type one to woff"
-descroption: "Here is the explanation with code examples on how to use the Aspose solution to convert Type 1 format to TTF, WOFF, and WOFF2 formats."
+keywords: type 1 font converter, convert type 1 font to ttf, type 1 to ttf, type one to woff
+descroption: Here is the explanation with code examples on how to use the Aspose solution to convert Type 1 format to TTF, WOFF, and WOFF2 formats.
 ---
 
-In this article, you will see how to convert Type 1 format. Aspose.Font for .NET offers you solutions for conversion Type 1 toTTF, Type 1 to WOFF, and Type 1 to WOFF2. 
+In this article, you will see how to convert `Type 1` format. Aspose.Font for .NET offers you solutions for conversion `Type 1` to `TTF`, `Type 1` to `WOFF`, and `Type 1` to `WOFF2`. 
 ____
 
 For all three conversions you need to put the next namespaces at the top of the head of the title:
@@ -22,9 +22,9 @@ Reach [How to convert the font into the desired format?](https://docs.aspose.com
 
 ## Convert Type1 to TTF 
 
-Fulfill the actions written below to tranform Type one True Type Font:
-1. Open Type1 font.
-2. Apply the output settings for the Type1 font.
+Fulfill the actions written below to tranform `Type one` to `True Type Font`:
+1. Open `Type1` font.
+2. Apply the output settings for the `Type1` font.
 3. Fulfill the conversion.
 
 {{< highlight csharp >}} 
@@ -46,7 +46,7 @@ Fulfill the actions written below to tranform Type one True Type Font:
 
 For this you will need to take the next steps:
 
-1. Open Type1 font.
+1. Open `Type1` font.
 2. Add the output settings.
 3. Fulfill the conversion.
 
@@ -69,7 +69,7 @@ For this you will need to take the next steps:
 
 Follow the written below algorithm to convert the fonts:
 
-1. Open Type1 font.
+1. Open `Type1` font.
 2. Notify the next output settings.
 3. Fulfill the conversion.
 

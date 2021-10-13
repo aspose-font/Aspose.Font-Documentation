@@ -4,11 +4,11 @@ linktitle: Convert TTF to WOFF2
 type: docs
 weight: 20
 url: /net/convert/ttf-to-woff2
-keywords: "convert ttf to woff2"
-description: "Here you will find out how to convert ttf to woff2 using the Aspose.Font for .NET."
+keywords: convert ttf to woff2
+description: Here you will find out how to convert ttf to woff2 using the Aspose.Font for .NET.
 ---
 
-On this page you will find the example of using the Aspose solution for converting from TrueType font to Web Open Font Format.
+On this page you will find the example of using the Aspose solution for converting from `TrueType` font to `Web Open Font Format version 2`.
 _______
 
 Use the following namespaces at the head of the file:
@@ -24,7 +24,7 @@ If you need to know the Aspose conversion fundamentals get to
 
 Then take the next steps:
 
-1. Open TTF font.
+1. Open `TTF` font.
 {{< highlight csharp >}}
     // Open ttf font
     string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
@@ -32,14 +32,14 @@ Then take the next steps:
     Font font = Font.Open(fontDefinition);
 {{< /highlight >}}
 
-2. Write the output settings for the WOFF2 format.
+2. Write the output settings for the `WOFF2` format.
 {{< highlight csharp >}}
     // Woff2 output settings
     string outPath = Path.Combine(OutputDir, "TtfToWoff2_out1.woff2");
     FileStream outStream = File.Create(outPath);
 {{< /highlight >}}
 
-3. Make conversion from TTF to WOFF2 and save the result using [*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance.
+3. Make conversion from `TTF` to `WOFF2` and save the result using [*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance.
 {{< highlight csharp >}}
     // Convert ttf to woff2
     font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
