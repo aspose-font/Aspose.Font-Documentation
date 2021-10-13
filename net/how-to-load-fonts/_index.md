@@ -4,13 +4,13 @@ linktitle: How to load fonts?
 type: docs
 weight: 60
 url: /net/how-to-load-fonts
-keywords: download a font, extract a font.
+keywords: download a font, extract a font, how to load fonts.
 description: Here is described documentation on how to load fonts from different sources. You will learn the objects, parameters, methods required for this, and get examples of loading.
 ---
 
 ## Overview ##
 
-Any font is physically an array of bytes in which data is represented in some format.
+ To answer the question, how to load fonts, first we need to learn that any font is physically an array of bytes in which data is represented in some format.
 Therefore, for correct font loading you need to know two key parameters:
 - Font format. Fonts can have different formats like `TrueType`, `Type1`, etc.
 - Storage, where the binary data that represents the font is being held. Each font is represented as binary data but the way this data is stored may differ. In most cases, the font is being stored as a file on a hard drive. But sometimes font binary data can be placed in a different file which is not a font itself. For example, files created by Microsoft Word or Adobe Acrobat. These are files with extensions `.docx`, `.pdf`. They can include different fonts.	
@@ -145,7 +145,7 @@ Below you can learn examples of [*FontDefiniton*](https://apireference.aspose.co
 In all the cases the final font loading result is put into the variable of [*Aspose.Font.Font*](https://apireference.aspose.com/font/net/aspose.font/font) type. This type is the basic font class of [*Aspose.Font*](https://apireference.aspose.com/font/net/aspose.font) library and objects of this type provide common base functionality to work with fonts. 
 Loading the font into this object you will be able to render text with this font, get coding information, font metrics, etc.
 
-## Examples of font loading ##
+## Examples of how to load fonts ##
 
 Let's have as an example, loading font `Montserrat` from the file C:\Windows\Fonts\Montserrat.ttf
 

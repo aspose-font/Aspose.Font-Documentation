@@ -3,7 +3,7 @@ title: Font Formats
 linktitle: Font Formats
 type: docs
 weight: 40
-url: /net/what-is-font/font-formats
+url: /java/what-is-font/font-formats
 description: The diversity of font formats allows you to choose the one that really suits your purposes answering your demands in readability, scalability, the platform you use, or space-saving. The most popular and well-known one is TrueType Font.
 keywords: font formats, woff, truetype font, woff 2, opentype, font file, otf font, eot file, eot font, ttf, cff.
 ---
@@ -29,7 +29,7 @@ There are two components of `TTF` format technology:
 - The first component is fonts themselves of many different designs and variations. All of them are licensed and have to be purchased. Some manufacturers provide you with sets of such fonts, so you can buy a collection of fonts, or just buy one which you intend to use. 
 - The second component is the rasterizer, which is embedded into the Apple Macintosh computers, and Microsoft’s Windows family of operating systems.
 
-`TrueType` format fonts can include up to 65000 glyphs coded in Unicode standard. But in fact most fonts have much more humble glyphsets. To learn more about glyphsets and glyphs encoding, see this article about [*glyphs*](https://docs.aspose.com/font/net/what-is-font/glyph/).
+`TrueType` format fonts can include up to 65000 glyphs coded in Unicode standard. But in fact most fonts have much more humble glyphsets. To learn more about glyphsets and glyphs encoding, see this article about [*glyphs*](https://docs.aspose.com/font/java/what-is-font/glyph/).
 
 Font in `TrueType` format is a single file with `.ttf` extension. In Mac OS it is a suitcase-file with SFNT resource. Beginning from Mac OS X, operational systems have an embedded font processor which supports `TTF` font files too. So a file with `.ttf` extension can be used on both platforms.
 
@@ -82,9 +82,9 @@ Alike `TrueType` format, each `OpenType` font uses one file to store information
 
 Because of the better-compressing methods, `OpenType` fonts are faster to send over the network and take less space on a drive. 
 
-`OpenType` format has its typographic rules. The main feature of them is that the terms character and [*glyph*](https://docs.aspose.com/font/net/what-is-font/glyph/) are separate. Every character is defined by default with a basic glyph and the order of placement in the text. Applying additional rules to one or several characters may change their mutual arrangement or replace basic glyphs with alternative ones.
+`OpenType` format has its typographic rules. The main feature of them is that the terms character and [*glyph*](https://docs.aspose.com/font/java/what-is-font/glyph/) are separate. Every character is defined by default with a basic glyph and the order of placement in the text. Applying additional rules to one or several characters may change their mutual arrangement or replace basic glyphs with alternative ones.
 
-Adobe InDesign and Adobe Photoshop were the first applications that supported `OpenType` typography rules. By 2023 Adobe will not have supported [*Type1*](https://docs.aspose.com/font/net/what-is-font/font-formats/#type-1-font-format) format anymore, supporting `OpenType` format instead. 
+Adobe InDesign and Adobe Photoshop were the first applications that supported `OpenType` typography rules. By 2023 Adobe will not have supported [*Type1*](https://docs.aspose.com/font/java/what-is-font/font-formats/#type-1-font-format) format anymore, supporting `OpenType` format instead. 
 
 ### Embedded OpenType Font Format ###
 
@@ -115,7 +115,7 @@ Font `Type 1` for Macintosh consists of a suitcase file and a printer file.
 If you have one typeface you may have one suitcase file and four printer files (for `normal`, `bold`, `italic` and `bold italic` styles). Or you may get eight files, one suitcase for each font style plus four printer files.
 
 `Type 1` format has next drawbacks:
-- [*Glyphsets*](https://docs.aspose.com/font/net/what-is-font/glyph/#glyphsets) are limited to 256 glyphs.
+- [*Glyphsets*](https://docs.aspose.com/font/java/what-is-font/glyph/#glyphsets) are limited to 256 glyphs.
 - Fonts of this format are not cross-platform.
 - When getting a font, you get many separate files.
 - The format is very old and will not have been supported by Adobe by 2023. Some programs have stopped supporting it already.

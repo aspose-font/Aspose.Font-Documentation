@@ -3,7 +3,7 @@ title: What is font?
 linktitle: What is font?
 type: docs
 weight: 5
-url: /net/what-is-font
+url: /java/what-is-font
 description:  What is font, is a pretty complex question. It should be answered along with disclosing the properties that fonts have and classify fonts depending on these properties. 
 keywords: what is font, glyph, typeface, font family.
 ---
@@ -70,13 +70,13 @@ The following image will show you the difference in the sizes of the Arial font.
 ### Font weight ###
 
 Font weight is the thickness of a font. 
-One typeface can have a few weights when the others, more than ten. Also, the main width of a font differs from one typeface to another. [*Display fonts*](https://docs.aspose.com/font/net/what-is-font/font-types/#display-fonts) are usually much bolder to grab more attention.
+One typeface can have a few weights when the others, more than ten. Also, the main width of a font differs from one typeface to another. [*Display fonts*](https://docs.aspose.com/font/java/what-is-font/font-types/#display-fonts) are usually much bolder to grab more attention.
 The four most common weights are illustrated in the picture below, using the font Lora.
 
 ![Font weight](Font_weight.png)
 ### Font type ## 
 
-[*Font type*](https://docs.aspose.com/font/net/what-is-font/font-types) is a group of fonts with some common features. The most known are five types: serif fonts, sans serif fonts, script fonts, monospace fonts, and display fonts.
+[*Font type*](https://docs.aspose.com/font/java/what-is-font/font-types) is a group of fonts with some common features. The most known are five types: serif fonts, sans serif fonts, script fonts, monospace fonts, and display fonts.
 
 ![Font types](Font_types.png)
 ### Font variant ### 
