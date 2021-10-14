@@ -46,5 +46,5 @@ You may find useful the following links on the resources of the solution.
 Go to our  [GitHub](https://github.com/aspose-font/Aspose.Font-Documentation) to see code examples or contribute to the solution.
 
 {{% alert color="primary" %}}
-If you are willing to try the functional of the solution without integrating it see our [*free online applications*](https://products.aspose.app/font) 
+If you are willing to try the functional of the solution without integrating it see our [*free online applications*](https://products.aspose.app/font). 
 {{% /alert %}}

@@ -40,7 +40,7 @@ You may find useful the following links on the resources of the solution.
 - [Aspose.Font for C++ Product Page](https://products.aspose.com/font/cpp) - here is the landing page, where you can buy the product or get a free trial.
 - [Install Aspose.Font for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Font.cpp/) - go here to get the NuGet of Aspose.Font for C++.
 - [Aspose.Font for C++ API Reference Guide](https://apireference.aspose.com/font/cpp) - all the Aspose.Font for C++ entities are gathered here.
-- [Aspose.Font for C++ Free Support Forum](https://forum.aspose.com/c/font)- having a free trial and needing help in managing fonts with our product here you will have your issues covered.
+- [Aspose.Font for C++ Free Support Forum](https://forum.aspose.com/c/font) - having a free trial and needing help in managing fonts with our product here you will have your issues covered.
 - [Aspose.Font for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/) - for users who have gotten a purchased product here is the place where you can get your issues solved asap.
 
 Go to our  [GitHub](https://github.com/aspose-font/Aspose.Font-Documentation) to see code examples or contribute to the solution.
