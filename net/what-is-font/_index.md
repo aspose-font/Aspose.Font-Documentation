@@ -4,13 +4,15 @@ linktitle: What is font?
 type: docs
 weight: 5
 url: /net/what-is-font
-description: In this article, we will have a look at the properties that fonts have and classify fonts depending on these properties.
+description:  What is font, is a pretty complex question. It should be answered along with disclosing the properties that fonts have and classify fonts depending on these properties. 
 keywords: what is font, glyph, typeface, font family.
 ---
 
 ## Glossary ##
 
-First, we need to notify the terms used in this article.
+Let's notify the terms used in this article.
+
+And the first and the main question is, what is font?
 
 **Font** is the set of graphical representations of symbols. The way a font looks depends on the font's parameters such as type family, typeface, font proportions, etc.
 
@@ -24,6 +26,7 @@ In the image below, you see the glyph `@` rendered in different fonts.
 **Typeface** - is a specific design of a font. It has size, weight, width, slope, and other variations. It is often confused with the term **font**. The point is that fonts have particular (fixed) parameters. So the difference is in having variations. Therefore every variation in a typeface is an individual font. 
 The term **typeface** is also often mixed up with the type/font family. 
 
+So, what is font family?
 **Font family** is a group of related, similar in design typefaces. The members of a family have a common name. 
 
 The image below will clarify to you the difference between font, typeface and font family.
@@ -93,8 +96,8 @@ For example Roboto font family includes: Roboto slant, Roboto condensed, Roboto 
 ![Font families](Font_families.png)
 ## Conclusion ##
 
-There are a lot of parameters depending on which you can classify fonts.
-All of them affect the font appearance so they are needed to take into account when designing interfaces or choosing a font for any other target.
+In the article, we tried to give you an answer to the question, what is font.
+Now you also know that there are a lot of parameters depending on which you can classify fonts. All of them affect the font appearance so they are needed to take into account when designing interfaces or choosing a font for any other target.
 
 {{% alert color="primary" %}}
 If you need to see the font parameters you may find a free application from Aspose useful. It is easy to use [*Font viewer*](https://products.aspose.app/font/viewer). 

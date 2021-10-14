@@ -4,8 +4,8 @@ linktitle: Font Conversion. Advanced details
 type: docs
 weight: 100
 url: /net/convert/advanced-method-for-font-conversiton
-keywords: "front convertor, font converter, font format converter"
-description: "To convert font formats with Aspose is pretty easy now. But sometimes you need to read/modify converted font data before saving the font. The method described is aimed to help with it."
+keywords: front convertor, font converter, font format converter
+description: To convert font formats with Aspose is pretty easy now. But sometimes you need to read/modify converted font data before saving the font. The method described is aimed to help with it.
 ---
 
 In some cases, there is a sense to read/modify converted font data before saving the font.
@@ -18,23 +18,23 @@ The next table shows a map of coherence between [*FontType*](https://apireferenc
 
 | **Font type**| **Font object**|
 | :- | :- |
-|TTF|Aspose.Font.Ttf.TtfFont|
-|Type1|Aspose.Font.Type1.Type1Font|
-|CFF|Aspose.Font.Cff.CffFont|
-|OTF|Aspose.Font.Ttf.TtfFont|
+|`TTF`|Aspose.Font.Ttf.TtfFont|
+|`Type1`|Aspose.Font.Type1.Type1Font|
+|`CFF`|Aspose.Font.Cff.CffFont|
+|`OTF`|Aspose.Font.Ttf.TtfFont|
 
 
 Use resultant font object to access/change font properties before saving resultant font or instead of saving resultant font.
 
-At the current moment method [*Convert()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/convert) supports conversion only into TrueType font format(FontType.TTF), so it always returns 
+At the current moment method [*Convert()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/convert) supports conversion only into `TrueType` font format (FontType.TTF), so it always returns 
 the object of type [*TtfFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont) as result of conversion independently of source font used. 
 
-Next code snippet loads CFF font 'CenturyGothic' from disk, converts it into TrueType format, and changes the name of the converted font to "CenturyGothic_Converted".
+Next code snippet loads `CFF` font `CenturyGothic` from disk, converts it into `TrueType` format, and changes the name of the converted font to "CenturyGothic_Converted".
 
 Fulfill the next actions:
 
 1. Open the font.
-2. Convert the font into TrueType format.
+2. Convert the font into `TrueType` format.
 3. Change the name of the converted font.
 4. Notify the output settings.
 5. Save the resultant with the just changed name.

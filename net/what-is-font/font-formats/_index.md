@@ -147,7 +147,7 @@ Some of them are known as web formats because they are built to suit purposes be
 
 But not a single one of them can be counted as a cross-platform one, so you may need to use a few of them simultaneously. 
 
-Regardless of which format you have chosen, you can manipulate it with [*Aspose.Font *](https://docs.aspose.com/font/)solution. It comes in handy when you need to convert one font format to another like `TTF` to `WOFF` and vice versa or load a font. 
+Regardless of which format you have chosen, you can manipulate it with [*Aspose.Font*](https://docs.aspose.com/font/)solution. It comes in handy when you need to convert one font format to another like `TTF` to `WOFF` and vice versa or load a font. 
 Learn it yourself to see what advantages the solution gives to you.
 And if you have a need to convert one font to a font of a different format, you may also use an online web application. Aspose.Font has such a [*Font Converter*](https://products.aspose.app/font/conversion) in its ecosystem.
 
