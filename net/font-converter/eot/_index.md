@@ -8,7 +8,7 @@ keywords: convert eot to ttf, eot woff woff2
 description: Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert CFF format.
 ---
 
-It is known that Embedded Open Type(EOT) is supported mainly by the Internet Explorer browser. Because of that, to render correctly you will need to build in your software converter to EOT from other font formats and vice versa. In this article, it is described how to use the Aspose.Font for .NET to convert EOT to TTF, EOT to WOFF, and EOT to WOFF2.
+It is known that `Embedded Open Type` (`EOT`) is supported mainly by the Internet Explorer browser. Because of that, to render correctly you will need to build in your software converter to `EOT` from other font formats and vice versa. In this article, it is described how to use the Aspose.Font for .NET to convert `EOT` to `TTF`, `EOT` to `WOFF`, and `EOT` to `WOFF2`.
 _____________
 
 For all the conversions you will need these namespaces:
@@ -23,9 +23,9 @@ The information about the font conversion fundamentals is notified in [How to co
 
 ## Convert EOT to TTF
 
-To transform Embedded Open Type to True Type Format you will need:
-1. Open EOT font.
-2. Notify the output settings for TTF font.
+To transform `Embedded Open Type` to `True Type Format` you will need:
+1. Open `EOT` font.
+2. Notify the output settings for `TTF` font.
 3. Run the fon conversion.
 
 {{< highlight csharp >}}
@@ -42,10 +42,10 @@ To transform Embedded Open Type to True Type Format you will need:
 {{< /highlight >}}
 
 ## Convert EOT to WOFF
-To get Web Open Font Format from Embedded Open Type the next actions have to be done:
+To get `Web Open Font Format` from `Embedded Open Type` the next actions have to be done:
 
-1. Open EOT font.
-2. Notify the output settings for the WOFF font.
+1. Open `EOT` font.
+2. Notify the output settings for the `WOFF` font.
 3. Fulfill the fon conversion.
 
 {{< highlight csharp >}}
@@ -65,10 +65,10 @@ To get Web Open Font Format from Embedded Open Type the next actions have to be 
 
 ## Convert EOT to WOFF2
 
-If you need to get the second version of the Web Open Font Format from Embedded Open type the taken steps are the same:
-1. Open EOT Font.
-2. Add the output settings for the WOFF2 font.
-3. Convert EOT to WOFF2 and save the result.
+If you need to get the second version of the `Web Open Font Format` from `Embedded Open type` the taken steps are the same:
+1. Open `EOT` Font.
+2. Add the output settings for the `WOFF2` font.
+3. Convert `EOT` to `WOFF2` and save the result.
 
 {{< highlight csharp >}}
     // Open eot font

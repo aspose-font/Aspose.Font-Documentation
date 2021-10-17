@@ -2,16 +2,16 @@
 title: Convert TTF to WOFF | .NET
 linktitle: Convert TTF to WOFF
 type: docs
-keywords: "font converter ttf to woff, convert ttf font to webfont"
-description: "Examples with code snippets how to use Aspose.Font for .NET to convert ttf to woff "
+keywords: font converter ttf to woff, convert ttf font to webfont.
+description: Examples with code snippets how to use Aspose.Font for .NET to convert ttf to woff 
 weight: 10
 url: /net/convert/ttf-to-woff
 ---
 
 
 
-If you came across a font you like to use in your interface, and it is only available in TTF format, but you use WOFF in your project, you may need a solution that converts fonts.
-The following documentation will show you how to easily use the Aspose.Font for .NET to transform fonts from True type to WebFont.
+If you came across a font you like to use in your interface, and it is only available in `TTF` format, but you use `WOFF` in your project, you may need a solution that converts fonts.
+The following documentation will show you how to easily use the Aspose.Font for .NET to transform fonts from `True type` to `WebFont`.
 
 ______
 
@@ -26,10 +26,10 @@ using System.IO;
 
 The fundamentals for the conversion are placed in [How to convert the font into the desired format?](https://docs.aspose.com//font/net/convert/#how-to-convert-the-font-into-the-desired-format) section.
 
-To convert TTF to WOFF you will need to take the following steps:
+To convert `TTF` to `WOFF` you will need to take the following steps:
 
 
-1. Open TTF font.
+1. Open `TTF` font.
 {{< highlight csharp >}}
     // Open ttf font
     string fontPath = Path.Combine(DataDir, "Montserrat-Regular.ttf");
@@ -44,7 +44,7 @@ To convert TTF to WOFF you will need to take the following steps:
     FileStream outStream = File.Create(outPath);
 {{< /highlight >}}
 
-3. Convert font to WOFF.
+3. Convert font to `WOFF`.
 {{< highlight csharp >}}
     // Convert ttf to woff
     font.SaveToFormat(outStream, FontSavingFormats.WOFF);

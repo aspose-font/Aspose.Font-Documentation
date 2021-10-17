@@ -4,11 +4,11 @@ linktitle: Convert CFF
 type: docs
 weight: 90
 url: /net/convert/cff
-keywords: "convert cff to ttf, cff to ttf converter, convert compact font format"
-description: "Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert CFF format."
+keywords: convert cff to ttf, cff to ttf converter, convert compact font format
+description: Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert CFF format.
 ---
 
-The article will explain to you with the code how to transform CFF format. Aspose solution now gives you the opportunity to convert CFF to TTF, CFF to WOFF, and CFF to WOFF2.
+The article will explain to you with the code how to transform `CFF` format. Aspose solution now gives you the opportunity to convert `CFF` to `TTF`, `CFF` to `WOFF`, and `CFF` to `WOFF2`.
 ____
 
 First, add the next namespaces at the top of the head of the title:
@@ -24,7 +24,7 @@ In [How to convert the font into the desired format?](https://docs.aspose.com//f
 
 To fulfill the operation follow the next steps:
 
-1. Open CFF font.
+1. Open `CFF` font.
 2. Notify the output settings.
 3. Run the conversion.
 
@@ -45,9 +45,9 @@ To fulfill the operation follow the next steps:
 
 ## Convert CFF to WOFF
 
-To transform Compact Font Format to Web Open Font Format you will need to follow the algorithm:
+To transform `Compact Font Format` to `Web Open Font Format` you will need to follow the algorithm:
 
-1. Open CFF font.
+1. Open `CFF` font.
 2. Place the settings for the output font stream.
 3. Process the conversion.
 
@@ -68,11 +68,11 @@ To transform Compact Font Format to Web Open Font Format you will need to follow
 
 ## Convert CFF to WOFF2
 
-To fulfill Compact Font Format to Web Open Font Format version2 conversion, take the three steps below:
+To fulfill `Compact Font Format` to `Web Open Font Format version 2` conversion, take the three steps below:
 
-1. Open the CFF.
+1. Open the `CFF`.
 2. Notify the output settings.
-3. Convert CFF to WOFF2 and save the result.
+3. Convert `CFF` to `WOFF2` and save the result.
 {{< highlight csharp >}} 
     // Open cff font
     byte[] fontMemoryData = File.ReadAllBytes(Path.Combine(DataDir, "OpenSans-Regular.cff"));
