@@ -14,3 +14,13 @@ net-examples/UpgradeLog.htm
 
 net-examples/Out/
 net-examples/Data/**/*.lic
+
+java-examples/**/.settings
+java-examples/**/.recommenders
+java-examples/**/.project
+java-examples/**/.metadata
+java-examples/**/.classpath
+java-examples/**/target
+
+java-examples/Data/**/*.lic
+java-examples/Out
