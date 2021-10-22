@@ -26,7 +26,7 @@ The documentation is divided into sections that will provide you with the follow
 
 [*What is font?*](https://docs.aspose.com/font/net/what-is-font/) This folder holds a collection of articles that will help you get to know the basic topics about fonts. Here you will build up the glossary and grasp the relations between the objects and terms you will further need in font manipulations.
 
-[*Getting Started*](https://docs.aspose.com/font/net/getting-started/). will give you such information as the product overview, information about font formats supported, information about the features provided, system requirements, licensing, and so on.
+[*Getting Started*](https://docs.aspose.com/font/net/getting-started/). Will give you such information as the product overview, information about font formats supported, information about the features provided, system requirements, licensing, and so on.
 
 [*Developer Guide*](https://docs.aspose.com/font/net/developer-guide/). There are articles describing the main entities of Aspose.Font for .NET in this section. As an example, the article will introduce the classes hierarchy of the solution to you.
 
