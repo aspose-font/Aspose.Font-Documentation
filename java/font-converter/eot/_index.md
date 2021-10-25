@@ -1,10 +1,10 @@
 ---
-title: Convert EOT | .NET
+title: Convert EOT | Java
 linktitle: Convert EOT
 type: docs
 weight: 70
-url: /net/convert/eot
-keywords: convert eot to ttf, eot woff woff2
+url: /java/convert/eot
+keywords: convert eot to ttf java, eot woff woff2 java.
 description: Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert CFF format.
 ---
 

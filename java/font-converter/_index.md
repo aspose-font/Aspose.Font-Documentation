@@ -78,7 +78,7 @@ Here you can learn the pairs of fonts which are currently provided for conversio
 [*SaveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method of the base abstract [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font#save-java.lang.String-) class instance. [*SaveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/java/com.aspose.font/FontSavingFormats) enumeration for choosing the output font format.
 Method [*SaveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) allows you to save fonts into any of the output formats supported. 
 
-You need to import the next instances:
+You need to import the next classes:
 {{< highlight java >}} 
 package com.aspose.font;
 
