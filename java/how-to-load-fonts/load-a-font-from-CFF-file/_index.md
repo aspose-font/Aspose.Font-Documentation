@@ -1,11 +1,11 @@
 ---
-title: Load a font from CFF file | JAVA
+title: Load a font from CFF file | Java
 linktitle: Load a font from CFF file
 type: docs
 weight: 20
 url: /java/how-to-load-fonts/load-a-font-from-CFF-file
 keywords: load font java, download ccf font java, extract font from cff file java.
-description: With Aspose.Font for JAVA solution you can load a font from a file on your hard drive disk even if this file is not a font inself. Let’s look at how to make it from a CFF file.
+description: With Aspose.Font for Java solution you can load a font from a file on your hard drive disk even if this file is not a font inself. Let’s look at how to make it from a CFF file.
 ---
 
 Get a closer look on how to load font in particulary `CenturyGothic` placed in the file CenturyGothic.cff.

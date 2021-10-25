@@ -1,11 +1,11 @@
 ---
-title: How to load fonts? | JAVA
+title: How to load fonts? | Java
 linktitle: How to load fonts?
 type: docs
 weight: 35
 url: /java/how-to-load-fonts
 keywords: download a font java, extract a font java, how to load fonts java,font downloader.
-description: How to download fonts on yout device with the use of Aspose.Font for JAVA solution? The answer is given in this article. Not only you will know how to load any font but also see the code examples on how to fulfill font loading.
+description: How to download fonts on yout device with the use of Aspose.Font for Java solution? The answer is given in this article. Not only you will know how to load any font but also see the code examples on how to fulfill font loading.
 ---
 
 ## Overview ##
@@ -17,7 +17,7 @@ Therefore, for correct font loading you need to know two key parameters:
 
 ## Objects and parameters required for font loading ##
 
-Aspose.Font for JAVA gives object [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) for notifying two key parameters demanded for font loading.
+Aspose.Font for Java gives object [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) for notifying two key parameters demanded for font loading.
 After creating and initiating [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object you only need to call static method [*Aspose.Font.Font.Open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-) and pass just initialized object [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) as a parameter to load the desired font and get a reference on it.
 
 
@@ -34,7 +34,7 @@ Let’s describe it with the pseudocode:
 {{< /highlight >}}
 
 The final result of the font loading is getting an object of [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type.
-Class [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) is a base font class of [*Aspose.Font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) for the JAVA library. It represents the main functionality of working with fonts.
+Class [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) is a base font class of [*Aspose.Font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) for the Java library. It represents the main functionality of working with fonts.
 
 Getting loaded a font into [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type object you will be able to render text with this font, get encoding data, and font metrics. You will also be able to modify or save this font and many more.
 
