@@ -149,7 +149,7 @@ Loading the font into this object you will be able to render text with this font
 
 ## Examples of how to load fonts ##
 
-Let's have as an example, loading font `Montserrat` from the file C:\Windows\Fonts\Montserrat.ttf
+Let's have as an example, loading font `Montserrat` from the file Montserrat-Regular.ttf.
 
 Import the next classes:
 
