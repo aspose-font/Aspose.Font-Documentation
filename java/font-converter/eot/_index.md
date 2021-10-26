@@ -37,7 +37,7 @@ The information about the font conversion fundamentals is notified in [How to co
 To transform `Embedded Open Type` to `True Type Format` you will need:
 1. Open `EOT` font.
 2. Notify the output settings for `TTF` font.
-3. Run the fon conversion.
+3. Run the font conversion.
 
 {{< highlight java>}}
     // Open eot font, passing TTF as value for FontType, TtfFont will be returned as result of call Font.Open()

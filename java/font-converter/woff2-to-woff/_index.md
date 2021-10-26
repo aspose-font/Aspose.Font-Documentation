@@ -46,8 +46,8 @@ Then to fulfil `WOFF2` to `WOFF` conversion you will need to take these three st
 2. Write the output setting for the `WOFF` format.
 {{< highlight java >}} 
     // Woff output settings
-		String outPath = Paths.get(getOutputDir(), "Woff2ToWoff_out1.woff").toString();
-		FileOutputStream outStream = new FileOutputStream(outPath);
+    String outPath = Paths.get(getOutputDir(), "Woff2ToWoff_out1.woff").toString();
+    FileOutputStream outStream = new FileOutputStream(outPath);
 {{< /highlight >}}
 
 3. Convert and save the font result.
