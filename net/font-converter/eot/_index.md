@@ -46,7 +46,7 @@ To get `Web Open Font Format` from `Embedded Open Type` the next actions have to
 
 1. Open `EOT` font.
 2. Notify the output settings for the `WOFF` font.
-3. Fulfill the fon conversion.
+3. Fulfill the font conversion.
 
 {{< highlight csharp >}}
     // Open eot font

@@ -40,7 +40,7 @@ To fulfill the operation follow the next steps:
 2. Notify the output settings.
 3. Run the conversion.
 
-{{< highlight java >}} 
+{{< highlight charp >}} 
     // Open cff font
     String fontPath = Paths.get(getDataDir(), "CenturyGothic.cff").toString();
     FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new FileSystemStreamSource(fontPath)));
@@ -101,7 +101,7 @@ To fulfill `Compact Font Format` to `Web Open Font Format version 2` conversion,
 
 
 {{% alert color="primary" %}}
-If you need to learn more examples of using the solution to convert fonts you will find useful the [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples/convertfont), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation).
+If you need to learn more examples of using the solution to convert fonts you will find useful the [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples/convertfont), in the [*java-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation).
 
 
 Try [*Font Conversion application*](https://products.aspose.app/font/conversion) in case you want to learn the functional online for free.
