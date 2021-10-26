@@ -80,26 +80,26 @@ Method [*SaveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.f
 
 You need to import the next classes:
 {{< highlight java >}} 
-package com.aspose.font;
+    package com.aspose.font;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+    import java.io.FileOutputStream;
+    import java.io.IOException;
+    import java.nio.file.Files;
+    import java.nio.file.Paths;
 
-import com.aspose.font.ByteContentStreamSource;
-import com.aspose.font.FileSystemStreamSource;
-import com.aspose.font.Font;
-import com.aspose.font.FontDefinition;
-import com.aspose.font.FontFileDefinition;
-import com.aspose.font.FontSavingFormats;
-import com.aspose.font.FontType;
-import com.aspose.font.TtfFont;
+    import com.aspose.font.ByteContentStreamSource;
+    import com.aspose.font.FileSystemStreamSource;
+    import com.aspose.font.Font;
+    import com.aspose.font.FontDefinition;
+    import com.aspose.font.FontFileDefinition;
+    import com.aspose.font.FontSavingFormats;
+    import com.aspose.font.FontType;
+    import com.aspose.font.TtfFont;
 {{< /highlight >}}
 
 Below you can see the code sample which converts font from `TTF` to `WOFF` format.
 
-there were taken the next steps:
+There were taken the next steps:
 1. Opened `TTF` font.
 2. Added the output settings.
 3. Fulfilled the conversion `TTF` to `WOFF` and saved the resultant.

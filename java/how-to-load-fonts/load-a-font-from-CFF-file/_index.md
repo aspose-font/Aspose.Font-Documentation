@@ -16,19 +16,19 @@ If you did not read the Aspose.Font loading fundamentals, go to
 First let's notify the classes you will need to import:
 
 {{< highlight java >}}
-package com.aspose.font;
+    package com.aspose.font;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+    import java.io.File;
+    import java.io.IOException;
+    import java.nio.file.Files;
+    import java.nio.file.Paths;
 
-import com.aspose.font.ByteContentStreamSource;
-import com.aspose.font.FileSystemStreamSource;
-import com.aspose.font.Font;
-import com.aspose.font.FontDefinition;
-import com.aspose.font.FontFileDefinition;
-import com.aspose.font.FontType;
+    import com.aspose.font.ByteContentStreamSource;
+    import com.aspose.font.FileSystemStreamSource;
+    import com.aspose.font.Font;
+    import com.aspose.font.FontDefinition;
+    import com.aspose.font.FontFileDefinition;
+    import com.aspose.font.FontType;
 {{< /highlight >}}
 
 ## Loading from the file using FileInfo object ##

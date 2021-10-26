@@ -13,21 +13,21 @@ _____________
 
 For all the conversions you will need to import the next classes:
 {{< highlight java >}} 
-package com.aspose.font;
+    package com.aspose.font;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+    import java.io.FileOutputStream;
+    import java.io.IOException;
+    import java.nio.file.Files;
+    import java.nio.file.Paths;
 
-import com.aspose.font.ByteContentStreamSource;
-import com.aspose.font.FileSystemStreamSource;
-import com.aspose.font.Font;
-import com.aspose.font.FontDefinition;
-import com.aspose.font.FontFileDefinition;
-import com.aspose.font.FontSavingFormats;
-import com.aspose.font.FontType;
-import com.aspose.font.TtfFont;
+    import com.aspose.font.ByteContentStreamSource;
+    import com.aspose.font.FileSystemStreamSource;
+    import com.aspose.font.Font;
+    import com.aspose.font.FontDefinition;
+    import com.aspose.font.FontFileDefinition;
+    import com.aspose.font.FontSavingFormats;
+    import com.aspose.font.FontType;
+    import com.aspose.font.TtfFont;
 {{< /highlight >}}
 
 The information about the font conversion fundamentals is notified in [How to convert the font into the desired format?](https://docs.aspose.com//font/java/convert/#how-to-convert-the-font-into-the-desired-format) chapter.
