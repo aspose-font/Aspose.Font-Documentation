@@ -105,7 +105,7 @@ Speaking about glyph metrics, it is necessary to mention another term related to
 Not every font format includes kerning information. Moreover, some kerning formats are not supported by some fonts, like True Type fonts, for example. So it may be useful to convert the font format in this case. Here Aspose [*Font converter*](https://products.aspose.app/font/conversion) comes in handy.
 
 
-## Overview ##
+## Conclusion ##
 
 In the article was given some common information about the term **glyph** and its metrics. Aspose.Font has a more advanced solution if you need to manipulate fonts, glyphs, and their metrics. 
 To see what functional for working with glyphs you can get from using it, have a look at [*Glyphs namespace*](https://apireference.aspose.com/font/java/aspose.font.glyphs) of [*Aspose.Font for Java*](https://apireference.aspose.com/font/java) library.

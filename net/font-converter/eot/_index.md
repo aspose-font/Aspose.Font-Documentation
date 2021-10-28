@@ -86,7 +86,7 @@ If you need to get the second version of the `Web Open Font Format` from `Embedd
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
-Our folder [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation)/ has these and many more examples on how to use the Aspose solution.
+Our folder [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) has these and many more examples on how to use the Aspose solution.
 
 Similar functionality is also given by the free online [*Font Conversion*](https://products.aspose.app/font/conversion) application. Learn what opportunities it gives to you.
 {{% /alert %}}
