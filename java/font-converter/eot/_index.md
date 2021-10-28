@@ -11,7 +11,7 @@ description: Aspose has now in its family a solution that is aimed to convert di
 It is known that `Embedded Open Type` (`EOT`) is supported mainly by the Internet Explorer browser. Because of that, to render correctly you will need to build in your software converter to `EOT` from other font formats and vice versa. In this article, it is described how to use  Aspose.Font for Java to convert `EOT` to `TTF`, `EOT` to `WOFF`, and `EOT` to `WOFF2`.
 _____________
 
-For all the conversions you will need to import the next classes:
+For all the conversions you will need to use the next statements:
 {{< highlight java >}} 
     package com.aspose.font;
 

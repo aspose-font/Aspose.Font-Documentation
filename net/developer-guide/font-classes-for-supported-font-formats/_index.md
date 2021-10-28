@@ -121,7 +121,7 @@ Every class, which supports some table, has a name related to the  corresponding
 The naming of the class is fulfilled according to the next rule:
 the name of every class has the prefix `Ttf`, this prefix is followed by the name of the table and then the word "Table" ends the name of the class.
 
-For example table `head` is supported by class [*TtfHeadTable*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttfcfftable), table `hhea` is supported by class [*TtfHeadTable*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttfcfftable), and so forth. 
+For example table `head` is supported by class [*TtfHeadTable*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttfcfftable), table `hhea` is supported by class [*TtfHheaTable*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttfcfftable), and so forth. 
 
 References on all classes which support `TrueType` tables are collected by the object of type [*TtfTableRepository*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttftablerepository).
 

@@ -18,7 +18,7 @@ Therefore, for correct font loading you need to know two key parameters:
 ## Objects and parameters required for font loading ##
 
 Aspose.Font for Java gives object [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) for notifying two key parameters demanded for font loading.
-After creating and initiating [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object you only need to call static method [*Aspose.Font.Font.Open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-) and pass just initialized object [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) as a parameter to load the desired font and get a reference on it.
+After creating and initiating [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object you only need to call static method [*com.aspose.font.Font.Open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-) and pass just initialized object [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) as a parameter to load the desired font and get a reference on it.
 
 
 Let’s describe it with the pseudocode:
@@ -33,18 +33,18 @@ Let’s describe it with the pseudocode:
     Font desiredFont = Font.Open(fontDef);
 {{< /highlight >}}
 
-The final result of the font loading is getting an object of [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type.
-Class [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) is a base font class of [*Aspose.Font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) for the Java library. It represents the main functionality of working with fonts.
+The final result of the font loading is getting an object of [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type.
+Class [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) is a base font class of [*com.aspose.font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) package for the Java library. It represents the main functionality of working with fonts.
 
-Getting loaded a font into [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type object you will be able to render text with this font, get encoding data, and font metrics. You will also be able to modify or save this font and many more.
+Getting loaded a font into [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type object you will be able to render text with this font, get encoding data, and font metrics. You will also be able to modify or save this font and many more.
 
 To initiate the [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object we need, as was mentioned before, to give it 2 font parameters, - the format type, and the object that describes the storage for font binary data.
 The first parameter is notified with [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) enumeration.
 
-To simplify work with the second parameter, [*Aspose.Font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) offers a series of objects that gives universal access to the font binary data independently from where the font is placed.
+To simplify work with the second parameter, [*com.aspose.font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) offers a series of objects that gives universal access to the font binary data independently from where the font is placed.
 
 This universal access is linked with such a thing as a byte stream. 
-So, independently from where the font is placed - into a file on a disk, inside another file, byte array in memory - in any case, special [*Aspose.Font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) objects will provide an access to the byte stream, related to the desired font. 
+So, independently from where the font is placed - into a file on a disk, inside another file, byte array in memory - in any case, special [*com.aspose.font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) objects will provide an access to the byte stream, related to the desired font. 
 
 Let's describe these objects:
 1. [*StreamSource*](https://apireference.aspose.com/font/java/com.aspose.font/StreamSource) class.
@@ -77,7 +77,7 @@ So, to provide access to font binary data, use objects inherited from the base [
 
 ## FontFileDefinition object ##
 
-Most fronts are located in regular files but at the same time, part of fonts may have different data sources. To join into one object terms **file** and **font binary stream**, [*Aspose.Font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) library provides special object [*FontFileDefinition*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition). 
+Most fronts are located in regular files but at the same time, part of fonts may have different data sources. To join into one object terms **file** and **font binary stream**, [*com.aspose.font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) library provides special object [*FontFileDefinition*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition). 
 
 This object has such properties:
 - [*FileName*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#getFileName--) - name of font file.
@@ -144,14 +144,14 @@ In the same way, the value of FontType.Type1 is the common definition for fonts 
 
 Below you can learn examples of [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object initialization and following font loading for different cases. 
 
-In all the cases the final font loading result is put into the variable of [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type. This type is the basic font class of [*Aspose.Font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) library and objects of this type provide common base functionality to work with fonts. 
+In all the cases the final font loading result is put into the variable of [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type. This type is the basic font class of [*com.aspose.font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) and objects of this type provide common base functionality to work with fonts. 
 Loading the font into this object you will be able to render text with this font, get coding information, font metrics, etc.
 
 ## Examples of how to load fonts ##
 
 Let's have as an example, loading font `Montserrat` from the file Montserrat-Regular.ttf.
 
-Import the next classes:
+Use the next statements:
 
 {{< highlight java >}}
     package com.aspose.font;

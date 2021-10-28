@@ -11,7 +11,7 @@ description: Aspose.Font for Java provides you with an easy solution for convert
 From this article, you will find out how to convert fonts from `WOFF2` to `WOFF` format with the help of Aspose solution.
 ____
 
-First, you need to import the following classes:
+First, you need to iuse the following statements:
 
 {{< highlight java >}} 
     package com.aspose.font;

@@ -15,7 +15,7 @@ The following documentation will show you how to easily use the Aspose.Font for 
 
 ______
 
-Import the following classes:
+Use the following statements:
 
 {{< highlight java >}} 
     package com.aspose.font;

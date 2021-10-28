@@ -11,7 +11,7 @@ description: This documentation on the Aspose solution is aimed to help you with
 If you need to transform `Web OpenFont Format` to its version 2.0, this article provides you with the necessary information.
 _____
 
-Import the following classes:
+Use the following statements:
 
 {{< highlight java >}} 
     package com.aspose.font;

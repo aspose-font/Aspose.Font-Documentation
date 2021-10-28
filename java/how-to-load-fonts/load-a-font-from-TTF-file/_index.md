@@ -12,7 +12,7 @@ ___
 
 Make sure you have learned the loading fundamentals at the [*How to load fonts?*](https://docs.aspose.com/font/java/how-to-load-fonts/) page first.
 
-Import the next classes:
+Use the next statements:
 
 {{< highlight java >}}
     package com.aspose.font;

@@ -11,7 +11,7 @@ description: Aspose has now in its family a solution that is aimed to convert di
 The article will explain to you with the code how to transform `CFF` format. Aspose solution now gives you the opportunity to convert `CFF` to `TTF`, `CFF` to `WOFF`, and `CFF` to `WOFF2`.
 ____
 
-First, import the next classes:
+First, use the next statements:
 {{< highlight java >}} 
     package com.aspose.font;
 

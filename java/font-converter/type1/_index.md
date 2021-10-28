@@ -11,7 +11,7 @@ descroption: Here is the explanation with code examples on how to use the Aspose
 In this article, you will see how to convert `Type 1` format. Aspose.Font for Java offers you solutions for conversion `Type 1` to `TTF`, `Type 1` to `WOFF`, and `Type 1` to `WOFF2`. 
 ____
 
-For all three conversions you need to import the following classes:
+For all three conversions you need to use the following statements:
 
 {{< highlight java >}} 
     package com.aspose.font;

@@ -11,7 +11,7 @@ description: Here you will find out how to convert ttf to woff2 using the Aspose
 On this page you will find the example of using the Aspose solution for converting font format from `TrueType` font to `Web Open Font Format version 2`.
 _______
 
-Import the following classes:
+Use the following statements:
 
 {{< highlight java >}} 
     package com.aspose.font;

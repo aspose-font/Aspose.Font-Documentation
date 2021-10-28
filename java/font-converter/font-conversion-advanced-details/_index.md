@@ -10,18 +10,18 @@ description: To convert font formats with Aspose is pretty easy now. But sometim
 
 In some cases, there is a sense to read/modify converted font data before saving the font.
 
-Method [*Aspose.Font.Font.Convert(FontType fontType)*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) was designed for such cases. This method converts a font into the type specified and 
-returns the object inherited from [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class which corresponds to [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) value, passed into [*Convert()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) method.
+Method [*com.aspose.font.Font.Convert(FontType fontType)*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) was designed for such cases. This method converts a font into the type specified and 
+returns the object inherited from [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class which corresponds to [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) value, passed into [*Convert()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) method.
 
-The next table shows a map of coherence between [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) values and objects, inherited from the base [*Aspose.Font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class.
+The next table shows a map of coherence between [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) values and objects, inherited from the base [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class.
 
 
 | **Font type**| **Font object**|
 | :- | :- |
-|`TTF`|Aspose.Font.Ttf.TtfFont|
-|`Type1`|Aspose.Font.Type1.Type1Font|
-|`CFF`|Aspose.Font.Cff.CffFont|
-|`OTF`|Aspose.Font.Ttf.TtfFont|
+|`TTF`|com.aspose.font.TtfFont|
+|`Type1`|com.aspose.font.Type1Font|
+|`CFF`|com.aspose.font.CffFont|
+|`OTF`|com.aspose.font.TtfFont|
 
 
 Use resultant font object to access/change font properties before saving resultant font or instead of saving resultant font.
@@ -31,7 +31,7 @@ the object of type [*TtfFont*](https://apireference.aspose.com/font/java/com.asp
 
 Next code snippet loads `CFF` font `CenturyGothic` from disk, converts it into `TrueType` format, and changes the name of the converted font to "CenturyGothic_Converted".
 
-First, import the next classes:
+First, use the next statements:
 {{< highlight java >}} 
     package com.aspose.font;
 
@@ -78,5 +78,5 @@ Fulfill the next actions:
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
-The full range of examples for using Aspose.Font for.NET is placed in [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples/convertfont), in the [*java-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) github repository. 
+The full range of examples for using Aspose.Font for Java is placed in [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples/convertfont), in the [*java-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) github repository. 
 {{% /alert %}}
