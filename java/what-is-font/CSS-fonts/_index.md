@@ -322,5 +322,5 @@ The result of applying would render as it is shown in the next image (note that 
 The CSS font is one of the key blocks in developing interfaces with CSS. Most of the content of the majority of web pages is text content, so without learning this property this content will never have a high-quality look. It will have less readability, scalability, etc. 
 
 Some properties are easy to apply to any font, but some properties need a special font that supports the variation of the property. Like font `Inconsolata` has 8 variations of font-weight when most fonts can only be `normal` or `bold`. 
-If you have in mind a font you want to use but you do not have it on your device, you may try to find and download it from a free web application from Aspose. Apart from that, [*Font viewer*](https://products.aspose.app/font/viewer) will provide you with the necessary information about the font you may need when developing.
+If you have in mind a font you want to use but you do not have it on your device, you may try to find and download it from a free web application from Aspose. Apart from that, [*Font Viewer*](https://products.aspose.app/font/viewer) will provide you with the necessary information about the font you may need when developing.
 
