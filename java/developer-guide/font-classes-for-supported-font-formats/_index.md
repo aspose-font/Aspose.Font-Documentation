@@ -15,14 +15,14 @@ The hierarchy of classes of [*com.aspose.font*](https://apireference.aspose.com/
 Class [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) is a single base class and any class, which supports some font format inherited from [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font). There is common information for fonts of all formats gathered in this class. This information includes such data as font style, font name, postscript font name, font family, font metrics, the number of glyphs of the font, encoding, etc.
 
 Class [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) is an abstract class so the instance of the object of `com.aspose.font.Font` type, cannot be created directly.
-The reference on the just created object is returned by the static methods of this class that are responsible for the font loading that, family of overloaded methods [*Open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-).
+The reference on the just created object is returned by the static methods of this class that are responsible for the font loading that, family of overloaded methods [*open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-).
 
-As for the specific for one or another font format information, for providing such information are responsible objects inherited from base Aspose.Font.
+As for the specific for one or another font format information, for providing such information are responsible objects inherited from base `com.aspose.font.Font`.
 The only data, specific for font format, which base [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font)  class includes, is the value from [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) enumeration.
 
-The next classes are inherited from [*com.aspose.font*](https://apireference.aspose.com/font/java/com.aspose.font/package-summary) and used to work with specific font format: [*TtfFont*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont), [*Type1Font*](https://apireference.aspose.com/font/java/com.aspose.font/Type1Font), [*CffFont*](https://apireference.aspose.com/font/java/com.aspose.font/CffFont).
+The next classes are inherited from [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) and used to work with specific font format: [*TtfFont*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont), [*Type1Font*](https://apireference.aspose.com/font/java/com.aspose.font/Type1Font), [*CffFont*](https://apireference.aspose.com/font/java/com.aspose.font/CffFont).
 
-### Interrelations between font format, FontType value and com.aspose.font object type ###
+### Interrelations between font format, FontType value and com.aspose.font.Font object type ###
 
 The table below shows the accordance between the formats, supported by com.aspose.font, the corresponding to these formats values from [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) enumeration, and classes used for manipulating each of these formats.
 
@@ -33,13 +33,13 @@ The table below shows the accordance between the formats, supported by com.aspos
 |`Type 1`|`Type 1`|[*Type1Font*](https://apireference.aspose.com/font/java/com.aspose.font/Type1Font)|
 |`Compact Font Format` (`CFF`)|`CFF`|[*CffFont*](https://apireference.aspose.com/font/java/com.aspose.font/CffFont)|
 
-### Interrelations between font file format, FontType value and com.aspose.font object type ###
+### Interrelations between font file format, FontType value and com.aspose.font.Font object type ###
 
 The formats of the aforementioned fonts from [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) enumeration are wider terms than file formats for those fonts.
 
-For example, `TrueType` format covers the following file formats available for loading with Aspose.Font: `ttf`, `ttc`, `eot`, `woff`, `woff2`. So the common feature for fonts with extensions `.ttf`, `.ttc`, `.eot`, `.woff`, `.woff2` is that they are all related to `TrueType` font family.
+For example, `TrueType` format covers the following file formats available for loading with com.aspose.font: `ttf`, `ttc`, `eot`, `woff`, `woff2`. So the common feature for fonts with extensions `.ttf`, `.ttc`, `.eot`, `.woff`, `.woff2` is that they are all related to `TrueType` font family.
 
-That is why, if replacing in the table the column “Font Format” to the column "Font file format", we will get the next table of relations between font file formats, fitting to them [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) values, and objects aimed to work with the corresponding font format in Aspose.Font.
+That is why, if replacing in the table the column “Font Format” to the column "Font file format", we will get the next table of relations between font file formats, fitting to them [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) values, and objects aimed to work with the corresponding font format in com.aspose.font.
 
 |**Font file format**|**FontType value**|**com.aspose.font object type**|
 | :- | :- |:- |
@@ -59,7 +59,7 @@ that are implemented by [*Font*](https://apireference.aspose.com/font/java/com.a
 [*IFont*](https://apireference.aspose.com/font/java/com.aspose.font/IFont) interface. 
 
 
-Interface [*IFont*](https://apireference.aspose.com/font/java/com.aspose.font/IFont) defines properties that are common for all font formats supported by Aspose.Font.
+Interface [*IFont*](https://apireference.aspose.com/font/java/com.aspose.font/IFont) defines properties that are common for all font formats supported by com.aspose.font.
 Below are the descriptions for each property.
 
 ### Properties for manipulating font formats ###
@@ -78,7 +78,7 @@ Below are the descriptions for each property.
 - [*IGlyphAccessor*](hhttps://apireference.aspose.com/font/java/com.aspose.font/IGlyphAccessor) [*GlyphAccessor*](https://apireference.aspose.com/font/java/com.aspose.font/IFont#getGlyphAccessor--) - gets a reference on [*IGlyphAccessor*](https://apireference.aspose.com/font/java/com.aspose.font/IGlyphAccessor) interface, which provides functionality to retrieve specified glyph identifiers and glyphs.
 - [*IFontSaver*](https://apireference.aspose.com/font/java/com.aspose.font/IFontSaver) [*FontSaver*](https://apireference.aspose.com/font/java/com.aspose.font/IFont#getFontSaver--) - provides a font saving functionality with [*IFontSaver*](https://apireference.aspose.com/font/java/com.aspose.font/IFontSaver) interface.
 
-Also, [*IFont*](https://apireference.aspose.com/font/java/com.aspose.font/IFont) interface defines method [*Convert()*](https://apireference.aspose.com/font/java/com.aspose.font/IFont#convert-com.aspose.font.FontType-), which is used to convert font to another format. 
+Also, [*IFont*](https://apireference.aspose.com/font/java/com.aspose.font/IFont) interface defines method [*convert()*](https://apireference.aspose.com/font/java/com.aspose.font/IFont#convert-com.aspose.font.FontType-), which is used to convert font to another format. 
 At the moment there are available conversions from any format supported by Aspose.Font for reading to `TTF` format. [Supported font formats](https://docs.aspose.com/font/java/convert/#formats-supported-for-reading-andor-writing) are represented in the table.
 
 See [*Font Converter*](https://docs.aspose.com/font/java/convert/) 
@@ -86,16 +86,16 @@ for additional information on how to convert fonts with Aspose.Font.
 
 ### Font loading ###
 
-Font loading functionality is not covered by implemented interfaces and this functionality is represented by the family of static methods [*Open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-). 
+Font loading functionality is not covered by implemented interfaces and this functionality is represented by the family of static methods [*open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-). 
 Parameters to pass into these methods are described in [*How to load fonts?*](https://docs.aspose.com/font/java/how-to-load-fonts/) article. 
 
 ### Font saving ###
 											
 Class [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) implements interface [*IFontSaver*](https://apireference.aspose.com/font/java/com.aspose.font/IFontSaver), which declares functionality for font saving operations. 
-To save a font use one of the overloaded methods [*Save()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#save-java.io.OutputStream-) and pass the font file name or stream where to write the font.
+To save a font use one of the overloaded methods [*save()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#save-java.io.OutputStream-) and pass the font file name or stream where to write the font.
 
 In some cases there is a need to save a font into another format. For example, many web pages prefer working  with fonts in `WOFF` format and if you want to place your font on such a page you will have to save the font into `WOFF` format.
-Method [*SaveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) was designed for such cases. 
+Method [*saveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) was designed for such cases. 
 
 ## Classes inherited from com.aspose.font.Font class ##
 										
@@ -108,7 +108,7 @@ These classes override certain  properties and methods of [*Font*](https://apire
 ### TtfFont class ###
 
 This class is designed to support fonts of `TrueType` format.
-A reference to an object of this type can be obtained by calling the static method [*Font.Open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-), with passing `TTF`, as value for [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) enumeration. Method [*Font.Open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-) returns reference on base [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type, so the obtained reference has to be cast to `TtfFont` object type.
+A reference to an object of this type can be obtained by calling the static method [*Font.open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-), with passing `TTF`, as value for [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) enumeration. Method [*Font.open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-) returns reference on base [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type, so the obtained reference has to be cast to `TtfFont` object type.
 
 As known from the `TrueType` format specification, the font data is represented in different tables.
 At the moment Aspose.Font library supports following tables: 
@@ -136,14 +136,14 @@ Property [*IsSymbolic*](https://apireference.aspose.com/font/java/com.aspose.fon
 ## Access to font glyphs ##
 
 Class [*TtfFont*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont) provides extended functionality to access font glyphs. In addition to methods, defined by interface [*IGlyphAccessor*](https://apireference.aspose.com/font/java/com.aspose.font/IGlyphAccessor),  
-[*TtfFont*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont) provides two overloaded methods with the name [*GetGlyphById()*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont#getGlyphById-com.aspose.font.GlyphId-), which require glyph identifiers in integer or string form. 
+[*TtfFont*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont) provides two overloaded methods with the name [*getGlyphById()*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont#getGlyphById-com.aspose.font.GlyphId-), which require glyph identifiers in integer or string form. 
 
-Using these methods works faster than using method  [*GetGlyphById()*](https://apireference.aspose.com/font/java/com.aspose.font/IGlyphAccessor#getGlyphById-com.aspose.font.GlyphId-) from [*IGlyphAccessor*](https://apireference.aspose.com/font/java/com.aspose.font/IGlyphAccessor) interface.
-Also, [*TtfFont*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont) class provides a set of overloaded methods [*GetGlyphComponentsById()*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont#getGlyphComponentsById-com.aspose.font.GlyphId-com.aspose.font.GlyphIdList-). These methods are designed to work with composite glyphs.
+Using these methods works faster than using method  [*getGlyphById()*](https://apireference.aspose.com/font/java/com.aspose.font/IGlyphAccessor#getGlyphById-com.aspose.font.GlyphId-) from [*IGlyphAccessor*](https://apireference.aspose.com/font/java/com.aspose.font/IGlyphAccessor) interface.
+Also, [*TtfFont*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont) class provides a set of overloaded methods [*getGlyphComponentsById()*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont#getGlyphComponentsById-com.aspose.font.GlyphId-com.aspose.font.GlyphIdList-). These methods are designed to work with composite glyphs.
 
 **Composite glyph** is a glyph that references one or more other glyphs in the font. For example, the glyph for character Ä (Unicode U+00C4), can be composed of the glyph for character A (as the base glyph) and the diaeresis mark glyph.
 
-Methods [*GetGlyphComponentsById()*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont#getGlyphComponentsById-com.aspose.font.GlyphId-com.aspose.font.GlyphIdList-) take the identifier of the composite glyph and return the list of glyphs the transferred composite glyph refers to.
+Methods [*getGlyphComponentsById()*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont#getGlyphComponentsById-com.aspose.font.GlyphId-com.aspose.font.GlyphIdList-) take the identifier of the composite glyph and return the list of glyphs the transferred composite glyph refers to.
 
 
 

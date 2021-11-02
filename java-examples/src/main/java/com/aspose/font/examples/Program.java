@@ -31,6 +31,7 @@ public class Program {
 		IExamples setLicenseFromFile = new SetLicenseFromFile();
 		IExamples setLicenseFromStream = new SetLicenseFromStream();
 
+		/*
 		// Convert Font
 		IExamples convertTtfToWoff = new ConvertTtfToWoff("Convert-Font");
 		IExamples convertTtfToWoff2 = new ConvertTtfToWoff2("Convert-Font");
@@ -40,7 +41,7 @@ public class Program {
 		IExamples convertType1 = new ConvertType1("Convert-Font");
 		IExamples convertCff = new ConvertCff("Convert-Font");
 		IExamples convertEot = new ConvertEot("Convert-Font");
-
+*/
 		// Load font
 		IExamples loadTtf = new LoadTtf();
 		IExamples loadCff = new LoadCff();
@@ -56,6 +57,7 @@ public class Program {
 //        setLicenseFromStream.run();
 
 		// Convert Font Examples
+		/*
 		convertTtfToWoff.run();
 		convertTtfToWoff2.run();
 		convertWoffToTtf.run();
@@ -64,7 +66,7 @@ public class Program {
 		convertType1.run();
 		convertCff.run();
 		convertEot.run();
-
+		*/
 		//Load Font examples
 		loadTtf.run();
 		loadCff.run();

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Font for Java 21.8 Release Notes
 type: docs
-weight: 8
+weight: 50
 url: /java/aspose-font-for-java-21-8-release-notes/
 description: This page contains new Aspose.Font for Java features, enhancement, and bug fixes in 2021, version 21.8. 
 sitemap:

@@ -31,7 +31,7 @@ First let's notify the statements you will need to use:
     import com.aspose.font.FontType;
 {{< /highlight >}}
 
-## Loading from the file using FileInfo object ##
+## Loading from the file using java.io.File object ##
 
 Follow the algorithm to fulfill the font loading:
 1. Construct path to the file.

@@ -18,7 +18,7 @@ Therefore, for correct font loading you need to know two key parameters:
 ## Objects and parameters required for font loading ##
 
 Aspose.Font for Java gives object [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) for notifying two key parameters demanded for font loading.
-After creating and initiating [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object you only need to call static method [*com.aspose.font.Font.Open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-) and pass just initialized object [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) as a parameter to load the desired font and get a reference on it.
+After creating and initiating [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object you only need to call static method [*com.aspose.font.Font.open()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#open-com.aspose.font.FontDefinition-) and pass just initialized object [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) as a parameter to load the desired font and get a reference on it.
 
 
 Let’s describe it with the pseudocode:
@@ -30,7 +30,7 @@ Let’s describe it with the pseudocode:
 
     // Initialize object FontDefinition with appropriate properties
     FontDefinition fontDef = new FontDefinition(); 
-    Font desiredFont = Font.Open(fontDef);
+    Font desiredFont = Font.open(fontDef);
 {{< /highlight >}}
 
 The final result of the font loading is getting an object of [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) type.
@@ -49,11 +49,11 @@ So, independently from where the font is placed - into a file on a disk, inside 
 Let's describe these objects:
 1. [*StreamSource*](https://apireference.aspose.com/font/java/com.aspose.font/StreamSource) class.
 This abstract base class defines the properties and methods that give access to the font byte stream. 
-[*GetFontStream*()](https://apireference.aspose.com/font/java/com.aspose.font/StreamSource) method of this class returns a stream, related to binary font data.
+[*getFontStream*()](https://apireference.aspose.com/font/java/com.aspose.font/StreamSource) method of this class returns a stream, related to binary font data.
 Property [*Offset*](https://apireference.aspose.com/font/java/com.aspose.font/StreamSource#setOffset-long-) points on the position at this stream, from where we must start to read data.
 2. Two most used classes inherited from the base [*StreamSource*](https://apireference.aspose.com/font/java/com.aspose.font/StreamSource):
    - [*FileSystemStreamSource*](https://apireference.aspose.com/font/java/com.aspose.font/StreamSource#setOffset-long-) - designed to provide access to the stream, based on the file system. 
-	Property [*FileName*](https://apireference.aspose.com/font/java/com.aspose.font/FileSystemStreamSource#getFileName--) returns the name of the font file. [*GetFontStream*()](https://apireference.aspose.com/font/java/com.aspose.font/FileSystemStreamSource#getFontStream--) method returns a byte stream, related to this file.
+	Property [*FileName*](https://apireference.aspose.com/font/java/com.aspose.font/FileSystemStreamSource#getFileName--) returns the name of the font file. [*getFontStream*()](https://apireference.aspose.com/font/java/com.aspose.font/FileSystemStreamSource#getFontStream--) method returns a byte stream, related to this file.
    - [*ByteContentStreamSource*](https://apireference.aspose.com/font/java/com.aspose.font/ByteContentStreamSource) - provides access to the stream, based on the byte array.
 
 ## How to initiate classes? ##
@@ -85,20 +85,20 @@ This object has such properties:
 - [*StreamSource*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#getStreamSource--) - font stream source.
 - [*Offset*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#getOffset--) - offset inside the font byte stream.
 
-The simplest and one of the most used constructors of this object is the constructor with the following signature: [*FontFileDefinition*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition) (FileInfo fontFile), use this constructor for cases when the desired font is in a file on the hard drive. 
+The simplest and one of the most used constructors of this object is the constructor with the following signature: [*FontFileDefinition*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition) (File fontFile), use this constructor for cases when the desired font is in a file on the hard drive. 
 
 Here is an example of initiating such an object for font `Montserrat` which is located in the file C:\Windows\Fonts\Montserrat.ttf:
 
 {{< highlight java >}} 
-    FontFileDefinition fileDef = new FontFileDefinition(new FileInfo(@"C:\Windows\Fonts\Montserrat.ttf"));
+    FontFileDefinition fileDef = new FontFileDefinition(new File("C:\\Windows\\Fonts\\Montserrat.ttf"));
 {{< /highlight >}}
 
 Also, [*FontFileDefinition*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition) can reference `Montserrat` font using the following constructors:
 
 {{< highlight java >}} 
-    FontFileDefinition fileDef = new FontFileDefinition(new FileSystemStreamSource(@"C:\Windows\Fonts\Montserrat.ttf"));
+    FontFileDefinition fileDef = new FontFileDefinition(new FileSystemStreamSource("C:\\Windows\\Fonts\\Montserrat.ttf"));
 
-    FontFileDefinition fileDef = new FontFileDefinition("ttf", new FileSystemStreamSource(@"C:\Windows\Fonts\Montserrat.ttf"));
+    FontFileDefinition fileDef = new FontFileDefinition("ttf", new FileSystemStreamSource("C:\\Windows\\Fonts\\Montserrat.ttf"));
 {{< /highlight >}}
 
 Parameter [*fileExtension*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) should match the standard, for the font format, extension. For example, if the font format is `TrueType`, then the value of the [*fileExtension*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) parameter may be `ttf` or `ttc` (if the font file is a collection of `TrueType` fonts). 
@@ -119,7 +119,7 @@ The table below shows the most often used in Aspose.Font font file formats. Ther
 If font data starts not from the position 0 of the byte stream, use the following constructor with the [*offset*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) parameter:
 
 {{< highlight java >}} 
-    FontFileDefinition(string fileExtension, StreamSource streamSource, long offset).
+    FontFileDefinition(String fileExtension, StreamSource streamSource, long offset).
 {{< /highlight >}}
 
 ## How to initiate FontDefinition object? ##
@@ -172,7 +172,7 @@ Use the next statements:
 
 You can load this font using [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) and [*FontFileDefinition*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition) objects in a few different ways:
 
-### Loading with the help of System.IO.FileInfo object ###
+### Loading with the help of java.io.File object ###
 
   To fulfil loading do the next:
 1. Construct path to the file.

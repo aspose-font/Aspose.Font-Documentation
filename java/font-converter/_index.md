@@ -73,10 +73,10 @@ Here you can learn the pairs of fonts which are currently provided for conversio
 
 ## How to convert the font into the desired format?
 
-1. Load font from any of the supported formats and get reference on base Aspose.Font.Font object which represents this font.
+1. Load font from any of the supported formats and get reference on base `com.aspose.font.Font` object which represents this font.
 2. Save just loaded font into another format with the help of 
-[*SaveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method of the base abstract [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font#save-java.lang.String-) class instance. [*SaveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/java/com.aspose.font/FontSavingFormats) enumeration for choosing the output font format.
-Method [*SaveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) allows you to save fonts into any of the output formats supported. 
+[*saveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method of the base abstract [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font#save-java.lang.String-) class instance. [*saveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/java/com.aspose.font/FontSavingFormats) enumeration for choosing the output font format.
+Method [*saveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) allows you to save fonts into any of the output formats supported. 
 
 You need to use the next statements:
 {{< highlight java >}} 

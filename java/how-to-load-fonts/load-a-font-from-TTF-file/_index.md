@@ -52,7 +52,7 @@ Take the next steps to fulfil the operation:
     Font font = Font.open(fontDef);
 {{< /highlight >}}
 
-## Loading from the file using FileInfo object ##
+## Loading from the file using java.io.File object ##
 
 To fulfil loading do the next:
 1. Construct path to the file.

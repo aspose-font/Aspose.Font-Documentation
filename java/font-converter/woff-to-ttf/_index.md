@@ -50,7 +50,7 @@ To fulfil the conversion from `WOFF` to `TTF` font you need to follow the next s
     FileOutputStream outStream = new FileOutputStream(outPath);
 {{< /highlight >}}
 
-3. Use [*SaveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method of the base abstract [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class instance to transform font and save results.
+3. Use [*saveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method of the base abstract [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class instance to transform font and save results.
 {{< highlight java >}} 
     // Convert woff to ttf
     font.saveToFormat(outStream, FontSavingFormats.TTF);

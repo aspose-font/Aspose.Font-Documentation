@@ -10,8 +10,8 @@ description: To convert font formats with Aspose is pretty easy now. But sometim
 
 In some cases, there is a sense to read/modify converted font data before saving the font.
 
-Method [*com.aspose.font.Font.Convert(FontType fontType)*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) was designed for such cases. This method converts a font into the type specified and 
-returns the object inherited from [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class which corresponds to [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) value, passed into [*Convert()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) method.
+Method [*com.aspose.font.Font.convert(FontType fontType)*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) was designed for such cases. This method converts a font into the type specified and 
+returns the object inherited from [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class which corresponds to [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) value, passed into [*convert()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) method.
 
 The next table shows a map of coherence between [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) values and objects, inherited from the base [*com.aspose.font.Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class.
 
@@ -26,7 +26,7 @@ The next table shows a map of coherence between [*FontType*](https://apireferenc
 
 Use resultant font object to access/change font properties before saving resultant font or instead of saving resultant font.
 
-At the current moment method [*Convert()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) supports conversion only into `TrueType` font format (FontType.TTF), so it always returns 
+At the current moment method [*convert()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#convert-com.aspose.font.FontType-) supports conversion only into `TrueType` font format (FontType.TTF), so it always returns 
 the object of type [*TtfFont*](https://apireference.aspose.com/font/java/com.aspose.font/TtfFont) as result of conversion independently of source font used. 
 
 Next code snippet loads `CFF` font `CenturyGothic` from disk, converts it into `TrueType` format, and changes the name of the converted font to "CenturyGothic_Converted".

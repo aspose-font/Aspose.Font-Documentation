@@ -40,7 +40,7 @@ To fulfill the operation follow the next steps:
 2. Notify the output settings.
 3. Run the conversion.
 
-{{< highlight charp >}} 
+{{< highlight java >}} 
     // Open cff font
     String fontPath = Paths.get(getDataDir(), "CenturyGothic.cff").toString();
     FontDefinition fontDefinition = new FontDefinition(FontType.CFF, new FontFileDefinition("cff", new FileSystemStreamSource(fontPath)));

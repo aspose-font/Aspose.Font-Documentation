@@ -54,7 +54,7 @@ public class LoadTtf extends LoadFontBase {
 		printExampleTitle("Loading from file Montserrat-Regular.ttf using File object", 2);
 
 		//ExampleStart: 2
-		String fontPath = Paths.get(getDataDir(), "Montserrat-Regular.ttf").toString();
+		String fontPath = Paths.get("D:\\Work\\Aspose\\Hugo\\doc\\Aspose.Font-Documentation\\java-examples\\Data\\", "Montserrat-Regular.ttf").toString();
 		String fontSource = "file Montserrat-Regular.ttf";
 
 		// Initialize FontDefinition object passing TTF as FontType value and using FontFileDefinition
