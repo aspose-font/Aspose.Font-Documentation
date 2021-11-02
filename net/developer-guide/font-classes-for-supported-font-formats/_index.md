@@ -17,7 +17,7 @@ Class [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) is a s
 Class [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) is an abstract class so the instance of the object of `Aspose.Font.Font` type, cannot be created directly.
 The reference on the just created object is returned by the static methods of this class that are responsible for the font loading that, family of overloaded methods [*Open()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/open/index).
 
-As for the specific for one or another font format information, for providing such information are responsible objects inherited from base Aspose.Font.
+As for the specific for one or another font format information, for providing such information are responsible objects inherited from base `Aspose.Font.Font`.
 The only data, specific for font format, which base [*Font*](https://apireference.aspose.com/font/net/aspose.font/font)  class includes, is the value from [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) enumeration.
 
 The next classes are inherited from [*Aspose.Font*](https://apireference.aspose.com/font/net/aspose.font/font) and used to work with specific font format: [*TtfFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont), [*Type1Font*](https://apireference.aspose.com/font/net/aspose.font.type1/type1font), [*CffFont*](https://apireference.aspose.com/font/net/aspose.font.cff/cfffont).
@@ -121,7 +121,7 @@ Every class, which supports some table, has a name related to the  corresponding
 The naming of the class is fulfilled according to the next rule:
 the name of every class has the prefix `Ttf`, this prefix is followed by the name of the table and then the word "Table" ends the name of the class.
 
-For example table `head` is supported by class [*TtfHeadTable*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttfcfftable), table `hhea` is supported by class [*TtfHeadTable*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttfcfftable), and so forth. 
+For example table `head` is supported by class [*TtfHeadTable*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttfcfftable), table `hhea` is supported by class [*TtfHheaTable*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttfcfftable), and so forth. 
 
 References on all classes which support `TrueType` tables are collected by the object of type [*TtfTableRepository*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttftablerepository).
 

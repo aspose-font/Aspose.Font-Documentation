@@ -95,6 +95,6 @@ Most fonts are proportional and give different horizontal spaces for different l
 There are five key font types known. They have different appearances and different aims. But it is only up to you which font you see as a proper one for your design. If a font is usually used for coding it does not mean that you cannot use it in other projects, on the contrary, it may give your design a fresh, unique style.
 
 {{% alert color="primary" %}}
-Before choosing a font for your work, you need to learn all its parameters and to do it you can use a free online application from Aspose, [*Font viewer*](https://products.aspose.app/font/viewer). The app will give you such information as font source, designer, license, font family, style, postscript name, number of glyphs, and many more.
+Before choosing a font for your work, you need to learn all its parameters and to do it you can use a free online application from Aspose, [*Font Viewer*](https://products.aspose.app/font/viewer). The app will give you such information as font source, designer, license, font family, style, postscript name, number of glyphs, and many more.
 {{% /alert %}}
 

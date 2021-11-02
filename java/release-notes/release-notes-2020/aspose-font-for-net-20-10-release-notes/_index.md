@@ -1,7 +1,7 @@
 ---
 title: Aspose.Font for Java 20.10 Release Notes
 type: docs
-weight: 10
+weight: 30
 url: /java/aspose-font-for-java-20-10-release-notes/
 ---
 
