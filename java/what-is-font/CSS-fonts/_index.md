@@ -49,7 +49,7 @@ There the next parameters are set in the example.
 |font-family:|Lobster, Paisfico, cursive;|Audiowide, fantasy;|Courier, monospace;|
 
 Syntax:
-{{< highlight csharp >}}
+{{< highlight css >}}
 // text 1
 .text1 {
     font-family: Lobster, cursive;
@@ -91,7 +91,7 @@ Let’s render texts with the next parameters of font-weight.
 |font-weight:|900;|500;|200;|
 
 Syntax:
-{{< highlight csharp >}}
+{{< highlight css >}}
 // text 1
 .text1 {
     font-weight: 900;
@@ -137,7 +137,7 @@ The values of font-stretch in CSS can be next:
 |font-stretch:|condensed;|normal;|expanded;|
 
 Syntax:
-{{< highlight csharp >}}
+{{< highlight css>}}
 // text 1
 .text1 {
     font-stretch: condensed;
@@ -177,7 +177,7 @@ Let’s render texts with the next parameters of font-style.
 |font-style:|normal;|italic;|oblique;|
 
 Syntax:
-{{< highlight csharp >}}
+{{< highlight css>}}
 // text 1
 .text1 {
     font-style: normal;
@@ -222,7 +222,7 @@ There the next parameters are set.
 |font-size:|7vw;|70px;|2em;|
 
 Syntax:
-{{< highlight csharp >}}
+{{< highlight css>}}
 // text 1
 .text1 {
     font-size: 7vw;
@@ -254,7 +254,7 @@ The CSS `font` property is used to make the code shorter. With it, it is possibl
 |font:|6vw `Arial`;|60pt `Courier`, monospace;| - |
 
 Syntax:
-{{< highlight csharp >}}
+{{< highlight css >}}
 // text 1
 .text1 {
     font: 6vw Arial;
@@ -294,7 +294,7 @@ For CSS font-synthesis parameter next values may be set:
 |font-style:|-|oblique;|oblique;|
 
 Syntax:
-{{< highlight csharp >}}
+{{< highlight css >}}
 // text 1
 .text1 {
     font-synthesis: weight;
@@ -322,5 +322,5 @@ The result of applying would render as it is shown in the next image (note that 
 The CSS font is one of the key blocks in developing interfaces with CSS. Most of the content of the majority of web pages is text content, so without learning this property this content will never have a high-quality look. It will have less readability, scalability, etc. 
 
 Some properties are easy to apply to any font, but some properties need a special font that supports the variation of the property. Like font `Inconsolata` has 8 variations of font-weight when most fonts can only be `normal` or `bold`. 
-If you have in mind a font you want to use but you do not have it on your device, you may try to find and download it from a free web application from Aspose. Apart from that, [*Font viewer*](https://products.aspose.app/font/viewer) will provide you with the necessary information about the font you may need when developing.
+If you have in mind a font you want to use but you do not have it on your device, you may try to find and download it from a free web application from Aspose. Apart from that, [*Font Viewer*](https://products.aspose.app/font/viewer) will provide you with the necessary information about the font you may need when developing.
 

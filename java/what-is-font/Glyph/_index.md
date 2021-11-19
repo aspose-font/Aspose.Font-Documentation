@@ -53,7 +53,7 @@ Each glyph has a lot of encoding data. The table below shows some of this data f
 **Glyphset** is a composition/collection of glyphs that forms a font. Each font has a different number of glyphs in its glyphset. For example, Arial includes 4503 glyphs, while Montserrat, - 1943 glyphs.
  
 {{% alert color="primary" %}}
-To find out how many glyphs are in a particular font, you may use a free application from Aspose. It is easy to use [*Font viewer*](https://products.aspose.app/font/viewer). 
+To find out how many glyphs are in a particular font, you may use a free application from Aspose. It is easy to use [*Font Viewer*](https://products.aspose.app/font/viewer). 
 It will give you information about font source, description, designer, license, file name, font name, font family, style, postscript name, version, etc.
 {{% /alert %}}
 
@@ -102,13 +102,13 @@ Speaking about glyph metrics, it is necessary to mention another term related to
 
 ![Comparison texts with and without kerning](Kerning.png)
 
-Not every font format includes kerning information. Moreover, some kerning formats are not supported by some fonts, like True Type fonts, for example. So it may be useful to convert the font format in this case. Here Aspose [*Font converter*](https://products.aspose.app/font/conversion) comes in handy.
+Not every font format includes kerning information. Moreover, some kerning formats are not supported by some fonts, like True Type fonts, for example. So it may be useful to convert the font format in this case. Here Aspose [*Font Converter*](https://products.aspose.app/font/conversion) comes in handy.
 
 
-## Overview ##
+## Conclusion ##
 
 In the article was given some common information about the term **glyph** and its metrics. Aspose.Font has a more advanced solution if you need to manipulate fonts, glyphs, and their metrics. 
-To see what functional for working with glyphs you can get from using it, have a look at [*Glyphs namespace*](https://apireference.aspose.com/font/java/aspose.font.glyphs) of [*Aspose.Font for Java*](https://apireference.aspose.com/font/java) library.
+To see what functional for working with glyphs you can get from using it, have a look at [*Glyphs*](https://apireference.aspose.com/font/java/com.aspose.font/Glyph)class of [*Aspose.Font for Java*](https://apireference.aspose.com/font/java) library.
 
 
 
