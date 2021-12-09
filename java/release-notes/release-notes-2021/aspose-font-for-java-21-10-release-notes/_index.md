@@ -41,4 +41,4 @@ Conversion functionality for CFF and WOFF2 format  has been fixed.
  * Method com.aspose.font.GlyphUInt32Id.toGlyphUInt32Id
 
 ## Got Queries?
-If you have any query related to Aspose.Font for .NET API, please feel free to write to reach us on [Aspose.Font forum](https://forum.aspose.com/c/font/). We'll be glad to assist you with your inquiries.
+If you have any query related to Aspose.Font for Java API, please feel free to write to reach us on [Aspose.Font forum](https://forum.aspose.com/c/font/). We'll be glad to assist you with your inquiries.

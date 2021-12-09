@@ -35,4 +35,4 @@ CFF to TTF/WOFF converters were added. All TTF and WOFF/WOFF2 tables' support wa
 * Method com.aspose.font.EncodingException.#ctor(java.lang.String,java.lang.RuntimeException)
 
 ## Got Queries?
-If you have any query related to Aspose.Font for .NET API, please feel free to write to reach us on [Aspose.Font forum](https://forum.aspose.com/c/font/). We'll be glad to assist you with your inquiries.
+If you have any query related to Aspose.Font for Java API, please feel free to write to reach us on [Aspose.Font forum](https://forum.aspose.com/c/font/). We'll be glad to assist you with your inquiries.
