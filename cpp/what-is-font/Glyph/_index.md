@@ -24,13 +24,13 @@ But sometimes one character can represent characters of different scripts. Like 
 
 In the picture below are depicted four glyphs of a capital letter  `A` in different fonts. 
 
-![Glyphs A of four different fonts](Glyph-of-different-fonts.png)
+![Glyphs A of four different fonts](glyph-of-different-fonts.png)
 
 And looking at the image comes to mind another definition of **Glyph** as the graphical unit of a font.
 
 In developing it is important to have in mind the definition of **Glyph** as an encoded character. To simplify,  any glyph ought to have a standardized code used to reference this glyph across the font. The most known standard of glyph codes is Unicode. Unicode пgives the same code to a glyph in every font of every font family where this glyph exists. 
 
-![Glyphs A and F with unicodes](Glyph-with-unicode.png)
+![Glyphs A and F with unicodes](glyph-with-unicode.png)
 
 Each glyph has a lot of encoding data. The table below shows some of this data for a glyph `@`
 
@@ -63,7 +63,7 @@ Each font file also contains one or more tables. These tables are known as **cha
 
 The next picture shows the difference in glyphsets of Franklin Gothic and Ebrima fonts. There they are indexed by Unicode.
 
-![Comparison of Ebrima and Franclin Gothic glyphsets](Glyphsets-of-different-fonts.png)
+![Comparison of Ebrima and Franclin Gothic glyphsets](glyphsets-of-different-fonts.png)
 
 ## Glyph metrics ##
 
@@ -79,7 +79,7 @@ The most know glyph’s metrics are:
 - **Origin** - is the point where one symbol ends and the next one  starts.
 - **Side bearings** - is white space on the left or right side of the glyph. Sidebearings may be negative (when a glyph takes more space than the advance width is) or positive (a glyph takes less space than the size of the advance width). The difference is explained in the image.
 
-![Sidebearings of glyphs a and f](Glyph-bearings.png)
+![Sidebearings of glyphs a and f](glyph-bearings.png)
 
 - **Baseline** - is an invisible line that is used to position the glyphs.
 - **Ascent** - is the length from the origin point on the baseline to the highest point of the glyph.
@@ -90,17 +90,17 @@ The most know glyph’s metrics are:
 - **Height** - is the vertical size of the glyph bounding box. 
 - **Width** - is the horizontal size of the glyph's bounding box. Typically, **width** is less than **advance width** but for some glyphs, the situation is the opposite. The difference between these two values is shown in the image. 
 
-![Difference between glyp's width and advance width](Width-vs-advanced-width.png)
+![Difference between glyp's width and advance width](width-vs-advanced-width.png)
 
 You can learn all the previously described metrics in the picture below.
 
-![The main metrics of glyphs](Glyph-metrics.png)
+![The main metrics of glyphs](glyph-metrics.png)
 
 ## Kerning ##
 
 Speaking about glyph metrics, it is necessary to mention another term related to it, - **kerning**. Usually, the space between glyphs is equal by default, but some combinations would look loose if it was so. The example of such combinations are `LT`, `WA`, `YA`, etc. **Kerning** adjusts space between glyphs so the words in text would look smooth. The picture below shows the difference that kerning gives.
 
-![Comparison texts with and without kerning](Kerning.png)
+![Comparison texts with and without kerning](kerning.png)
 
 Not every font format includes kerning information. Moreover, some kerning formats are not supported by some fonts, like True Type fonts, for example. So it may be useful to convert the font format in this case. Here Aspose [*Font converter*](https://products.aspose.app/font/conversion) comes in handy.
 
