@@ -3,7 +3,7 @@ title: Aspose.Font Product Family
 type: docs
 url: /
 keywords: "Font, Aspose.Font Features, documentation"
-description: "Aspose.Font for .NET is a high-performance library for building fonts processing applicaitons in .NET."
+description: "Aspose.Font APIs for the .NET, Java and C++ developers, building cool fonts processing applicaitons."
 weight: 10
 ---
 

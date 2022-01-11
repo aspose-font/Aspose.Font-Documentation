@@ -5,7 +5,7 @@ weight: 10
 url: /net/
 is_root: true
 keywords: net library, manipulate fonts net, download fonts net, convert fonts net.
-description: If you are looking for a solution for .NET that will allow you to manipulate fonts check Aspose.Font. It allows you to load, save, convert fonts of different font formats. The documentation provides you with all the necessary information you will need in the process of working with fonts.
+description: Aspose.Font for .NET is a comprehensive API for the developers, thinking about programming on font styles, fancy fonts and lettering styles. It allows you to load, save, convert or manipulate fonts of different font formats. The documentation provides you with all the necessary information you will need in the process of working with fonts.
 ---
 
 {{% alert color="primary" %}}
