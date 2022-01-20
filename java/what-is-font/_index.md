@@ -21,7 +21,7 @@ The glyph is a unique shape, design, or way it looks. It is how the character is
 
 In the image below, you see the glyph `@` rendered in different fonts.
 
-![Glyph @ in different fonts](Glyphs.png)
+![Glyph @ in different fonts](glyphs.png)
 
 **Typeface** - is a specific design of a font. It has size, weight, width, slope, and other variations. It is often confused with the term **font**. The point is that fonts have particular (fixed) parameters. So the difference is in having variations. Therefore every variation in a typeface is an individual font. 
 The term **typeface** is also often mixed up with the type/font family. 
@@ -31,7 +31,7 @@ So, what is font family?
 
 The image below will clarify to you the difference between font, typeface and font family.
 
-![Difference between font, typeface and font family](Font_typeface_font_family.png)
+![Difference between font, typeface and font family](font_typeface_font_family.png)
 ## Font properties ##
 
 Here is a font classification by their properties. 
@@ -50,7 +50,7 @@ We will consider the main font properties such as:
 - Italic, having a slope. You may add this slope to any font.
 - Oblique. These fonts are designed with a slope.
 
-![Normal, italic, oblique fontstyle](Font_styles.png)
+![Normal, italic, oblique fontstyle](font_styles.png)
 ### Font size ###
 
 It is the height of a font in a set or it is an area that is taken by a character of the font.  It is determined with points. The fonts are usually divided into the groups described in the table:
@@ -66,19 +66,19 @@ It is the height of a font in a set or it is an area that is taken by a characte
 
 The following image will show you the difference in the sizes of the Arial font.
 
-![Different font sizes](Font_size.png)
+![Different font sizes](font_size.png)
 ### Font weight ###
 
 Font weight is the thickness of a font. 
 One typeface can have a few weights when the others, more than ten. Also, the main width of a font differs from one typeface to another. [*Display fonts*](https://docs.aspose.com/font/java/what-is-font/font-types/#display-fonts) are usually much bolder to grab more attention.
 The four most common weights are illustrated in the picture below, using the font Lora.
 
-![Font weight](Font_weight.png)
+![Font weight](font_weight.png)
 ### Font type ## 
 
 [*Font type*](https://docs.aspose.com/font/java/what-is-font/font-types) is a group of fonts with some common features. The most known are five types: serif fonts, sans serif fonts, script fonts, monospace fonts, and display fonts.
 
-![Font types](Font_types.png)
+![Font types](font_types.png)
 ### Font variant ### 
 
 It regulates how the lowercase letters appear. There are two options:
@@ -87,13 +87,13 @@ It regulates how the lowercase letters appear. There are two options:
 
 The image below shows the difference in the look of the normal and the small-caps font.
 
-![Font variants](Font_variants.png)
+![Font variants](font_variants.png)
 ### Font family ###
 
 As it was mentioned above it is a collection of typefaces in the same design.
 For example Roboto font family includes: Roboto slant, Roboto condensed, Roboto mono, etc. The Montserrat family has Montserrat alternates, Montserrat subrayada, etc.
 
-![Font families](Font_families.png)
+![Font families](font_families.png)
 ## Conclusion ##
 
 In the article, we tried to give you an answer to the question, what is font.

@@ -5,7 +5,7 @@ weight: 10
 url: /cpp/
 is_root: true
 keywords: C++ library, manipulate fonts C++, download fonts C++, convert fonts C++.
-description: If you are in need of a solution for C ++ for managing fonts go to Aspose.Font. It allows you to load, save, convert fonts of different font formats. Check the documentation to understand if it covers the objectives of your project.
+description: Aspose.Font for C++ is a comprehensive API for the developers, thinking about programming on font styles, fancy fonts and lettering styles. It allows you to load, save, convert fonts of different font formats. Check the documentation to understand if it covers the objectives of your project.
 ---
 
 {{% alert color="primary" %}}
