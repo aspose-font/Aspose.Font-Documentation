@@ -35,6 +35,39 @@ Font in `TrueType` format is a single file with `.ttf` extension. In Mac OS it i
 
 Fonts of `TrueType` format can be located in one single file as a collection of fonts. Such a file would have `.ttc` extension.
 
+### OpenType Font Format ###
+
+`OpenType Font` or `OTF` was created on the basis `TrueType` font from which it took the basic structure. To this were added additional data constructs to order the typographic behavior. The format is known as the  conjunction of `TrueType` and `Postscript` fonts. As it is really flexible it is supported by the most operational systems and devices.
+
+`OTF`, `TTF` and `Type1` are processed in Windows and Macintosh the same way, that is why there are no bugs and issues when texts render. They are also completely scaled without losing the quality.
+
+#### Advanced data included in OTF font files ####
+
+`OpenType` is technically a combination of vector and other data joined to a bunch of tables. The next data is included in such tables:
+
+- **Title** - has the common font information like font name, version, modification, etc.
+- **CMAP** - is the table that logs the relations between symbols and glyphs.
+- **Table of names** - includes font name, font family name, and font type.
+- Other tables with vector glyphs.
+- **Advanced Typographic Tables** - have the necessary data to maintain advanced typographic features.
+- **Bitmap glyphs** -  this table includes data for raster fonts.
+- **Digital Signature** table - has the designer's e-signature.
+
+Even with all the mentioned advantages, `OTF` fonts may not be the best option for web projects. Most but not all the browsers will support them. If the majority of your audience uses a browser that does not go well with `OTF`, you'd better convert it to one of the web formats.
+
+#### OTF Advantages: ####
+
+- `OpenType` supports Unicode; its glyphs can include more than 65 000 symbols along with all the eastern symbols and some like Chinese and Japanese. That is why this format is preferred when working with multi-language environments and software. 
+- `OTF` fonts are easy to compress so the smaller font files are easier to integrate into other files, which is important when working with PDF files or web pages.
+- `OTF` can contain a wide range of special glyphs like ligatures, historical and mathematical symbols, and many more.
+- Fonts of this format can also contain several optical font sizes of a single font family. Fonts of different sizes are based on different vector contours kits. This improves the readability and renderability of the small size symbols.
+- Improved [kerning](https://docs.aspose.com/font/net/what-is-font/glyph/#kerning): symbols with the shape of one type (**o**,**c**,**e**, for example) can be kerned in a similar way. By this, the kerning table gets smaller and there are more kerning pairs. 
+
+#### OTF vs TTF ####
+
+There is a pretty frequent question that sounds like:"What is better `OTF` or `TTF`?". As `OTF` is an advanced font based on `TrueType`, with the advanced features to support much-improved typography it looks like it is a better option to choose. In reality, not that many users need and use these features, so in most cases it does not matter which one of two formats to choose.
+
+
 ### Web Open Font Format ###
 
 `Web Open Font Format` or `WOFF` was developed in 2009 to cover the needs of the web application market.
