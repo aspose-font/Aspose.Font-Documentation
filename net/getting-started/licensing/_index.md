@@ -1,8 +1,11 @@
 ---
-title: Licensing - Aspose.Font for .NET
+title: Licensing
+second_title: Aspose.Font for .NET
 type: docs
 weight: 70
 url: /net/licensing/
+keywords: C# Font Management API, C# Font Manipulation API
+description: Evaluate C# Font Manipulation and Management API with some limitations and learn about how to apply license and different license types.
 ---
 
 ## **Evaluate Aspose.Font**
