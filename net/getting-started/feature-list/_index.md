@@ -1,8 +1,11 @@
 ---
 title: Feature List
+second_title: Aspose.Font for .NET
 type: docs
 weight: 30
 url: /net/feature-list/
+keywords: C# Font Management API, C# Font Manipulation API
+description: C# Font Manipulation and Management API supports different font formats and file operations such as loading, reading, detecting, extracting, and rendering font glyphs and font data.
 ---
 
 
