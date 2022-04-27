@@ -1,8 +1,11 @@
 ---
-title: Installation - Aspose.Font for .NET
+title: Installation
+second_title: Aspose.Font for .NET
 type: docs
 weight: 60
 url: /net/installation/
+keywords: C# Font Management API, C# Font Manipulation API
+description: Learn about how to install C# Font Manipulation and Management API on .NET Platform through NuGet and Package Manager Console.
 ---
 
 ## **Installing Aspose.Font for .NET through NuGet**
