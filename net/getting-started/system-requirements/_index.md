@@ -1,8 +1,11 @@
 ---
 title: System Requirements
+second_title: Aspose.Font for .NET
 type: docs
 weight: 50
 url: /net/system-requirements/
+keywords: C# Font Management API, C# Font Manipulation API
+desccription: Learn about System Requirements for C# Font Manipulation and Management API on Windows and supported Development Environments like Visual Studio.
 ---
 
 ## **Supported Operating Systems**
