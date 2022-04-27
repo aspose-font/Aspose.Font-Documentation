@@ -1,8 +1,11 @@
 ---
 title: Supported File Formats
+second_title: Aspose.Font for .NET
 type: docs
 weight: 20
 url: /net/supported-file-formats/
+keywords: C# Font Management API, C# Font Manipulation API
+description: C# Font Manipulation and Management API can load and save font formats that includes TTF, TTC, OpenType, CFF and Type1.
 ---
 
 ## **Supported File Formats**
