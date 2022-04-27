@@ -1,8 +1,11 @@
 ---
 title: How to Run the Examples in C#
+second_title: Aspose.Font for .NET
 type: docs
 weight: 80
 url: /net/how-to-run-the-examples/
+keywords: C# Font Management API, C# Font Manipulation API
+description: Download and run C# Font Manipulation and Management API Examples from GitHub in Visual Studio.
 ---
 
 ## **Software Requirements**
