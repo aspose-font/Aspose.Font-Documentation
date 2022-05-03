@@ -1,5 +1,5 @@
 ---
-title: Getting Started - C++ Font Manipulation and Management API
+title: Getting Started - C++ Font Manipulation API
 linktitle: Getting Started
 type: docs
 weight: 10

@@ -1,5 +1,5 @@
 ---
-title: Aspose.Font classes for supported font formats | .NET
+title: Font classes for supported font formats | .NET
 linktitle: Aspose.Font classes for supported font formats
 type: docs
 weight: 5

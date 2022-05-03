@@ -1,5 +1,5 @@
 ---
-title: Aspose.Font classes for supported font formats | Java
+title: Font classes for supported font formats | Java
 linktitle: Aspose.Font classes for supported font formats
 type: docs
 weight: 5

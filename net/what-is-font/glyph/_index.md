@@ -1,5 +1,5 @@
 ---
-title: Glyph | .NET
+title: Introduction to Glyph | .NET
 linktitle: Glyph
 type: docs
 weight: 20
