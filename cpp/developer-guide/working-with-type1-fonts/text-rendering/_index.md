@@ -1,5 +1,6 @@
 ---
-title: Text Rendering using Type1 Font
+title: Text Rendering using Type1 Font | C++
+linktitle: Text Rendering using Type1 Font
 type: docs
 weight: 30
 url: /cpp/text-rendering-type1-font/

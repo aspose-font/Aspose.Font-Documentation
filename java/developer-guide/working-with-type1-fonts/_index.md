@@ -1,5 +1,6 @@
 ---
-title: Working with Type1 Fonts
+title: Working with Type1 Fonts | Java
+linktitle: Working with Type1 Fonts
 type: docs
 weight: 30
 url: /java/working-with-type1-fonts/

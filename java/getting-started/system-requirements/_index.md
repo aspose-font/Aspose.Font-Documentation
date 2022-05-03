@@ -1,5 +1,6 @@
 ---
-title: System Requirements
+title: System Requirements Aspose.Font for Java
+linktitle: System Requirements
 type: docs
 weight: 50
 url: /java/system-requirements/

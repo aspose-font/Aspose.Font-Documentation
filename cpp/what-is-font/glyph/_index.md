@@ -1,5 +1,5 @@
 ---
-title: Glyph
+title: Glyph | C++
 linktitle: Glyph
 type: docs
 weight: 20

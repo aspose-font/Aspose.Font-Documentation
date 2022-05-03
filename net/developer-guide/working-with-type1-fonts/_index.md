@@ -1,5 +1,6 @@
 ---
-title: Working with Type1 Fonts
+title: Working with Type1 Fonts | .NET
+linktitle: Working with Type1 Fonts
 type: docs
 weight: 30
 url: /net/working-with-type1-fonts/

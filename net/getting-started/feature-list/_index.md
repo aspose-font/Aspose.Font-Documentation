@@ -1,6 +1,6 @@
 ---
-title: Feature List
-second_title: Aspose.Font for .NET
+title: Feature List Aspose.Font for .NET
+linktitle: Feature List
 type: docs
 weight: 30
 url: /net/feature-list/

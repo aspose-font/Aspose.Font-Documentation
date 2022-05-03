@@ -1,8 +1,10 @@
 ---
-title: Load and Extract Data
+title: Load and Extract Data | C++
+linktitle: Load and Extract Data
 type: docs
 weight: 10
-url: /cpp/laoding-saving-type1-fonts/
+url: /cpp/loading-saving-type1-fonts/
+aliases: /cpp/laoding-saving-type1-fonts/
 ---
 
 ## **Load Type1 Font from Disc**

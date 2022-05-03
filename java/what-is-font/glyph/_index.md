@@ -1,5 +1,5 @@
 ---
-title: Glyph
+title: Glyph | Java
 linktitle: Glyph
 type: docs
 weight: 20

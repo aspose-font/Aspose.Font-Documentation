@@ -1,5 +1,6 @@
 ---
-title: Text Rendering using TrueType Font
+title: Text Rendering using TrueType Font | C++
+linktitle: Text Rendering using TrueType Font
 type: docs
 weight: 20
 url: /cpp/text-rendering-truetype-font/

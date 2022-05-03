@@ -1,5 +1,6 @@
 ---
-title: Loading and Extracting Data
+title: Loading and Extracting Data | .NET
+linktitle: Loading and Extracting Data
 type: docs
 weight: 10
 url: /net/loading-saving-cff-fonts/

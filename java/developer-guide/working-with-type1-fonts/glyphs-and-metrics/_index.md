@@ -1,5 +1,6 @@
 ---
-title: Work with Glyphs and Metrics of Type1 Fonts
+title: Work with Glyphs and Metrics of Type1 Fonts | Java
+linktitle: Work with Glyphs and Metrics of Type1 Fonts
 type: docs
 weight: 20
 url: /java/glyphs-and-metrics-type1-fonts/

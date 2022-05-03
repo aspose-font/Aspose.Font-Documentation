@@ -1,5 +1,5 @@
 ---
-title: Font Formats
+title: Font Formats | Java
 linktitle: Font Formats
 type: docs
 weight: 40

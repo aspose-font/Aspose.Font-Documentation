@@ -1,5 +1,5 @@
 ---
-title: Font types
+title: Font types | C++
 linktitle: Font types
 type: docs
 weight: 10

@@ -1,5 +1,6 @@
 ---
-title: Text Rendering using Type1 Font
+title: Text Rendering using Type1 Font | .NET
+linktitle: Text Rendering using Type1 Font
 type: docs
 weight: 30
 url: /net/text-rendering-type1-font/

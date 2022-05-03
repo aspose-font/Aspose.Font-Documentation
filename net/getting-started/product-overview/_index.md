@@ -1,6 +1,6 @@
 ---
-title: Product Overview
-second_title: Aspose.Font for .NET
+title: Product Overview Aspose.Font for .NET
+linktitle: Product Overview 
 type: docs
 weight: 10
 url: /net/product-overview/

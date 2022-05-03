@@ -1,6 +1,6 @@
 ---
-title: System Requirements
-second_title: Aspose.Font for .NET
+title: System Requirements Aspose.Font for .NET
+linktitle: System Requirements
 type: docs
 weight: 50
 url: /net/system-requirements/
