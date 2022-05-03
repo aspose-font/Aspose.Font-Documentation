@@ -3,7 +3,7 @@ title: Convert TTF to WOFF | Java
 linktitle: Convert TTF to WOFF
 type: docs
 keywords: font converter ttf to woff java, convert ttf font to webfont java.
-description: Examples with code snippets how to use Aspose.Font for .NET to convert ttf to woff 
+description: Examples with code snippets how to use Aspose.Font for Java to convert ttf to woff 
 weight: 10
 url: /java/convert/ttf-to-woff
 ---

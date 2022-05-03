@@ -3,7 +3,7 @@ title: Aspose.Font for .NET 22.4 Release Notes
 type: docs
 weight: 90
 url: /net/aspose-font-for-net-22-4-release-notes/
-description: This page contains new Aspose.Font for .NET features, enhancement, and bug fixes in 2021, version 21.4. 
+description: This page contains new Aspose.Font for .NET features, enhancement, and bug fixes in 2022, version 22.4. 
 sitemap:
     changefreq: "weekly"
     priority: 0.7

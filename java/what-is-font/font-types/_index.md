@@ -4,7 +4,7 @@ linktitle: Font types
 type: docs
 weight: 10
 url: /java/what-is-font/font-types
-description: There are different font types. They differ by style, their purpose etc. Learn their styles before choosing ones you need for your interface.
+description: Font type is the classification of the font according to the way it looks and depending on this look a font of the type can be better for some purpose.
 keywords: sans serif, serif font, script font, display font, monospace font, font type
 ---
 

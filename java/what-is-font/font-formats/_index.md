@@ -4,7 +4,7 @@ linktitle: Font Formats
 type: docs
 weight: 40
 url: /java/what-is-font/font-formats
-description: The diversity of font formats allows you to choose the one that really suits your purposes answering your demands in readability, scalability, the platform you use, or space-saving. The most popular and well-known one is TrueType Font.
+description: The most popular and well-known font format is TrueType Font. But there are a bunch of others that differ depending on their sphere of usage, scalability, etc.
 keywords: font formats, woff, truetype font, woff 2, opentype, font file, otf font, eot file, eot font, ttf, cff.
 ---
 ## Which font format to choose? ##

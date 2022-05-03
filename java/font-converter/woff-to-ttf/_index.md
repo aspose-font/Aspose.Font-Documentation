@@ -5,7 +5,7 @@ type: docs
 weight: 30
 url: /java/convert/woff-to-ttf
 keywords: woff converter, convert webfont to ttf
-description: Examples illustrated with code snippets of using Aspose.Font for .NET for converting font woff to ttf
+description: Examples illustrated with code snippets of using Aspose.Font for Java for converting font woff to ttf
 ---
 
 The information below is to describe how to use the Aspose.Font for Java to convert fonts from `Web Open Font Format` to `True Type font`.

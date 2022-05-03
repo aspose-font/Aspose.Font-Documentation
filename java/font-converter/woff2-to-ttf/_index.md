@@ -5,7 +5,7 @@ type: docs
 weight: 50
 url: /java/convert/woff2-to-ttf
 keywords: java woff2 to ttf converter, woff2 font converter java.
-description: To convert woff2 to ttf with Aspose is easy. Use this documentation to see how exactly
+description: To convert woff2 to ttf with Aspose for Java is easy. Use this documentation to see how exactly
 ---
 
 This page is aimed to show how to convert fonts from `Web Open Font Format 2` to `True Type` font using the Aspose.Font for Java
