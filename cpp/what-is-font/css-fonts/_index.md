@@ -1,10 +1,10 @@
 ---
-title: CSS fonts
+title: CSS fonts | C++
 linktitle: CSS fonts
 type: docs
 weight: 30
 url: /cpp/what-is-font/css-fonts
-description: To make manipulations with fonts in HTML CSS you need to use the following properties as font-family, font-weight, font-size, font-style, etc. With font-weight, you manipulate how bold the font is. CSS font-style property is responsible for font slope. Use it when you need the font to be italic. Putting the right values to the font-size property will affect the text readability hard.
+description: To make manipulations with fonts in HTML CSS you need to use the following properties as font-family, font-weight, font-size, font-style, etc. With font-weight, you manipulate how bold the font is.
 keywords: css font, css font style, css italic, font face css, font family css list, text bold css, text style css, font type css, html font.
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Loading and Extracting Data
+title: Loading and Extracting Data | Java
+linktitle: Loading and Extracting Data
 type: docs
 weight: 10
 url: /java/loading-saving-cff-fonts/

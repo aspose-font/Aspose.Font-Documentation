@@ -1,5 +1,6 @@
 ---
-title: Supported File Formats
+title: Supported File Formats Aspose.Font for C++
+linktitle: Supported File Formats
 type: docs
 weight: 20
 url: /cpp/supported-file-formats/

@@ -1,5 +1,6 @@
 ---
-title: Working with Type1 Fonts
+title: Working with Type1 Fonts | C++
+linktitle: Working with Type1 Fonts
 type: docs
 weight: 30
 url: /cpp/working-with-type1-fonts/

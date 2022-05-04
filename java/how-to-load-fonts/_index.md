@@ -5,7 +5,7 @@ type: docs
 weight: 35
 url: /java/how-to-load-fonts
 keywords: download a font java, extract a font java, how to load fonts java,font downloader.
-description: How to download fonts on yout device with the use of Aspose.Font for Java solution? The answer is given in this article. Not only you will know how to load any font but also see the code examples on how to fulfill font loading.
+description: How to download fonts on yout device with the use of Aspose.Font for Java solution? The answer is given in this article explained in the code examples.
 ---
 
 ## Overview ##

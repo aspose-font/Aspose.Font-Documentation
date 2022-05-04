@@ -1,10 +1,10 @@
 ---
-title: Font types
+title: Font types | .NET
 linktitle: Font types
 type: docs
 weight: 10
 url: /net/what-is-font/font-types
-description: There are different font types. They differ by style, their purpose etc. Learn their styles before choosing ones you need for your interface.
+description: Font type is the classification of the font according to its look. It may be crucial when choosing one that will be better for your purpose.
 keywords: sans serif, serif font, script font, display font, monospace font, font type
 ---
 

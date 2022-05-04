@@ -1,11 +1,11 @@
 ---
-title: Aspose.Font classes for supported font formats | Java
+title: Font classes for supported font formats | Java
 linktitle: Aspose.Font classes for supported font formats
 type: docs
 weight: 5
 url: /java/developer-guide/font-classes-for-supported-font-formats
 keywords: download font, save font, font type, convert font.
-description: Getting learned Aspose.Font library is better by starting from learning the hierarchy of its classes. Reading this information will give you a clearer understanding on how to manipulate fonts and where to start from in this process.
+description: Getting learned Aspose.Font for Java library is better by starting by learning the hierarchy of its classes. The article will give you a clearer understanding of how to manipulate fonts and where to start in this process.
 ---
 
 ## Hierarchy of com.aspose.font classes ##

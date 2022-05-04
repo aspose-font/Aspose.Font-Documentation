@@ -5,7 +5,7 @@ type: docs
 weight: 40
 url: /java/convert/woff-to-woff2
 keywords: java woff to woff2, woff woff2 transform java
-description: This documentation on the Aspose solution is aimed to help you with the conversion from woff to woff2 format
+description: This documentation on the Aspose for Java solution is aimed to help you with the conversion from woff to woff2 format
 ---
 
 If you need to transform `Web OpenFont Format` to its version 2.0, this article provides you with the necessary information.

@@ -1,5 +1,6 @@
 ---
-title: Working with TrueType and OpenType Fonts
+title: Working with TrueType and OpenType Fonts | C++
+linktitle: Working with TrueType and OpenType Fonts
 type: docs
 weight: 30
 url: /cpp/working-with-truetype-and-opentype-fonts/

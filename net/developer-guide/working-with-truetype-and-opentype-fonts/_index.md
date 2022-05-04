@@ -1,4 +1,5 @@
 ---
+title: Working with TrueType and OpenType Fonts | .NET
 title: Working with TrueType and OpenType Fonts
 type: docs
 weight: 30

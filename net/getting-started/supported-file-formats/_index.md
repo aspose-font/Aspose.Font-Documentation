@@ -1,6 +1,6 @@
 ---
-title: Supported File Formats
-second_title: Aspose.Font for .NET
+title: Supported File Formats Aspose.Font for .NET
+linktitle: Supported File Formats
 type: docs
 weight: 20
 url: /net/supported-file-formats/

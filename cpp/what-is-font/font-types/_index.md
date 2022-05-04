@@ -1,10 +1,10 @@
 ---
-title: Font types
+title: Font types | C++
 linktitle: Font types
 type: docs
 weight: 10
 url: /cpp/what-is-font/font-types
-description: There are different font types. They differ by style, their purpose etc. Learn their styles before choosing ones you need for your interface.
+description: There are different font types. They differ by style, their purpose, etc. Learn their styles before choosing the ones you need for your interface.
 keywords: sans serif, serif font, script font, display font, monospace font, font type
 ---
 

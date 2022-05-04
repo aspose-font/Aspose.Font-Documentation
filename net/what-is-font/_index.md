@@ -1,10 +1,10 @@
 ---
-title: What is font? 
+title: What is font? | .NET
 linktitle: What is font?
 type: docs
 weight: 5
 url: /net/what-is-font
-description:  What is font, is a pretty complex question. It should be answered along with disclosing the properties that fonts have and classify fonts depending on these properties. 
+description:  Font is a pretty complex matter. Developing any interface you will face the part where you will have to deal with it. This chapter will make it easier for you. 
 keywords: what is font, glyph, typeface, font family.
 ---
 

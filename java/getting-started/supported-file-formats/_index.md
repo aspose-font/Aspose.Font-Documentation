@@ -1,5 +1,6 @@
 ---
-title: Supported File Formats
+title: Supported File Formats Aspose.Font for Java
+linktitle: Supported File Formats
 type: docs
 weight: 20
 url: /java/supported-file-formats/

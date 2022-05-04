@@ -1,8 +1,10 @@
 ---
-title: Load and Extract Data
+title: Load and Extract Data | .NET
+linktitle: Load and Extract Data
 type: docs
 weight: 10
-url: /net/laoding-saving-type1-fonts/
+url: /net/loading-saving-type1-fonts/
+aliases: /net/laoding-saving-type1-fonts/
 ---
 
 ## **Load Type1 Font from Disc**

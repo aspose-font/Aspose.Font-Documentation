@@ -1,10 +1,10 @@
 ---
-title: What is font? 
+title: What is font? | C++
 linktitle: What is font?
 type: docs
 weight: 5
 url: /cpp/what-is-font
-description:  What is font, is a pretty complex question. It should be answered along with disclosing the properties that fonts have and classify fonts depending on these properties. 
+description:  What is font, is a pretty complex question. It should be answered along with disclosing the properties that fonts have and classifying fonts depending on these properties. 
 keywords: what is font, glyph, typeface, font family.
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: Aspose.Font classes for supported font formats | .NET
+title: Font classes for supported font formats | .NET
 linktitle: Aspose.Font classes for supported font formats
 type: docs
 weight: 5
 url: /net/developer-guide/font-classes-for-supported-font-formats
 keywords: download font, save font, font type, convert font.
-description: Getting learned Aspose.Font library is better by starting from learning the hierarchy of its classes. Reading this information will give you a clearer understanding on how to manipulate fonts and where to start from in this process.
+description: Getting learned Aspose.Font for .NET library is better by starting by learning the hierarchy of its classes. The article will give you understanding of how to manipulate fonts.
 ---
 
 ## Hierarchy of Aspose.Font classes ##

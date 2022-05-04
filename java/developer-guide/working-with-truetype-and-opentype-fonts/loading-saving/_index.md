@@ -1,5 +1,6 @@
 ---
-title: Loading, Extracting Data and Saving from TrueType Fonts
+title: Loading, Extracting Data and Saving from TrueType Fonts | Java
+linktitle: Loading, Extracting Data and Saving from TrueType Fonts
 type: docs
 weight: 10
 url: /java/loading-saving-truetype-opentype-fonts/

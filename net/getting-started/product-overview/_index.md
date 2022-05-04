@@ -1,11 +1,11 @@
 ---
-title: Product Overview
-second_title: Aspose.Font for .NET
+title: Product Overview Aspose.Font for .NET
+linktitle: Product Overview 
 type: docs
 weight: 10
 url: /net/product-overview/
 keywords: C# Font Management API, C# Font Manipulation API
-description: C# Font Manipulation and Management API supports multiple font formats such as TrueType, CFF, OpenType, and Type1 and has a rendering subsystem to render any desired glyph or text.
+description: C# Font Manipulation and Management API supports font formats such as TTF, CFF, OpenType, WOFF and Type1 and has a rendering subsystem to render any desired glyph or text.
 ---
 
 {{% alert color="primary" %}}

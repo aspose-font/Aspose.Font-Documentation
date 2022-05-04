@@ -1,10 +1,10 @@
 ---
-title: Glyph
+title: Introduction to Glyph | Java
 linktitle: Glyph
 type: docs
 weight: 20
 url: /java/what-is-font/glyph
-description: Glyph as a composite part of any typeface has an important role in the study of fonts. This term is really crucial in the programming of font manipulation, therefore it usually has a bunch of separate classes in font libraries like Aspose.Font does.
+description: Before starting working with glyphs let's start with learning its fundamentals. As a composite part of any typeface, glyph has an important role in the study of fonts. 
 keywords: Glyph, fonts with glyphs.
 ---
 As any font contains glyphs and cannot exist without glyphs. Learning fonts cannot be fulfilled without learning about glyphs. Manipulating fonts in any sphere: programming, design, typography won’t be successful without understanding the role of glyphs. This article is aimed to help you understand the glyph fundamentals.

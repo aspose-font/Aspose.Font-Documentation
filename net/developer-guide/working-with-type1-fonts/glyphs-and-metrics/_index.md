@@ -1,5 +1,6 @@
 ---
-title: Work with Glyphs and Metrics of Type1 Fonts
+title: Work with Glyphs and Metrics of Type1 Fonts | .NET
+linktitle: Work with Glyphs and Metrics of Type1 Fonts
 type: docs
 weight: 20
 url: /net/glyphs-and-metrics-type1-fonts/

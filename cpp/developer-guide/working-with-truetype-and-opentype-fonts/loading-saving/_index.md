@@ -1,5 +1,6 @@
 ---
-title: Loading, Extracting Data and Saving from TrueType Fonts
+title: Loading, Extracting Data and Saving from TrueType Fonts | C++
+linktitle: Loading, Extracting Data and Saving from TrueType Fonts
 type: docs
 weight: 10
 url: /cpp/loading-saving-truetype-opentype-fonts/

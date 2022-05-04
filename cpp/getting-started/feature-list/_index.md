@@ -1,5 +1,6 @@
 ---
-title: Feature List
+title: Feature List Aspose.Font for C++
+linktitle: Feature List
 type: docs
 weight: 30
 url: /cpp/feature-list/

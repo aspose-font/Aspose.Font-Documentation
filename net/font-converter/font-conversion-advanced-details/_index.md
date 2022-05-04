@@ -5,7 +5,7 @@ type: docs
 weight: 100
 url: /net/convert/advanced-method-for-font-conversiton
 keywords: front convertor, font converter, font format converter
-description: To convert font formats with Aspose is pretty easy now. But sometimes you need to read/modify converted font data before saving the font. The method described is aimed to help with it.
+description: To convert fonts with Aspose is pretty easy. But sometimes you need to read converted font data before saving the it. The method here is aimed to help with it.
 ---
 
 In some cases, there is a sense to read/modify converted font data before saving the font.

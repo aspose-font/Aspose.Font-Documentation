@@ -1,5 +1,6 @@
 ---
-title: Work with Glyphs and Metrics of Type1 Fonts
+title: Work with Glyphs and Metrics of Type1 Fonts | C++
+linktitle: Work with Glyphs and Metrics of Type1 Fonts
 type: docs
 weight: 20
 url: /cpp/glyphs-and-metrics-type1-fonts/

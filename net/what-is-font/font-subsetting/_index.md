@@ -4,7 +4,7 @@ linktitle: Font Subsetting
 type: docs
 weight: 60
 url: /net/what-is-font/font-subsetting
-description: Subsetting is the process of creating a compact, easy-to-manage font file by getting rid of the needless characters from the font file. Let's explain the reasons to do so.
+description: Subsetting is the process of creating a compact, easy-to-manage font file by getting rid of the needless characters from the font file. But why to do so.
 keywords: font subsetting, subset font, web font subset
 ---
 

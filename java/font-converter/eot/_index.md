@@ -5,7 +5,7 @@ type: docs
 weight: 70
 url: /java/convert/eot
 keywords: convert eot to ttf java, eot woff woff2 java.
-description: Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert CFF format.
+description: Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert EOT fonts.
 ---
 
 It is known that `Embedded Open Type` (`EOT`) is supported mainly by the Internet Explorer browser. Because of that, to render correctly you will need to build in your software converter to `EOT` from other font formats and vice versa. In this article, it is described how to use  Aspose.Font for Java to convert `EOT` to `TTF`, `EOT` to `WOFF`, and `EOT` to `WOFF2`.
