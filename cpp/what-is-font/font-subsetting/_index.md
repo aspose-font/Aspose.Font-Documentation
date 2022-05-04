@@ -4,7 +4,7 @@ linktitle: Font Subsetting
 type: docs
 weight: 60
 url: /cpp/what-is-font/font-subsetting
-description: Font subsets are files generated(created) of a font file by cleaning it out from the characters that are not needed for the project. There are a few ways you can do it.
+description: Font subsets are files generated(created) of a font file by cleaning it out from the characters that are not needed. There are a few ways you can do it.
 keywords: font subsetting, subset font, web font subset, font subsetting cpp
 ---
 

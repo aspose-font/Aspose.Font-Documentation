@@ -4,7 +4,7 @@ linktitle: Font Subsetting
 type: docs
 weight: 60
 url: /java/what-is-font/font-subsetting
-description: Why subset fonts? The most relevant answer is to save space, as when subsetting you can make the font file smaller many times. Such files are less messy to work with too.
+description: Why subset fonts? The most relevant answer is to save space, as when subsetting you can make the file smaller many times that are less messy to work with.
 keywords: font subsetting, subset font, web font subset java
 ---
 

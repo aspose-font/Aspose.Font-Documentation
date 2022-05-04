@@ -5,7 +5,7 @@ type: docs
 weight: 10
 url: /java/how-to-load-fonts/load-a-font-from-TTF-file
 keywords: load ttf font java, download ttf font java, extract font from ttf file java.
-description: Here you will learn how with the help of Aspose.Font for Java to load a font from a file on your hard drive disk even if this file is not a font inself. So how to load a font from a TTF file for example?
+description: Here you will learn how with the help of Aspose.Font for Java to load font from a TTF file on your hard drive disk even if this file is not a font inself.
 ---
 Here you will find four examples on how to load a font from the file Montserrat-Regular.ttf fulfilled in different ways.
 ___

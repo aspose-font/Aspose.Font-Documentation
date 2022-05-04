@@ -5,7 +5,7 @@ weight: 10
 url: /java/
 is_root: true
 keywords: Java font library, manipulate fonts Java, download fonts Java convert fonts Java.
-description: Aspose.Font for Java is a comprehensive API for the developers, thinking about programming on font styles, fancy fonts and lettering styles.. All the features you may need are now in one place so you can easily integrate them into the developing process. Load, save, convert fonts, and get the font metrics you need.
+description: Java comprehensive API from Aspose.Font includes all the features you need like loading, saving, converting fonts, and getting the font metrics you need.
 ---
 
 {{% alert color="primary" %}}
