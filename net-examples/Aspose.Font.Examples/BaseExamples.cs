@@ -49,5 +49,10 @@ namespace Aspose.Font.Examples
         }
 
         public abstract void Run();
+
+        protected void PrintExampleTitle(string title, int exNum)
+        {
+            Console.WriteLine(string.Format("\n{0}, ex: {1}", title, exNum));
+        }
     }
 }
