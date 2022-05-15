@@ -33,7 +33,7 @@ Take the next steps to fulfil the operation:
     System::String fontPath = System::IO::Path::Combine(get_DataDir(), u"Montserrat-Regular.ttf");
 
     // Initialize FontDefinition object passing TTF as FontType value and using FontFileDefinition
-    FontFileDefinition fileDef = new FontFileDefinition("ttf", new FileSystemStreamSource(fontPath));
+    FontFileDefinition fileDef = new FontFileDefinition(u"ttf", new FileSystemStreamSource(fontPath));
     System::SharedPtr<FontFileDefinition> fileDef = System::MakeObject<FontFileDefinition>(System::MakeObject<FileInfo>(fontPath));
 
     // Based on FileSystemStreamSource object, set fileExtension to "ttf"
