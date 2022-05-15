@@ -25,7 +25,7 @@ using namespace System.IO;
 
 Follow the algorithm to fulfill the font loading:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object passing `CFF` as [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose).font#af7d5912b11b4a035acb454f48888122f value.
+2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object passing `CFF` as [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose.font#af7d5912b11b4a035acb454f48888122f value.
 3. Get automatically calculated value [*FileExtension*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a).
 4. Load the font.
 
@@ -46,7 +46,7 @@ Follow the algorithm to fulfill the font loading:
 
 To load font this way, you need to take the following steps:
 1. Construct path to the file.
-2. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object  passing `CFF` as [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose).font#af7d5912b11b4a035acb454f48888122f value, `cff` as [*FileExtension*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a) value, and  [*ByteContentStreamSource*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.byte_content_stream_source) object based on fontBytes array.
+2. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object  passing `CFF` as [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose.font#af7d5912b11b4a035acb454f48888122f value, `cff` as [*FileExtension*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a) value, and  [*ByteContentStreamSource*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.byte_content_stream_source) object based on fontBytes array.
 3. Load the font.
 
 ```C++
