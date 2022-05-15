@@ -29,7 +29,9 @@ The documentation of Aspose.Font for C++ has a simple structure. Let’s describ
 [*Getting Started*](https://docs.aspose.com/font/cpp/getting-started/). This chapter is aimed to give you the overall information about the product along with system requirements, installation information, licensing, information on
 how to run the examples, and so on.
 
-[*Developer Guide*](https://docs.aspose.com/cpp/developer-guide/). Here you can find articles about the classes, objects, methods, interfaces, and other entities of the Aspose.Font for C++.
+[*Developer Guide*](https://docs.aspose.com/font/cpp/developer-guide/). Here you can find articles about the classes, objects, methods, interfaces, and other entities of the Aspose.Font for C++.
+
+[*How to load fonts?*](https://docs.aspose.com/font/cpp/how-to-load-fonts/) The font manipulation process starts with loading a font to further use in your project. This article gives you a clear understanding of how to load the font. Depicted in code snippets examples will make the programming process much easier for you.
 
 [*Release Notes*](https://docs.aspose.com/font/cpp/release-notes/).  All the product’s releases are gathered in this section.
 
