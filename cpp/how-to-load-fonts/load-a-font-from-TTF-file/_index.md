@@ -45,8 +45,8 @@ Take the next steps to fulfil the operation:
 
 To fulfil loading do the next:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object passing `TTF` as [*FontType*](https://apireference.aspose.com/font/cpp/aspose.font/fonttype) value.
-3. Get automatically calculated value [*fileExtension*]((https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a)).
+2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object passing `TTF` as [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose).font#af7d5912b11b4a035acb454f48888122f) value.
+3. Get automatically calculated value [*fileExtension*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a).
 4. Load the font.
 
 ```C++
@@ -66,7 +66,7 @@ To fulfil loading do the next:
 
 The next actions have to be taken to load the font this way:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object passing `TTF` as [*FontType*](https://apireference.aspose.com/font/cpp/aspose.font/fonttype) value, `ttf` as [*fileExtension*]((https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a)) value and [*FileSystemStreamSource*](https://apireference.aspose.com/font/cpp/aspose.font.sources/filesystemstreamsource)  object. Parameter [*fileExtension*]((https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a)) here is not a duplicate value for parameter [*FontType*](https://apireference.aspose.com/font/cpp/aspose.font/fonttype).
+2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object passing `TTF` as [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose).font#af7d5912b11b4a035acb454f48888122f) value, `ttf` as [*fileExtension*]((https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a)) value and [*FileSystemStreamSource*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.file_system_stream_source)  object. Parameter [*fileExtension*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a) here is not a duplicate value for parameter [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose).font#af7d5912b11b4a035acb454f48888122f).
 3. Load the font.
 
 ```C++
@@ -87,7 +87,7 @@ The next actions have to be taken to load the font this way:
 To load the font from the byte array:
 1. Construct path to the file.
 2. Load font binary data into the byte array.
-3. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object  passing `TTF` as [*FontType*](https://apireference.aspose.com/font/cpp/aspose.font/fonttype) value,`ttf` as [*fileExtension*]((https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a)) value, and [*ByteContentStreamSource*](https://apireference.aspose.com/font/cpp/aspose.font.sources/bytecontentstreamsource) object based on fontBytes array.
+3. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_definition) object  passing `TTF` as [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose).font#af7d5912b11b4a035acb454f48888122f) value,`ttf` as [*fileExtension*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.font_file_definition#a8e3342459894f1271bc5bbc8f8d1021a) value, and [*ByteContentStreamSource*](https://apireference.aspose.com/font/cpp/class/aspose.font.sources.byte_content_stream_source) object based on fontBytes array.
 4. Load the font.
 
 ```C++
