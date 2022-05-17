@@ -22,9 +22,9 @@ What functionality does this object provide for us?
 	
 This question is answered by the properties it has. 
 
-- First, let's look at the property [*State*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/state). Some of the fonts may be corrupted and also, and their glyphs also can be corrupted.
+- First, let's look at the property [*State*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/state). Some of the fonts may be corrupted, and their glyphs also can be corrupted.
 Property *State* tells us whether the glyph is corrupted. If it has the value [*ParsedWithErrors*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyphstate), then that glyph was parsed with errors, and not all the glyph data was received.
-- Properties [*WidthVectorX*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/widthvectorx) and [*LeftSidebearingX*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/leftsidebearingx) tell us about such [*glyph metrics*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/state) as advance width and left side bearing correspondingly.
+- Properties [*WidthVectorX*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/widthvectorx) and [*LeftSidebearingX*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/leftsidebearingx) tell us about such [*glyph metrics*](https://docs.aspose.com/font/net/what-is-font/glyph/#glyph-metrics) as advance width and left side bearing correspondingly.
 - Properties [*WidthVectorY*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/widthvectory) and [*LeftSidebearingY*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/leftsidebearingy) have the same sense as *WidthVectorX* and *LeftSidebearingX*, but *WidthVectorY* and *LeftSidebearingY* are related to coordinates for the vertical Y-axis.
 
 Let's have an [*example*](https://github.com/aspose-font/Aspose.Font-Documentation/blob/master/net-examples/Aspose.Font.Examples/Glyphs/GlyphMetrics.cs) with the next code snippet that shows how to calculate the width for the text "Hello world" in pixels when the font size is 10.
@@ -39,6 +39,8 @@ using Aspose.Font.Font font;
 Then you need to take the next steps:
 
 {{< highlight csharp >}}
+    Aspose.Font.Font font;
+
     // Declare text and other constants
     const string text = "Hello world";
     const int fontSize = 10;
@@ -47,8 +49,7 @@ Then you need to take the next steps:
     double width = 0;     
 
     //Get glyphs for each letter in the text and calculate the width for the whole text
-    //The same result can be achieved using the method font.Metrics.MeasureString
-    (text, fontSize).
+    //The same result can be achieved using the method font.Metrics.MeasureString (text, fontSize)
     foreach (char symbol in text)
         {
             GlyphId gid = font.Encoding.DecodeToGid(symbol);
@@ -59,6 +60,7 @@ Then you need to take the next steps:
 {{< /highlight >}}
 
 To get the glyph's Bounding box use the [*GlyphBBox*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/glyphbbox) property of the [*Glyph*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph) object. 
+
 To get a visual representation of glyphs you need to know the coordinates for all glyphs' points.
 
 ### How to get coordinates for all glyph points from the Glyph object?
@@ -67,7 +69,7 @@ The next properties, [*IsEmpty*](https://apireference.aspose.com/font/net/aspose
 	
 Property *IsEmpty* is auxiliary. It tells us whether the glyph's path is empty, or in other words glyph has no drawing instructions at all. If it has the value *false*, it's time to construct the whole glyph's figure using the very useful property *Path*.
 
-In the concept of Aspose.Font library Aspose.Font the representation of any glyph is divided into the simplest graphic primitives, called *segments*, and represented by interface [*IPathSegment*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/ipathsegment). 
+In the concept of Aspose.Font library the representation of any glyph is divided into the simplest graphic primitives, called *segments*, and represented by interface [*IPathSegment*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/ipathsegment). 
 Interface *IPathSegment* is a base abstract graphic primitive. 
 
 Concrete graphic primitives are represented by such types as [*MoveTo*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/moveto), [*LineTo*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/lineto), [*CurveTo*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/curveto), and [*ClosePath*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/closepath/properties/index).
@@ -84,6 +86,8 @@ Property *Path* has type [*SegmentPath*](https://apireference.aspose.com/font/ne
 
 The next [*example*](https://github.com/aspose-font/Aspose.Font-Documentation/blob/master/net-examples/Aspose.Font.Examples/Glyphs/GlyphMetrics.cs) calculates all the points which glyph has and stores them in variable `points`, which represents an array of objects with [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-6.0) type.
 
+The logic used by this sample is simple and it doesn't extract glyph contours. To get these contours using type *ClosePath* must be added to segments processing. 
+
 Add the next namespaces at the head of the file:
 
 {{< highlight csharp >}}
@@ -96,8 +100,9 @@ using Aspose.Font.RenderingPath;
 Then you need to take the next steps:
 
 {{< highlight csharp >}}
+    Glyph glyph;
 
-    //Declare resultant list with pints
+    //Declare resultant list with points
     List<Point> points = new List<Point>();
 
     //Init service reference on IPathSegment
@@ -137,12 +142,6 @@ Then you need to take the next steps:
 		p.Y = y;
 		points.Add(p);
 	}
-    private void InitFont()
-    {            
-        string fontPath = Path.Combine(DataDir, FontName + ".ttf");
-        FontDefinition fontDefinition = new FontDefinition(FontType.TTF, new FontFileDefinition(new FileSystemStreamSource(fontPath)));
-        this._font = Font.Open(fontDefinition);
-    }
 
 {{< /highlight >}}
 
