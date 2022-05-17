@@ -51,11 +51,11 @@ Then you need to take the next steps:
     //Get glyphs for each letter in the text and calculate the width for the whole text
     //The same result can be achieved using the method font.Metrics.MeasureString (text, fontSize)
     foreach (char symbol in text)
-        {
-            GlyphId gid = font.Encoding.DecodeToGid(symbol);
-            Glyph glyph = font.GetGlyphById(gid);
-            width += (glyph.WidthVectorX / font.Metrics.UnitsPerEM) * fontSize;
-        }
+    {
+        GlyphId gid = font.Encoding.DecodeToGid(symbol);
+        Glyph glyph = font.GetGlyphById(gid);
+        width += (glyph.WidthVectorX / font.Metrics.UnitsPerEM) * fontSize;
+    }
 
 {{< /highlight >}}
 
@@ -110,38 +110,38 @@ Then you need to take the next steps:
 
     //Iterate all glyph path segments and collect points
     foreach (IPathSegment segment in glyph.Path.Segments)
+    {
+        if ((segment is LineTo)
+            || (segment is CurveTo))
         {
-            if ((segment is LineTo)
-                || (segment is CurveTo))
+            if (prevSegment is MoveTo)
             {
-                if (prevSegment is MoveTo)
-                {
-                    MoveTo moveTo = prevSegment as MoveTo;
-                    AddPoint((int)moveTo.X, (int)moveTo.Y, points);
-                }
-                if (segment is LineTo)
-                {
-                    LineTo line = segment as LineTo;
-                    AddPoint((int)line.X, (int)line.Y, points);
-                }
-                else if (segment is CurveTo)
-                {
-                    CurveTo curve = segment as CurveTo;
-                    AddPoint((int)curve.X1, (int)curve.Y1, points);
-                    AddPoint((int)curve.X2, (int)curve.Y2, points);
-                    AddPoint((int)curve.X3, (int)curve.Y3, points);
-                }
+                MoveTo moveTo = prevSegment as MoveTo;
+                AddPoint((int)moveTo.X, (int)moveTo.Y, points);
             }
-            prevSegment = segment;
-        }	
-	
-	void AddPoint(int x, int y, List<Point> points)
-	{
-		Point p = new Point();
-		p.X = x;
-		p.Y = y;
-		points.Add(p);
-	}
+            if (segment is LineTo)
+            {
+                LineTo line = segment as LineTo;
+                AddPoint((int)line.X, (int)line.Y, points);
+            }
+            else if (segment is CurveTo)
+            {
+                CurveTo curve = segment as CurveTo;
+                AddPoint((int)curve.X1, (int)curve.Y1, points);
+                AddPoint((int)curve.X2, (int)curve.Y2, points);
+                AddPoint((int)curve.X3, (int)curve.Y3, points);
+            }
+        }
+        prevSegment = segment;
+    }	
+
+    private void AddPoint(int x, int y, List<Point> points)
+    {
+        Point p = new Point();
+        p.X = x;
+        p.Y = y;
+        points.Add(p);
+    }
 
 {{< /highlight >}}
 
