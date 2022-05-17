@@ -14,7 +14,7 @@ _____________
 For all the conversions you will need these namespaces:
 
 ```C++
-using Aspose.Font.Sources;
+using namespace Aspose.Font.Sources;
 using System;
 using System.IO;
 ```

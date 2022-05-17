@@ -13,7 +13,7 @@ ____
 
 For all three conversions you need to put the next namespaces at the top of the head of the title:
 ```C++ 
-using Aspose::Font::Sources;
+using namespace Aspose::Font::Sources;
 ```
 
 Reach [How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) chapter to see about the Aspose conversion fundamentals.

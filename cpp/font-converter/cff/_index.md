@@ -2,7 +2,7 @@
 title: Convert CFF | C++
 linktitle: Convert CFF
 type: docs
-weight: 90
+weight: 91
 url: /cpp/convert/cff
 keywords: convert cff to ttf, cff to ttf converter, convert compact font format
 description: Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert CFF format.
@@ -13,7 +13,7 @@ ____
 
 First, add the next namespaces at the top of the head of the title:
 ```C++ 
-using Aspose::Font::Sources;
+using namespace Aspose::Font::Sources;
 ```
 
 In [How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) section you can find the font conversion fundamentals.

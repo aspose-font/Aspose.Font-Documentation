@@ -13,8 +13,8 @@ _______
 
 Use the following namespaces at the head of the file:
 ```C++ 
-using Aspose::Font::Sources;
-using Aspose::Font::Ttf;
+using namespace Aspose::Font::Sources;
+using namespace Aspose::Font::Ttf;
 ```
 
 If you need to know the Aspose conversion fundamentals get to 
@@ -37,7 +37,7 @@ Then take the next steps:
     System::SharedPtr<System::IO::FileStream> outStream = System::IO::File::Create(outPath);
 ```
 
-3. Make conversion from `TTF` to `WOFF2` and save the result using [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45 method of the base abstract [*Font*](https://apireference.aspose.com/font/cpp/class/aspose.font.font) class instance.
+3. Make conversion from `TTF` to `WOFF2` and save the result using [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45) method of the base abstract [*Font*](https://apireference.aspose.com/font/cpp/class/aspose.font.font) class instance.
 ```C++
     // Convert ttf to woff
     ttfFont->SaveToFormat(outStream, Aspose::Font::FontSavingFormats::WOFF);

@@ -13,8 +13,8 @@ _______
 
 Set the following namespaces at the head of the file:
 ```C++ 
-using Aspose::Font::Sources;
-using Aspose::Font::Ttf;
+using namespace Aspose::Font::Sources;
+using namespace Aspose::Font::Ttf;
 ```
 
  [How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) chapter will let you know about the Aspose conversion fundamentals.

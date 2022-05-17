@@ -18,8 +18,8 @@ ______
 Use the following namespaces at the head of the file:
 
 ```C++ 
-using Aspose::Font::Sources;
-using Aspose::Font::Ttf;
+using namespace Aspose::Font::Sources;
+using namespace Aspose::Font::Ttf;
 ```
 
 The fundamentals for the conversion are placed in [How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) section.

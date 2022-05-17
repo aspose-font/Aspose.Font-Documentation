@@ -5,7 +5,7 @@ type: docs
 weight: 30
 url: /cpp/convert/woff-to-ttf
 keywords: woff converter, convert webfont to ttf
-description: Examples illustrated with code snippets of using Aspose.Font for C++ for converting font woff to ttf
+description: Examples illustrated with code snippets of using namespace Aspose.Font for C++ for converting font woff to ttf
 ---
 
 The information below is to describe how to use the Aspose.Font for C++ to convert fonts from `Web Open Font Format` to `True Type font`.
@@ -13,8 +13,8 @@ _______
 
 Apply the next namespaces at the head of the file:
 ```C++ 
-using Aspose::Font::Sources;
-using Aspose::Font::Ttf;
+using namespace Aspose::Font::Sources;
+using namespace Aspose::Font::Ttf;
 ```
 
 Conversion fundamentals are available in [How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) chapter.

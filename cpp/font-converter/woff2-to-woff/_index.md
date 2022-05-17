@@ -14,8 +14,8 @@ ____
 First, you need to add the following namespaces at the head of the file:
 
 ```C++ 
-using Aspose::Font::Sources;
-using Aspose::Font::Ttf;
+using namespace Aspose::Font::Sources;
+using namespace Aspose::Font::Ttf;
 ```
 
 Make sure you've learned the conversion fundamentals in [How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) section.

@@ -81,8 +81,8 @@ Method [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.
 
 You need to use the following namespaces:
 ```C++ 
-    using Aspose::Font::Sources;
-    using Aspose::Font::Ttf;
+    using namespace Aspose::Font::Sources;
+    using namespace Aspose::Font::Ttf;
 ```
 
 Below is the sample which converts font from `TTF` to `WOFF` format.
