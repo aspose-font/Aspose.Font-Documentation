@@ -135,7 +135,7 @@ Then you need to take the next steps:
         prevSegment = segment;
     }	
 
-    private void AddPoint(int x, int y, List<Point> points)
+    void AddPoint(int x, int y, List<Point> points)
     {
         Point p = new Point();
         p.X = x;
