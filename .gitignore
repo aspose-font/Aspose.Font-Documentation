@@ -24,3 +24,9 @@ java-examples/**/target
 
 java-examples/Data/**/*.lic
 java-examples/Out
+
+cpp-examples/.vs/
+cpp-examples/packages/
+cpp-examples/Output/
+net-examples/Data/**/*.lic
+cpp-examples/**/x64/

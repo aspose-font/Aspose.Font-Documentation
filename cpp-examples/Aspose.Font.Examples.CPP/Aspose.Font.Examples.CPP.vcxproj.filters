@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\ConvertFont\ConvertCff.cpp">
+      <Filter>source\ConvertFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConvertFont\ConvertEot.cpp">
+      <Filter>source\ConvertFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConvertFont\ConvertTtfToWoff.cpp">
+      <Filter>source\ConvertFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConvertFont\ConvertTtfToWoff2.cpp">
+      <Filter>source\ConvertFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConvertFont\ConvertType1.cpp">
+      <Filter>source\ConvertFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConvertFont\ConvertWoff2ToTtf.cpp">
+      <Filter>source\ConvertFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConvertFont\ConvertWoffToTtf.cpp">
+      <Filter>source\ConvertFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConvertFont\ConvertWoffToWoff2.cpp">
+      <Filter>source\ConvertFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LoadFont\LoadCff.cpp">
+      <Filter>source\LoadFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LoadFont\LoadFontBase.cpp">
+      <Filter>source\LoadFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LoadFont\LoadTtf.cpp">
+      <Filter>source\LoadFont</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Licensing\SetLicenseFromFile.cpp">
+      <Filter>source\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Licensing\SetLicenseFromStream.cpp">
+      <Filter>source\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BaseExamples.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\IExamples.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Program.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="aspose_pch.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Glyphs\GlyphMetrics.cpp">
+      <Filter>source\Glyphs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\ConvertFont\ConvertCff.h">
+      <Filter>source\ConvertFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConvertFont\ConvertEot.h">
+      <Filter>source\ConvertFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConvertFont\ConvertTtfToWoff.h">
+      <Filter>source\ConvertFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConvertFont\ConvertTtfToWoff2.h">
+      <Filter>source\ConvertFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConvertFont\ConvertType1.h">
+      <Filter>source\ConvertFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConvertFont\ConvertWoff2ToTtf.h">
+      <Filter>source\ConvertFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConvertFont\ConvertWoffToTtf.h">
+      <Filter>source\ConvertFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConvertFont\ConvertWoffToWoff2.h">
+      <Filter>source\ConvertFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LoadFont\LoadCff.h">
+      <Filter>source\LoadFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LoadFont\LoadFontBase.h">
+      <Filter>source\LoadFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LoadFont\LoadTtf.h">
+      <Filter>source\LoadFont</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Licensing\SetLicenseFromFile.h">
+      <Filter>source\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Licensing\SetLicenseFromStream.h">
+      <Filter>source\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BaseExamples.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\IExamples.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Program.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Glyphs\GlyphMetrics.h">
+      <Filter>source\Glyphs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{ef8e7c78-114d-490e-9a04-46e04e3db9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ConvertFont">
+      <UniqueIdentifier>{41ec5b80-e2af-4925-b19a-a830c71b2a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\LoadFont">
+      <UniqueIdentifier>{20e39045-da3d-47d5-8af0-a2e55de2defa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Licensing">
+      <UniqueIdentifier>{785721bd-8746-47b3-91f1-9051f48c20a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Glyphs">
+      <UniqueIdentifier>{33564ad5-db99-4bdd-975a-d3d0e2592c0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="../ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
