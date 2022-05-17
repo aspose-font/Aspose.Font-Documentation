@@ -243,7 +243,7 @@ To load a font from the byte array you need to:
 ```
 
 {{% alert color="primary" %}}
-For getting more examples of using the Aspose.Font go to [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-for-C/tree/master/Examples)
+For getting more examples of using the Aspose.Font go to [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples), in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation).
 
 If you have any problems or questions left, you may post them at the [*Aspose.Font.Product Family*](https://forum.aspose.com/c/font/41) section of the [*Free Support Forum*](https://forum.aspose.com/) and within a few hours our support team will clear everything up for you.
 {{% /alert %}}

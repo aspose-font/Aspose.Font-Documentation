@@ -106,5 +106,5 @@ To load the font from the byte array:
 ```
 
 {{% alert color="primary" %}}
-More examples on how to use Aspose.Font are in [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-for-C/tree/master/Examples).
+More examples on how to use Aspose.Font are in [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples), in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation).
 {{% /alert %}}
