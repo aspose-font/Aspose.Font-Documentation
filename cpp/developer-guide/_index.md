@@ -2,6 +2,6 @@
 title: Developer Guide Aspose.Font for C++
 linktitle: Developer Guide
 type: docs
-weight: 20
+weight: 30
 url: /cpp/developer-guide/
 ---
