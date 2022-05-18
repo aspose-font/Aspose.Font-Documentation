@@ -54,7 +54,7 @@ Any font format from those supported for reading can be converted and saved into
 
 Here you can learn the pairs of fonts which are currently provided for conversion by the Aspose solution. Following the links, you will find more information and examples of using the library illustrated with the code snippets.
 
-- [**TTF to WOFF**](ttf-to-woff) - `TrueType Font` to `Web Open Font Format` conversion
+- [**TTF to WOFF**](ttf-to-woff1) - `TrueType Font` to `Web Open Font Format` conversion
 
 - [**TTF to WOFF2**](ttf-to-woff2) - `TrueType Font` to `Web Open Font Format version 2.0` conversion
 
