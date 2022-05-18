@@ -30,6 +30,8 @@
 using namespace Aspose::Font::Sources;
 using namespace Aspose::Font::Glyphs;
 using namespace Aspose::Font::RenderingPath;
+System::SharedPtr<Aspose::Font::Font> font;
+
 namespace Aspose {
 
 namespace Font {
@@ -77,7 +79,8 @@ void GlyphMetrics::CalculateStringWidth()
         System::SharedPtr<Glyph> glyph = this->_font->GetGlyphById(gid);
         width += (glyph->get_WidthVectorX() / this->_font->get_Metrics()->get_UnitsPerEM()) * fontSize;
     }
-    
+	font->get_Metrics()->MeasureString(text, width);
+
     //Print output results
     System::Console::WriteLine(System::String::Format(u"Width for text \"{0}\" with font size {2} is equal {3}.", text, FontName, fontSize, width));
 }
