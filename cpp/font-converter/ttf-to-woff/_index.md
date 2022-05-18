@@ -52,7 +52,7 @@ Here the [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspos
 It takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/cpp/namespace/aspose.font#a93d0dcc7c00f5c7027d60e14a5433c74) enumeration to choose output font format.
 
 {{% alert color="primary" %}}
-All of the code snippets provided and others are placed in the [*Aspose.Font.Examples.sln*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) solution, in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
+All of the code snippets provided and others are placed in the [*Aspose.Font.Examples.CPP.sln*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) solution, in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
 
 To convert fonts online you may also try a free online [*Font Conversion application*](https://products.aspose.app/font/conversion) from Aspose.
 {{% /alert %}}

@@ -4,8 +4,8 @@ linktitle: Font converter
 type: docs
 weight: 60
 url: /cpp/convert/
-keywords: "Convert fonts, font converter, transform fonts"
-description: "Easy to use library for converting fonts from Aspose. Allows you to work with a big range of different fonts like true type of web fonts. "
+keywords: Convert fonts, font converter, transform fonts
+description: Easy to use library for converting fonts from Aspose. Allows you to work with a big range of different fonts like true type of web fonts.
 ---
 
 
