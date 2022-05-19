@@ -122,14 +122,14 @@ If font data starts not from the position 0 of the byte stream, use the followin
 
 ## How to initiate FontDefinition object? ##
 
-Now, when you’ve got an idea of the objects inherited from the [*StreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/streamsource) class and providing access to the font byte stream, and of the [*FontFileDefinition*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition) object, we will explain to you how to initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object with these objects properly for different situations.
+Now, when you’ve got an idea of the objects inherited from the [*StreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/streamsource) class and providing access to the font byte stream, and of the [*FontFileDefinition*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition) object, we will explain to you how to initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.sources/fontdefinition) object with these objects properly for different situations.
 
 [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object provides you with many overloaded constructors.
 The common feature of all existing constructors is the [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) parameter. It describes the type of font format.
 As it was mentioned before, apart from the [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value, object [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) should be initialized with reference to the font binary data. 
 
 
-Next parameters of [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) constructors can be used in this case:
+Next parameters of [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.sources/fontdefinition) constructors can be used in this case:
 - [*fontName*](https://apireference.aspose.com/font/net/aspose.font.sources/fontdefinition/properties/fontname);
 - [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension);
 - object of the [*StreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/streamsource) type;
