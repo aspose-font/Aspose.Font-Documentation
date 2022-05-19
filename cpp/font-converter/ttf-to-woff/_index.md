@@ -3,7 +3,7 @@ title: Convert TTF to WOFF | C++
 linktitle: Convert TTF to WOFF
 type: docs
 weight: 10
-url: /cpp/convert/ttf-to-woff
+url: /cpp/convert/convert-ttf-to-woff
 keywords: font converter ttf to woff, convert ttf font to webfont.
 description: Examples with code snippets how to use Aspose.Font for C++ to convert ttf to woff 
 ---
