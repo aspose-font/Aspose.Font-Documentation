@@ -18,7 +18,7 @@ namespace Aspose.Font.Examples.Glyphs
 
         public override void Run()
         {
-            Console.WriteLine("\nRun glyph metrics examples");
+            PrintAlignedTitle("Glyph metrics examples", true);
             Console.WriteLine(string.Format("\nThese examples will use font \"{0}\" and glyph for '{1}' symbol", 
                 FontName, GlyphName));
             InitFont();
@@ -26,6 +26,7 @@ namespace Aspose.Font.Examples.Glyphs
             CalculateStringWidth();
             PrintGlyphBbox();
             PrintGlyphPointsCoordinates();
+            Console.WriteLine();
         }
 
         private void CalculateStringWidth()
@@ -95,7 +96,7 @@ namespace Aspose.Font.Examples.Glyphs
                     columnNum++;
                 }
                 
-            }
+            }            
         }
 
         /// <summary>

@@ -13,7 +13,7 @@ namespace Aspose.Font.Examples.LoadFont
 
         public override void Run()
         {
-            Console.WriteLine("\nRun load TrueType fonts examples");
+            PrintAlignedTitle("Run load TrueType fonts examples", true);
 
             LoadExample1();
             LoadExample2();

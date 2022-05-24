@@ -3,6 +3,7 @@ using Aspose.Font.Examples.Licensing;
 using Aspose.Font.Examples.ConvertFont;
 using Aspose.Font.Examples.LoadFont;
 using Aspose.Font.Examples.Glyphs;
+using Aspose.Font.Examples.Metadata;
 
 namespace Aspose.Font.Examples
 {
@@ -41,6 +42,9 @@ namespace Aspose.Font.Examples
             //Glyph metrics
             IExamples glyphMetrics = new GlyphMetrics();
 
+            //TrueType fonts metadata
+            IExamples metadataExamples = new MetadataExamples();
+
             ///////
             ///
             /// Examples Run
@@ -52,7 +56,7 @@ namespace Aspose.Font.Examples
             //setLicenseFromStream.Run();
 
             // Convert Font Examples
-
+            
             convertTtfToWoff.Run();
             convertTtfToWoff2.Run();
             convertWoffToTtf.Run();
@@ -68,6 +72,9 @@ namespace Aspose.Font.Examples
 
             //Glyph metrics examples
             glyphMetrics.Run();
+
+            //TrueType fonts metadata examples
+            metadataExamples.Run();
 
             Console.WriteLine("");
             Console.WriteLine("========================================");
