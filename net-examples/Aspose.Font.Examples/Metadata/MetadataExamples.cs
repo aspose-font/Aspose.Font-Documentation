@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Text;
 using System.Collections.Generic;
-using Aspose.Font;
 using Aspose.Font.Ttf;
 using Aspose.Font.TtfTables;
 
@@ -160,10 +159,13 @@ namespace Aspose.Font.Examples.Metadata
 
             StringBuilder sb = new StringBuilder();
 
-            foreach(int langId in languages)
+            for (int i = 0; i < languages.Length; i++)
             {
+                int langId = languages[i];
                 sb.Append(String.Format("{0}: {1}", Enum.GetName<TtfNameTable.MSLanguageId>(
                     (TtfNameTable.MSLanguageId)langId), mlString.GetStringForLanguageId(langId)));
+                if (i != (languages.Length - 1))
+                    sb.Append(", ");
             }
 
             return sb.ToString();
