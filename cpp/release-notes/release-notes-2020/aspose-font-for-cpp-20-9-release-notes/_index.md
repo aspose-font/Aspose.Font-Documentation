@@ -1,7 +1,7 @@
 ---
 title: Aspose.Font for CPP 20.9 Release Notes
 type: docs
-weight: 10
+weight: 4
 url: /cpp/aspose-font-for-cpp-20-9-release-notes/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Font for CPP 21.3 Release Notes
 type: docs
-weight: 7
+weight: 10
 url: /cpp/aspose-font-for-cpp-21-3-release-notes/
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Font for CPP 20.10 Release Notes
 type: docs
-weight: 8
+weight: 3
 url: /cpp/aspose-font-for-cpp-20-10-release-notes/
 
 ---
