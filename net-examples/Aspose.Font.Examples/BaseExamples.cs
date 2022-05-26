@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Aspose.Font.Sources;
 
 namespace Aspose.Font.Examples
 {
@@ -8,6 +9,7 @@ namespace Aspose.Font.Examples
         private string dataDir;
         private string outputDir;
         private string licenseDir;
+        protected const int AlignedTitleLength = 100;
 
         public BaseExamples(string folderName)
         {
@@ -53,6 +55,25 @@ namespace Aspose.Font.Examples
         protected void PrintExampleTitle(string title, int exNum)
         {
             Console.WriteLine(string.Format("\n{0}, ex: {1}", title, exNum));
+        }
+
+        protected void PrintAlignedTitle(string caption, bool startFromNewLine = false, char frameSymbol = '-')
+        {
+            if(startFromNewLine)
+                Console.WriteLine();
+            int frameLength = (AlignedTitleLength - caption.Length) / 2;
+            string frame = new string(frameSymbol, frameLength);
+
+            Console.WriteLine(frame + caption + frame);
+        }
+
+        protected Font LoadFont(string fontFileName, FontType fontType)
+        {
+            byte[] fontData = File.ReadAllBytes(DataPath(fontFileName));
+            string extension = fontFileName.Substring(fontFileName.LastIndexOf(".") + 1);
+            FontDefinition fontDefinition = new FontDefinition(fontType, 
+                new FontFileDefinition(extension, new ByteContentStreamSource(fontData)));
+            return Aspose.Font.Font.Open(fontDefinition);
         }
     }
 }
