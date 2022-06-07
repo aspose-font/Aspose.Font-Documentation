@@ -195,7 +195,7 @@ To add or refresh the entry in the table 'name' correctly, we need to pass the v
     {
         new UpdateData(TtfNameTable.NameId.FontSubfamily, "Italic"),
         new UpdateData(TtfNameTable.NameId.Description, "New description")
-        };
+    };
 
     TtfNameTable.NameRecord firstRecord = null;
 
