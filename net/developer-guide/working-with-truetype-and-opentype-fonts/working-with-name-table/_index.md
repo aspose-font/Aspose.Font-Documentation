@@ -65,7 +65,7 @@ First, let's describe the enumerations needed to work with the functionality of 
 As it was mentioned above, "Values of the parameters platformSpecificID, and languageID matter only in the context of the platformID parameter." So, when platformID is 0, and this defines the Unicode platform, use *UnicodePlatformSpecificId* enumeration, when platformID is 1 (Macintosh platform), use *MacPlatformSpecificId* enumeration, and when platformID is 3 (Windows platform), use *MSPlatformSpecificId* enumeration.
 
 	
-Enumerations [*MSLanguageId*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/ttfnametable.mslanguageid) and [*MacLanguageId*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/ttfnametable.maclanguageid) are related to languageID parameters. 
+Enumerations [*MSLanguageId*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/ttfnametable.mslanguageid) and [*MacLanguageId*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/ttfnametable.maclanguageid) are related to languageID parameter. 
 Use *MSLanguageId* enumeration, when platformID is 3 (Windows platform) and use *MacLanguageId* enumeration when platformID is 1 (Macintosh platform). 
 
 Let's now proceed with the matter of getting and refreshing entries from the 'name table.
@@ -73,7 +73,7 @@ Let's now proceed with the matter of getting and refreshing entries from the 'na
 ## How to get records from the 'name' table?
 
 							
-Let's start from the method [*GetAllNameRecords()*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/getallnamerecords/). This method, as follows from its name, returns all the entries without exclusions of the  'name' table. In practice the method is not often summoned as users in most cases do not need all the entries, so to get the needed entry the list of entries has to be thoroughly filtered. 
+Let's start from the method [*GetAllNameRecords()*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/getallnamerecords/). This method, as follows from its name, returns all the entries without exclusions of the  'name' table. In practice the method is not often called as users in most cases do not need all the entries, so to get the needed entry the list of entries has to be thoroughly filtered. 
 
 The matter is that even in one logic category, FontFamily for example, the string data of this category can be in different languages. So each language needs a separate entry in the 'name' table for this logic category. Like if the data for the FontFamily category exists in English, French, and German the FontFamily category would include 3 entries.
 
@@ -89,7 +89,8 @@ To simplify the data sampling from the 'name' table Aspose.Font library offers t
 - [*ContainsString*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/containsstring/) (string str)- checks whether a passed string is present inside all the language strings of the object.
 - [*GetEnglishString()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getenglishstring/) - returns a string written in English if found. It returns the first string, languageID of which is MSLanguageId.English_United_States, MSLanguageId.English_Australia,  MSLanguageId.English_United_Kingdom,  MSLanguageId.English_Canada, or MSLanguageId.English_New_Zealand. If there are no strings with the relevant language identifier, the method returns the first string of the list. 
 - [*GetAllStrings()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getallstrings/) - returns all the strings of all languages which the object includes.
-- The simplest to use method is [*GetNameById()*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/getnamebyid/), which was designed for cases when you need only to get the value for the set category in English. This method looks for a record, which is corresponding to 2 criteria:
+
+The simplest to use method of class *TtfNameTable* is [*GetNameById()*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/getnamebyid/), which was designed for cases when you need only to get the value for the set category in English. This method looks for a record, which is corresponding to 2 criteria:
 
 1. This record is written in English, so it has the value MSLanguageId.English_United_States or MSLanguageId.English_United_Kingdom for the languageID parameter.
 2. This record has platformID with the value equal to [*FontEnvironment.Current.CurrentPlatformId*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable.platformid/) (3 in current implementation, which declares Microsoft platform).
@@ -188,44 +189,44 @@ To add or refresh the entry in the table 'name' correctly, we need to pass the v
         public string StringData => this._data;
     }
 		
-		    UpdateData[] recordsToUpdate = new UpdateData[]
-		    {
-			    new UpdateData(TtfNameTable.NameId.FontSubfamily, "Italic"),
-			    new UpdateData(TtfNameTable.NameId.Description, "New description")
-		    };
+	UpdateData[] recordsToUpdate = new UpdateData[]
+	{
+		new UpdateData(TtfNameTable.NameId.FontSubfamily, "Italic"),
+		new UpdateData(TtfNameTable.NameId.Description, "New description")
+	};
 
-		TtfNameTable.NameRecord firstRecord = null;
+	TtfNameTable.NameRecord firstRecord = null;
 
-		foreach (UpdateData updateData in recordsToUpdate)
+	foreach (UpdateData updateData in recordsToUpdate)
+	{
+		TtfNameTable.NameRecord[] records = font.TtfTables.NameTable.GetNameRecordsByNameId(updateData.NameId);
+
+		//Declare variable for NameRecord structure to use for update operations
+		TtfNameTable.NameRecord record = null;
+
+		//In this example we will use only info from the first NameRecord structure returned to update font metadata.
+		//Many actual fonts require serious analyze of all NameRecords returned to update metadata correctly
+
+		//Initialize just created variables
+		if (records.Length == 0)
 		{
-			TtfNameTable.NameRecord[] records = font.TtfTables.NameTable.GetNameRecordsByNameId(updateData.NameId);
-
-			//Declare variable for NameRecord structure to use for update operations
-			TtfNameTable.NameRecord record = null;
-
-			//In this example we will use only info from the first NameRecord structure returned to update font metadata.
-			//Many actual fonts require serious analyze of all NameRecords returned to update metadata correctly
-
-			//Initialize just created variables
-			if (records.Length == 0)
+			//If no any record was found for current name identifer,
+			//we will use first found record for any name identifier
+			if (firstRecord == null)
 			{
-				//If no any record was found for current name identifer,
-				//we will use first found record for any name identifier
-				if (firstRecord == null)
-				{
-					firstRecord = GetFirstExistingRecord(font.TtfTables.NameTable);
-				}
-				record = firstRecord;
+				firstRecord = GetFirstExistingRecord(font.TtfTables.NameTable);
 			}
-			else
-			{
-				record = records[0];
-			}
+			record = firstRecord;
+		}
+		else
+		{
+			record = records[0];
+		}
 
-			//Add or update record in 'name' table
-			font.TtfTables.NameTable.AddName(updateData.NameId, (TtfNameTable.PlatformId)record PlatformId, 
+		//Add or update record in 'name' table
+		font.TtfTables.NameTable.AddName(updateData.NameId, (TtfNameTable.PlatformId)record PlatformId, 
                         record.PlatformSpecificId, record.LanguageId, updateData.StringData);
-		}		
+	}		
 
 		
     TtfNameTable.NameRecord GetFirstExistingRecord(TtfNameTable table)
@@ -243,7 +244,7 @@ To add or refresh the entry in the table 'name' correctly, we need to pass the v
 
 {{< /highlight >}}
 
-Other examples for refreshing the  'name' table you can find in the test [*solution MetadataExamples.cs*](https://github.com/aspose-font/Aspose.Font-Documentation/commit/956d0236aaa792b4283facbe1efe1d876ea466a8).
+Other examples for refreshing the  'name' table you can find in the test [*solution MetadataExamples.cs*](https://github.com/aspose-font/Aspose.Font-Documentation/blob/master/net-examples/Aspose.Font.Examples/Metadata/MetadataExamples.cs).
 
 
 
