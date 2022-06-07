@@ -145,7 +145,7 @@ The snippet below shows how to fulfill this operation.
         MultiLanguageString mlString = font.TtfTables.NameTable.GetMultiLanguageNameById(nameId);
             if (mlString == null)
                 continue;
-            Console.WriteLine(string.Format("{0}: {1}", nameId, GetMultiLanguageStringValue(mlString)));
+        Console.WriteLine(string.Format("{0}: {1}", nameId, GetMultiLanguageStringValue(mlString)));
     }
     //Using of this method has no sense when strings from 'name' table have only single language, but it can be useful when font
     //'name' table include multilingual strings
@@ -241,7 +241,7 @@ To add or refresh the entry in the table 'name' correctly, we need to pass the v
                 return records[0];
         }
 
-            return table.GetAllNameRecords()[0];
+        return table.GetAllNameRecords()[0];
     } 	
 
 {{< /highlight >}}
