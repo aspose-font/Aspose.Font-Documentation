@@ -191,44 +191,44 @@ To add or refresh the entry in the table 'name' correctly, we need to pass the v
         public string StringData => this._data;
     }
 		
-	UpdateData[] recordsToUpdate = new UpdateData[]
-	{
-		new UpdateData(TtfNameTable.NameId.FontSubfamily, "Italic"),
-		new UpdateData(TtfNameTable.NameId.Description, "New description")
-	};
+    UpdateData[] recordsToUpdate = new UpdateData[]
+    {
+        new UpdateData(TtfNameTable.NameId.FontSubfamily, "Italic"),
+        new UpdateData(TtfNameTable.NameId.Description, "New description")
+        };
 
-	TtfNameTable.NameRecord firstRecord = null;
+    TtfNameTable.NameRecord firstRecord = null;
 
-	foreach (UpdateData updateData in recordsToUpdate)
-	{
-		TtfNameTable.NameRecord[] records = font.TtfTables.NameTable.GetNameRecordsByNameId(updateData.NameId);
+    foreach (UpdateData updateData in recordsToUpdate)
+    {
+        TtfNameTable.NameRecord[] records = font.TtfTables.NameTable.GetNameRecordsByNameId(updateData.NameId);
 
-		//Declare variable for NameRecord structure to use for update operations
-		TtfNameTable.NameRecord record = null;
+        //Declare variable for NameRecord structure to use for update operations
+        TtfNameTable.NameRecord record = null;
 
-		//In this example we will use only info from the first NameRecord structure returned to update font metadata.
-		//Many actual fonts require serious analyze of all NameRecords returned to update metadata correctly
+        //In this example we will use only info from the first NameRecord structure returned to update font metadata.
+        //Many actual fonts require serious analyze of all NameRecords returned to update metadata correctly
 
-		//Initialize just created variables
-		if (records.Length == 0)
-		{
-			//If no any record was found for current name identifer,
-			//we will use first found record for any name identifier
-			if (firstRecord == null)
-			{
-				firstRecord = GetFirstExistingRecord(font.TtfTables.NameTable);
-			}
-			record = firstRecord;
-		}
-		else
-		{
-			record = records[0];
-		}
+        //Initialize just created variables
+        if (records.Length == 0)
+        {
+            //If no any record was found for current name identifer,
+            //we will use first found record for any name identifier
+            if (firstRecord == null)
+            {
+                firstRecord = GetFirstExistingRecord(font.TtfTables.NameTable);
+            }
+            record = firstRecord;
+        }
+        else
+        {
+            record = records[0];
+        }
 
-		//Add or update record in 'name' table
-		font.TtfTables.NameTable.AddName(updateData.NameId, (TtfNameTable.PlatformId)record PlatformId, 
+        //Add or update record in 'name' table
+        font.TtfTables.NameTable.AddName(updateData.NameId, (TtfNameTable.PlatformId)record PlatformId, 
                         record.PlatformSpecificId, record.LanguageId, updateData.StringData);
-	}		
+    }		
 
 		
     TtfNameTable.NameRecord GetFirstExistingRecord(TtfNameTable table)
