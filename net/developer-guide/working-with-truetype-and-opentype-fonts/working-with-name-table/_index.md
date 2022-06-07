@@ -94,8 +94,8 @@ You can get the list of all the languages by calling the [*GetAllLanguageIds()*]
    
 - The simplest to use method of class *TtfNameTable* is [*GetNameById()*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/getnamebyid/), which was designed for cases when you need only to get the value for the set category in English. This method looks for a record, which is corresponding to 2 criteria:
 
-1. This record is written in English, so it has the value MSLanguageId.English_United_States or MSLanguageId.English_United_Kingdom for the languageID parameter.
-2. This record has platformID with the value equal to [*FontEnvironment.Current.CurrentPlatformId*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable.platformid/) (3 in current implementation, which declares Microsoft platform).
+  1. This record is written in English, so it has the value MSLanguageId.English_United_States or MSLanguageId.English_United_Kingdom for the languageID parameter.
+  2. This record has platformID with the value equal to [*FontEnvironment.Current.CurrentPlatformId*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable.platformid/) (3 in current implementation, which declares Microsoft platform).
 
 ## How to add/update records in the 'name' table?
 								
