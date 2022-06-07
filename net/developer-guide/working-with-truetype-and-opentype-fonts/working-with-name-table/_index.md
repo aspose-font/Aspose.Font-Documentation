@@ -82,15 +82,17 @@ Furthermore, the language entry can be itself divided into a few entries that co
 To simplify the data sampling from the 'name' table Aspose.Font library offers the next methods:
 - [*GetNameRecordsByNameId()*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/getnamerecordsbynameid/)- returns the list of entries for the set by the user logic category, defined by the `nameID` parameter. 
 - [*GetMultiLanguageNameById()*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/getmultilanguagenamebyid/) - returns all the entries, relevant to the passed logic category nameID as an object of [*MultiLanguageString*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/) type. By means of the object of -  *MultiLanguageString* type, we can find out all the languages of this category and get the string data for the set language.
-- You can get the list of all the languages by calling the [*GetAllLanguageIds()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getalllanguageids/) method of the *MultiLanguageString* type. After receiving the list of the languages we can call the [*GetStringForLanguageId()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getstringforlanguageid/) method for each languageID. This method returns the data string written in this language.
+You can get the list of all the languages by calling the [*GetAllLanguageIds()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getalllanguageids/) method of the *MultiLanguageString* type. After receiving the list of the languages we can call the [*GetStringForLanguageId()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getstringforlanguageid/) method for each languageID. This method returns the data string written in this language.
+    
+	*MultiLanguageString* Class also offers the next methods:
 
-*MultiLanguageString* Class also offers the next methods:
-
-- [*ContainsString*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/containsstring/) (string str)- checks whether a passed string is present inside all the language strings of the object.
-- [*GetEnglishString()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getenglishstring/) - returns a string written in English if found. It returns the first string, languageID of which is MSLanguageId.English_United_States, MSLanguageId.English_Australia,  MSLanguageId.English_United_Kingdom,  MSLanguageId.English_Canada, or MSLanguageId.English_New_Zealand. If there are no strings with the relevant language identifier, the method returns the first string of the list. 
-- [*GetAllStrings()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getallstrings/) - returns all the strings of all languages which the object includes.
-
-The simplest to use method of class *TtfNameTable* is [*GetNameById()*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/getnamebyid/), which was designed for cases when you need only to get the value for the set category in English. This method looks for a record, which is corresponding to 2 criteria:
+    - [*ContainsString*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/containsstring/) (string str)- checks whether a passed string is present inside all the language strings of the object.
+    - [*GetEnglishString()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getenglishstring/) - returns a string written in English if found. It returns the first string, languageID of which is MSLanguageId.English_United_States, MSLanguageId.English_Australia,  MSLanguageId.English_United_Kingdom,  MSLanguageId.English_Canada, or MSLanguageId.English_New_Zealand. If there are no strings with the relevant language identifier, the method returns the first string of the list. 
+    - [*GetAllStrings()*](https://reference.aspose.com/font/net/aspose.font/multilanguagestring/getallstrings/) - returns all the strings of all languages which the object includes.
+	
+<p></p>
+   
+- The simplest to use method of class *TtfNameTable* is [*GetNameById()*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/getnamebyid/), which was designed for cases when you need only to get the value for the set category in English. This method looks for a record, which is corresponding to 2 criteria:
 
 1. This record is written in English, so it has the value MSLanguageId.English_United_States or MSLanguageId.English_United_Kingdom for the languageID parameter.
 2. This record has platformID with the value equal to [*FontEnvironment.Current.CurrentPlatformId*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable.platformid/) (3 in current implementation, which declares Microsoft platform).
