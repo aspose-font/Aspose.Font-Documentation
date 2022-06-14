@@ -152,7 +152,7 @@ Another Glyph metric but the one that is not supplied by the Glyph-type object.
 Here we are	talking about [*kerning*](https://docs.aspose.com/font/net/what-is-font/glyph/#kerning). Such a characteristic as kerning, applies not to one but to a pair of glyphs. So to calculate kerning you need to use the identifier not of one but of two glyphs.
 
 Interface [*IFontMetrics*](https://reference.aspose.com/font/net/aspose.font/ifontmetrics/) in Aspose.Font library defines method [GetKerningValue()](https://reference.aspose.com/font/net/aspose.font/ifontmetrics/getkerningvalue/) which takes glyph identifiers for a glyphs pair and returns a kerning value, related to that pair. If no kerning information exists for glyphs pair, the method returns 0.
-Implementation of *IFontMetrics* interface exists for all classes of supported font formats and it is accessible using property [Metrics](https://reference.aspose.com/font/net/aspose.font/fontmetrics/).
+Implementation of *IFontMetrics* interface exists for all classes of supported font formats and it is accessible using property [Metrics](https://reference.aspose.com/font/net/aspose.font/ifontmetrics/#properties).
 
 The next snippet calculates the kerning value for glyphs associated with symbols 'A' and 'C':
 
@@ -168,7 +168,9 @@ Any glyph in a font can be accessed by a special glyph identifier. This rule is 
 
 Glyph identifiers [*GlyphId*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyphid/) can be of two types: integer or string. These *GlyphId* data types are linked with such glyph characteristics as glyph index and glyph name correspondingly. 
 
-Also, each glyph has an index equal to its numbering in the font. An important moment is that the numbering starts not from 1 but from 0. The glyphs usually also have glyph names which are brief ASCII text labels without spaces.
+Also, each glyph has an index equal to its numbering in the font. An important moment is that the numbering starts not from 1 but from 0 so if a font contains of 15 glyphs, they have Glyph IDs 0–14. 
+
+The glyphs usually also have glyph names which are brief ASCII text labels without spaces. For example, the glyph name for symbol “+” is “plus”.
 
 So the data type `integer` corresponds with such a characteristic of the glyph as glyph index, and the data type `string` corresponds with the name of the glyph.
 Each glyph of a font represents the image of the symbol which this glyph is associated with so the glyph is linked not only to its identifier but to the unique code corresponding to this symbol.
@@ -200,7 +202,7 @@ In most cases, you do not know which glyph identifier corresponds to the specifi
 As it was mentioned above, font encoding is responsible for such relations.
 Base font encoding functionality is defined by the [*IFontEncoding*](https://reference.aspose.com/font/net/aspose.font/ifontencoding/) interface.
 
-Base interface [*IFont*](https://reference.aspose.com/font/net/aspose.font/ifont/) implemented by all font classes defines property [*Encoding*](https://reference.aspose.com/font/net/aspose.font/ifont/encoding/) of type *IFontEncoding*, so any font object created by Aspose.Font library provides implementation for *IFontEncoding* functionality посредством property *Encoding*.
+Base interface [*IFont*](https://reference.aspose.com/font/net/aspose.font/ifont/) implemented by all font classes defines property [*Encoding*](https://reference.aspose.com/font/net/aspose.font/ifont/encoding/) of type *IFontEncoding*, so any font object created by Aspose.Font library provides implementation for *IFontEncoding* functionality by the property *Encoding*.
 
 Next methods were designed to calculate glyph identifier for a character code: [*UnicodeToGid()*](https://reference.aspose.com/font/net/aspose.font/ifontencoding/unicodetogid/#unicodetogid), [*DecodeToGid*](https://reference.aspose.com/font/net/aspose.font/ifontencoding/decodetogid/) and [*DecodeToGidParameterized*](https://reference.aspose.com/font/net/aspose.font/ifontencoding/decodetogidparameterized/):
 	
@@ -213,6 +215,8 @@ After you get a glyph identifier or in other words a reference to the *GlyphId* 
 The interface *IGlyphAccessor* is implemented by any class, derived from the base *Font* class and it's accessible by the [*IFont.GlyphAccessor*](https://reference.aspose.com/font/net/aspose.font/ifont/glyphaccessor/) property.
 
 Interface *IGlyphAccessor* defines the method [GetGlyphById()](https://reference.aspose.com/font/net/aspose.font/font/getglyphbyid/). Use this method to get the glyph for *GlyphId* passed.
+
+The example of how to use the *GetGlyphById* method to get GlyphId and the corresponding glyph is included in the example from the [*The functionality provided by the Glyph object*](http://localhost:1313/font/net/developer-guide/using-glyph-objects/#glyph-object) chapter.
 
 The next 2 methods of this interface are designed to get glyph identifiers:	
 - If you need to get a glyph identifier for every character in some text string, you can use the method [*GetGlyphsForText()*](https://reference.aspose.com/font/net/aspose.font/font/getglyphsfortext/#getglyphsfortext). 
