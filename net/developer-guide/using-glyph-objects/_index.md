@@ -212,13 +212,13 @@ After you get a glyph identifier or in other words a reference to the *GlyphId* 
 
 The interface *IGlyphAccessor* is implemented by any class, derived from the base *Font* class and it's accessible by the [*IFont.GlyphAccessor*](https://reference.aspose.com/font/net/aspose.font/ifont/glyphaccessor/) property.
 
-Interface *IGlyphAccessor* defines the method [GetGlyphById()](https://reference.aspose.com/font/net/aspose.font/font/getglyphbyid/). Use this method to get the glyph for *GlyphId* passed.
+Interface *IGlyphAccessor* defines the method [GetGlyphById()](https://reference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor/getglyphbyid/). Use this method to get the glyph for *GlyphId* passed.
 
 The next 2 methods of this interface are designed to get glyph identifiers:	
-- If you need to get a glyph identifier for every character in some text string, you can use the method [*GetGlyphsForText()*](https://reference.aspose.com/font/net/aspose.font/font/getglyphsfortext/#getglyphsfortext). 
-- Method [*GetAllGlyphIds()*](https://reference.aspose.com/font/net/aspose.font/font/getallglyphids/) is designed to get all glyph identifiers, available in the font.
+- If you need to get a glyph identifier for every character in some text string, you can use the method [*GetGlyphsForText()*](https://reference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor/getglyphsfortext/). 
+- Method [*GetAllGlyphIds()*](https://reference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor/getallglyphids/) is designed to get all glyph identifiers, available in the font.
 
-Also, interface *IGlyphAccessor* defines the property [*GlyphIdType*](https://reference.aspose.com/font/net/aspose.font/font/glyphidtype/) which tells us what data type, integer, or string имеет glyph identifier.
+Also, interface *IGlyphAccessor* defines the property [*GlyphIdType*](https://reference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor/glyphidtype/) which tells us what data type, integer, or string имеет glyph identifier.
 	
 Support for retrieving glyphs is more powerful for TrueType fonts. Here you can find the information on how to get [access to font glyphs](https://docs.aspose.com/font/net/developer-guide/font-classes-for-supported-font-formats/#access-to-font-glyphs).
 
