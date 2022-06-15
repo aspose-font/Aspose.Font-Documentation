@@ -145,6 +145,87 @@ Then you need to take the next steps:
 
 {{< /highlight >}}
 
+### How to calculate kerning value for glyphs?
+			
+
+Another Glyph metric but the one that is not supplied by the Glyph-type object.
+Here we are	talking about [*kerning*](https://docs.aspose.com/font/net/what-is-font/glyph/#kerning). Such a characteristic as kerning, applies not to one but to a pair of glyphs. So to calculate kerning you need to use the identifier not of one but of two glyphs.
+
+Interface [*IFontMetrics*](https://reference.aspose.com/font/net/aspose.font/ifontmetrics/) in Aspose.Font library defines method [GetKerningValue()](https://reference.aspose.com/font/net/aspose.font/ifontmetrics/getkerningvalue/) which takes glyph identifiers for a glyphs pair and returns a kerning value, related to that pair. If no kerning information exists for glyphs pair, the method returns 0.
+Implementation of *IFontMetrics* interface exists for all classes of supported font formats and it is accessible using property [Metrics](https://reference.aspose.com/font/net/aspose.font/ifont/metrics/).
+
+The next snippet calculates the kerning value for glyphs associated with symbols 'A' and 'C':
+
+{{< highlight csharp >}}
+    Font font; 
+
+    double kerning = font.Metrics.GetKerningValue(font.Encoding.UnicodeToGid('A'), font.Encoding.UnicodeToGid('C'));	
+{{< /highlight >}}
+
+### How To obtain glyphs from font?
+						
+Any glyph in a font can be accessed by a special glyph identifier. This rule is true for any font format. 
+
+Glyph identifiers [*GlyphId*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyphid/) can be of two types: integer or string. These *GlyphId* data types are linked with such glyph characteristics as glyph index and glyph name correspondingly. 
+
+Also, each glyph has an index equal to its numbering in the font. An important moment is that the numbering starts not from 1 but from 0 so if a font contains of 15 glyphs, they have Glyph IDs 0–14. 
+
+The glyphs usually also have glyph names which are brief ASCII text labels without spaces. For example, the glyph name for symbol “+” is “plus”.
+
+So the data type `integer` corresponds with such a characteristic of the glyph as glyph index, and the data type `string` corresponds with the name of the glyph.
+Each glyph of a font represents the image of the symbol which this glyph is associated with so the glyph is linked not only to its identifier but to the unique code corresponding to this symbol.
+	
+The relation between character codes and glyph identifiers is called encoding.
+Glyphs in the font can be accessed directly by glyph identifiers or using encoding. 
+
+In the last case first, the glyph identifier based on the character code is calculated. Then the glyph corresponding to the calculated identifier is received.
+
+#### What type of glyph identifier should be used to access the desired glyph?
+
+It depends on the format of the font. 
+Glyphs in fonts of Type 1 Font Format and Compact Font Format (CFF) are accessible by the glyph name. Actually, glyphs in fonts of these formats are kept as an array and are physically accessible via numerical index but on the higher logical level for getting a glyph its name is used. 
+
+TrueType fonts use integer type for glyph identifiers. If the TrueType font has 'post' table, glyph name or a glyph identifier of string type can be used to access the glyph.
+
+### Retrieving glyphs from font using Aspose.Font library.
+	
+Aspose.Font library introduces namespace [*Aspose.Font.Glyphs*](https://reference.aspose.com/font/net/aspose.font.glyphs/) where glyphs, glyph identifiers, and other objects are placed.
+Class *GlyphId* is a base abstract class for glyph identifiers. 
+Objects of that class are used to get desired glyphs. 
+
+Glyph identifiers for integers and a string type are represented by classes [*GlyphUInt32Id*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyphuint32id/) and [*GlyphStringId*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyphstringid/) correspondingly.
+
+Both these classes are inherited from the base abstract class *GlyphId* and particularly the objects of this abstract class *GlyphId* are passed in the function of the library for access to the needed glyph. So to get the required glyph you create a *GlyphUInt32Id* or *GlyphStringId*-type object and then pass the created object to one of the functions that are designed for retrieving glyphs.
+
+In most cases, you do not know which glyph identifier corresponds to the specific character so to get the glyph identifier you need to find the relation between character code and glyph identifier. 
+
+As it was mentioned above, font encoding is responsible for such relations.
+Base font encoding functionality is defined by the [*IFontEncoding*](https://reference.aspose.com/font/net/aspose.font/ifontencoding/) interface.
+
+Base interface [*IFont*](https://reference.aspose.com/font/net/aspose.font/ifont/) implemented by all font classes defines property [*Encoding*](https://reference.aspose.com/font/net/aspose.font/ifont/encoding/) of type *IFontEncoding*, so any font object created by Aspose.Font library provides implementation for *IFontEncoding* functionality by the property *Encoding*.
+
+Next methods were designed to calculate glyph identifier for a character code: [*UnicodeToGid()*](https://reference.aspose.com/font/net/aspose.font/ifontencoding/unicodetogid/#unicodetogid), [*DecodeToGid*](https://reference.aspose.com/font/net/aspose.font/ifontencoding/decodetogid/) and [*DecodeToGidParameterized*](https://reference.aspose.com/font/net/aspose.font/ifontencoding/decodetogidparameterized/):
+	
+- Use method *UnicodeToGid()* if your character code is unicode.
+- If your character code is not unicode use *DecodeToGid()* method.
+- Method *DecodeToGidParameterized()* is designed for compound cases when special parameters are needed to calculate glyph identifiers.
+
+After you get a glyph identifier or in other words a reference to the *GlyphId* object, you can get the glyph associated with this *GlyphId* using functionality, defined by the interface [*IGlyphAccessor*](https://reference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor/). 
+
+The interface *IGlyphAccessor* is implemented by any class, derived from the base *Font* class and it's accessible by the [*IFont.GlyphAccessor*](https://reference.aspose.com/font/net/aspose.font/ifont/glyphaccessor/) property.
+
+Interface *IGlyphAccessor* defines the method [GetGlyphById()](https://reference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor/getglyphbyid/). Use this method to get the glyph for *GlyphId* passed.
+
+The example of how to use the *GetGlyphById* method to get GlyphId and the corresponding glyph is included in the example from the [*The functionality provided by the Glyph object*](http://localhost:1313/font/net/developer-guide/using-glyph-objects/#glyph-object) chapter.
+
+The next 2 methods of this interface are designed to get glyph identifiers:	
+- If you need to get a glyph identifier for every character in some text string, you can use the method [*GetGlyphsForText()*](https://reference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor/getglyphsfortext/). 
+- Method [*GetAllGlyphIds()*](https://reference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor/getallglyphids/) is designed to get all glyph identifiers, available in the font.
+
+Also, interface *IGlyphAccessor* defines the property [*GlyphIdType*](https://reference.aspose.com/font/net/aspose.font.glyphs/iglyphaccessor/glyphidtype/) which tells us what data type, integer, or string имеет glyph identifier.
+	
+Support for retrieving glyphs is more powerful for TrueType fonts. Here you can find the information on how to get [access to font glyphs](https://docs.aspose.com/font/net/developer-guide/font-classes-for-supported-font-formats/#access-to-font-glyphs).
+
 
 {{% alert color="primary" %}}
 All the examples of using the Aspose.Font are stored in [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation)
