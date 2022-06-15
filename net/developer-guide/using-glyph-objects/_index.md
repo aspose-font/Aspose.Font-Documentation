@@ -152,7 +152,7 @@ Another Glyph metric but the one that is not supplied by the Glyph-type object.
 Here we are	talking about [*kerning*](https://docs.aspose.com/font/net/what-is-font/glyph/#kerning). Such a characteristic as kerning, applies not to one but to a pair of glyphs. So to calculate kerning you need to use the identifier not of one but of two glyphs.
 
 Interface [*IFontMetrics*](https://reference.aspose.com/font/net/aspose.font/ifontmetrics/) in Aspose.Font library defines method [GetKerningValue()](https://reference.aspose.com/font/net/aspose.font/ifontmetrics/getkerningvalue/) which takes glyph identifiers for a glyphs pair and returns a kerning value, related to that pair. If no kerning information exists for glyphs pair, the method returns 0.
-Implementation of *IFontMetrics* interface exists for all classes of supported font formats and it is accessible using property [Metrics](https://reference.aspose.com/font/net/aspose.font/ifontmetrics/#properties).
+Implementation of *IFontMetrics* interface exists for all classes of supported font formats and it is accessible using property [Metrics](https://reference.aspose.com/font/net/aspose.font/ifont/metrics/).
 
 The next snippet calculates the kerning value for glyphs associated with symbols 'A' and 'C':
 
