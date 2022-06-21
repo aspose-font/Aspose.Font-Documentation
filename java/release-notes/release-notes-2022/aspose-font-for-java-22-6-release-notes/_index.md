@@ -458,8 +458,8 @@ Support for adding Name Records to 'name' table  has been implemented.
 ### Renamed APIs
  
 ### Modified APIs
- * Method com.aspose.font.TtfNameTable.getMultiLanguageNameById(com.aspose.font.TtfNameTable$NameId) -> com.aspose.font.TtfNameTable.getMultiLanguageNameById(com.aspose.font.TtfNameTable$NameId)
- * Method com.aspose.font.TtfNameTable.getNameById(com.aspose.font.TtfNameTable$NameId) -> com.aspose.font.TtfNameTable.getNameById(com.aspose.font.TtfNameTable$NameId)
+ * Method com.aspose.font.TtfNameTable.getMultiLanguageNameById(com.aspose.font.TtfNameTable$NameId) -> com.aspose.font.TtfNameTable.getMultiLanguageNameById(com.aspose.font.NameId)
+ * Method com.aspose.font.TtfNameTable.getNameById(com.aspose.font.TtfNameTable$NameId) -> com.aspose.font.TtfNameTable.getNameById(com.aspose.font.NameId)
 
 ### Removed APIs
  * Type com.aspose.font.TtfNameTable$NameId
