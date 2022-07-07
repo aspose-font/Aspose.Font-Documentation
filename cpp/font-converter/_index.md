@@ -79,34 +79,35 @@ Here you can learn the pairs of fonts which are currently provided for conversio
 [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45) method of the base abstract [*Font*](https://apireference.aspose.com/font/cpp/class/aspose.font.font) class instance. [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45) method takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/cpp/namespace/aspose.font#a93d0dcc7c00f5c7027d60e14a5433c74) enumeration for choosing the output font format.
 Method [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45) allows you to save fonts into any of the output formats supported. 
 
-You need to use the following namespaces:
-```C++ 
-    using namespace Aspose::Font::Sources;
-    using namespace Aspose::Font::Ttf;
-```
+Below is the sample which converts font from `TTF` to `WOFF2` format.
 
-Below is the sample which converts font from `TTF` to `WOFF` format.
+{{< blocks/products/pf/agp/feature-section >}}
+{{< app/font/converter "C++ code example TTF to WOFF2 conversion" TTF WOFF2 WOFF>}}
+using namespace System;
+using namespace Aspose::Font::Sources;
+using namespace Aspose::Font::Ttf;
+using namespace Aspose::Font;
 
-Take the next steps:
-1. Open `TTF` font.
-2. Add the output settings.
-3. Fulfil the conversion `TTF` to `WOFF` and save the resultant.
+// Open {{input lower}} font
+SharedPtr<FontFileDefinition> fontFileDefinition = MakeObject<FontFileDefinition>(MakeObject<FileSystemStreamSource>(u"{{inputFile}}"));
+SharedPtr<FontDefinition> fontDefinition = MakeObject<FontDefinition>(FontType::{{input}}, fontFileDefinition);
+SharedPtr<Font> font = Font::Open(fontDefinition);
 
-```C++
-    // Open ttf font
-    System::String fontPath = System::IO::Path::Combine(get_DataDir(), u"Montserrat-Regular.ttf");
-    System::SharedPtr<FontDefinition> fontDefinition = System::MakeObject<FontDefinition>(Aspose::Font::FontType::TTF, System::MakeObject<FontFileDefinition>(System::MakeObject<FileSystemStreamSource>(fontPath)));
-    System::SharedPtr<Aspose::Font::Font> font = Aspose::Font::Font::Open(fontDefinition);
-    
-    // Woff output settings
-    System::String outPath = System::IO::Path::Combine(get_OutputDir(), u"TtfToWoff_out1.woff");
-    System::SharedPtr<System::IO::FileStream> outStream = System::IO::File::Create(outPath);
-    
-    // Convert ttf to woff
-    font->SaveToFormat(outStream, Aspose::Font::FontSavingFormats::WOFF);
-```
+// {{output camel}} output settings
+SharedPtr<IO::FileStream> outStream = IO::File::Create(u"{{outputFile}}");
 
-Conversions into other formats, like `woff` to `ttf`, `ttf` to `woff2`, `woff2` to `ttf`, and others can be accomplished in a similar way.
+// Convert {{input lower}} to {{output lower}}
+font->SaveToFormat(outStream, FontSavingFormats::{{output upper}});
+{{< /app/font/converter >}}
+{{< /blocks/products/pf/agp/feature-section >}}
+
+{{< blocks/products/pf/agp/other-supported-section title="Other Supported Conversions" subTitle="Conversions from other formats can be accomplished in a similar way." >}}
+
+{{< blocks/products/pf/agp/other-supported-section-item href="/font/cpp/convert/cff/" name="CFF" description="Compact Font Format">}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/font/cpp/convert/eot/" name="EOT" description="Embedded Open Type">}}
+{{< blocks/products/pf/agp/other-supported-section-item href="/font/cpp/convert/type1/" name="Type1" description="Type1 Font">}}
+
+{{< /blocks/products/pf/agp/other-supported-section >}}
 
 ## How to get the solution?
 

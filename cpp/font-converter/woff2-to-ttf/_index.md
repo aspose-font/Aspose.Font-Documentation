@@ -12,35 +12,35 @@ This page is aimed to show how to convert fonts from `Web Open Font Format 2` to
 _______
 
 Set the following namespaces at the head of the file:
-```C++ 
-using namespace Aspose::Font::Sources;
-using namespace Aspose::Font::Ttf;
-```
 
- [How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) chapter will let you know about the Aspose conversion fundamentals.
+[How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) chapter will let you know about the Aspose conversion fundamentals.
 
 To convert `WOFF2` to `TTF` make the next actions:
 
 1. Open `Woff2` font. 
-```C++ 
-    // Open woff font
-    System::String fontPath = System::IO::Path::Combine(get_DataDir(), u"Montserrat-Regular.woff2");
-    System::SharedPtr<FontDefinition> fontDefinition = System::MakeObject<FontDefinition>(Aspose::Font::FontType::TTF, System::MakeObject<FontFileDefinition>(u"woff2", System::MakeObject<FileSystemStreamSource>(fontPath)));
-    System::SharedPtr<Aspose::Font::Font> font = Aspose::Font::Font::Open(fontDefinition);
-```
-
 2. Specify the output setting.
-```C++ 
-    // Ttf output settings
-    System::String outPath = System::IO::Path::Combine(get_OutputDir(), u"Woff2ToTtf_out1.ttf");
-    System::SharedPtr<System::IO::FileStream> outStream = System::IO::File::Create(outPath);
-```
-
 3. Use [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45) method of the base abstract [*Font*](https://apireference.aspose.com/font/cpp/class/aspose.font.font) class instance to transform font and save results.
-```C++ 
-    // Convert woff to ttf
-    font->SaveToFormat(outStream, Aspose::Font::FontSavingFormats::TTF);
-```
+
+{{< blocks/products/pf/agp/feature-section >}}
+{{< app/font/converter "C++ code example WOFF2 to TTF conversion" WOFF2 TTF WOFF>}}
+    using namespace System;
+    using namespace Aspose::Font::Sources;
+    using namespace Aspose::Font::Ttf;
+    using namespace Aspose::Font;
+
+    // Open ttf font
+    System::String fontPath = System::IO::Path::Combine(get_DataDir(), u"{{inputFile}}");
+    System::SharedPtr<FontDefinition> fontDefinition = System::MakeObject<FontDefinition>(FontType::{{input}}, System::MakeObject<FontFileDefinition>(System::MakeObject<FileSystemStreamSource>(fontPath)));
+    System::SharedPtr<Aspose::Font::Font> font = Aspose::Font::Font::Open(fontDefinition);
+
+    // {{output camel}} output settings
+    System::String outPath = System::IO::Path::Combine(get_OutputDir(), u"{{outputFile}}");
+    System::SharedPtr<System::IO::FileStream> outStream = System::IO::File::Create(outPath);
+
+    // Convert ttf to {{output lower}}
+    font->SaveToFormat(outStream, FontSavingFormats::{{output upper}});
+{{< /app/font/converter >}}
+{{< /blocks/products/pf/agp/feature-section >}}
 
 {{% alert color="primary" %}}
 Go to [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples), in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository for getting more examples.
