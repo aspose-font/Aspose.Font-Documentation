@@ -42,7 +42,7 @@ To convert `TTF` to `WOFF` you will need to take the following steps:
 {{< /blocks/products/pf/agp/feature-section >}}
 
 Here the [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45) method of the base abstract [*Font*](https://apireference.aspose.com/font/cpp/class/aspose.font.font) class instance was used. 
-It takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/cpp/namespace/aspose.font#a93d0dcc7c00f5c7027d60e14a5433c74) enumeration to choose output font format.
+It takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/cpp/namespace/aspose.font#a93d0dcc7c00f5c7027d60e14a5433c74) enumeration to choose the output font format.
 
 {{% alert color="primary" %}}
 All of the code snippets provided and others are placed in the [*Aspose.Font.Examples.CPP.sln*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) solution, in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.

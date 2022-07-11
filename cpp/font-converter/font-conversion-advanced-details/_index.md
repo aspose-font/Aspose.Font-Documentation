@@ -27,7 +27,7 @@ The next table shows a map of coherence between [*FontType*](https://apireferenc
 Use resultant font object to access/change font properties before saving resultant font or instead of saving resultant font.
 
 At the current moment method [*Convert()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a60434df90332e764a44ae2f93fe6be56) supports conversion only into `TrueType` font format (FontType::TTF), so it always returns 
-the object of type [*TtfFont*](https://apireference.aspose.com/font/cpp/class/aspose.font.ttf.ttf_font) as result of conversion independently of source font used. 
+the object of type [*TtfFont*](https://apireference.aspose.com/font/cpp/class/aspose.font.ttf.ttf_font) as a result of conversion independently of the source font used. 
 
 Next code snippet loads `CFF` font `CenturyGothic` from disk, converts it into `TrueType` format, and changes the name of the converted font to "CenturyGothic_Converted".
 
@@ -67,5 +67,5 @@ destFont->Save(outPath);
 {{< /blocks/products/pf/agp/feature-section >}}
 
 {{% alert color="primary" %}}
-The full range of examples for using Aspose.Font for C++ is placed in [*Aspose.Font.Examples.CPP.sln*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) solution, in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) github repository. 
+The full range of examples for using Aspose.Font for C++ is placed in [*Aspose.Font.Examples.CPP.sln*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) solution, in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) GitHub repository. 
 {{% /alert %}}

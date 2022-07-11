@@ -8,7 +8,7 @@ keywords: convert cff to ttf, cff to ttf converter, convert compact font format
 description: Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert CFF format.
 ---
 
-The article will explain to you with the code how to transform `CFF` format. Aspose solution now gives you the opportunity to convert `CFF` to `TTF`, `CFF` to `WOFF` and `CFF` to `WOFF2`.
+The article will explain to you how to transform `CFF` format. Aspose solution now gives you the opportunity to convert `CFF` to `TTF`, `CFF` to `WOFF`, and `CFF` to `WOFF2`.
 
 ## Convert CFF to TTF | WOFF | WOFF2
 
@@ -40,7 +40,7 @@ font->SaveToFormat(outStream, FontSavingFormats::{{output upper}});
 
 
 {{% alert color="primary" %}}
-If you need to learn more examples of using the solution to convert fonts you will find useful the [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples), in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation).
+If you need to learn more examples of using the solution to convert fonts you will find the [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples)useful. It is placed in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation).
 
 
 Try [*Font Conversion application*](https://products.aspose.app/font/conversion) in case you want to learn the functional online for free.

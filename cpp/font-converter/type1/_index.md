@@ -14,7 +14,7 @@ Reach [How to convert the font into the desired format?](https://docs.aspose.com
 
 ## Convert Type1 to TTF | WOFF | WOFF2
 
-Fulfill the actions written below to tranform `Type one` to `True Type Font`:
+Fulfill the actions written below to transform `Type one` to `True Type Font`:
 1. Open `Type1` font.
 2. Apply the output settings for the `Type1` font.
 3. Fulfill the conversion.

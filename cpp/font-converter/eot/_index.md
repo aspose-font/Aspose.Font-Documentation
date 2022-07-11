@@ -16,8 +16,8 @@ The information about the font conversion fundamentals is notified in [How to co
 
 To transform `Embedded Open Type` to `True Type Format` you will need:
 1. Open `EOT` font.
-2. Notify the output settings for `TTF` font.
-3. Run the fon conversion.
+2. Notify the output settings for the `TTF` font.
+3. Run the font conversion.
 
 {{< blocks/products/pf/agp/feature-section >}}
 {{< app/font/converter "C++ code example EOT conversion" EOT TTF WOFF WOFF2>}}
