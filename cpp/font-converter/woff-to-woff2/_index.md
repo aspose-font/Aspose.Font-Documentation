@@ -16,7 +16,7 @@ If you want to learn the Aspose conversion fundamentals go to
 
  Taking the next three steps you will convert `WOFF` to `WOFF2`:
 
-1. Open `Woff` font file.
+1. Open the `Woff` font file.
 2. Notify the output setting.
 3. Transform the font into `WOFF2` format and save the result.
 

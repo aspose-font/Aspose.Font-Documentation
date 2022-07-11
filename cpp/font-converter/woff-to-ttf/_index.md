@@ -13,9 +13,9 @@ _______
 
 Conversion fundamentals are available in [How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) chapter.
 
-To fulfil the conversion from `WOFF` to `TTF` font you need to follow the next steps:
+To fulfill the conversion from `WOFF` to `TTF` font you need to follow the next steps:
 
-1. Open `Woff` font file.
+1. Open the `Woff` font file.
 2. Specify the output setting.
 3. Use [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45) method of the base abstract [*Font*](https://apireference.aspose.com/font/cpp/class/aspose.font.font) class instance to transform font and save results.
 
@@ -43,5 +43,5 @@ To fulfil the conversion from `WOFF` to `TTF` font you need to follow the next s
 {{% alert color="primary" %}}
 If you need more examples of the solution you may check [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples), in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
 
-To try the functionality you can also go to our free web [*Font Conversion application*](https://products.aspose.app/font/conversion) application from Aspose.
+To try the functionality you can also go to our free web [*Font Conversion application*](https://products.aspose.app/font/conversion) from Aspose.
 {{% /alert %}}

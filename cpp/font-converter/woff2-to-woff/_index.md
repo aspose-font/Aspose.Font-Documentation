@@ -13,9 +13,9 @@ ____
 
 Make sure you've learned the conversion fundamentals in [How to convert the font into the desired format?](https://docs.aspose.com//font/cpp/convert/#how-to-convert-the-font-into-the-desired-format) section.
 
-Then to fulfil `WOFF2` to `WOFF` conversion you will need to take these three steps:
+Then to fulfill `WOFF2` to `WOFF` conversion you will need to take these three steps:
 
-1. Open `Woff2` font file.
+1. Open the `WOFF2` font file.
 2. Write the output setting for the `WOFF` format.
 3. Convert and save the font result.
 
