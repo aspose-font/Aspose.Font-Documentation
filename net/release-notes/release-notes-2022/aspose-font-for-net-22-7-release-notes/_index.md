@@ -32,14 +32,14 @@ Data type *Version16Dot16* has been supported.
 ## Public API and Backwards Incompatible Changes
 
 ### Added APIs
-* Class Aspose.Font.Ttf.Common.Version16Dot16
-* Constructor Aspose.Font.Ttf.Common.Version16Dot16
-* Constructor Aspose.Font.Ttf.Common.Version16Dot16(System.UInt16,System.UInt16)
-* Property Aspose.Font.Ttf.Common.Version16Dot16.MajorNumber
-* Property Aspose.Font.Ttf.Common.Version16Dot16.MinorNumber
-* Property Aspose.Font.Ttf.Common.Version16Dot16.RawBytes
-* Method Aspose.Font.Ttf.Common.Version16Dot16.ToString
-* Method Aspose.Font.Ttf.Common.Version16Dot16.Clone
+* Class Aspose.Font.TtfCommon.Version16Dot16
+* Constructor Aspose.Font.TtfCommon.Version16Dot16
+* Constructor Aspose.Font.TtfCommon.Version16Dot16(System.UInt16,System.UInt16)
+* Property Aspose.Font.TtfCommon.Version16Dot16.MajorNumber
+* Property Aspose.Font.TtfCommon.Version16Dot16.MinorNumber
+* Property Aspose.Font.TtfCommon.Version16Dot16.RawBytes
+* Method Aspose.Font.TtfCommon.Version16Dot16.ToString
+* Method Aspose.Font.TtfCommon.Version16Dot16.Clone
 * Property Aspose.Font.TtfTables.TtfMaxpTable.TableVersion
 * Method Aspose.Font.TtfTables.TtfNameTable.DeleteRecordsByNameId(Aspose.Font.TtfTables.TtfNameTable.NameId)
 * Method Aspose.Font.TtfTables.TtfNameTable.DeleteRecords(Aspose.Font.TtfTables.TtfNameTable.PlatformId,System.UInt16,Aspose.Font.TtfTables.TtfNameTable.NameId)
@@ -50,5 +50,7 @@ Data type *Version16Dot16* has been supported.
 * Method Aspose.Font.TtfTables.TtfNameTable.AddMultiLanguageNames(Aspose.Font.MultiLanguageString,Aspose.Font.TtfTables.TtfNameTable.PlatformId,System.UInt16,Aspose.Font.TtfTables.TtfNameTable.NameId)
 * Method Aspose.Font.TtfTables.TtfNameTable.GetMultiLanguageNameById(Aspose.Font.TtfTables.TtfNameTable.NameId,Aspose.Font.TtfTables.TtfNameTable.PlatformId)
 * Method Aspose.Font.TtfTables.TtfNameTable.GetMultiLanguageNameById(Aspose.Font.TtfTables.TtfNameTable.NameId,Aspose.Font.TtfTables.TtfNameTable.PlatformId,System.UInt16)
+* Constructor Aspose.Font.MultiLanguageString
+* Method Aspose.Font.MultiLanguageString.AddLanguageString(System.String,System.Int32)
 ## Got Queries?
 If you have any query related to Aspose.Font for .NET API, please feel free to write to reach us on [Aspose.Font forum](https://forum.aspose.com/c/font/). We'll be glad to assist you with your inquiries.
