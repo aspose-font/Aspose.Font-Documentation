@@ -10,10 +10,10 @@ description: To convert fonts with Aspose is pretty easy. But sometimes you need
 
 In some cases, there is a sense to read/modify converted font data before saving the font.
 
-Method [*Aspose.Font.Font.Convert(FontType fontType)*](https://apireference.aspose.com/font/net/aspose.font/font/methods/convert) was designed for such cases. This method converts a font into the type specified and 
-returns the object inherited from [*Aspose.Font.Font*](https://apireference.aspose.com/font/net/aspose.font/font) class which corresponds to [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value, passed into [*Convert()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/convert) method.
+Method [*Aspose.Font.Font.Convert(FontType fontType)*](https://reference.aspose.com/font/net/aspose.font/font/methods/convert) was designed for such cases. This method converts a font into the type specified and 
+returns the object inherited from [*Aspose.Font.Font*](https://reference.aspose.com/font/net/aspose.font/font) class which corresponds to [*FontType*](https://reference.aspose.com/font/net/aspose.font/fonttype) value, passed into [*Convert()*](https://reference.aspose.com/font/net/aspose.font/font/methods/convert) method.
 
-The next table shows a map of coherence between [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) values and objects, inherited from the base [*Aspose.Font.Font*](https://apireference.aspose.com/font/net/aspose.font/font) class.
+The next table shows a map of coherence between [*FontType*](https://reference.aspose.com/font/net/aspose.font/fonttype) values and objects, inherited from the base [*Aspose.Font.Font*](https://reference.aspose.com/font/net/aspose.font/font) class.
 
 
 | **Font type**| **Font object**|
@@ -26,8 +26,8 @@ The next table shows a map of coherence between [*FontType*](https://apireferenc
 
 Use resultant font object to access/change font properties before saving resultant font or instead of saving resultant font.
 
-At the current moment method [*Convert()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/convert) supports conversion only into `TrueType` font format (FontType.TTF), so it always returns 
-the object of type [*TtfFont*](https://apireference.aspose.com/font/net/aspose.font.ttf/ttffont) as result of conversion independently of source font used. 
+At the current moment method [*Convert()*](https://reference.aspose.com/font/net/aspose.font/font/methods/convert) supports conversion only into `TrueType` font format (FontType.TTF), so it always returns 
+the object of type [*TtfFont*](https://reference.aspose.com/font/net/aspose.font.ttf/ttffont) as result of conversion independently of source font used. 
 
 Next code snippet loads `CFF` font `CenturyGothic` from disk, converts it into `TrueType` format, and changes the name of the converted font to "CenturyGothic_Converted".
 

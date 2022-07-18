@@ -13,7 +13,7 @@ Working with glyphs is crucial when coding fonts as it is their unit. When the b
 ## Glyph object
 
 				
-Glyphs of any font are represented by [*Glyph*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph) type in Aspose.Font library.
+Glyphs of any font are represented by [*Glyph*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph) type in Aspose.Font library.
 So, *Glyph* type is a universal object for font glyphs, independently from font format(TrueType, Compact Font Format, etc).
 
 ### The functionality provided by the Glyph object
@@ -22,10 +22,10 @@ What functionality does this object provide for us?
 	
 This question is answered by the properties it has. 
 
-- First, let's look at the property [*State*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/state). Some of the fonts may be corrupted, and their glyphs also can be corrupted.
-Property *State* tells us whether the glyph is corrupted. If it has the value [*ParsedWithErrors*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyphstate), then that glyph was parsed with errors, and not all the glyph data was received.
-- Properties [*WidthVectorX*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/widthvectorx) and [*LeftSidebearingX*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/leftsidebearingx) tell us about such [*glyph metrics*](https://docs.aspose.com/font/net/what-is-font/glyph/#glyph-metrics) as advance width and left side bearing correspondingly.
-- Properties [*WidthVectorY*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/widthvectory) and [*LeftSidebearingY*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/leftsidebearingy) have the same sense as *WidthVectorX* and *LeftSidebearingX*, but *WidthVectorY* and *LeftSidebearingY* are related to coordinates for the vertical Y-axis.
+- First, let's look at the property [*State*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/state). Some of the fonts may be corrupted, and their glyphs also can be corrupted.
+Property *State* tells us whether the glyph is corrupted. If it has the value [*ParsedWithErrors*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyphstate), then that glyph was parsed with errors, and not all the glyph data was received.
+- Properties [*WidthVectorX*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/widthvectorx) and [*LeftSidebearingX*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/leftsidebearingx) tell us about such [*glyph metrics*](https://docs.aspose.com/font/net/what-is-font/glyph/#glyph-metrics) as advance width and left side bearing correspondingly.
+- Properties [*WidthVectorY*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/widthvectory) and [*LeftSidebearingY*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/leftsidebearingy) have the same sense as *WidthVectorX* and *LeftSidebearingX*, but *WidthVectorY* and *LeftSidebearingY* are related to coordinates for the vertical Y-axis.
 
 Let's have an [*example*](https://github.com/aspose-font/Aspose.Font-Documentation/blob/master/net-examples/Aspose.Font.Examples/Glyphs/GlyphMetrics.cs) with the next code snippet that shows how to calculate the width for the text "Hello world" in pixels when the font size is 10.
 
@@ -59,20 +59,20 @@ Then you need to take the next steps:
 
 {{< /highlight >}}
 
-To get the glyph's Bounding box use the [*GlyphBBox*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/glyphbbox) property of the [*Glyph*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph) object. 
+To get the glyph's Bounding box use the [*GlyphBBox*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/glyphbbox) property of the [*Glyph*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph) object. 
 
 To get a visual representation of glyphs you need to know the coordinates for all glyphs' points.
 
 ### How to get coordinates for all glyph points from the Glyph object?
 
-The next properties, [*IsEmpty*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/isempty) and [*Path*](https://apireference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/path) were designed for this case.
+The next properties, [*IsEmpty*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/isempty) and [*Path*](https://reference.aspose.com/font/net/aspose.font.glyphs/glyph/properties/path) were designed for this case.
 	
 Property *IsEmpty* is auxiliary. It tells us whether the glyph's path is empty, or in other words glyph has no drawing instructions at all. If it has the value *false*, it's time to construct the whole glyph's figure using the very useful property *Path*.
 
-In the concept of Aspose.Font library the representation of any glyph is divided into the simplest graphic primitives, called *segments*, and represented by interface [*IPathSegment*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/ipathsegment). 
+In the concept of Aspose.Font library the representation of any glyph is divided into the simplest graphic primitives, called *segments*, and represented by interface [*IPathSegment*](https://reference.aspose.com/font/net/aspose.font.renderingpath/ipathsegment). 
 Interface *IPathSegment* is a base abstract graphic primitive. 
 
-Concrete graphic primitives are represented by such types as [*MoveTo*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/moveto), [*LineTo*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/lineto), [*CurveTo*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/curveto), and [*ClosePath*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/closepath/properties/index).
+Concrete graphic primitives are represented by such types as [*MoveTo*](https://reference.aspose.com/font/net/aspose.font.renderingpath/moveto), [*LineTo*](https://reference.aspose.com/font/net/aspose.font.renderingpath/lineto), [*CurveTo*](https://reference.aspose.com/font/net/aspose.font.renderingpath/curveto), and [*ClosePath*](https://reference.aspose.com/font/net/aspose.font.renderingpath/closepath/properties/index).
 
 Type *ClosePath* is used to indicate the end of the current graphic contour. 
 
@@ -82,7 +82,7 @@ Also, the types *MoveTo* and *LineTo* by their definition correspond to the func
 
 *Glyph* property *Path* provides us with a collection of all graphic primitives for that glyph. 
 
-Property *Path* has type [*SegmentPath*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/segmentpath) and every object of this type has property [*Segments*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/segmentpath/properties/segments) of type [*PathSegmentCollection*](https://apireference.aspose.com/font/net/aspose.font.renderingpath/pathsegmentcollection). This property *Segments* returns all the graphic primitives which object *SegmentPath* includes. In other words, we can get all the graphic primitives for the glyph using the entry glyph.Path.Segments.
+Property *Path* has type [*SegmentPath*](https://reference.aspose.com/font/net/aspose.font.renderingpath/segmentpath) and every object of this type has property [*Segments*](https://reference.aspose.com/font/net/aspose.font.renderingpath/segmentpath/properties/segments) of type [*PathSegmentCollection*](https://reference.aspose.com/font/net/aspose.font.renderingpath/pathsegmentcollection). This property *Segments* returns all the graphic primitives which object *SegmentPath* includes. In other words, we can get all the graphic primitives for the glyph using the entry glyph.Path.Segments.
 
 The next [*example*](https://github.com/aspose-font/Aspose.Font-Documentation/blob/master/net-examples/Aspose.Font.Examples/Glyphs/GlyphMetrics.cs) calculates all the points which glyph has and stores them in variable `points`, which represents an array of objects with [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-6.0) type.
 

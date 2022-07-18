@@ -51,7 +51,7 @@ Then take the next steps:
     FileOutputStream outStream = new FileOutputStream(outPath);
 {{< /highlight >}}
 
-3. Make conversion from `TTF` to `WOFF2` and save the result using [*saveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method of the base abstract [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class instance.
+3. Make conversion from `TTF` to `WOFF2` and save the result using [*saveToFormat()*](https://reference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method of the base abstract [*Font*](https://reference.aspose.com/font/java/com.aspose.font/Font) class instance.
 {{< highlight java >}}
     // Convert ttf to woff2
     font.saveToFormat(outStream, FontSavingFormats.WOFF2);

@@ -41,7 +41,7 @@ Follow these simple rules:
 - Do not call SetLicense from within the Page_Load methods since it means the license will be loaded every time a web page is loaded.
 - If you are developing a class library, you call SetLicense from a static constructor of the class that uses Aspose.Font. The static constructor executes before an instance of your class is created making sure Aspose.Font license is properly set.
 ### **Apply License using File or Stream Object**
-Use the [License.SetLicense](https://apireference.aspose.com/net/Font/aspose.Font/license/) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Font.dll and specify the filename, without a path, as shown below.
+Use the [License.SetLicense](https://reference.aspose.com/net/Font/aspose.Font/license/) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Font.dll and specify the filename, without a path, as shown below.
 #### **Loading a License from File**
 This code snippet initializes a license stored in a file or in an embedded resource.
 

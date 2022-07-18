@@ -50,8 +50,8 @@ To convert `TTF` to `WOFF` you will need to take the following steps:
     font.SaveToFormat(outStream, FontSavingFormats.WOFF);
 {{< /highlight >}}
 
-Here the [*SaveToFormat()*](https://apireference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://apireference.aspose.com/font/net/aspose.font/font) class instance was used. 
-It takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/net/aspose.font/fontsavingformats) enumeration to choose output font format.
+Here the [*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://reference.aspose.com/font/net/aspose.font/font) class instance was used. 
+It takes two arguments: output stream and [*FontSavingFormats*](https://reference.aspose.com/font/net/aspose.font/fontsavingformats) enumeration to choose output font format.
 
 {{% alert color="primary" %}}
 All of the code snippets provided and others are placed in the [*Aspose.Font.Examples.sln*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) solution, in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.

@@ -56,7 +56,7 @@ Parameter `nameID` is related to the first part, parameters `platformID`, `platf
 	
 ## How to work with 'name' table records using Aspose.Font?
 
-Support for the 'name' table is provided by class [*TtfNameTable*](https://apireference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/#ttfnametable-class). Further, we consider the functionality of this object.
+Support for the 'name' table is provided by class [*TtfNameTable*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/#ttfnametable-class). Further, we consider the functionality of this object.
 	
 First, let's describe the enumerations needed to work with the functionality of *TtfNameTable* class. 
 - Enumerations [*NameID*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/ttfnametable.nameid) and [*PlatformId*](https://reference.aspose.com/font/net/aspose.font.ttftables/ttfnametable/ttfnametable.platformid) are related to such parameters described above as nameID and platformID. 
