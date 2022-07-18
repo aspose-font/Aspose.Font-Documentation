@@ -25,8 +25,8 @@ using System.IO;
 
 Take the next steps to fulfil the operation:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object.
-3. Set [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) to `ttf`.
+2. Initiate [*FontDefiniton*](https://reference.aspose.com/font/net/aspose.font.font/open/methods/3) object.
+3. Set [*fileExtension*](https://reference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) to `ttf`.
 4. Load the font.
 
 {{< highlight csharp >}}
@@ -47,8 +47,8 @@ Take the next steps to fulfil the operation:
 
 To fulfil loading do the next:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing `TTF` as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value.
-3. Get automatically calculated value [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension).
+2. Initiate [*FontDefiniton*](https://reference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing `TTF` as [*FontType*](https://reference.aspose.com/font/net/aspose.font/fonttype) value.
+3. Get automatically calculated value [*fileExtension*](https://reference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension).
 4. Load the font.
 
 {{< highlight csharp >}}
@@ -69,7 +69,7 @@ To fulfil loading do the next:
 
 The next actions have to be taken to load the font this way:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing `TTF` as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value, `ttf` as [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value and [*FileSystemStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource)  object. Parameter [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) here is not a duplicate value for parameter [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype).
+2. Initiate [*FontDefiniton*](https://reference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing `TTF` as [*FontType*](https://reference.aspose.com/font/net/aspose.font/fonttype) value, `ttf` as [*fileExtension*](https://reference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value and [*FileSystemStreamSource*](https://reference.aspose.com/font/net/aspose.font.sources/filesystemstreamsource)  object. Parameter [*fileExtension*](https://reference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) here is not a duplicate value for parameter [*FontType*](https://reference.aspose.com/font/net/aspose.font/fonttype).
 3. Load the font.
 
 {{< highlight csharp >}}
@@ -90,7 +90,7 @@ The next actions have to be taken to load the font this way:
 To load the font from the byte array:
 1. Construct path to the file.
 2. Load font binary data into the byte array.
-3. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object  passing `TTF` as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value,`ttf` as [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value, and [*ByteContentStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/bytecontentstreamsource) object based on fontBytes array.
+3. Initialize [*FontDefiniton*](https://reference.aspose.com/font/net/aspose.font.font/open/methods/3) object  passing `TTF` as [*FontType*](https://reference.aspose.com/font/net/aspose.font/fonttype) value,`ttf` as [*fileExtension*](https://reference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value, and [*ByteContentStreamSource*](https://reference.aspose.com/font/net/aspose.font.sources/bytecontentstreamsource) object based on fontBytes array.
 4. Load the font.
 
 {{< highlight csharp >}}

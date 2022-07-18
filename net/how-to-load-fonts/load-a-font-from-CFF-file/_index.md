@@ -26,8 +26,8 @@ using System.IO;
 
 Follow the algorithm to fulfill the font loading:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing `CFF` as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value.
-3. Get automatically calculated value [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension).
+2. Initiate [*FontDefiniton*](https://reference.aspose.com/font/net/aspose.font.font/open/methods/3) object passing `CFF` as [*FontType*](https://reference.aspose.com/font/net/aspose.font/fonttype) value.
+3. Get automatically calculated value [*fileExtension*](https://reference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension).
 4. Load the font.
 
 {{< highlight csharp >}}
@@ -48,7 +48,7 @@ Follow the algorithm to fulfill the font loading:
 
 To load font this way, you need to take the following steps:
 1. Construct path to the file.
-2. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/net/aspose.font.font/open/methods/3) object  passing `CFF` as [*FontType*](https://apireference.aspose.com/font/net/aspose.font/fonttype) value, `cff` as [*fileExtension*](https://apireference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value, and  [*ByteContentStreamSource*](https://apireference.aspose.com/font/net/aspose.font.sources/bytecontentstreamsource) object based on fontBytes array.
+2. Initialize [*FontDefiniton*](https://reference.aspose.com/font/net/aspose.font.font/open/methods/3) object  passing `CFF` as [*FontType*](https://reference.aspose.com/font/net/aspose.font/fonttype) value, `cff` as [*fileExtension*](https://reference.aspose.com/font/net/aspose.font.sources/fontfiledefinition/properties/fileextension) value, and  [*ByteContentStreamSource*](https://reference.aspose.com/font/net/aspose.font.sources/bytecontentstreamsource) object based on fontBytes array.
 3. Load the font.
 
 {{< highlight csharp >}}

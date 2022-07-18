@@ -18,7 +18,7 @@ Then take the next steps:
 
 1. Open `TTF` font.
 2. Write the output settings for the `WOFF2` format.
-3. Make conversion from `TTF` to `WOFF2` and save the result using [*SaveToFormat()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45) method of the base abstract [*Font*](https://apireference.aspose.com/font/cpp/class/aspose.font.font) class instance.
+3. Make conversion from `TTF` to `WOFF2` and save the result using [*SaveToFormat()*](https://reference.aspose.com/font/cpp/class/aspose.font.font#a670ea97404fd72c2e51b0e8c543c8a45) method of the base abstract [*Font*](https://reference.aspose.com/font/cpp/class/aspose.font.font) class instance.
 
 {{< blocks/products/pf/agp/feature-section >}}
 {{< app/font/converter "C++ code example TTF to WOFF2 conversion" TTF WOFF2 WOFF>}}

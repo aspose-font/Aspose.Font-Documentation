@@ -34,8 +34,8 @@ Use the next statements:
 
 Take the next steps to fulfil the operation:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object.
-3. Set [*fileExtension*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) to `ttf`.
+2. Initiate [*FontDefiniton*](https://reference.aspose.com/font/java/com.aspose.font/FontDefinition) object.
+3. Set [*fileExtension*](https://reference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) to `ttf`.
 4. Load the font.
 
 {{< highlight java >}}
@@ -56,8 +56,8 @@ Take the next steps to fulfil the operation:
 
 To fulfil loading do the next:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object passing `TTF` as [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) value.
-3. Get automatically calculated value [*fileExtension*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-).
+2. Initiate [*FontDefiniton*](https://reference.aspose.com/font/java/com.aspose.font/FontDefinition) object passing `TTF` as [*FontType*](https://reference.aspose.com/font/java/com.aspose.font/FontType) value.
+3. Get automatically calculated value [*fileExtension*](https://reference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-).
 4. Load the font.
 
 {{< highlight java >}}
@@ -78,7 +78,7 @@ To fulfil loading do the next:
 
 The next actions have to be taken to load the font this way:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object passing `TTF` as [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) value, `ttf` as [*fileExtension*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) value and [*FileSystemStreamSource*](https://apireference.aspose.com/font/java/com.aspose.font/FileSystemStreamSource) object. Parameter [*fileExtension*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) here is not a duplicate value for parameter [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType).
+2. Initiate [*FontDefiniton*](https://reference.aspose.com/font/java/com.aspose.font/FontDefinition) object passing `TTF` as [*FontType*](https://reference.aspose.com/font/java/com.aspose.font/FontType) value, `ttf` as [*fileExtension*](https://reference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) value and [*FileSystemStreamSource*](https://reference.aspose.com/font/java/com.aspose.font/FileSystemStreamSource) object. Parameter [*fileExtension*](https://reference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) here is not a duplicate value for parameter [*FontType*](https://reference.aspose.com/font/java/com.aspose.font/FontType).
 3. Load the font.
 
 {{< highlight java >}}
@@ -99,7 +99,7 @@ The next actions have to be taken to load the font this way:
 To load the font from the byte array:
 1. Construct path to the file.
 2. Load font binary data into the byte array
-3. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object  passing `TTF` as [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) value, `ttf` as [*fileExtension*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) value, and [*ByteContentStreamSource*](https://apireference.aspose.com/font/java/com.aspose.font/ByteContentStreamSource) object based on fontBytes array.
+3. Initialize [*FontDefiniton*](https://reference.aspose.com/font/java/com.aspose.font/FontDefinition) object  passing `TTF` as [*FontType*](https://reference.aspose.com/font/java/com.aspose.font/FontType) value, `ttf` as [*fileExtension*](https://reference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) value, and [*ByteContentStreamSource*](https://reference.aspose.com/font/java/com.aspose.font/ByteContentStreamSource) object based on fontBytes array.
 4. Load the font.
 
 {{< highlight java >}}

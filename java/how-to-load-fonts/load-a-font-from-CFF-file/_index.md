@@ -35,8 +35,8 @@ First let's notify the statements you will need to use:
 
 Follow the algorithm to fulfill the font loading:
 1. Construct path to the file.
-2. Initiate [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object passing `CFF` as [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) value.
-3. Get automatically calculated value [*fileExtension*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-).
+2. Initiate [*FontDefiniton*](https://reference.aspose.com/font/java/com.aspose.font/FontDefinition) object passing `CFF` as [*FontType*](https://reference.aspose.com/font/java/com.aspose.font/FontType) value.
+3. Get automatically calculated value [*fileExtension*](https://reference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-).
 4. Load the font.
 
 {{< highlight java >}}
@@ -57,7 +57,7 @@ Follow the algorithm to fulfill the font loading:
 
 To load font this way, you need to take the following steps:
 1. Construct path to the file.
-2. Initialize [*FontDefiniton*](https://apireference.aspose.com/font/java/com.aspose.font/FontDefinition) object  passing `CFF` as [*FontType*](https://apireference.aspose.com/font/java/com.aspose.font/FontType) value, `cff` as [*fileExtension*](https://apireference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) value, and  [*ByteContentStreamSource*](https://apireference.aspose.com/font/java/com.aspose.font/ByteContentStreamSource) object based on fontBytes array.
+2. Initialize [*FontDefiniton*](https://reference.aspose.com/font/java/com.aspose.font/FontDefinition) object  passing `CFF` as [*FontType*](https://reference.aspose.com/font/java/com.aspose.font/FontType) value, `cff` as [*fileExtension*](https://reference.aspose.com/font/java/com.aspose.font/FontFileDefinition#FontFileDefinition-java.lang.String-com.aspose.font.StreamSource-) value, and  [*ByteContentStreamSource*](https://reference.aspose.com/font/java/com.aspose.font/ByteContentStreamSource) object based on fontBytes array.
 3. Load the font.
 
 {{< highlight java >}}

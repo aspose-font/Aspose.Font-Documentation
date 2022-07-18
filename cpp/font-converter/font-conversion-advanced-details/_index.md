@@ -10,10 +10,10 @@ description: To convert fonts with Aspose is pretty easy. But sometimes you need
 
 In some cases, there is a sense to read/modify converted font data before saving the font.
 
-Method [*Aspose::Font::Font::Convert(Aspose::Font::FontType fontType)*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a60434df90332e764a44ae2f93fe6be56) was designed for such cases. This method converts a font into the type specified and 
-returns the object inherited from [*Aspose::Font::Font*](https://apireference.aspose.com/font/cpp/class/aspose.font.font) class which corresponds to [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose.font#af7d5912b11b4a035acb454f48888122f) value, passed into [*Convert()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a60434df90332e764a44ae2f93fe6be56) method.
+Method [*Aspose::Font::Font::Convert(Aspose::Font::FontType fontType)*](https://reference.aspose.com/font/cpp/class/aspose.font.font#a60434df90332e764a44ae2f93fe6be56) was designed for such cases. This method converts a font into the type specified and 
+returns the object inherited from [*Aspose::Font::Font*](https://reference.aspose.com/font/cpp/class/aspose.font.font) class which corresponds to [*FontType*](https://reference.aspose.com/font/cpp/namespace/aspose.font#af7d5912b11b4a035acb454f48888122f) value, passed into [*Convert()*](https://reference.aspose.com/font/cpp/class/aspose.font.font#a60434df90332e764a44ae2f93fe6be56) method.
 
-The next table shows a map of coherence between [*FontType*](https://apireference.aspose.com/font/cpp/namespace/aspose.font#af7d5912b11b4a035acb454f48888122f) values and objects, inherited from the base [*Aspose::Font::Font*](https://apireference.aspose.com/font/cpp/class/aspose.font.font) class.
+The next table shows a map of coherence between [*FontType*](https://reference.aspose.com/font/cpp/namespace/aspose.font#af7d5912b11b4a035acb454f48888122f) values and objects, inherited from the base [*Aspose::Font::Font*](https://reference.aspose.com/font/cpp/class/aspose.font.font) class.
 
 
 | **Font type**| **Font object**|
@@ -26,8 +26,8 @@ The next table shows a map of coherence between [*FontType*](https://apireferenc
 
 Use resultant font object to access/change font properties before saving resultant font or instead of saving resultant font.
 
-At the current moment method [*Convert()*](https://apireference.aspose.com/font/cpp/class/aspose.font.font#a60434df90332e764a44ae2f93fe6be56) supports conversion only into `TrueType` font format (FontType::TTF), so it always returns 
-the object of type [*TtfFont*](https://apireference.aspose.com/font/cpp/class/aspose.font.ttf.ttf_font) as a result of conversion independently of the source font used. 
+At the current moment method [*Convert()*](https://reference.aspose.com/font/cpp/class/aspose.font.font#a60434df90332e764a44ae2f93fe6be56) supports conversion only into `TrueType` font format (FontType::TTF), so it always returns 
+the object of type [*TtfFont*](https://reference.aspose.com/font/cpp/class/aspose.font.ttf.ttf_font) as a result of conversion independently of the source font used. 
 
 Next code snippet loads `CFF` font `CenturyGothic` from disk, converts it into `TrueType` format, and changes the name of the converted font to "CenturyGothic_Converted".
 

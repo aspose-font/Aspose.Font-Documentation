@@ -61,8 +61,8 @@ To convert `TTF` to `WOFF` you will need to take the following steps:
     font.saveToFormat(outStream, FontSavingFormats.WOFF);
 {{< /highlight >}}
 
-Here the [*saveToFormat()*](https://apireference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method of the base abstract [*Font*](https://apireference.aspose.com/font/java/com.aspose.font/Font) class instance was used. 
-It takes two arguments: output stream and [*FontSavingFormats*](https://apireference.aspose.com/font/java/com.aspose.font/FontSavingFormats) enumeration to choose output font format.
+Here the [*saveToFormat()*](https://reference.aspose.com/font/java/com.aspose.font/Font#saveToFormat-java.io.OutputStream-com.aspose.font.FontSavingFormats-) method of the base abstract [*Font*](https://reference.aspose.com/font/java/com.aspose.font/Font) class instance was used. 
+It takes two arguments: output stream and [*FontSavingFormats*](https://reference.aspose.com/font/java/com.aspose.font/FontSavingFormats) enumeration to choose output font format.
 
 {{% alert color="primary" %}}
 All of the code snippets provided and others are placed in the [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples/convertfont), in the [*java-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/java-examples/src/main/java/com/aspose/font/examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
