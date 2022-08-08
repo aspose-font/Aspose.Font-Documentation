@@ -108,7 +108,7 @@ Not every font format includes kerning information. Moreover, some kerning forma
 ## Conclusion ##
 
 In the article was given some common information about the term **glyph** and its metrics. Aspose.Font has a more advanced solution if you need to manipulate fonts, glyphs, and their metrics. 
-To see what functional for working with glyphs you can get from using it, have a look at [*Glyphs*](https://reference.aspose.com/font/java/com.aspose.font/Glyph)class of [*Aspose.Font for Java*](https://reference.aspose.com/font/java) library.
+To see what functional for working with glyphs you can get from using it, have a look at [*Glyphs*](https://reference.aspose.com/font/java/com.aspose.font/Glyph)class of [*Aspose.Font for Java*](https://reference.aspose.com/font/java/) library.
 
 
 
