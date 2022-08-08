@@ -26,7 +26,7 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Font for .NET Release Notes](net/release-notes)
 - [Aspose.Font for .NET Product Page](https://products.aspose.com/font/net)
 - [Install Aspose.Font for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Font/)
-- [Aspose.Font for .NET API Reference Guide](https://reference.aspose.com/font/net)
+- [Aspose.Font for .NET API Reference Guide](https://reference.aspose.com/font/net/)
 - [Aspose.Font for .NET Free Support Forum](https://forum.aspose.com/c/font)
 - [Aspose.Font for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -49,7 +49,7 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Font for C++ Release Notes](cpp/release-notes)
 - [Aspose.Font for C++ Product Page](https://products.aspose.com/font/cpp)
 - [Install Aspose.Font for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Font/)
-- [Aspose.Font for C++ API Reference Guide](https://reference.aspose.com/font/cpp)
+- [Aspose.Font for C++ API Reference Guide](https://reference.aspose.com/font/cpp/)
 - [Aspose.Font for C++ Free Support Forum](https://forum.aspose.com/c/font)
 - [Aspose.Font for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -69,6 +69,6 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Font for Java Features](/font/java/product-overview/#productoverview-richfeatures)
 - [Aspose.Font for Java Release Notes](/font/java/release-notes/)
 - [Aspose.Font for Java Product Page](https://products.aspose.com/font/java)
-- [Aspose.Font for Java API Reference Guide](https://reference.aspose.com/font/java)
+- [Aspose.Font for Java API Reference Guide](https://reference.aspose.com/font/java/)
 - [Aspose.Font for Java Free Support Forum](https://forum.aspose.com/c/font)
 - [Aspose.Font for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

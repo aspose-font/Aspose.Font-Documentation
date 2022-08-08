@@ -39,7 +39,7 @@ The structure of the documentation of Aspose.Font for Java is pretty simple. Her
 You may find useful the following links on the resources of the solution. 
 
 - [Aspose.Font for Java Product Page](https://products.aspose.com/font/java) - if you have decided to purchase or get a free trial of Aspose.Font for Java, go to this page.
-- [Aspose.Font for Java API Reference Guide](https://reference.aspose.com/font/java) - all the information that is needed for the integration of our product is gathered here.
+- [Aspose.Font for Java API Reference Guide](https://reference.aspose.com/font/java/) - all the information that is needed for the integration of our product is gathered here.
 - [Aspose.Font for Java Free Support Forum](https://forum.aspose.com/c/font/) - here you can discuss any suggestion you have about Aspose.Font for Java.
 - [Aspose.Font for Java Paid Support Helpdesk](https://helpdesk.aspose.com/) - if you have bought the solution and have any issues, go here to get fast and qualified help.
 

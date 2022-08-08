@@ -43,7 +43,7 @@ You may find useful the following links on the resources of the solution.
  
 - [Aspose.Font for .NET Product Page](https://products.aspose.com/font/net/) - here you can purchase the product or download a free trial and find a brief description of the library.
 - [Install Aspose.Font for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Font/) - go there to set your package via NuGet package manager.
-- [Aspose.Font for .NET API Reference](https://reference.aspose.com/font/net)  - all the entities of Aspose.Font for .NET library are gathered and described here.
+- [Aspose.Font for .NET API Reference](https://reference.aspose.com/font/net/)  - all the entities of Aspose.Font for .NET library are gathered and described here.
 - [Aspose.Font for .NET Free Support Forum](https://forum.aspose.com/c/font/41) - go there if you need an answer to a question about the product. 
 - [Aspose.Font for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/) - if you have bought the solution and faced any trouble working with it you can get help there. Create a ticket for fixing the problem you have.
 

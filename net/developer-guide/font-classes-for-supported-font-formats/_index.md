@@ -10,7 +10,7 @@ description: Getting learned Aspose.Font for .NET library is better by starting 
 
 ## Hierarchy of Aspose.Font classes ##
 
-The hierarchy of [*Aspose.Font*](https://reference.aspose.com/font/net) classes for supporting fonts of different formats is pretty simple.
+The hierarchy of [*Aspose.Font*](https://reference.aspose.com/font/net/) classes for supporting fonts of different formats is pretty simple.
 
 Class [*Font*](https://reference.aspose.com/font/net/aspose.font/font) is a single base class and any class, which supports some font format inherited from [*Font*](https://reference.aspose.com/font/net/aspose.font/font). There is common information for fonts of all formats gathered in this class. This information includes such data as font style, font name, postscript font name, font family, font metrics, the number of glyphs of the font, encoding, etc.
 

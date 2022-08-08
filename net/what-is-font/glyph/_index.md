@@ -108,7 +108,7 @@ Not every font format includes kerning information. Moreover, some kerning forma
 ## Conclusion ##
 
 In the article was given some common information about the term **glyph** and its metrics. Aspose.Font has a more advanced solution if you need to manipulate fonts, glyphs, and their metrics. 
-To see what functional for working with glyphs you can get from using it, have a look at [*Glyphs namespace*](https://reference.aspose.com/font/net/aspose.font.glyphs) of [*Aspose.Font for .NET*](https://reference.aspose.com/font/net) library.
+To see what functional for working with glyphs you can get from using it, have a look at [*Glyphs namespace*](https://reference.aspose.com/font/net/aspose.font.glyphs) of [*Aspose.Font for .NET*](https://reference.aspose.com/font/net/) library.
 
 
 
