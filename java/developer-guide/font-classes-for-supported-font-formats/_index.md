@@ -65,7 +65,7 @@ Below are the descriptions for each property.
 ### Properties for manipulating font formats ###
 
 - string [*FontName*](https://reference.aspose.com/font/java/com.aspose.font/IFont#getFontName--) - the name of the font.
-- [*MultiLanguageString*](https://reference.aspose.com/font/java/com.aspose.font/MultiLanguageStringg) [*FontNames*](https://reference.aspose.com/font/java/com.aspose.font/IFont#getFontNames--) - name of the font in different languages.
+- [*MultiLanguageString*](https://reference.aspose.com/font/java/com.aspose.font/MultiLanguageString) [*FontNames*](https://reference.aspose.com/font/java/com.aspose.font/IFont#getFontNames--) - name of the font in different languages.
 - [*MultiLanguageString*](https://reference.aspose.com/font/java/com.aspose.font/MultiLanguageString) [*PostscriptNames*](https://reference.aspose.com/font/java/com.aspose.font/IFont#getPostscriptNames--) - postscript name of the font, in different languages.
 - string [*FontFamily*](https://reference.aspose.com/font/java/com.aspose.font/IFont#getFontFamily-java.lang.String-) - the name of the font family. To get more details about  font families see [*Font family*](https://docs.aspose.com/font/java/what-is-font/#font-family) charpter.
 - [*FontType*](https://reference.aspose.com/font/java/com.aspose.font/FontType) [*FontType*](https://reference.aspose.com/font/java/com.aspose.font/IFont#getFontType--) -  type of font format, represented by *FontType* enumeration.

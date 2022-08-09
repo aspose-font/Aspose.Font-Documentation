@@ -13,7 +13,7 @@ Working with glyphs is crucial when coding fonts as it is their unit. When the b
 ## Glyph object
 
 				
-Glyphs of any font are represented by [*Glyph*](https://reference.aspose.com/font/cpp/aspose.font.glyphs/glyph) type in Aspose.Font library.
+Glyphs of any font are represented by [*Glyph*](https://reference.aspose.com/font/cpp/class/aspose.font.glyphs.glyph) type in Aspose.Font library.
 So, *Glyph* type is a universal object for font glyphs, independently from font format(TrueType, Compact Font Format, etc).
 
 ### The functionality provided by the Glyph object
@@ -57,7 +57,7 @@ Then you need to take the next steps:
 
 ```
 
-To get the glyph's Bounding box use the [*GlyphBBox*](https://reference.aspose.com/font/cpp/class/aspose.font.glyphs.glyph#a5cb7d6b41e3ceb3a0abb371ecd993be3) property of the [*Glyph*](https://reference.aspose.com/font/cpp/aspose.font.glyphs/glyph) object. 
+To get the glyph's Bounding box use the [*GlyphBBox*](https://reference.aspose.com/font/cpp/class/aspose.font.glyphs.glyph#a5cb7d6b41e3ceb3a0abb371ecd993be3) property of the [*Glyph*](https://reference.aspose.com/font/cpp/class/aspose.font.glyphs.glyph) object. 
 
 To get a visual representation of glyphs you need to know the coordinates for all glyphs' points.
 
