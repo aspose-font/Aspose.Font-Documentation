@@ -39,7 +39,7 @@ Then take the next steps:
     FileStream outStream = File.Create(outPath);
 {{< /highlight >}}
 
-3. Make conversion from `TTF` to `WOFF2` and save the result using [*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://reference.aspose.com/font/net/aspose.font/font) class instance.
+3. Make conversion from `TTF` to `WOFF2` and save the result using [*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/savetoformat/) method of the base abstract [*Font*](https://reference.aspose.com/font/net/aspose.font/font/) class instance.
 {{< highlight csharp >}}
     // Convert ttf to woff2
     font.SaveToFormat(outStream, FontSavingFormats.WOFF2);

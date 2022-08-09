@@ -38,7 +38,7 @@ To fulfil the conversion from `WOFF` to `TTF` font you need to follow the next s
     FileStream outStream = File.Create(outPath);
 {{< /highlight >}}
 
-3. Use [*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://reference.aspose.com/font/net/aspose.font/font) class instance to transform font and save results.
+3. Use [*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/savetoformat/) method of the base abstract [*Font*](https://reference.aspose.com/font/net/aspose.font/font/) class instance to transform font and save results.
 {{< highlight csharp >}} 
     // Convert woff to ttf
     font.SaveToFormat(outStream, FontSavingFormats.TTF);

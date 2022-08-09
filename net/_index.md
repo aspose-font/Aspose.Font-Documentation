@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Font for .NET
 type: docs
 weight: 10

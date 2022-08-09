@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Font for C++
 type: docs
 weight: 10

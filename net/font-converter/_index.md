@@ -76,8 +76,8 @@ Here you can learn the pairs of fonts which are currently provided for conversio
 
 1. Load font from any of the supported formats and get reference on base Aspose.Font.Font object which represents this font.
 2. Save just loaded font into another format with the help of 
-[*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method of the base abstract [*Font*](https://reference.aspose.com/font/net/aspose.font/font) class instance. [*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/methods/savetoformat) method takes two arguments: output stream and [*FontSavingFormats*](https://reference.aspose.com/font/net/aspose.font/fontsavingformats) enumeration for choosing the output font format.
-Method [*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/methods/savetoformat) allows you to save fonts into any of the output formats supported. 
+[*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/savetoformat/) method of the base abstract [*Font*](https://reference.aspose.com/font/net/aspose.font/font/) class instance. [*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/savetoformat/) method takes two arguments: output stream and [*FontSavingFormats*](https://reference.aspose.com/font/net/aspose.font/fontsavingformats/) enumeration for choosing the output font format.
+Method [*SaveToFormat()*](https://reference.aspose.com/font/net/aspose.font/font/savetoformat/) allows you to save fonts into any of the output formats supported. 
 
 You need to use the following namespaces:
 {{< highlight csharp >}} 

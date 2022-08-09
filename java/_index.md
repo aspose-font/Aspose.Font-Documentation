@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Font for Java
 type: docs
 weight: 10
