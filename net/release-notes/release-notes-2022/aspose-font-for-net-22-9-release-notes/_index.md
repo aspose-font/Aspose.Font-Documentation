@@ -35,5 +35,11 @@ Increased support for glyph count from 6551 to more than 1 million in TrueType f
 * Constructor Aspose.Font.Exceptions.FontConversionException(System.String,System.Exception)
 * Constructor Aspose.Font.Exceptions.FontConversionException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 * Method Aspose.Font.TtfTables.TtfPostTable.GetAllGlyphIndexesForGlyphName(System.String)
+* Enumeration member Aspose.Font.TtfTables.TtfNameTable.NameId.PostScriptCID
+* Enumeration member Aspose.Font.TtfTables.TtfNameTable.NameId.WwsFamilyName
+* Enumeration member Aspose.Font.TtfTables.TtfNameTable.NameId.WwsSubfamilyName
+* Enumeration member Aspose.Font.TtfTables.TtfNameTable.NameId.LightBackground
+* Enumeration member Aspose.Font.TtfTables.TtfNameTable.NameId.DarkBackground
+* Enumeration member Aspose.Font.TtfTables.TtfNameTable.NameId.VariationsPostScriptNamePrefix
 ## Got Queries?
 If you have any query related to Aspose.Font for .NET API, please feel free to write to reach us on [Aspose.Font forum](https://forum.aspose.com/c/font/). We'll be glad to assist you with your inquiries.
