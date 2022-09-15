@@ -22,7 +22,7 @@ Increased support for glyph count from 6551 to more than 1 million in TrueType f
 | Key | Summary | Category |
 |---|---|---|
 | FONTNET-385 | Added support for conversion from OTF to TTF format | New Feature |
-| FONTNET-410 | Increased support for glyph count from 6551 to more than 1 million in TrueType font conversion area | New Feature |
+| FONTNET-401 | Increased support for glyph count from 6551 to more than 1 million in TrueType font conversion area | New Feature |
 | FONTNET-398 | Fixed bug with Infinite loop when extracting a list of codes from TtfCMapFormat2Table | Bug |
 | FONTNET-432 | Fixed different TX values bug in transformation matrix in compound glyph when converting fonts | Bug |
 
