@@ -1,7 +1,7 @@
 ---
 title: Aspose.Font for Java 22.7 Release Notes
 type: docs
-weight: 100
+weight: 80
 url: /java/aspose-font-for-java-22-7-release-notes/
 description: This page contains new Aspose.Font for Java features, enhancement, and bug fixes in 2022, version 22.7.
 sitemap:
