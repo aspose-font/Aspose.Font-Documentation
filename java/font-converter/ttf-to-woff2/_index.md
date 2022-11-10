@@ -3,7 +3,7 @@ title: Convert TTF to WOFF2 | Java
 linktitle: Convert TTF to WOFF2
 type: docs
 weight: 20
-url: /njava/convert/ttf-to-woff2
+url: /java/convert/ttf-to-woff2
 keywords: convert ttf to woff2 java
 description: Here you will find out how to convert ttf to woff2 using the Aspose.Font for Java
 ---
