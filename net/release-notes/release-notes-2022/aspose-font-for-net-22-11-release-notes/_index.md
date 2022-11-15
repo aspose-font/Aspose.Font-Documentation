@@ -22,7 +22,7 @@ Support for the '*version*' field in the '*post*' table in format `Version16Dot1
 | Key | Summary | Category |
 |---|---|---|
 | FONTNET-463 | Optimized compression functionality for `woff` format | Enhancement |
-| FONTNET-386 | Added support for the '*version*' field in the '*post*' table in format `Version16Dot16` | Enhancement |
+| FONTNET-395 | Added support for the '*version*' field in the '*post*' table in format `Version16Dot16` | Enhancement |
 
 ## Public API and Backwards Incompatible Changes
 
