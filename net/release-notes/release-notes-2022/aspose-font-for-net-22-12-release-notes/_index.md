@@ -22,7 +22,7 @@ Support for the '*vmtx*' table has been added.
 | Key | Summary | Category |
 |---|---|---|
 | FONTNET-483 | Support for '*vhea*' table | New Feature |
-| FONTNET-384 | Support for '*vmtx*' table | New Feature |
+| FONTNET-484 | Support for '*vmtx*' table | New Feature |
 
 ## Public API and Backwards Incompatible Changes
 
