@@ -17,7 +17,7 @@ This page contains release notes information for Aspose.Font for Java 22.12.
 
 Compression functionality for `woff` format has been optimized.
 
-Support for the '*vhea*' table has been added.
+Support for the '*vhea*' table has been added.
 
 Support for the '*vmtx*' table has been added.
 
@@ -30,36 +30,36 @@ Support for the '*vmtx*' table has been added.
 ## Public API and Backwards Incompatible Changes
 
 ### Added APIs
- * Method: com.aspose.font.TtfOs2Table.getUSLowerOpticalPointSize
- * Method: com.aspose.font.TtfOs2Table.getUSUpperOpticalPointSize
- * Method: com.aspose.font.TtfTableRepository.getVheaTable
- * Method: com.aspose.font.TtfTableRepository.getVmtxTable
- * Type: com.aspose.font.TtfVheaTable
- * Method: com.aspose.font.TtfVheaTable.getAdvanceHeightMax
- * Method: com.aspose.font.TtfVheaTable.getAscent
- * Method: com.aspose.font.TtfVheaTable.getCaretOffset
- * Method: com.aspose.font.TtfVheaTable.getCaretSlopeRise
- * Method: com.aspose.font.TtfVheaTable.getCaretSlopeRun
- * Method: com.aspose.font.TtfVheaTable.getDescent
- * Method: com.aspose.font.TtfVheaTable.getLineGap
- * Method: com.aspose.font.TtfVheaTable.getMetricDataFormat
- * Method: com.aspose.font.TtfVheaTable.getMinBottomSideBearing
- * Method: com.aspose.font.TtfVheaTable.getMinTopSideBearing
- * Method: com.aspose.font.TtfVheaTable.getNumOfLongVerMetrics
- * Method: com.aspose.font.TtfVheaTable.getTag
- * Method: com.aspose.font.TtfVheaTable.getVersion
- * Method: com.aspose.font.TtfVheaTable.getYMaxExtent
- * Type: com.aspose.font.TtfVmtxTable
- * Method: com.aspose.font.TtfVmtxTable.getTag
- * Method: com.aspose.font.TtfVmtxTable.getTopSideBearings
- * Method: com.aspose.font.TtfVmtxTable.getVMetrics
- * Type: com.aspose.font.TtfVmtxTable$LongVerMetric
- * Method: com.aspose.font.TtfVmtxTable$LongVerMetric.#ctor
- * Method: com.aspose.font.TtfVmtxTable$LongVerMetric.clone
- * Method: com.aspose.font.TtfVmtxTable$LongVerMetric.equals(java.lang.Object)
- * Method: com.aspose.font.TtfVmtxTable$LongVerMetric.equals(com.aspose.font.TtfVmtxTable$LongVerMetric,com.aspose.font.TtfVmtxTable$LongVerMetric)
- * Method: com.aspose.font.TtfVmtxTable$LongVerMetric.getAdvanceHeight
- * Method: com.aspose.font.TtfVmtxTable$LongVerMetric.getTopSideBearing
+ * Method com.aspose.font.TtfOs2Table.getUSLowerOpticalPointSize
+ * Method com.aspose.font.TtfOs2Table.getUSUpperOpticalPointSize
+ * Method com.aspose.font.TtfTableRepository.getVheaTable
+ * Method com.aspose.font.TtfTableRepository.getVmtxTable
+ * Type com.aspose.font.TtfVheaTable
+ * Method com.aspose.font.TtfVheaTable.getAdvanceHeightMax
+ * Method com.aspose.font.TtfVheaTable.getAscent
+ * Method com.aspose.font.TtfVheaTable.getCaretOffset
+ * Method com.aspose.font.TtfVheaTable.getCaretSlopeRise
+ * Method com.aspose.font.TtfVheaTable.getCaretSlopeRun
+ * Method com.aspose.font.TtfVheaTable.getDescent
+ * Method com.aspose.font.TtfVheaTable.getLineGap
+ * Method com.aspose.font.TtfVheaTable.getMetricDataFormat
+ * Method com.aspose.font.TtfVheaTable.getMinBottomSideBearing
+ * Method com.aspose.font.TtfVheaTable.getMinTopSideBearing
+ * Method com.aspose.font.TtfVheaTable.getNumOfLongVerMetrics
+ * Method com.aspose.font.TtfVheaTable.getTag
+ * Method com.aspose.font.TtfVheaTable.getVersion
+ * Method com.aspose.font.TtfVheaTable.getYMaxExtent
+ * Type com.aspose.font.TtfVmtxTable
+ * Method com.aspose.font.TtfVmtxTable.getTag
+ * Method com.aspose.font.TtfVmtxTable.getTopSideBearings
+ * Method com.aspose.font.TtfVmtxTable.getVMetrics
+ * Type com.aspose.font.TtfVmtxTable$LongVerMetric
+ * Method com.aspose.font.TtfVmtxTable$LongVerMetric.#ctor
+ * Method com.aspose.font.TtfVmtxTable$LongVerMetric.clone
+ * Method com.aspose.font.TtfVmtxTable$LongVerMetric.equals(java.lang.Object)
+ * Method com.aspose.font.TtfVmtxTable$LongVerMetric.equals(com.aspose.font.TtfVmtxTable$LongVerMetric,com.aspose.font.TtfVmtxTable$LongVerMetric)
+ * Method com.aspose.font.TtfVmtxTable$LongVerMetric.getAdvanceHeight
+ * Method com.aspose.font.TtfVmtxTable$LongVerMetric.getTopSideBearing
 
 ### Renamed APIs
  
