@@ -1,5 +1,5 @@
 ---
-title: Work with Glyphs and Metrics of TrueType Fonts | .NET
+title: Glyphs and Metrics of TrueType Fonts | .NET
 linktitle: Work with Glyphs and Metrics of TrueType Fonts
 type: docs
 weight: 15

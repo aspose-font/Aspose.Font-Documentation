@@ -1,5 +1,5 @@
 ---
-title: Work with Glyphs and Metrics of TrueType Fonts | Java
+title: Glyphs and Metrics of TrueType Fonts | Java
 linktitle: Work with Glyphs and Metrics of TrueType Fonts
 type: docs
 weight: 15

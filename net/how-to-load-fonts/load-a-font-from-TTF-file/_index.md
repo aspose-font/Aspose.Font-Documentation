@@ -5,7 +5,7 @@ type: docs
 weight: 10
 url: /net/how-to-load-fonts/load-a-font-from-TTF-file
 keywords: load font, download font, extract font from cff file.
-description: With this API solution you can load a font from a file on your hard drive even if this file is not a font inself. Let’s look at how to make it from a TTF file.
+description: .NET API solution to load fonts from a file on your hard drive even if this file is not a font inself. Let’s look at how to make it from a TTF file.
 ---
 Here are described four differently fulfilled examples on how to load a font from the file Montserrat-Regular.ttf. 
 ___

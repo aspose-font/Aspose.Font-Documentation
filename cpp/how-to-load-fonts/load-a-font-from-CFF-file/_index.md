@@ -5,7 +5,7 @@ type: docs
 weight: 20
 url: /cpp/how-to-load-fonts/load-a-font-from-CFF-file
 keywords: load font, download font, extract font from cff file.
-description: With this API solution you can load a font from a file on your hard drive even if this file is not a font inself. Let’s look at how to make it from a CFF file.
+description: C++ API solution to load fonts from a file on your hard drive even if this file is not a font inself. Let’s look at how to make it from a CFF file.
 ---
 
 On this page we will have a look at examples of loading font `CenturyGothic` placed in the file CenturyGothic.cff.

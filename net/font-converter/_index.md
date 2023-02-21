@@ -5,7 +5,7 @@ type: docs
 weight: 60
 url: /net/convert/
 keywords: "Convert fonts, font converter, transform fonts"
-description: "Easy to use library for converting fonts from Aspose. Allows you to work with a big range of different fonts like true type of web fonts. "
+description: Easy-to-use C# .NET library for font conversion from Aspose.Font. Allows you to work with a big range of different fonts like True Type or web fonts.
 ---
 
 

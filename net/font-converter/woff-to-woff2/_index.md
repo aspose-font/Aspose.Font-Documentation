@@ -5,7 +5,7 @@ type: docs
 weight: 40
 url: /net/convert/woff-to-woff2
 keywords: woff to woff2, woff woff2
-description: This documentation on the Aspose solution is aimed to help you with the conversion from woff to woff2 format
+description: C# .NET API to convert fonts. This documentation on the Aspose solution is aimed to help you with the conversion from woff to woff2 format.
 ---
 
 If you need to transform `Web OpenFont Format` to its version 2.0, this article provides you with the necessary information.

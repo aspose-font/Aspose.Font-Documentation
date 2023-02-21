@@ -1,5 +1,5 @@
 ---
-title: Loading, Extracting Data and Saving from TrueType Fonts | Java
+title: Load, Extract Data and Save from TTF | Java
 linktitle: Loading, Extracting Data and Saving from TrueType Fonts
 type: docs
 weight: 10

@@ -1,5 +1,5 @@
 ---
-title: Loading, Extracting Data and Saving from TrueType Fonts | .NET
+title: Load, Extract Data and Save from TTF | .NET
 title: Loading, Extracting Data and Saving from TrueType Fonts
 type: docs
 weight: 10

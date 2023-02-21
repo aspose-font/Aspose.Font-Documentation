@@ -4,7 +4,7 @@ linktitle: CSS fonts
 type: docs
 weight: 30
 url: /cpp/what-is-font/css-fonts
-description: To make manipulations with fonts in HTML CSS you need to use the following properties as font-family, font-weight, font-size, font-style, etc. With font-weight, you manipulate how bold the font is.
+description: To code with fonts in HTML CSS, you need to use the following properties as font-family, font-weight, font-size, font-style, etc. Learn them here.
 keywords: css font, css font style, css italic, font face css, font family css list, text bold css, text style css, font type css, html font.
 ---
 

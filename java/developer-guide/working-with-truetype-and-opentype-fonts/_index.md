@@ -1,5 +1,5 @@
 ---
-title: Working with TrueType and OpenType Fonts | Java
+title: Work with TrueType and OpenType Fonts| Java
 linktitle: Working with TrueType and OpenType Fonts
 type: docs
 weight: 30

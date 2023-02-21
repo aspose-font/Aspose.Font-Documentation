@@ -5,7 +5,7 @@ type: docs
 weight: 50
 url: /cpp/developer-guide/using-glyph-objects
 keywords: coding glyphs, glyph object, glyph type, glyph property, glyphs software, scripting glyphs
-description: Glyph objects in Aspose.Font library functionality is described by the properties it has. The attached code snippets help you understand how to code Glyphs.
+description: Glyph objects in Aspose.Font library functionality is described by the properties it has. The code snippets help you understand how to code Glyphs in C++.
 ---
 
 Working with glyphs is crucial when coding fonts as it is their unit. When the basic information about glyphs is explained in the [*article*](https://docs.aspose.com/font/net/what-is-font/glyph/) of the [*What is font paragraph*](https://docs.aspose.com/font/net/what-is-font/), here we are going to teach you the functionality of Aspose.Font for working with glyphs and the *Glyph* objects in particular.

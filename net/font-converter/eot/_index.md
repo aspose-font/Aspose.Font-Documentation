@@ -5,7 +5,7 @@ type: docs
 weight: 70
 url: /net/convert/eot
 keywords: convert eot to ttf, eot woff woff2
-description: Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert EOT fonts.
+description: API solution to convert EOT to TTF, WOFF and WOFF2 from Aspose.Font for .NET. Here you will find code examples of EOT conversion.
 ---
 
 It is known that `Embedded Open Type` (`EOT`) is supported mainly by the Internet Explorer browser. Because of that, to render correctly you will need to build in your software converter to `EOT` from other font formats and vice versa. In this article, it is described how to use the Aspose.Font for .NET to convert `EOT` to `TTF`, `EOT` to `WOFF`, and `EOT` to `WOFF2`.

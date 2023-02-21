@@ -1,5 +1,5 @@
 ---
-title: Work with Glyphs and Metrics of TrueType Fonts | C++
+title: Glyphs and Metrics of TrueType Fonts | C++
 linktitle: Work with Glyphs and Metrics of TrueType Fonts
 type: docs
 weight: 15

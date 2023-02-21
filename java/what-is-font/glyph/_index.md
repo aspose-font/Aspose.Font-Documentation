@@ -4,7 +4,7 @@ linktitle: Glyph
 type: docs
 weight: 20
 url: /java/what-is-font/glyph
-description: Before starting working with glyphs let's start with learning its fundamentals. As a composite part of any typeface, glyph has an important role in the study of fonts. 
+description: To start working with fonts first learn their fundamentals. As a composite part of any typeface, glyph has an important role in the study of fonts. 
 keywords: Glyph, fonts with glyphs.
 ---
 As any font contains glyphs and cannot exist without glyphs. Learning fonts cannot be fulfilled without learning about glyphs. Manipulating fonts in any sphere: programming, design, typography won’t be successful without understanding the role of glyphs. This article is aimed to help you understand the glyph fundamentals.
