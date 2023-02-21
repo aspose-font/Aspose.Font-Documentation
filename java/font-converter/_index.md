@@ -5,7 +5,7 @@ type: docs
 weight: 60
 url: /java/convert/
 keywords: Convert fonts java, font converter java, transform fonts java
-description: Aspose.Font for Java library allows you converting fonts easily from a font of one format to a font of another one. Learn more about the solution.
+description: Easy-to-use Java library for font conversion from Aspose.Font. Allows you to work with a big range of different fonts like True Type or web fonts.
 ---
 
 

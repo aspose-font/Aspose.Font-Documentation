@@ -4,7 +4,7 @@ linktitle: What is font?
 type: docs
 weight: 5
 url: /net/what-is-font
-description:  Font is a pretty complex matter. Developing any interface you will face the part where you will have to deal with it. This chapter will make it easier for you. 
+description:  Font is a pretty complex matter. Developing any interface you will face the part where you will code fonts. This chapter will make it easier for you. 
 keywords: what is font, glyph, typeface, font family.
 ---
 

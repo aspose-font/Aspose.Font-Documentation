@@ -3,6 +3,7 @@ title: Licensing - Aspose.Font for C++
 type: docs
 weight: 70
 url: /cpp/licensing/
+description: C++ APIs for the developers to manipulate and font files. Here you will find how to get Aspose.Font API Solution for C++ license.
 ---
 
 ## **Evaluate Aspose.Font**

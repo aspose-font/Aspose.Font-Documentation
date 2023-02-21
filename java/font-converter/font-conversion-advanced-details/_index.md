@@ -5,7 +5,7 @@ type: docs
 weight: 100
 url: /java/convert/advanced-method-for-font-conversiton
 keywords: front convertor java, font converter java, font format converter java
-description: Sometimes you need to read/modify converted font data before saving the font. The method described is aimed to help with it when coding with Java.
+description: C++ API to Convert fonts from Aspose.Font. Sometimes you need to read converted font data before saving it. The method here is aimed to help with it.
 ---
 
 In some cases, there is a sense to read/modify converted font data before saving the font.

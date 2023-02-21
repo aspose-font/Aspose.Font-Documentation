@@ -3,6 +3,7 @@ title: How to Run the Examples in Java
 type: docs
 weight: 80
 url: /java/how-to-run-the-examples/
+description: Java APIs to manipulate font files. To run the examples download and run Java Font Manipulation and Management API Examples from GitHub in Visual Studio.
 ---
 
 ## Download from GitHub

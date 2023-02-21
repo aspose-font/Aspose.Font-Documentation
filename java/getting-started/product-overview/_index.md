@@ -4,6 +4,7 @@ linktitle: Product Overview
 type: docs
 weight: 10
 url: /java/product-overview/
+description: Java APIs for the developers to manipulate and font files. Here you will find Aspose.Font API Solution for Java overview.
 ---
 
 {{% alert color="primary" %}}

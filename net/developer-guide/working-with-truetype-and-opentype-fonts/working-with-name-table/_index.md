@@ -4,7 +4,7 @@ linktitle: Working with 'name' table
 type: docs
 weight: 40
 url: /net/working-with-name-table/
-description: TrueType font table ‘name’ is storage for text strings that describe font metadata like font names, family names, designer names, license information, copyright notices, and others.
+description: TrueType font table ‘name’ is storage for text strings that describe font metadata like font name, license information, copyright notices, and many others.
 keywords: font table name, font metadata api
 ---
 

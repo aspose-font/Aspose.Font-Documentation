@@ -1,9 +1,10 @@
 ---
-title: Work with Glyphs and Metrics of TrueType Fonts | C++
+title: Glyphs and Metrics of TrueType Fonts | C++
 linktitle: Work with Glyphs and Metrics of TrueType Fonts
 type: docs
 weight: 15
 url: /cpp/glyphs-and-metrics-truetype-opentype-fonts/
+description: C++ APIs for the developers to manipulate and font files. Learn the fundamentals on how to work with glyphs and metrics of TTF fonts within C++.
 ---
 ## **Get Font Metrics**
 Font files can be contain font metrics information such as `Ascender`, `Descender`, `TypoAscender`, `TypoDescender` and `UnitsPerEm`. This information can be retrieved from font files using Aspose.Font for C++ API can read the Font Metrics information from the TrueType Font file using the following sample code.

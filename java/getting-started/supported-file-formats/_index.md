@@ -4,6 +4,7 @@ linktitle: Supported File Formats
 type: docs
 weight: 20
 url: /java/supported-file-formats/
+description: Java APIs for the developers to manipulate and font files. Learn the supported by Aspose.Font API Solution for Java output and input formats.
 ---
 
 ## **Supported File Formats**

@@ -5,7 +5,7 @@ type: docs
 weight: 50
 url: /cpp/how-to-load-fonts
 keywords: download a font, extract a font, how to load fonts.
-description: Here is described how to load fonts from different sources. You will learn the objects, parameters, methods required for this, and get examples of loading.
+description: Here is described how to load fonts with C++. You will learn the objects, parameters, methods required for this, and get examples of loading.
 ---
 
 ## Overview ##

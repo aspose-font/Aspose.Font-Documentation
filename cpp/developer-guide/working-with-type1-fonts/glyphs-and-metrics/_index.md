@@ -1,9 +1,10 @@
 ---
-title: Work with Glyphs and Metrics of Type1 Fonts | C++
+title: Glyphs and Metrics of Type1 Fonts | C++
 linktitle: Work with Glyphs and Metrics of Type1 Fonts
 type: docs
 weight: 20
 url: /cpp/glyphs-and-metrics-type1-fonts/
+description: C++ APIs for the developers to manipulate and font files. Learn the fundamentals on how to work with glyphs and metrics of Type 1 fonts within C++.
 ---
 ## **Get Font Metrics**
 Aspose.Font for C++ API can read Font Metrics information from Type1 fonts. The following code sample shows how to read metrics information such as `Ascender`, `Descender`, `TypoAscender`, `TypoDescender` and `UnitsPerEm`.

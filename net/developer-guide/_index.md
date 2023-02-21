@@ -1,5 +1,5 @@
 ---
-title: Developer Guide - C# Font Manipulation and Management API
+title: Developer Guide - C# Font Manipulation API
 linktitle: Developer Guide
 type: docs
 weight: 20

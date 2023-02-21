@@ -3,6 +3,7 @@ title: Aspose.Font for .NET 20.9 Release Notes
 type: docs
 weight: 40
 url: /net/aspose-font-for-net-20-9-release-notes/
+description: C# APIs to manipulate and font files. This page contains new Aspose.Font for .NET features, enhancement, and bug fixes in 2023, version 20.09.
 ---
 
 ## Aspose.Font for .NET has been launched!

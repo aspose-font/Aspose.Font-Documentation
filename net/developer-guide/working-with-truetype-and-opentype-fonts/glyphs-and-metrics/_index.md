@@ -1,9 +1,10 @@
 ---
-title: Work with Glyphs and Metrics of TrueType Fonts | .NET
+title: Glyphs and Metrics of TrueType Fonts | .NET
 linktitle: Work with Glyphs and Metrics of TrueType Fonts
 type: docs
 weight: 15
 url: /net/glyphs-and-metrics-truetype-opentype-fonts/
+description: C# APIs for the developers to manipulate and font files. Learn the fundamentals on how to work with glyphs and metrics of TTF fonts within .NET.
 ---
 ## **Get Font Metrics**
 Font metrics contain information such as `Ascender`, `Descender`, `TypoAscender`, `TypoDescender` and `UnitsPerEm`. Aspose.Font for .NET API can read the Font Metrics information from the TrueType Font file using the following sample code.

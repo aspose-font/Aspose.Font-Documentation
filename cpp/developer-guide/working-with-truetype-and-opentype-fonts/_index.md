@@ -3,6 +3,7 @@ title: Working with TrueType and OpenType Fonts | C++
 linktitle: Working with TrueType and OpenType Fonts
 type: docs
 weight: 20
+description: C++ APIs for the developers to manipulate and font files. Find out how to work with TrueType and OpenType fonts in your C++ projects.
 url: /cpp/working-with-truetype-and-opentype-fonts/
 ---
 

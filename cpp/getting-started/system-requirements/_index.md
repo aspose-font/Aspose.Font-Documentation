@@ -4,6 +4,7 @@ linktitle: System Requirements
 type: docs
 weight: 50
 url: /cpp/system-requirements/
+description: C++ APIs for the developers to manipulate and font files. Learn the system requirements to start working with the Aspose.Font API Solution for C++.
 ---
 
 ## **System Requirements**

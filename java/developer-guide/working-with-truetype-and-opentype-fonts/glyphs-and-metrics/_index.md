@@ -1,9 +1,10 @@
 ---
-title: Work with Glyphs and Metrics of TrueType Fonts | Java
+title: Glyphs and Metrics of TrueType Fonts | Java
 linktitle: Work with Glyphs and Metrics of TrueType Fonts
 type: docs
 weight: 15
 url: /java/glyphs-and-metrics-truetype-opentype-fonts/
+description: Java APIs for the developers to manipulate and font files. Learn the fundamentals on how to work with glyphs and metrics of TTF fonts within Java.
 ---
 ## **Get Font Metrics**
 

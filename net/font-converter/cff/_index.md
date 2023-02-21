@@ -5,7 +5,7 @@ type: docs
 weight: 90
 url: /net/convert/cff
 keywords: convert cff to ttf, cff to ttf converter, convert compact font format
-description: Aspose has now in its family a solution that is aimed to convert different font formats. Here you will find examples of how to convert CFF format.
+description: API solution to convert CFF to TTF, WOFF and WOFF2 from Aspose.Font for .NET. Here you will find code examples of CFF conversion.
 ---
 
 The article will explain to you with the code how to transform `CFF` format. Aspose solution now gives you the opportunity to convert `CFF` to `TTF`, `CFF` to `WOFF`, and `CFF` to `WOFF2`.

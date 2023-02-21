@@ -1,10 +1,12 @@
 ---
-title: Loading, Extracting Data and Saving from TrueType Fonts | C++
+title: Load, Extract Data and Save from TTF | C++
 linktitle: Loading, Extracting Data and Saving from TrueType Fonts
 type: docs
 weight: 10
 url: /cpp/loading-saving-truetype-opentype-fonts/
+description: C++ APIs for the developers to manipulate and font files. Learn the fundamentals on how to load and save TTF fonts within C++.
 ---
+
 ## **Load TrueType Font from Disc**
 TrueType fonts can be stored to disc in files. Aspose.Font for C++ API can load such files and read font information from these. The following steps can be used to read TrueType font file in C++ applications.
  * Create a new object of FontDefinition class

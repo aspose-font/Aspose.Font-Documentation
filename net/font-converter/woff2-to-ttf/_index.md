@@ -5,7 +5,7 @@ type: docs
 weight: 50
 url: /net/convert/woff2-to-ttf
 keywords: woff2 to ttf converter, woff2 font converter
-description: To convert woff2 to ttf with Aspose is easy. Use this documentation to see how exactly
+description: Easy-to-use .NET library for font conversion from Aspose.FONT. Learn how to convert woff2 to ttf with the documentation. Code examples are attached.
 ---
 
 This page is aimed to show how to convert fonts from `Web Open Font Format 2` to `True Type` font using the Aspose.Font for .NET. 

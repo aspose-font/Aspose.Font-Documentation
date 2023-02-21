@@ -4,7 +4,9 @@ linktitle: Loading and Extracting Data
 type: docs
 weight: 10
 url: /cpp/loading-saving-cff-fonts/
+description: C++ APIs for the developers to manipulate and font files. Learn the fundamentals on how to load and save CFF fonts within C++.
 ---
+
 ## **Load CFF Font from Disc**
 Aspose.Font for C++ API allows to load CFF fonts from disc files on your computer. The following steps can be used to load a CFF font file:
  * Create a new object of FontDefinition class

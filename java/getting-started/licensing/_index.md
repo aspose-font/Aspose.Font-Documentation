@@ -3,6 +3,7 @@ title: Licensing - Aspose.Font for Java
 type: docs
 weight: 70
 url: /java/licensing/
+description: Java APIs for the developers to manipulate and font files. Here you will find how to get Aspose.Font API Solution for Java license.
 ---
 
 ## **Evaluation Version Limitations**

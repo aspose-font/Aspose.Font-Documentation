@@ -4,7 +4,7 @@ linktitle: Font Formats
 type: docs
 weight: 40
 url: /cpp/what-is-font/font-formats
-description: The diversity of font formats allows you to choose the one that really suits your purposes answering your demands in readability, scalability, or space-saving.
+description: The diversity of font formats allows you to choose the one that suits your purposes answering your demands in readability, scalability, or space-saving.
 keywords: font formats, woff, truetype font, woff 2, opentype, font file, otf font, eot file, eot font, ttf, cff.
 ---
 ## Which font format to choose? ##

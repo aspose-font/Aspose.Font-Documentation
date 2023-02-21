@@ -4,7 +4,9 @@ linktitle: Loading and Extracting Data
 type: docs
 weight: 10
 url: /net/loading-saving-cff-fonts/
+description: C# APIs for the developers to manipulate and font files. Learn the fundamentals on how to load and save CFF fonts within .NET.
 ---
+
 ## **Load CFF Font from Disc**
 Aspose.Font for .NET API lets you read CFF Font types from files stored in your digital storage. CFF font files stored on disc can be loaded by using the following steps.
  * Define a new object of FontDefinition class

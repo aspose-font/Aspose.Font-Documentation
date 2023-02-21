@@ -1,8 +1,9 @@
 ---
-title: Working with TrueType and OpenType Fonts | Java
+title: Work with TrueType and OpenType Fonts| Java
 linktitle: Working with TrueType and OpenType Fonts
 type: docs
 weight: 30
+description: Java APIs for the developers to manipulate and font files. Find out how to work with TrueType and OpenType fonts in your Java products.
 url: /java/working-with-truetype-and-opentype-fonts/
 ---
 

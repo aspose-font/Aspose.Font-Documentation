@@ -4,7 +4,7 @@ linktitle: CSS fonts
 type: docs
 weight: 30
 url: /net/what-is-font/css-fonts
-description: HTML CSS has next properties like properties font-family, font-weight, font-size, font-style, CSS font, font-stretch, font-synthesis, etc. Lern more about them!
+description: HTML CSS has next properties like font-family, font-weight, font-size, font-style, CSS font, font-stretch, font-synthesis, etc. Lern more about them here!
 keywords: css font, css font style, css italic, font face css, font family css list, text bold css, text style css, font type css, html font.
 ---
 

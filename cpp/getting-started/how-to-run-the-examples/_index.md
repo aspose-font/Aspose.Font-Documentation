@@ -3,6 +3,7 @@ title: How to Run the Examples
 type: docs
 weight: 80
 url: /cpp/how-to-run-the-examples/
+description: C++ APIs to manipulate font files. To run the examples download and run C++ Font Manipulation and Management API Examples from GitHub in Visual Studio.
 ---
 
 ## **Software Requirements**
