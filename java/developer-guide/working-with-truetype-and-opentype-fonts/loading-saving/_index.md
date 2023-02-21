@@ -4,7 +4,9 @@ linktitle: Loading, Extracting Data and Saving from TrueType Fonts
 type: docs
 weight: 10
 url: /java/loading-saving-truetype-opentype-fonts/
+description: Java APIs for the developers to manipulate and font files. Learn the fundamentals on how to load and save TTF fonts within Java.
 ---
+
 ## **Load TrueType Font from Disc**
 Aspose.Font for Java API lets you read TrueType Font types from files stored in your digital storage. TrueType font files stored on disc can be loaded by using the following steps.
  * Define a new object of FontDefinition class

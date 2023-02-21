@@ -4,6 +4,7 @@ linktitle: Feature List
 type: docs
 weight: 30
 url: /java/feature-list/
+description: Java Font API supports different font formats and file operations such as loading, reading, detecting, extracting, and rendering font glyphs and font data.
 ---
 
 

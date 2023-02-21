@@ -3,6 +3,7 @@ title: Aspose.Font for CPP 20.10 Release Notes
 type: docs
 weight: 3
 url: /cpp/aspose-font-for-cpp-20-10-release-notes/
+description: C++ APIs to manipulate and font files. This page contains new Aspose.Font for C++ features, enhancement, and bug fixes in 2023, version 20.10.
 
 ---
 ## Major Features

@@ -3,7 +3,9 @@ title: Aspose.Font for .NET 20.10 Release Notes
 type: docs
 weight: 30
 url: /net/aspose-font-for-net-20-10-release-notes/
+description: C# APIs to manipulate and font files. This page contains new Aspose.Font for .NET features, enhancement, and bug fixes in 2023, version 20.10.
 ---
+
 This release of Aspose.Font for .NET API provides the capability to edit font names for TTF/OTF fonts. In addition, you can now save TTF fonts after editing. Several issues have been fixed, resulting in a more stable font processing functionality.
 
 |Key|Summary|Category|

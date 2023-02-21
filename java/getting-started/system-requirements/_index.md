@@ -4,6 +4,7 @@ linktitle: System Requirements
 type: docs
 weight: 50
 url: /java/system-requirements/
+description: Java APIs for the developers to manipulate and font files. Learn the system requirements to start working with the Aspose.Font API Solution for Java.
 ---
 
 ## **Supported Operating Systems**

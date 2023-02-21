@@ -3,6 +3,7 @@ title: Text Rendering using TrueType Font | Java
 linktitle: Text Rendering using TrueType Font
 type: docs
 weight: 20
+description: Java APIs for the developers to manipulate and font files. Learn the fundamentals on how to render TrueType and OpenType fonts within Java products.
 url: /java/text-rendering-truetype-font/
 ---
 

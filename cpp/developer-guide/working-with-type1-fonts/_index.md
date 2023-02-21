@@ -3,6 +3,7 @@ title: Working with Type1 Fonts | C++
 linktitle: Working with Type1 Fonts
 type: docs
 weight: 30
+description: C++ APIs for the developers to manipulate and font files. Learn the fundamentals on how to work with Type 1 fonts in your C++ applications.
 url: /cpp/working-with-type1-fonts/
 ---
 

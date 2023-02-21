@@ -3,6 +3,7 @@ title: Installation - Aspose.Font for Java
 type: docs
 weight: 60
 url: /java/installation/
+description: Learn about how to install Java Font Manipulation and Management API on Java Platform through NuGet and Package Manager Console.
 ---
 
 ## Installing Aspose.Font for Java from Aspose Repository

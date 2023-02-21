@@ -4,6 +4,7 @@ linktitle: Work with Glyphs and Metrics of Type1 Fonts
 type: docs
 weight: 20
 url: /java/glyphs-and-metrics-type1-fonts/
+description: Java APIs for the developers to manipulate and font files. Learn the fundamentals on how to work with glyphs and metrics of Type 1 fonts within Java.
 ---
 ## **Get Font Metrics**
 Font metrics contain information such as `Ascender`, `Descender`, `TypoAscender`, `TypoDescender` and `UnitsPerEm`. Aspose.Font for Java API can read the Font Metrics information from the Type1 Font File using the following sample code.

@@ -3,6 +3,7 @@ title: Installation
 type: docs
 weight: 60
 url: /cpp/installation/
+description: Learn about how to install C++ Font Manipulation and Management API on C++ Platform through NuGet and Package Manager Console.
 ---
 
 ## **Installing Aspose.Font for C++**

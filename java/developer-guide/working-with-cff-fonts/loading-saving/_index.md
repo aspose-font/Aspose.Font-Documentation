@@ -4,7 +4,9 @@ linktitle: Loading and Extracting Data
 type: docs
 weight: 10
 url: /java/loading-saving-cff-fonts/
+description: Java APIs for the developers to manipulate and font files. Learn the fundamentals on how to load and save Cff fonts within Java.
 ---
+
 ## **Load CFF Font from Disc**
 Aspose.Font for Java API lets you open CFF Font files in your java applications. CFF font files stored on disc can be loaded by using the following steps.
  * Define a new object of FontDefinition class

@@ -3,6 +3,7 @@ title: Aspose.Font for Java 20.10 Release Notes
 type: docs
 weight: 30
 url: /java/aspose-font-for-java-20-10-release-notes/
+description: Java APIs to manipulate and font files. This page contains new Aspose.Font for Java features, enhancement, and bug fixes in 2023, version 20.10.
 ---
 
 ## Aspose.Font for Java has been launched!

@@ -4,7 +4,7 @@ linktitle: What is font?
 type: docs
 weight: 5
 url: /java/what-is-font
-description:  Font is a pretty complex matter. It should be answered along with disclosing the properties that fonts have and classifying fonts depending on these properties.  
+description:  Font is a pretty complex term. Let's explain it along with disclosing the properties that fonts have and classifying fonts depending on these properties.  
 keywords: what is font, glyph, typeface, font family.
 ---
 

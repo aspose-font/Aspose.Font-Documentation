@@ -4,6 +4,7 @@ linktitle: Feature List
 type: docs
 weight: 30
 url: /cpp/feature-list/
+description: C++ Font API supports different font formats and file operations such as loading, reading, detecting, extracting, and rendering font glyphs and font data.
 ---
 
 

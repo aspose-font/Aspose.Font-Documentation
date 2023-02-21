@@ -3,6 +3,7 @@ title: Working with TrueType and OpenType Fonts | .NET
 title: Working with TrueType and OpenType Fonts
 type: docs
 weight: 30
+description: C# APIs for the developers to manipulate and font files. Find out how to work with TrueType and OpenType fonts in your .NET applications.
 url: /net/working-with-truetype-and-opentype-fonts/
 ---
 

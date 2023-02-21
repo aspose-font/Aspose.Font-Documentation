@@ -5,6 +5,7 @@ type: docs
 weight: 10
 url: /java/loading-saving-type1-fonts/
 aliases: /java/laoding-saving-type1-fonts/
+description: Java APIs for the developers to manipulate and font files. Learn the fundamentals on how to load and save Type 1 fonts within Java.
 ---
 
 ## **Load Type1 Font from Disc**

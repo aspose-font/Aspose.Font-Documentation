@@ -4,6 +4,7 @@ linktitle: Product Overview
 type: docs
 weight: 10
 url: /cpp/product-overview/
+description: C++ APIs for the developers to manipulate and font files. Here you will find Aspose.Font API Solution for C++ overview.
 ---
 
 {{% alert color="primary" %}}

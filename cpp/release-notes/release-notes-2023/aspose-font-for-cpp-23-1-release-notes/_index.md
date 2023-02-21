@@ -3,8 +3,9 @@ title: Aspose.Font for CPP 23.1 Release Notes
 type: docs
 weight: 12
 url: /cpp/aspose-font-for-cpp-23-1-release-notes/
-
+description: C++ APIs to manipulate and font files. This page contains new Aspose.Font for C++ features, enhancement, and bug fixes in 2023, version 23.1.
 ---
+
 ## Major Features
 
 Aspose.Font for C++ 23.1  is based on the [Aspose.Font for .NET 23.1](/font/net/aspose-font-for-net-23-1-release-notes/) and ready for use with Aspose c++ products ver 23.1.

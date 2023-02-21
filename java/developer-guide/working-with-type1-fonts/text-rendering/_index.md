@@ -3,6 +3,7 @@ title: Text Rendering using Type1 Font | Java
 linktitle: Text Rendering using Type1 Font
 type: docs
 weight: 30
+description: Java APIs for the developers to manipulate and font files. Learn the fundamentals on how to render Type 1 fonts within Java products.
 url: /java/text-rendering-type1-font/
 ---
 

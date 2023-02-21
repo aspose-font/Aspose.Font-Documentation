@@ -3,6 +3,7 @@ title: Text Rendering using TrueType Font | .NET
 linktitle: Text Rendering using TrueType Font
 type: docs
 weight: 20
+description: C# APIs for the developers to manipulate and font files. Learn the fundamentals on how to render TrueType and OpenType fonts within .NET products.
 url: /net/text-rendering-truetype-font/
 ---
 

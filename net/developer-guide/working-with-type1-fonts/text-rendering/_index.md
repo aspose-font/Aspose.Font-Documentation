@@ -3,6 +3,7 @@ title: Text Rendering using Type1 Font | .NET
 linktitle: Text Rendering using Type1 Font
 type: docs
 weight: 30
+description: C# APIs for the developers to manipulate and font files. Learn the fundamentals on how to render Type 1 fonts within .NET products.
 url: /net/text-rendering-type1-font/
 ---
 
