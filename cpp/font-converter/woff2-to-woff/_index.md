@@ -40,6 +40,16 @@ Then to fulfill `WOFF2` to `WOFF` conversion you will need to take these three s
 {{< /app/font/converter >}}
 {{< /blocks/products/pf/agp/feature-section >}}
 
+Let's briefly explain the code above:
+
+First, it defines the file path for the input font file and creates a FontDefinition* object using this file path. This object specifies the font type (`WOFF2`) and the location of the font file.
+
+Then, it opens the font using the *Aspose::Font::Font::Open()* Method, which creates a Font object from the *FontDefinition*.
+
+With the next code line, it defines the output file path and creates a new file stream using the *System::IO::File::Create()* Method.
+
+Finally, it saves the font to the `Web Open Font Format` file using the *SaveToFormat() Method* and passes the output file stream and the specified format (`WOFF`) as parameters.
+
 {{% alert color="primary" %}}
 Other examples and documentation are also always available in [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples), in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
 

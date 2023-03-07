@@ -16,9 +16,9 @@ If you want to learn the Aspose conversion fundamentals go to
 
  Taking the next three steps you will convert `WOFF` to `WOFF2`:
 
-1. Open the `Woff` font file.
-2. Notify the output setting.
-3. Transform the font into `WOFF2` format and save the result.
+1. Open the `Woff` font file by means of the *System::IO::Path::Combine* Method, which combines the path to the directory that has the font file with the font file name. The resulting path is stored in the *fontPath* variable.
+2. Notify the output setting. Here the *System::IO::Path::Combine* Method is used again but it combines the path to the directory where the output file should be saved with the file name for the output file and store the resulting path in the *outPath* variable. Then create a *FileStream* object for the output file using the *System::IO::File::Create()* Method.
+3. Transform the font into `WOFF2` format and save the resultand save to the output file specified by *outPath*.
 
 {{< blocks/products/pf/agp/feature-section >}}
 {{< app/font/converter "C++ code example WOFF to WOFF2 conversion" WOFF WOFF2 TTF>}}

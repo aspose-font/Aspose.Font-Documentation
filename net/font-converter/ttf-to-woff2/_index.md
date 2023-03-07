@@ -45,6 +45,16 @@ Then take the next steps:
     font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
 {{< /highlight >}}
 
+The code may be explained the next way:
+
+First, it defines the file path for the font file and creates a *FontDefinition* object using this file path. The object specifies the font type (`TrueType`) and the location of the font file.
+
+Next, it opens the font using the *Font.Open()* Method, which creates a *Font* object from the *FontDefinition*.
+
+Then, it defines the output file path and creates a new file stream using the *File.Create()* Method.
+
+Finally, it saves the font to the `Web Open Font Format 2` file using the *font.SaveToFormat()* Method and pass the output file stream and the specified format (`WOFF2`) as parameters.
+
 {{% alert color="primary" %}}
 For more examples check [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
 

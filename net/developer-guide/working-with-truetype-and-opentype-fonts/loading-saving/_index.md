@@ -23,3 +23,9 @@ Once you load a TTF file, you may work with the font file, update some parameter
  * Make the required updates and save the updated Font file to disc using the TtfFont's Save method
 
  {{< gist "aspose-com-gists" "10f0e5f274b436379dbc8fd4fb183fc5" "Examples-CSharp-WorkingWithTrueTypeAndOpenTypeFonts-SaveTTFToDisc-1.cs" >}}
+
+{{% alert color="primary" %}}
+For more examples go to [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
+
+Also, check our free online [*Font Manipulation Applications*](https://products.aspose.app/font/) to see how the functionality can be implemented in a web solution.
+{{% /alert %}}

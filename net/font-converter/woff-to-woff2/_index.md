@@ -45,6 +45,14 @@ If you want to learn the Aspose conversion fundamentals go to
     font.SaveToFormat(outStream, FontSavingFormats.WOFF2);
 {{< /highlight >}}
 
+The code shows how to load a font file in the `WOFF` format. First, use the *Path.Combine()* Method to create a string variable *fontPath* to represent the full path of the font file. Then, create a *FontDefinition* object.
+
+Next, call the *Font.Open()* Method with the *fontDefinition* object as a parameter to create a *Font* object. This object represents the font file loaded.
+
+Then define a new file path where the converted font file will be saved. For this create a *FileStream* object using the *File.Create()* Method. This creates a new file in the specified location and returns a stream object that can be used to write data to the file.
+
+Finally, call the *SaveToFormat()* Method on the Font object to save the font data in the `WOFF2` format. 
+
 {{% alert color="primary" %}}
 More examples of the solution are placed in [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
 
