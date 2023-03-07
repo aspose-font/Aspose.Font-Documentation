@@ -24,7 +24,9 @@ Make sure you've learned the conversion fundamentals in [How to convert the font
 
 Then to fulfil `WOFF2` to `WOFF` conversion you will need to take these three steps:
 
-1. Open `Woff2` font file.
+1. **Open `Woff2` font file.**
+At this stage, you need to define a custom font and load it into a program using the Font class. First define the path to the font file, by combining a directory named "DataDir" with the filename using the *Path.Combine()* Method. Then create a *FontDefinition* object which specifies the type of font file (`TTF`) and its source. Loads the font using the *Font.Open()* Method, which returns a Font object.
+
 {{< highlight csharp >}} 
     // Open woff2 font
     string fontPath = Path.Combine(DataDir, "Montserrat-Regular.woff2");
@@ -32,14 +34,18 @@ Then to fulfil `WOFF2` to `WOFF` conversion you will need to take these three st
     Font font = Font.Open(fontDefinition);
 {{< /highlight >}}
 
-2. Write the output setting for the `WOFF` format.
+2. **Write the output setting for the `WOFF` format.**
+Create a new output file and a stream to write data to the file.
+First, define the output file using the *Path.Combine()* Method.
+Then create a new FileStream object using the *File.Create()* Method. The method creates a new file at the specified path and returns a stream for writing to it.
 {{< highlight csharp >}} 
     // Woff output settings
     string outPath = Path.Combine(OutputDir, "Woff2ToWoff_out1.woff");
     FileStream outStream = File.Create(outPath);
 {{< /highlight >}}
 
-3. Convert and save the font result.
+3. **Convert and save the font result.**
+Call the font.SaveToFormat() Method on a Font object. It takes two parameters - the first is a stream to write the font data to and the second is the format to save the font in. When this method is called, the font data is written to the specified stream in the specified format. In this case, the font data is written to the output file created earlier using the *File.Create()* and *Path.Combine()* Methods.
 {{< highlight csharp >}} 
     // Convert woff2 to woff
     font.SaveToFormat(outStream, FontSavingFormats.WOFF);

@@ -35,7 +35,7 @@ Use the following statements:
 
 To convert `WOFF2` to `TTF` make the next actions:
 
-1. Open `Woff2` font. 
+1. Load a `WOFF` font file and create a new Font object from it by means of the *Path.Combine()* and *Font.Open()* Methods. 
 {{< highlight java >}} 
     // Open woff2 font
     string fontPath = Path.Combine(DataDir, "Montserrat-Regular.woff2");
@@ -43,7 +43,7 @@ To convert `WOFF2` to `TTF` make the next actions:
     Font font = Font.Open(fontDefinition);
 {{< /highlight >}}
 
-2. Add the output setting.
+2. Create the path to the output file and the object *outStream* that represents the output file using the *Path.Combine()* and *File.Create* Methods.
 {{< highlight java >}} 
     // Ttf output settings
     string outPath = Path.Combine(OutputDir, "Woff2ToTtf_out1.ttf");

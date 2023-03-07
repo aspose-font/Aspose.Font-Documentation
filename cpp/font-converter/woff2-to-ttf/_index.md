@@ -42,6 +42,20 @@ To convert `WOFF2` to `TTF` make the next actions:
 {{< /app/font/converter >}}
 {{< /blocks/products/pf/agp/feature-section >}}
 
+Let's briefly explain the code above:
+
+First, set the path to the `WOFF2` font file. It is obtained using the *System::IO::Path::Combine()* Method, which combines the path to the directory with the font file name. The resulting path is stored in the *fontPath* variable.
+
+Then create a *FontDefinition* object to define the font type and source file for the font. The resulting *FontDefinition* object is stored in the *fontDefinition* variable.
+
+Open the font using the *Aspose::Font::Font::Open* Method and passing the FontDefinition object as a parameter. The resulting Aspose::Font::Font object is stored in the font variable.
+
+Then set the path and file name for the output `TTF` font file using the *System::IO::Path::Combine()* Method. The resulting path is stored in the *outPath* variable.
+
+The fifth line of code creates a FileStream object for the output file and passes the *outPath* variable as a parameter. The resulting *FileStream* object is stored in the *outStream* variable.
+
+Finally, save the font to the `TTF` format using the SaveToFormat() Method. The method takes the output FileStream object (outStream) as its first parameter and the desired output font format as its second parameter. The converted `TTF` font is then saved to the output file specified by *outPath*.
+
 {{% alert color="primary" %}}
 Go to [*Aspose.Font.Examples.CPP.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples), in the [*cpp-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/cpp-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository for getting more examples.
 

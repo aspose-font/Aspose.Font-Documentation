@@ -24,3 +24,9 @@ Aspose.Font for C++ provides the capability to edit font files and save back the
  * Make the required updates and save the updated Font file to disc using the TtfFont's Save method
 
  {{< gist "aspose-com-gists" "bf610decea4168f9c64482594164892b" "Examples-example-source-WorkingWithTrueTypeAndOpenTypeFonts-SaveTTFToDisc-1.cpp" >}}
+
+  {{% alert color="primary" %}}
+For more examples go to [*Aspose.Font.Examples.sln solution*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples), in the [*net-examples*](https://github.com/aspose-font/Aspose.Font-Documentation/tree/master/net-examples) folder of the [*Aspose.Font Documentation*](https://github.com/aspose-font/Aspose.Font-Documentation) Github repository.
+
+You can also check our free online [*Font Manipulation Applications*](https://products.aspose.app/font/) to see how the functionality can be implemented in a web solution.
+{{% /alert %}}
