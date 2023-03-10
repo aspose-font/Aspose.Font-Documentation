@@ -7,6 +7,7 @@ url: /net/what-is-font/font-formats
 description: The diversity of font formats allows you to choose the one that really suits your purposes. The most popular and well-known one is TrueType Font.
 keywords: font formats, woff, truetype font, woff 2, opentype, font file, otf font, eot file, eot font, ttf, cff.
 ---
+
 ## Which font format to choose? ##
 
 There are pretty many font formats already. You may have heard such as `TTF`, `WOFF`, `WOFF2`, `OpenType`, `EOT`, `Type 1`, and others. The first questions that appear in mind when you see that many font formats are:
