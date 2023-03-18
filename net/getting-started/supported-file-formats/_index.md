@@ -13,12 +13,12 @@ The following table indicates the file formats that Aspose.Font for .NET can loa
 
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|
 | :- | :- | :- | :- | :- |
-|TTF|True Type Font|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|TTC|True Type Collections|{{< emoticons/tick >}}| | |
-|OpenType|Scalable Computer Fonts|{{< emoticons/tick >}}| | |
-|WOFF|Web Open Font Format|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|WOFF2|Web Open Font Format version 2.0|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|CFF|Compact Font Format|{{< emoticons/tick >}}| | |
-|Type1|PostScript Fonts|{{< emoticons/tick >}}| | |
-|EOT|Embedded OpenType format|{{< emoticons/tick >}}| | |
-
+|*TTF*|True Type Font|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|*TTC*|True Type Collections|{{< emoticons/tick >}}| | |
+|*OpenType*|Scalable Computer Fonts|{{< emoticons/tick >}}| | |
+|*WOFF*|Web Open Font Format|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|*WOFF2*|Web Open Font Format version 2.0|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|*EOT*|Embedded OpenType format|{{< emoticons/tick >}}| | |
+|*SVG*|Scalable Vector Graphics format||{{< emoticons/tick >}}| |
+|*CFF*|Compact Font Format|{{< emoticons/tick >}}| | |
+|*Type1*|PostScript Fonts|{{< emoticons/tick >}}| | |
