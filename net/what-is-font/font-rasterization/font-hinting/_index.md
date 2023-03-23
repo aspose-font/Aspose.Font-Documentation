@@ -31,7 +31,7 @@ Unhinted fonts are designed to work on larger sizes or on high-resolution screen
 
 Let's look at how simple English texts and examples of hieroglyphs without font hinting would be scaled.
 
-![Siple text without font hinting](font-without-hinting.png)
+![Simple text without font hinting](font-without-hinting.png)
 ![Japan, Chinese and Bengali letters scaled without hinting](hieroglyphs-without-hinting.png)
 
 ###  Outline fonts ### 
