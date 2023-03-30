@@ -27,6 +27,8 @@ Fixed *System.Xml.XmlException* when loading created **SVG** file into `XmlDocum
 ## Public API and Backwards Incompatible Changes
 
 ### Added APIs
-* Method *Aspose.Font.Ttf.TtfFont.Convert(Aspose.Font.FontType,System.Collections.Generic.ICollection<System.UInt32>)*
+* Method [*Aspose.Font.Ttf.TtfFont.Convert(Aspose.Font.FontType,System.Collections.Generic.ICollection<System.UInt32>)*](https://reference.aspose.com/font/net/aspose.font.ttf/ttffont/convert/#convert_1)
+* Class [*Aspose.Font.Renderers.RenderingUtils*](https://reference.aspose.com/font/net/aspose.font.renderers/renderingutils/)
+* Method [*Aspose.Font.Renderers.RenderingUtils.DrawText(Aspose.Font.Font,System.String,System.Double)*](https://reference.aspose.com/font/net/aspose.font.renderers/renderingutils/drawtext/)
 ## Got Queries?
 If you have any query related to Aspose.Font for .NET API, please feel free to write to reach us on [Aspose.Font forum](https://forum.aspose.com/c/font/). We'll be glad to assist you with your inquiries.
