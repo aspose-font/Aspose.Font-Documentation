@@ -22,7 +22,7 @@ Fixed *System.Xml.XmlException* when loading created **SVG** file into `XmlDocum
 | Key | Summary | Category |
 |---|---|---|
 | FONTNET-446 | Support for converting **TrueType** fonts using a specific character set | New Feature |
-| FONTNET-505 | *System.Xml.XmlException* when loading created **SVG** file into `XmlDocument` object  | Bug |
+| FONTNET-525 | *System.Xml.XmlException* when loading created **SVG** file into `XmlDocument` object  | Bug |
 
 ## Public API and Backwards Incompatible Changes
 
