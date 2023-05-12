@@ -5,6 +5,15 @@
 
 #include "IExamples.h"
 
+namespace Aspose
+{
+namespace Font
+{
+class Font;
+enum class FontType;
+} // namespace Font
+} // namespace Aspose
+
 namespace Aspose {
 
 namespace Font {
@@ -35,12 +44,16 @@ public:
     
 protected:
 
+    static const int32_t AlignedTitleLength;
+    
     void PrintExampleTitle(System::String title, int32_t exNum);
+    void PrintAlignedTitle(System::String caption, bool startFromNewLine = false, char16_t frameSymbol = u'-');
+    System::SharedPtr<Aspose::Font::Font> LoadFont(System::String fontFileName, FontType fontType);
     
 private:
 
     System::String dataDir;
-	System::String outputDir;
+    System::String outputDir;
     System::String licenseDir;
     
 };

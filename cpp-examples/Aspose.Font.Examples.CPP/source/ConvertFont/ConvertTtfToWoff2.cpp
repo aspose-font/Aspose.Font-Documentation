@@ -69,7 +69,7 @@ void ConvertTtfToWoff2::TtfToWoff2Example2()
     // Open ttf font
     System::ArrayPtr<uint8_t> fontMemoryData = System::IO::File::ReadAllBytes(DataPath(u"Montserrat-Bold.ttf"));
     System::SharedPtr<FontDefinition> fontDefinition = System::MakeObject<FontDefinition>(Aspose::Font::FontType::TTF, System::MakeObject<FontFileDefinition>(System::MakeObject<ByteContentStreamSource>(fontMemoryData)));
-    System::SharedPtr<TtfFont> ttfFont = System::DynamicCast_noexcept<Aspose::Font::Ttf::TtfFont>(Aspose::Font::Font::Open(fontDefinition));
+    System::SharedPtr<TtfFont> ttfFont = System::Cast_noexcept<Aspose::Font::Ttf::TtfFont>(Aspose::Font::Font::Open(fontDefinition));
     
     // Woff2 output settings
     System::String outPath = System::IO::Path::Combine(get_OutputDir(), u"TtfToWoff2_out2.woff2");

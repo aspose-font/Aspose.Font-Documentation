@@ -4,7 +4,7 @@
 #include <system/string.h>
 #include <system/io/path.h>
 #include <system/console.h>
-#include <Aspose.Font.Cpp/src/FontLicense.h>
+#include <Aspose.Font.Cpp/Licensing/FontLicense.h>
 
 namespace Aspose {
 

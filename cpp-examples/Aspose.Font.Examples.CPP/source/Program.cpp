@@ -4,11 +4,13 @@
 #include <system/console.h>
 
 #include "Aspose.Font.Cpp/Properties/AssemblyInfo.h"
+#include "Metadata/MetadataExamples.h"
 #include "LoadFont/LoadTtf.h"
 #include "LoadFont/LoadCff.h"
 #include "Licensing/SetLicenseFromStream.h"
 #include "Licensing/SetLicenseFromFile.h"
 #include "IExamples.h"
+#include "Glyphs/GlyphMetrics.h"
 #include "ConvertFont/ConvertWoffToWoff2.h"
 #include "ConvertFont/ConvertWoffToTtf.h"
 #include "ConvertFont/ConvertWoff2ToTtf.h"
@@ -17,7 +19,6 @@
 #include "ConvertFont/ConvertTtfToWoff.h"
 #include "ConvertFont/ConvertEot.h"
 #include "ConvertFont/ConvertCff.h"
-#include "Glyphs/GlyphMetrics.h"
 
 using namespace Aspose::Font::Examples::Licensing;
 using namespace Aspose::Font::Examples::ConvertFont;
@@ -62,10 +63,12 @@ void Program::Main(System::ArrayPtr<System::String> args)
     System::SharedPtr<IExamples> loadTtf = System::MakeObject<LoadFont::LoadTtf>();
     System::SharedPtr<IExamples> loadCff = System::MakeObject<LoadFont::LoadCff>();
     
-	//Glyph metrics
-	System::SharedPtr<IExamples> glyphMetrics = System::MakeObject<Glyphs::GlyphMetrics>();
-
-	///////
+    //Glyph metrics
+    System::SharedPtr<IExamples> glyphMetrics = System::MakeObject<Glyphs::GlyphMetrics>();
+    
+    //TrueType fonts metadata
+    System::SharedPtr<IExamples> metadataExamples = System::MakeObject<Metadata::MetadataExamples>();
+    ///////
     /// 
     /// Examples Run
     /// 
@@ -76,22 +79,25 @@ void Program::Main(System::ArrayPtr<System::String> args)
     //setLicenseFromStream.Run();
     
     // Convert Font Examples
-    convertTtfToWoff->Run();
-    convertTtfToWoff2->Run();
-    convertWoffToTtf->Run();
-    convertWoff2ToTtf->Run();
-    convertWoffToWoff2->Run();
-    convertType1->Run();
-    convertCff->Run();
-    convertEot->Run();
+    //convertTtfToWoff->Run();
+    //convertTtfToWoff2->Run();
+    //convertWoffToTtf->Run();
+    //convertWoff2ToTtf->Run();
+    //convertWoffToWoff2->Run();
+    //convertType1->Run();
+    //convertCff->Run();
+    //convertEot->Run();
     
     //Load Font examples
-    loadTtf->Run();
-    loadCff->Run();
-    
+    //loadTtf->Run();
+    //loadCff->Run();
+
     //Glyph metrics examples
     glyphMetrics->Run();
 
+    //TrueType fonts metadata examples
+    metadataExamples->Run();
+    
     System::Console::WriteLine(u"");
     System::Console::WriteLine(u"========================================");
     System::Console::WriteLine(u"Aspose.Font Examples --- END");

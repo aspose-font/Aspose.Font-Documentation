@@ -6,7 +6,7 @@
 #include <system/io/file_stream.h>
 #include <system/io/file_mode.h>
 #include <system/console.h>
-#include <Aspose.Font.Cpp/src/FontLicense.h>
+#include <Aspose.Font.Cpp/Licensing/FontLicense.h>
 
 namespace Aspose {
 

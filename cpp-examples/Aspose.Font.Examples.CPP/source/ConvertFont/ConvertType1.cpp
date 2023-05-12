@@ -73,7 +73,7 @@ void ConvertType1::Type1ToTtfExample2()
     System::SharedPtr<Aspose::Font::Font> font = Aspose::Font::Font::Open(fontDefinition);
     
     // Convert type1 to ttf
-    System::SharedPtr<Aspose::Font::Font> ttfFont = System::DynamicCast_noexcept<Aspose::Font::Ttf::TtfFont>(font->Convert(Aspose::Font::FontType::TTF));
+    System::SharedPtr<Aspose::Font::Font> ttfFont = System::Cast_noexcept<Aspose::Font::Ttf::TtfFont>(font->Convert(Aspose::Font::FontType::TTF));
     ttfFont->Save(System::IO::Path::Combine(get_OutputDir(), u"Type1ToTtf_out2.ttf"));
     //ExampleEnd: 2
 }

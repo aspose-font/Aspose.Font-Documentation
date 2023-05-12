@@ -51,13 +51,6 @@ public:
     
     void Run() override;
     
-protected:
-
-    #ifdef ASPOSE_GET_SHARED_MEMBERS
-    System::Object::shared_members_type GetSharedMembers() const override;
-    #endif
-    
-    
 private:
 
     static const System::String FontName;

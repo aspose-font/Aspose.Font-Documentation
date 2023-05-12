@@ -7,6 +7,7 @@
 #include <system/action.h>
 #include <system/array.h>
 #include <system/array_segment.h>
+#include <system/codeporting_translator_cs2cpp_framework.h>
 #include <system/async_callback.h>
 #include <system/attribute.h>
 #include <system/bad_image_fromat_exception.h>
@@ -16,12 +17,10 @@
 #include <system/boxable_traits.h>
 #include <system/boxed_enum.h>
 #include <system/boxed_value.h>
-#include <system/boxed_value_impl.h>
 #include <system/buffer.h>
 #include <system/byte.h>
 #include <system/char.h>
 #include <system/collections/algorithms.h>
-#include <system/collections/arraylist.h>
 #include <system/collections/base_dictionary.h>
 #include <system/collections/base_enumerator.h>
 #include <system/collections/base_kv_collection.h>
@@ -135,7 +134,7 @@
 #include <system/details/objects_bag.h>
 #include <system/details/optional.h>
 #include <system/details/pointer_collection_helpers.h>
-#include <system/details/porter.h>
+#include <system/details/translator.h>
 #include <system/details/shared_lockable.h>
 #include <system/details/shared_members_t.h>
 #include <system/details/spin_lock.h>

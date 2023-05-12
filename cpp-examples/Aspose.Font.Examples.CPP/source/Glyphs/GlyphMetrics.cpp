@@ -3,7 +3,6 @@
 
 #include <system/object_ext.h>
 #include <system/io/path.h>
-#include <system/exceptions.h>
 #include <system/enumerator_adapter.h>
 #include <system/console.h>
 #include <system/collections/list.h>
@@ -16,13 +15,13 @@
 #include <Aspose.Font.Cpp/src/Rendering/Path/LineTo.h>
 #include <Aspose.Font.Cpp/src/Rendering/Path/IPathSegment.h>
 #include <Aspose.Font.Cpp/src/Rendering/Path/CurveTo.h>
-#include <Aspose.Font.Cpp/src/IFontMetrics.h>
-#include <Aspose.Font.Cpp/src/IFontEncoding.h>
 #include <Aspose.Font.Cpp/src/Glyphs/GlyphId.h>
 #include <Aspose.Font.Cpp/src/Glyphs/Glyph.h>
 #include <Aspose.Font.Cpp/src/FontType.h>
 #include <Aspose.Font.Cpp/src/FontBBox.h>
 #include <Aspose.Font.Cpp/src/Font.h>
+#include <Aspose.Font.Cpp/src/Common/Interfaces/IFontMetrics.h>
+#include <Aspose.Font.Cpp/src/Common/Interfaces/IFontEncoding.h>
 #include <drawing/point.h>
 #include <cstdint>
 
@@ -30,8 +29,6 @@
 using namespace Aspose::Font::Sources;
 using namespace Aspose::Font::Glyphs;
 using namespace Aspose::Font::RenderingPath;
-System::SharedPtr<Aspose::Font::Font> font;
-
 namespace Aspose {
 
 namespace Font {
@@ -51,13 +48,14 @@ GlyphMetrics::GlyphMetrics() : Aspose::Font::Examples::BaseExamples()
 
 void GlyphMetrics::Run()
 {
-    System::Console::WriteLine(u"\nRun glyph metrics examples");
+    PrintAlignedTitle(u"Glyph metrics examples", true);
     System::Console::WriteLine(System::String::Format(u"\nThese examples will use font \"{0}\" and glyph for '{1}' symbol", FontName, GlyphName));
     InitFont();
     
     CalculateStringWidth();
     PrintGlyphBbox();
     PrintGlyphPointsCoordinates();
+    System::Console::WriteLine();
 }
 
 void GlyphMetrics::CalculateStringWidth()
@@ -79,8 +77,7 @@ void GlyphMetrics::CalculateStringWidth()
         System::SharedPtr<Glyph> glyph = this->_font->GetGlyphById(gid);
         width += (glyph->get_WidthVectorX() / this->_font->get_Metrics()->get_UnitsPerEM()) * fontSize;
     }
-	font->get_Metrics()->MeasureString(text, width);
-
+    
     //Print output results
     System::Console::WriteLine(System::String::Format(u"Width for text \"{0}\" with font size {2} is equal {3}.", text, FontName, fontSize, width));
 }
@@ -145,17 +142,17 @@ System::ArrayPtr<System::Drawing::Point> GlyphMetrics::GetGlyphPoints(System::Sh
         {
             if (System::ObjectExt::Is<MoveTo>(prevSegment))
             {
-                System::SharedPtr<MoveTo> moveTo = System::DynamicCast_noexcept<Aspose::Font::RenderingPath::MoveTo>(prevSegment);
+                System::SharedPtr<MoveTo> moveTo = System::AsCast<Aspose::Font::RenderingPath::MoveTo>(prevSegment);
                 AddPoint((int32_t)moveTo->get_X(), (int32_t)moveTo->get_Y(), points);
             }
             if (System::ObjectExt::Is<LineTo>(segment))
             {
-                System::SharedPtr<LineTo> line = System::DynamicCast_noexcept<Aspose::Font::RenderingPath::LineTo>(segment);
+                System::SharedPtr<LineTo> line = System::AsCast<Aspose::Font::RenderingPath::LineTo>(segment);
                 AddPoint((int32_t)line->get_X(), (int32_t)line->get_Y(), points);
             }
             else if (System::ObjectExt::Is<CurveTo>(segment))
             {
-                System::SharedPtr<CurveTo> curve = System::DynamicCast_noexcept<Aspose::Font::RenderingPath::CurveTo>(segment);
+                System::SharedPtr<CurveTo> curve = System::AsCast<Aspose::Font::RenderingPath::CurveTo>(segment);
                 AddPoint((int32_t)curve->get_X1(), (int32_t)curve->get_Y1(), points);
                 AddPoint((int32_t)curve->get_X2(), (int32_t)curve->get_Y2(), points);
                 AddPoint((int32_t)curve->get_X3(), (int32_t)curve->get_Y3(), points);
@@ -181,17 +178,6 @@ void GlyphMetrics::InitFont()
     System::SharedPtr<FontDefinition> fontDefinition = System::MakeObject<FontDefinition>(Aspose::Font::FontType::TTF, System::MakeObject<FontFileDefinition>(System::MakeObject<FileSystemStreamSource>(fontPath)));
     this->_font = Aspose::Font::Font::Open(fontDefinition);
 }
-
-#ifdef ASPOSE_GET_SHARED_MEMBERS
-System::Object::shared_members_type GlyphMetrics::GetSharedMembers() const
-{
-    auto result = Aspose::Font::Examples::BaseExamples::GetSharedMembers();
-    
-    result.Add("Aspose::Font::Examples::Glyphs::GlyphMetrics::_font", this->_font);
-    
-    return result;
-}
-#endif
 
 } // namespace Glyphs
 } // namespace Examples
