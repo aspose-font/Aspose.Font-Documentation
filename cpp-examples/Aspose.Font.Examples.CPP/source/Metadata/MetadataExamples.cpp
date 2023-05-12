@@ -6,17 +6,12 @@
 #include <system/enum.h>
 #include <system/console.h>
 #include <system/collections/list.h>
-#include <Aspose.Font.Cpp/src/TtfTables/TtfNameTable.h>
 #include <Aspose.Font.Cpp/src/TtfTables/TtfTableRepository.h>
 #include <Aspose.Font.Cpp/src/Ttf/TtfFont.h>
 #include <Aspose.Font.Cpp/src/MultiLanguageString.h>
 #include <Aspose.Font.Cpp/src/FontType.h>
 #include <Aspose.Font.Cpp/src/Font.h>
 
-#include "Metadata/MetadataExamples.h"
-
-
-using namespace System;
 using namespace Aspose::Font::Ttf;
 using namespace Aspose::Font::TtfTables;
 namespace Aspose {
@@ -93,69 +88,7 @@ void MetadataExamples::PrintNameTables()
 
 void MetadataExamples::UpdateMetadata()
 {
-	//Struct for update operations
-	struct UpdateData : virtual Object
-	{
-	private:
-		TtfNameTable::NameId _nameId;
-		System::String _data;
-
-	public:
-		UpdateData(TtfNameTable::NameId nameId, String data)
-		{
-			this->_nameId = nameId;
-			this->_data = data;
-		}
-
-		TtfNameTable::NameId get_NameId() const
-		{
-			return this->_nameId;
-		}
-
-		String get_StringData() const
-		{
-			return this->_data;
-		}
-	};
-
-	ArrayPtr<SharedPtr<UpdateData>> recordsToUpdate = MakeArray<SharedPtr<UpdateData>>({
-		MakeObject<UpdateData>(TtfNameTable::NameId::FontSubfamily, String(u"Italic")),
-		MakeObject<UpdateData>(TtfNameTable::NameId::Description, String(u"New description"))});
-
-	SharedPtr<TtfNameTable::NameRecord> firstRecord = nullptr;
-
-	for(SharedPtr<UpdateData> updateData : recordsToUpdate)
-	{
-		//Declare variable for NameRecord structure to use for update operations
-		SharedPtr<TtfNameTable::NameRecord> record = nullptr;
-
-		System::ArrayPtr<System::SharedPtr<TtfNameTable::NameRecord>> records = _font->get_TtfTables()->get_NameTable()->GetNameRecordsByNameId(updateData->get_NameId());
-
-		//In this example we will use only info from the first NameRecord structure returned to update font metadata.
-		//Many actual fonts require serious analyze of all NameRecords returned to update metadata correctly
-
-		//Initialize just created variables
-		if (records->get_Length() == 0)
-		{
-			//If no any record was found for current name identifer,
-			//we will use first found record for any name identifier
-			if (firstRecord == nullptr)
-			{
-				firstRecord = GetFirstExistingRecord(_font->get_TtfTables()->get_NameTable());
-			}
-			record = firstRecord;
-		}
-		else
-		{
-			record = records[0];
-		}
-
-		//Add or update record in 'name' table
-		_font->get_TtfTables()->get_NameTable()->AddName(updateData->get_NameId(), StaticCast<TtfNameTable::PlatformId>(record->get_PlatformId()), record->get_PlatformSpecificId(), record->get_LanguageId(), updateData->get_StringData());
-	}
-
-
-	PrintExampleTitle(u"Update data in the 'name' table", 2);
+    PrintExampleTitle(u"Update data in the 'name' table", 2);
     System::Console::Write(u"Name idenitifiers to update:");
     
     //Declare list of name identifiers which are planned to be updated
